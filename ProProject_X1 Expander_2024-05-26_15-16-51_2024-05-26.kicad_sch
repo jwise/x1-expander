@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5c4052f8-31d6-4de3-b862-4d09b0660e26")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 5.08 5.08)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1898a0d3-3c33-4600-8778-eef1e2c48cfc")
+		(property "Sheetname" "MAIN"
+			(at 5.08 4.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch"
+			(at 5.08 9.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 22.86)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "52713671-aa4b-4412-b159-5876c2aaf3b7")
+		(property "Sheetname" "GPIO"
+			(at 5.08 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch"
+			(at 5.08 27.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 5.08 13.97)
+		(size 12.7 3.81)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "59f5b442-dc6c-49f9-8b13-7a2ac6495930")
+		(property "Sheetname" "LAN"
+			(at 5.08 13.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch"
+			(at 5.08 18.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
