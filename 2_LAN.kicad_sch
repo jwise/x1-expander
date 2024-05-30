@@ -9770,6 +9770,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22790"
+			(at 53.7718 54.4322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2a3e8d5-9232-4b28-b253-6e427599429e")
 		)
@@ -9830,6 +9839,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 150.876 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9986,6 +10004,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 29.464 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9b68cf9-3dd9-4790-95fa-2dc4de0f2ab7")
 		)
@@ -10135,6 +10162,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 53.1876 16.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb322942-6d2a-4039-902f-7538d7e5bbe8")
 		)
@@ -10196,6 +10232,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 154.94 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 154.94 48.4589 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,6 +10344,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 54.61 123.5456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10449,6 +10503,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3021374"
+			(at 249.809 28.6766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10637,6 +10700,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 173.99 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "01980d1e-d7f6-44ab-a436-8dacafe31893")
 		)
@@ -10736,6 +10808,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1658"
+			(at 23.876 91.7956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b961323a-d816-4120-982b-fb4b76a37623")
 		)
@@ -10796,6 +10877,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 150.876 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10902,6 +10992,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23742"
+			(at 222.25 137.0838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "047788a0-d3de-4e54-9d1a-1c8ae30d8297")
 		)
@@ -10998,6 +11097,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23138"
+			(at 154.686 128.0922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11150,6 +11258,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 181.61 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e0f4ae5-f29e-4b0c-b234-9a726782db7c")
 		)
@@ -11296,6 +11413,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14709"
+			(at 206.0956 23.4188 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11446,6 +11572,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 210.82 85.4456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11610,6 +11745,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 189.23 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81943229-9873-4444-ab3f-e29e09c49676")
 		)
@@ -11670,6 +11814,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 150.876 69.596 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11827,6 +11980,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14709"
+			(at 52.4256 41.8338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e8c08197-8daa-4281-a895-9168bab9ca20")
 		)
@@ -11976,6 +12138,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1592"
+			(at 40.9956 55.4228 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5cbf270-05b9-4271-8675-52c7ebecba81")
 		)
@@ -12122,6 +12293,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6386909"
+			(at 263.6012 149.6822 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12289,6 +12469,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C625111"
+			(at 105.156 10.0076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12548,6 +12737,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21189"
+			(at 154.94 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80672230-ce02-43ba-aaca-1e2e10fdcb6e")
 		)
@@ -12647,6 +12845,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1658"
+			(at 23.2156 74.0156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04627d0c-3333-4c83-b0a8-b639a1fb1ec8")
 		)
@@ -12743,6 +12950,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21122"
+			(at 246.38 63.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12882,6 +13098,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22935"
+			(at 47.498 88.8238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13034,6 +13259,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 45.212 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cbf3d1c7-649e-4fde-a7d7-9ee3420e9af0")
 		)
@@ -13130,6 +13364,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23742"
+			(at 212.09 137.0838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13283,6 +13526,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2830246"
+			(at 200.533 128.1938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e545475b-30ed-4ec8-ae43-08b7401e2838")
 		)
@@ -13379,6 +13631,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22859"
+			(at 245.5926 24.257 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13531,6 +13792,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 196.85 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc44e1a7-f016-4768-9ce7-8f18d2ba4220")
 		)
@@ -13677,6 +13947,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1779"
+			(at 31.8262 28.5242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13830,6 +14109,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 16.51 28.5242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9c0d77b-ba92-41f0-9468-9822a2c1d615")
 		)
@@ -13979,6 +14267,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C9006"
+			(at 33.0708 75.1078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e5ae3a3-7b4c-45e1-ba21-1ba145b3114f")
 		)
@@ -14111,6 +14408,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 154.94 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 150.876 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,6 +14573,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 21.59 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e22bd2c-5ade-4687-b6e1-cacc9c7a6f73")
 		)
@@ -14327,6 +14642,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 154.94 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 150.876 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14483,6 +14807,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 158.75 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb6d5870-808d-433f-9bd9-52476894a6e7")
 		)
@@ -14543,6 +14876,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 154.94 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 150.876 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14646,6 +14988,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22865"
+			(at 55.88 110.8456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14795,6 +15146,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6386909"
+			(at 263.6012 119.2022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14966,6 +15326,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 24.13 28.5242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad342bd8-7b69-4c07-ace3-85f34bce8b5d")
 		)
@@ -15115,6 +15484,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 151.13 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "edc87d2a-a797-4181-ac18-db38d18ec331")
 		)
@@ -15261,6 +15639,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 166.37 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15414,6 +15801,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 40.64 40.9956 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "38ada7c0-823d-4759-9b08-0bb55d77d6a6")
 		)
@@ -15563,6 +15959,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 37.338 16.5608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e60d87ca-fec7-42cc-9879-bd2cdbb83962")
 		)
@@ -15662,6 +16067,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23138"
+			(at 154.0256 138.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5d77e33b-807d-44b9-95ac-662dc5d59da6")
 		)
@@ -15758,6 +16172,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 54.9656 143.3576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -15907,6 +16330,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136850"
+			(at 223.7486 25.5778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

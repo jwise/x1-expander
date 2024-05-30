@@ -269,6 +269,160 @@
 	(net 122 "/LAN/CAMOR_DN")
 	(net 123 "/LAN/MBR_DN")
 	(net 124 "/LAN/MBR_DP")
+	(footprint "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
+		(layer "F.Cu")
+		(uuid "0105103a-24ce-4460-aa59-b0e40566e728")
+		(at 179 135)
+		(descr "Open Source Hardware Symbol")
+		(tags "Logo Symbol OSHW")
+		(property "Reference" "REF**"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "66b4383d-223e-432f-8e0a-0f15e456f12b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "OSHW-Symbol_6.7x6mm_SilkScreen"
+			(at 0.75 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0bd6aa2-461e-41d6-bcf7-acd3ec23c4a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Symbol:OSHW-Symbol_6.7x6mm_SilkScreen"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de6fb64c-9798-49a7-90c5-4195529745c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a86f278-c2cf-4f28-8536-68943b669b3d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5be1310-b1a6-4bff-8c6b-7e046bfd9db3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy 0.555814 -2.531069) (xy 0.639635 -2.086445) (xy 0.94892 -1.958947) (xy 1.258206 -1.831449) (xy 1.629246 -2.083754)
+				(xy 1.733157 -2.154004) (xy 1.827087 -2.216728) (xy 1.906652 -2.269062) (xy 1.96747 -2.308143) (xy 2.005157 -2.331107)
+				(xy 2.015421 -2.336058) (xy 2.03391 -2.323324) (xy 2.07342 -2.288118) (xy 2.129522 -2.234938) (xy 2.197787 -2.168282)
+				(xy 2.273786 -2.092646) (xy 2.353092 -2.012528) (xy 2.431275 -1.932426) (xy 2.503907 -1.856836)
+				(xy 2.566559 -1.790255) (xy 2.614803 -1.737182) (xy 2.64421 -1.702113) (xy 2.651241 -1.690377) (xy 2.641123 -1.66874)
+				(xy 2.612759 -1.621338) (xy 2.569129 -1.552807) (xy 2.513218 -1.467785) (xy 2.448006 -1.370907)
+				(xy 2.410219 -1.31565) (xy 2.341343 -1.214752) (xy 2.28014 -1.123701) (xy 2.229578 -1.04703) (xy 2.192628 -0.989272)
+				(xy 2.172258 -0.954957) (xy 2.169197 -0.947746) (xy 2.176136 -0.927252) (xy 2.195051 -0.879487)
+				(xy 2.223087 -0.811168) (xy 2.257391 -0.729011) (xy 2.295109 -0.63973) (xy 2.333387 -0.550042) (xy 2.36937 -0.466662)
+				(xy 2.400206 -0.396306) (xy 2.423039 -0.34569) (xy 2.435017 -0.321529) (xy 2.435724 -0.320578) (xy 2.454531 -0.315964)
+				(xy 2.504618 -0.305672) (xy 2.580793 -0.290713) (xy 2.677865 -0.272099) (xy 2.790643 -0.250841)
+				(xy 2.856442 -0.238582) (xy 2.97695 -0.215638) (xy 3.085797 -0.193805) (xy 3.177476 -0.174278) (xy 3.246481 -0.158252)
+				(xy 3.287304 -0.146921) (xy 3.295511 -0.143326) (xy 3.303548 -0.118994) (xy 3.310033 -0.064041)
+				(xy 3.31497 0.015108) (xy 3.318364 0.112026) (xy 3.320218 0.220287) (xy 3.320538 0.333465) (xy 3.319327 0.445135)
+				(xy 3.31659 0.548868) (xy 3.312331 0.638241) (xy 3.306555 0.706826) (xy 3.299267 0.748197) (xy 3.294895 0.75681)
+				(xy 3.268764 0.767133) (xy 3.213393 0.781892) (xy 3.136107 0.799352) (xy 3.04423 0.81778) (xy 3.012158 0.823741)
+				(xy 2.857524 0.852066) (xy 2.735375 0.874876) (xy 2.641673 0.89308) (xy 2.572384 0.907583) (xy 2.523471 0.919292)
+				(xy 2.490897 0.929115) (xy 2.470628 0.937956) (xy 2.458626 0.946724) (xy 2.456947 0.948457) (xy 2.440184 0.976371)
+				(xy 2.414614 1.030695) (xy 2.382788 1.104777) (xy 2.34726 1.191965) (xy 2.310583 1.285608) (xy 2.275311 1.379052)
+				(xy 2.243996 1.465647) (xy 2.219193 1.53874) (xy 2.203454 1.591678) (xy 2.199332 1.617811) (xy 2.199676 1.618726)
+				(xy 2.213641 1.640086) (xy 2.245322 1.687084) (xy 2.291391 1.754827) (xy 2.348518 1.838423) (xy 2.413373 1.932982)
+				(xy 2.431843 1.959854) (xy 2.497699 2.057275) (xy 2.55565 2.146163) (xy 2.602538 2.221412) (xy 2.635207 2.27792)
+				(xy 2.6505 2.310581) (xy 2.651241 2.314593) (xy 2.638392 2.335684) (xy 2.602888 2.377464) (xy 2.549293 2.435445)
+				(xy 2.482171 2.505135) (xy 2.406087 2.582045) (xy 2.325604 2.661683) (xy 2.245287 2.739561) (xy 2.169699 2.811186)
+				(xy 2.103405 2.87207) (xy 2.050969 2.917721) (xy 2.016955 2.94365) (xy 2.007545 2.947883) (xy 1.985643 2.937912)
+				(xy 1.9408 2.91102) (xy 1.880321 2.871736) (xy 1.833789 2.840117) (xy 1.749475 2.782098) (xy 1.649626 2.713784)
+				(xy 1.549473 2.645579) (xy 1.495627 2.609075) (xy 1.313371 2.4858) (xy 1.160381 2.56852) (xy 1.090682 2.604759)
+				(xy 1.031414 2.632926) (xy 0.991311 2.648991) (xy 0.981103 2.651226) (xy 0.968829 2.634722) (xy 0.944613 2.588082)
+				(xy 0.910263 2.515609) (xy 0.867588 2.421606) (xy 0.818394 2.310374) (xy 0.76449 2.186215) (xy 0.707684 2.053432)
+				(xy 0.649782 1.916327) (xy 0.592593 1.779202) (xy 0.537924 1.646358) (xy 0.487584 1.522098) (xy 0.44338 1.410725)
+				(xy 0.407119 1.316539) (xy 0.380609 1.243844) (xy 0.365658 1.196941) (xy 0.363254 1.180833) (xy 0.382311 1.160286)
+				(xy 0.424036 1.126933) (xy 0.479706 1.087702) (xy 0.484378 1.084599) (xy 0.628264 0.969423) (xy 0.744283 0.835053)
+				(xy 0.83143 0.685784) (xy 0.888699 0.525913) (xy 0.915086 0.359737) (xy 0.909585 0.191552) (xy 0.87119 0.025655)
+				(xy 0.798895 -0.133658) (xy 0.777626 -0.168513) (xy 0.666996 -0.309263) (xy 0.536302 -0.422286)
+				(xy 0.390064 -0.506997) (xy 0.232808 -0.562806) (xy 0.069057 -0.589126) (xy -0.096667 -0.58537)
+				(xy -0.259838 -0.55095) (xy -0.415935 -0.485277) (xy -0.560433 -0.387765) (xy -0.605131 -0.348187)
+				(xy -0.718888 -0.224297) (xy -0.801782 -0.093876) (xy -0.858644 0.052315) (xy -0.890313 0.197088)
+				(xy -0.898131 0.35986) (xy -0.872062 0.52344) (xy -0.814755 0.682298) (xy -0.728856 0.830906) (xy -0.617014 0.963735)
+				(xy -0.481877 1.075256) (xy -0.464117 1.087011) (xy -0.40785 1.125508) (xy -0.365077 1.158863) (xy -0.344628 1.18016)
+				(xy -0.344331 1.180833) (xy -0.348721 1.203871) (xy -0.366124 1.256157) (xy -0.394732 1.33339) (xy -0.432735 1.431268)
+				(xy -0.478326 1.545491) (xy -0.529697 1.671758) (xy -0.585038 1.805767) (xy -0.642542 1.943218)
+				(xy -0.700399 2.079808) (xy -0.756802 2.211237) (xy -0.809942 2.333205) (xy -0.85801 2.441409) (xy -0.899199 2.531549)
+				(xy -0.931699 2.599323) (xy -0.953703 2.64043) (xy -0.962564 2.651226) (xy -0.98964 2.642819) (xy -1.040303 2.620272)
+				(xy -1.105817 2.587613) (xy -1.141841 2.56852) (xy -1.294832 2.4858) (xy -1.477088 2.609075) (xy -1.570125 2.672228)
+				(xy -1.671985 2.741727) (xy -1.767438 2.807165) (xy -1.81525 2.840117) (xy -1.882495 2.885273) (xy -1.939436 2.921057)
+				(xy -1.978646 2.942938) (xy -1.991381 2.947563) (xy -2.009917 2.935085) (xy -2.050941 2.900252)
+				(xy -2.110475 2.846678) (xy -2.184542 2.777983) (xy -2.269165 2.697781) (xy -2.322685 2.646286)
+				(xy -2.416319 2.554286) (xy -2.497241 2.471999) (xy -2.562177 2.402945) (xy -2.607858 2.350644)
+				(xy -2.631011 2.318616) (xy -2.633232 2.312116) (xy -2.622924 2.287394) (xy -2.594439 2.237405)
+				(xy -2.550937 2.167212) (xy -2.495577 2.081875) (xy -2.43152 1.986456) (xy -2.413303 1.959854) (xy -2.346927 1.863167)
+				(xy -2.287378 1.776117) (xy -2.237984 1.703595) (xy -2.202075 1.650493) (xy -2.182981 1.621703)
+				(xy -2.181136 1.618726) (xy -2.183895 1.595782) (xy -2.198538 1.545336) (xy -2.222513 1.474041)
+				(xy -2.253266 1.388547) (xy -2.288244 1.295507) (xy -2.324893 1.201574) (xy -2.360661 1.113399)
+				(xy -2.392994 1.037634) (xy -2.419338 0.980931) (xy -2.437142 0.949943) (xy -2.438407 0.948457)
+				(xy -2.449294 0.939601) (xy -2.467682 0.930843) (xy -2.497606 0.921277) (xy -2.543103 0.909996)
+				(xy -2.608209 0.896093) (xy -2.696961 0.878663) (xy -2.813393 0.856798) (xy -2.961542 0.829591)
+				(xy -2.993618 0.823741) (xy -3.088686 0.805374) (xy -3.171565 0.787405) (xy -3.23493 0.771569) (xy -3.271458 0.7596)
+				(xy -3.276356 0.75681) (xy -3.284427 0.732072) (xy -3.290987 0.67679) (xy -3.296033 0.597389) (xy -3.299559 0.500296)
+				(xy -3.301561 0.391938) (xy -3.302036 0.27874) (xy -3.300977 0.167128) (xy -3.298382 0.063529) (xy -3.294246 -0.025632)
+				(xy -3.288563 -0.093928) (xy -3.281331 -0.134934) (xy -3.276971 -0.143326) (xy -3.252698 -0.151792)
+				(xy -3.197426 -0.165565) (xy -3.116662 -0.18345) (xy -3.015912 -0.204252) (xy -2.900683 -0.226777)
+				(xy -2.837902 -0.238582) (xy -2.718787 -0.260849) (xy -2.612565 -0.281021) (xy -2.524427 -0.298085)
+				(xy -2.459566 -0.311031) (xy -2.423174 -0.318845) (xy -2.417184 -0.320578) (xy -2.407061 -0.34011)
+				(xy -2.385662 -0.387157) (xy -2.355839 -0.454997) (xy -2.320445 -0.536909) (xy -2.282332 -0.626172)
+				(xy -2.244353 -0.716065) (xy -2.20936 -0.799865) (xy -2.180206 -0.870853) (xy -2.159743 -0.922306)
+				(xy -2.150823 -0.947503) (xy -2.150657 -0.948604) (xy -2.160769 -0.968481) (xy -2.189117 -1.014223)
+				(xy -2.232723 -1.081283) (xy -2.288606 -1.165116) (xy -2.353787 -1.261174) (xy -2.391679 -1.31635)
+				(xy -2.460725 -1.417519) (xy -2.52205 -1.50937) (xy -2.572663 -1.587256) (xy -2.609571 -1.646531)
+				(xy -2.629782 -1.682549) (xy -2.632701 -1.690623) (xy -2.620153 -1.709416) (xy -2.585463 -1.749543)
+				(xy -2.533063 -1.806507) (xy -2.467384 -1.875815) (xy -2.392856 -1.952969) (xy -2.313913 -2.033475)
+				(xy -2.234983 -2.112837) (xy -2.1605 -2.18656) (xy -2.094894 -2.250148) (xy -2.042596 -2.299106)
+				(xy -2.008039 -2.328939) (xy -1.996478 -2.336058) (xy -1.977654 -2.326047) (xy -1.932631 -2.297922)
+				(xy -1.865787 -2.254546) (xy -1.781499 -2.198782) (xy -1.684144 -2.133494) (xy -1.610707 -2.083754)
+				(xy -1.239667 -1.831449) (xy -0.621095 -2.086445) (xy -0.537275 -2.531069) (xy -0.453454 -2.975693)
+				(xy 0.471994 -2.975693) (xy 0.555814 -2.531069)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "c1e891a7-4ee1-4b71-873d-09bcf61e255e")
+		)
+	)
 	(footprint "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 		(layer "F.Cu")
 		(uuid "1decb2cd-a30d-4d54-83be-9f49edfc01d0")
@@ -434,6 +588,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5ef2eef3-9c89-4118-be39-c0b93f6a0088")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5372877"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6407ff11-5ea2-4cc4-b24a-6fb4f3502afe")
 			(effects
 				(font
 					(size 1 1)
@@ -1274,6 +1441,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5372877"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43bd9a55-b069-41e2-a9ad-2016df1ab77b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/6d0a403d-3c5f-4f33-86c9-3106f79cae2e")
 		(sheetname "GPIO")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
@@ -2103,6 +2283,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39f3efc4-2479-422f-a8c7-9f7209a35fd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/02cd1b1c-3919-44f1-b2de-5379effa6727")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -2411,6 +2604,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8227f70-7c25-4896-988b-6fdc0d7eb826")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b845963-e673-4fcf-98ce-468643120da4")
 			(effects
 				(font
 					(size 1 1)
@@ -2729,6 +2935,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "275ee0ff-aebf-4bf8-9b94-ff6c730092d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C259972"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f5ef267-564c-4e98-8a20-f17284c2f02a")
 			(effects
 				(font
 					(size 1 1)
@@ -3232,6 +3451,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb0e6d28-307d-429b-be46-9c0264dd4ede")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C6386909"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74295f61-0858-4866-970e-20afb6d8cc74")
 			(effects
 				(font
 					(size 1 1)
@@ -4042,6 +4274,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "536f6865-587b-4b57-ad38-7d34bc38c48c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/4c308612-7bb0-4bb8-a5bb-a5891db9cc9d")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -4285,6 +4530,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe00f28f-51f1-4bf3-adac-b53a12cc8d50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d4b3eb04-605a-4a29-90be-965668a7241d")
 			(effects
 				(font
 					(size 1 1)
@@ -4604,6 +4862,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97e66f88-1685-4178-82cb-6853a9f1edfa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C3021374"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fb7d778-4211-42a6-a6c2-58589c368e5c")
 			(effects
 				(font
 					(size 1 1)
@@ -5293,6 +5564,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "266277c2-8ea4-4083-92b7-e14e54be81d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/fe7baaa8-8cac-4dfe-9aa5-737a5f65ab15")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -5608,6 +5892,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1017"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bc5534b-9b76-40d7-8110-aa31e3f4f35f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/7abf7c60-2aab-465d-916a-5c431809903f")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -5816,6 +6113,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c567bee-c83d-4eb9-ae01-02bafd14b8f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6068,6 +6378,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C22859"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b47d1e5-c143-4fa8-b653-0c04dccb04ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/8aca237e-5b47-458a-9ecc-19209141b14e")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -6276,6 +6599,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc3c9005-e316-498c-8f2c-290a366784b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6586,6 +6922,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "82288fa4-3800-484f-a5a8-6764532d90a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8536aa5f-b21e-45be-8e03-f525c30606a0")
 			(effects
 				(font
 					(size 1 1)
@@ -6908,6 +7257,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7030dc3-13ad-4be3-a1b3-c7351716274b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/0dda5f81-7d78-4197-b9b9-ad1aee18d5ad")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -7055,6 +7417,110 @@
 			)
 		)
 	)
+	(footprint "X1 Expande-easyedapro:emarhavil"
+		(layer "F.Cu")
+		(uuid "5bf1187a-3cb4-49d6-8b38-31126ee650dc")
+		(at 171 135)
+		(property "Reference" "G***"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d304f2f2-a173-4c83-8bc0-f58ebfe0624b")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.75 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5e394eda-d58f-48aa-9946-269bdd144ffa")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Footprint" "X1 Expande-easyedapro:emarhavil"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a06c3e2-8b3a-424d-927f-835e7533a5e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4dfd95e-1afe-47b4-9e22-aa3dd9f929bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea1b799e-803a-47c8-a029-715e228172eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy 2.585123 -1.854048) (xy 2.685081 -1.68179) (xy 2.781097 -1.516236) (xy 2.87202 -1.359372) (xy 2.956702 -1.213184)
+				(xy 3.033992 -1.079661) (xy 3.102742 -0.96079) (xy 3.161802 -0.858557) (xy 3.210023 -0.77495) (xy 3.246255 -0.711957)
+				(xy 3.269349 -0.671563) (xy 3.277659 -0.656729) (xy 3.304543 -0.606205) (xy 2.603256 -0.606903)
+				(xy 1.901969 -0.6076) (xy 1.559233 -1.201741) (xy 1.216496 -1.795883) (xy 0.172538 -1.799694) (xy -0.87142 -1.803505)
+				(xy -1.171073 -1.284419) (xy -1.239038 -1.166662) (xy -1.303939 -1.054172) (xy -1.36382 -0.950343)
+				(xy -1.416725 -0.85857) (xy -1.460696 -0.782246) (xy -1.493777 -0.724765) (xy -1.514013 -0.689521)
+				(xy -1.516158 -0.685769) (xy -1.561592 -0.606205) (xy -0.51937 -0.606105) (xy 0.522852 -0.606006)
+				(xy 0.695159 -0.303003) (xy 0.867466 0) (xy 0.695159 0.303004) (xy 0.522852 0.606007) (xy -0.51937 0.606106)
+				(xy -1.561592 0.606206) (xy -1.516158 0.68577) (xy -1.498467 0.716608) (xy -1.467575 0.7703) (xy -1.425437 0.843453)
+				(xy -1.374011 0.932671) (xy -1.315252 1.034561) (xy -1.251117 1.145729) (xy -1.183564 1.262782)
+				(xy -1.171073 1.28442) (xy -0.87142 1.803506) (xy 0.17236 1.799695) (xy 1.21614 1.795884) (xy 1.559055 1.201737)
+				(xy 1.901969 0.607591) (xy 2.604391 0.606899) (xy 3.306813 0.606206) (xy 3.278033 0.65546) (xy 3.266242 0.675756)
+				(xy 3.240413 0.720298) (xy 3.201698 0.787099) (xy 3.151246 0.874174) (xy 3.090207 0.979537) (xy 3.019732 1.101203)
+				(xy 2.940971 1.237186) (xy 2.855074 1.385499) (xy 2.763191 1.544158) (xy 2.666472 1.711177) (xy 2.584514 1.852715)
+				(xy 1.919774 3.000716) (xy 0.17217 3.000716) (xy -1.575435 3.000716) (xy -1.597023 2.966617) (xy -1.607808 2.948463)
+				(xy -1.632544 2.906154) (xy -1.67002 2.841784) (xy -1.719026 2.757444) (xy -1.778351 2.655228) (xy -1.846785 2.537226)
+				(xy -1.923117 2.405531) (xy -2.006137 2.262236) (xy -2.094635 2.109432) (xy -2.1874 1.949213) (xy -2.283222 1.783669)
+				(xy -2.380889 1.614893) (xy -2.479192 1.444978) (xy -2.576921 1.276015) (xy -2.672864 1.110097)
+				(xy -2.765812 0.949316) (xy -2.854553 0.795764) (xy -2.937878 0.651534) (xy -3.014576 0.518717)
+				(xy -3.083436 0.399405) (xy -3.143249 0.295692) (xy -3.192803 0.209669) (xy -3.230888 0.143428)
+				(xy -3.256294 0.099062) (xy -3.266805 0.080493) (xy -3.310442 0.001856) (xy -3.274328 -0.063481)
+				(xy -3.259954 -0.088889) (xy -3.231686 -0.138306) (xy -3.190808 -0.209508) (xy -3.138605 -0.300269)
+				(xy -3.076362 -0.408363) (xy -3.005365 -0.531566) (xy -2.926896 -0.66765) (xy -2.842243 -0.814391)
+				(xy -2.752688 -0.969564) (xy -2.659518 -1.130943) (xy -2.564018 -1.296302) (xy -2.467471 -1.463416)
+				(xy -2.371163 -1.630059) (xy -2.276378 -1.794006) (xy -2.184402 -1.953031) (xy -2.09652 -2.104909)
+				(xy -2.014016 -2.247414) (xy -1.938174 -2.378321) (xy -1.876061 -2.485441) (xy -1.581528 -2.993138)
+				(xy 0.168971 -2.99699) (xy 1.91947 -3.000841)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "6c641dd0-7672-4575-9f13-cd068bcac391")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "60fc5c9c-1fa4-4b80-9390-ac2572de2c44")
@@ -7151,6 +7617,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb46a865-a7e4-43d4-8a86-93c6d14bf343")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4ae824e-f7a9-4219-b8c4-37f9c315eb4c")
 			(effects
 				(font
 					(size 1 1)
@@ -7408,6 +7887,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C23185"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2f52fb0-6423-4d93-9ad1-14cb3b6a841c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/254ca072-ed65-4266-8389-b3c2e1c6bcfb")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -7651,6 +8143,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ae56ff52-a8f6-4eb0-bcf8-404dd0084740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a306e95-06f3-4988-ac27-9abf805e55da")
 			(effects
 				(font
 					(size 1 1)
@@ -7973,6 +8478,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f5bc322-5ac9-40b2-9e8e-84bad180352d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e5efc63f-fe12-4a1c-84f3-c4b80ffd1176")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -8216,6 +8734,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8fb8fc9-6ca6-4a01-8307-2f8bcfa2e2a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23742"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be1f1e3e-8d03-4dc4-8736-23b38bfc21e5")
 			(effects
 				(font
 					(size 1 1)
@@ -8522,6 +9053,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02502f85-8bcb-4e25-a039-fc191ec9d018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C19190478"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f657804a-f581-4a58-8a3a-5de879ca7f30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C19190478"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93bb73e3-8799-48b2-a275-52da421a5f3b")
 			(effects
 				(font
 					(size 1 1)
@@ -9036,6 +9593,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1779"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b46e2d5d-6222-4d9f-bea2-555f3a55afca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/985caaad-4bdb-42c1-9ece-5e78abfd0d20")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -9244,6 +9814,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3582d7ae-1933-4eb1-9500-90eab5e7b60c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9490,6 +10073,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2cebc28b-5013-49fa-9139-84b581426c52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff00d66e-3024-46ac-aad9-a560145417c3")
 			(effects
 				(font
 					(size 1 1)
@@ -9812,6 +10408,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01cf3bb3-b838-4f33-8342-5866b8bb0530")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1ee9efdf-83b4-4617-8902-c008ebc1a698")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -10055,6 +10664,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "78ae6be0-ef7a-4e02-82ff-aaa5b449d482")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C361063"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c402de89-8252-4ea5-93f9-f2c558886307")
 			(effects
 				(font
 					(size 1 1)
@@ -10312,6 +10934,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0649b28-59be-41ac-841b-f093ca1ade6d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/28018c48-ffed-4289-8070-f975b08175c8")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -10555,6 +11190,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "017f8223-b6eb-4602-bbba-5fd73b77464b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adb3de8a-8b5f-464a-a1da-cbb13a129bb8")
 			(effects
 				(font
 					(size 1 1)
@@ -10877,6 +11525,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a439d8f8-7382-4b0e-8afb-161f35b5cf68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/794a84aa-780d-48f4-a319-0b1460d9b318")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -11085,6 +11746,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18d03c9a-e3c8-4411-a66e-ce1fe312c965")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -11330,6 +12004,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94640dff-651b-49a9-9640-b74a4269d987")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cf97ed6-ede6-490c-8c7e-6d914081f3aa")
 			(effects
 				(font
 					(size 1 1)
@@ -11652,6 +12339,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7e1f691-b990-48b2-aebe-ae9c2d131628")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e88646ca-e42f-4315-9477-f1034b91d5e4")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -11960,6 +12660,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8eb89f37-d097-48ae-bd68-46e91e507196")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d461965d-439c-46b7-8c51-74fefe2da3a3")
 			(effects
 				(font
 					(size 1 1)
@@ -12282,6 +12995,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e171d546-f55d-429d-91da-fc2bed9aad5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/d85bf42c-e8c5-4016-9169-c4461b708da8")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -12525,6 +13251,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec6261fc-7b08-4dd8-826d-f53673978724")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C23742"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ab22741-9372-49c1-bd97-d11fd862736a")
 			(effects
 				(font
 					(size 1 1)
@@ -12782,6 +13521,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48d4e817-613f-4cfb-85a7-e6e24e993624")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/442e0aac-0675-4442-b34b-787e8e0724e4")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -13025,6 +13777,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d5753366-dee2-4a9b-9fc0-1e297af5d693")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22790"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae1b7bab-ae75-4501-b610-8055acbb6c92")
 			(effects
 				(font
 					(size 1 1)
@@ -13334,6 +14099,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "251462ee-1624-4bae-bd2d-fcda11774bff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/dfa83af2-2444-48fe-8ccf-8d0921061718")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -13577,6 +14355,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a5ac25c-21bd-4117-99d9-9f23bc7189ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C22865"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "250ee19f-74fc-40b0-a741-9c0f98317b95")
 			(effects
 				(font
 					(size 1 1)
@@ -13886,6 +14677,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7ab1a1e-1701-4a4f-8497-e668b0830706")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/bbdbab10-f272-49db-b84e-0669f8a3d363")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -14136,6 +14940,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C23742"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c887c6ff-29fa-495a-a464-f77e2219cb9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/176ea21c-54aa-4922-8733-40abf7430449")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -14379,6 +15196,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9f79bfce-6eaa-4cef-aaba-0b1f1d5e3a45")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25952"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efe93395-e83c-4f15-ac25-235af50a229a")
 			(effects
 				(font
 					(size 1 1)
@@ -14701,6 +15531,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb43b8f9-5d97-4ce9-be1b-ad8a1eda45f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e6080755-255e-47fb-8980-6619bb95de56")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -14994,6 +15837,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d0c5f47-3984-452d-9101-6bfdf206b4f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5189959"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40661f38-f122-4da0-9ea4-77e1073c5c93")
 			(effects
 				(font
 					(size 1 1)
@@ -15717,6 +16573,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ded6370-a3ea-4363-a58d-00ed88d07fce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/de486f58-9baf-49ca-b29a-77c84372e92e")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -16025,6 +16894,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6a3260d-a80a-405d-8633-72fe83d86ba5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14709"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3707c1d1-b2be-40ba-8b8f-8f72bb952117")
 			(effects
 				(font
 					(size 1 1)
@@ -16344,6 +17226,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fda7d9d5-df2b-4c16-b0fb-9bcd928a8575")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5372877"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbb4369b-641a-4ff4-aa36-626c03e48506")
 			(effects
 				(font
 					(size 1 1)
@@ -17180,6 +18075,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64c67057-7ca5-4f3a-91f3-4b97a7c70115")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e63bef10-8408-4953-87ea-2788125b7acd")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -17478,6 +18386,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2150f539-97b3-43a9-8bd3-52d617007dcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C191884"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "704a44fb-247b-4d76-a078-73fe57486fad")
 			(effects
 				(font
 					(size 1 1)
@@ -17958,6 +18879,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "25a54e39-29fc-4d92-a963-9934665cc6ad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C6386909"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adf2f0d8-e4f8-4b5f-b02f-9f7b31a438ab")
 			(effects
 				(font
 					(size 1 1)
@@ -18785,6 +19719,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C5372877"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e338a3e-cdb1-4e20-8f7c-ba565f7cd338")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/1a9c2c7e-bea6-45d0-8659-5e8636fd48fc")
 		(sheetname "GPIO")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
@@ -19549,6 +20496,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9cef1e9-be29-478f-8d23-747db69ff96e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/f2ee22f8-8abc-4f58-aa58-1ae1ea0307b5")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -19851,6 +20811,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C59461"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "874e2898-8533-4703-b429-5aa12e8965de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/70111f2a-c316-4d8c-b031-41bdb843f2c9")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -20094,6 +21067,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e7c0a61-5e05-4eed-a43f-67f7eb847fca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01bc24b4-e4ec-4088-b356-5ec857b9f4b0")
 			(effects
 				(font
 					(size 1 1)
@@ -20351,6 +21337,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "959e594f-4cd5-4858-8c5d-d40e4d75ed54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/e269f4dc-16be-40d3-a2a5-d62e5e73f7ea")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -20498,6 +21497,347 @@
 			)
 		)
 	)
+	(footprint "X1 Expande-easyedapro:x1plus"
+		(layer "F.Cu")
+		(uuid "e40279d8-11aa-4b5e-a0cb-66a59272d060")
+		(at 138.5 111.5)
+		(property "Reference" "G***"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "353750d5-59ce-4b80-b988-0e1ace503324")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.75 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4e5dceb1-b0ec-404a-9bbc-8cd81e3256bb")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+		(property "Footprint" "X1 Expande-easyedapro:x1plus"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbf4dfaf-36a2-46b4-a564-40bab4b2a9fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c26382e1-8a24-4de6-925d-6c4508ae9e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6b69993-6512-493e-8355-cb59bf3cf25b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy 3.321539 0.312615) (xy 3.321539 4.415692) (xy 2.246924 4.415692) (xy 1.172308 4.415692) (xy 1.172308 1.230923)
+				(xy 1.172308 -1.953846) (xy 0.586154 -1.953846) (xy 0 -1.953846) (xy 0 -2.872154) (xy 0 -3.790462)
+				(xy 1.66077 -3.790462) (xy 3.321539 -3.790462)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "d8fb2b3a-700f-4c63-a916-174a40bddde6")
+		)
+		(fp_poly
+			(pts
+				(xy -17.467384 3.653168) (xy -17.467384 6.682154) (xy -19.851076 6.682154) (xy -22.234769 6.682154)
+				(xy -22.234769 6.525846) (xy -22.040114 6.525846) (xy -19.831903 6.525846) (xy -17.623692 6.525846)
+				(xy -17.623692 3.708071) (xy -17.623692 0.890297) (xy -17.711615 0.91316) (xy -17.763108 0.931741)
+				(xy -17.880266 0.977153) (xy -18.05639 1.046711) (xy -18.284778 1.13773) (xy -18.558731 1.247527)
+				(xy -18.871547 1.373417) (xy -19.216526 1.512715) (xy -19.586968 1.662737) (xy -19.909692 1.793768)
+				(xy -22.019846 2.651514) (xy -22.02998 4.58868) (xy -22.040114 6.525846) (xy -22.234769 6.525846)
+				(xy -22.234769 4.619341) (xy -22.234769 2.556528) (xy -19.978076 1.642374) (xy -19.576707 1.479775)
+				(xy -19.194123 1.32477) (xy -18.836937 1.180037) (xy -18.511762 1.048258) (xy -18.225208 0.932112)
+				(xy -17.98389 0.834279) (xy -17.79442 0.757439) (xy -17.663409 0.704274) (xy -17.59747 0.677462)
+				(xy -17.594384 0.6762) (xy -17.467384 0.624182)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "7ec9eb3b-2d8b-44fe-a22e-bde93a2ba6c5")
+		)
+		(fp_poly
+			(pts
+				(xy -17.476926 -3.470326) (xy -17.486923 -0.258498) (xy -19.827235 0.691367) (xy -20.23262 0.855695)
+				(xy -20.61677 1.011016) (xy -20.973542 1.154873) (xy -21.296796 1.284808) (xy -21.580391 1.398365)
+				(xy -21.818184 1.493086) (xy -22.004034 1.566513) (xy -22.131801 1.616189) (xy -22.195341 1.639656)
+				(xy -22.201158 1.641231) (xy -22.20573 1.60299) (xy -22.210115 1.491612) (xy -22.214273 1.312114)
+				(xy -22.218162 1.069511) (xy -22.221743 0.768822) (xy -22.224975 0.415062) (xy -22.227818 0.013248)
+				(xy -22.23023 -0.431603) (xy -22.232172 -0.914476) (xy -22.233602 -1.430352) (xy -22.234481 -1.974216)
+				(xy -22.234769 -2.520462) (xy -22.234769 -6.525846) (xy -22.039384 -6.525846) (xy -22.039384 -2.559855)
+				(xy -22.039384 1.406136) (xy -21.873307 1.340073) (xy -21.806532 1.313215) (xy -21.674543 1.259858)
+				(xy -21.484534 1.182921) (xy -21.243699 1.085319) (xy -20.95923 0.96997) (xy -20.638322 0.83979)
+				(xy -20.288168 0.697696) (xy -19.915962 0.546604) (xy -19.67523 0.448857) (xy -17.64323 -0.376297)
+				(xy -17.633224 -3.451071) (xy -17.623218 -6.525846) (xy -19.831301 -6.525846) (xy -22.039384 -6.525846)
+				(xy -22.234769 -6.525846) (xy -22.234769 -6.682154) (xy -19.850849 -6.682154) (xy -17.46693 -6.682154)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "851a9a04-6c71-4c8a-a8ad-369a549f3545")
+		)
+		(fp_poly
+			(pts
+				(xy 13.393433 -4.572842) (xy 13.531836 -4.565213) (xy 13.63245 -4.551455) (xy 13.676362 -4.531451)
+				(xy 13.676924 -4.52861) (xy 13.670908 -4.485075) (xy 13.653373 -4.369244) (xy 13.625087 -4.186006)
+				(xy 13.58682 -3.940245) (xy 13.539341 -3.636849) (xy 13.483417 -3.280705) (xy 13.419818 -2.876699)
+				(xy 13.349312 -2.429718) (xy 13.272668 -1.944648) (xy 13.190656 -1.426377) (xy 13.104043 -0.87979)
+				(xy 13.013599 -0.309776) (xy 12.973539 -0.057536) (xy 12.881723 0.520624) (xy 12.793403 1.077153)
+				(xy 12.709345 1.607194) (xy 12.630319 2.105891) (xy 12.55709 2.568387) (xy 12.490428 2.989824) (xy 12.431099 3.365347)
+				(xy 12.379871 3.690098) (xy 12.337512 3.959221) (xy 12.304789 4.167859) (xy 12.28247 4.311155) (xy 12.271322 4.384253)
+				(xy 12.270154 4.39292) (xy 12.233651 4.401886) (xy 12.134424 4.409189) (xy 11.987901 4.41405) (xy 11.82077 4.415692)
+				(xy 11.643842 4.414368) (xy 11.499707 4.410768) (xy 11.403793 4.405452) (xy 11.371385 4.39939) (xy 11.37742 4.355665)
+				(xy 11.394896 4.240776) (xy 11.422871 4.060626) (xy 11.460402 3.821115) (xy 11.506547 3.528144)
+				(xy 11.560363 3.187617) (xy 11.620908 2.805433) (xy 11.687239 2.387494) (xy 11.758413 1.939702)
+				(xy 11.833488 1.467958) (xy 11.911521 0.978164) (xy 11.99157 0.476221) (xy 12.072693 -0.03197) (xy 12.153946 -0.540506)
+				(xy 12.234388 -1.043487) (xy 12.313075 -1.53501) (xy 12.389065 -2.009176) (xy 12.461416 -2.460081)
+				(xy 12.529184 -2.881825) (xy 12.591428 -3.268506) (xy 12.647205 -3.614223) (xy 12.695573 -3.913074)
+				(xy 12.735588 -4.159158) (xy 12.766308 -4.346573) (xy 12.786791 -4.469417) (xy 12.796094 -4.52179)
+				(xy 12.796447 -4.523154) (xy 12.840136 -4.544412) (xy 12.940591 -4.560127) (xy 13.078899 -4.570182)
+				(xy 13.23615 -4.574459)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "fbe8f35e-2a34-4c02-a59b-0c72a5bc206e")
+		)
+		(fp_poly
+			(pts
+				(xy -13.855196 -4.104797) (xy -13.848527 -3.998669) (xy -13.84277 -3.833495) (xy -13.838164 -3.618828)
+				(xy -13.834947 -3.364222) (xy -13.833358 -3.07923) (xy -13.83323 -2.969846) (xy -13.83257 -2.676176)
+				(xy -13.830701 -2.409425) (xy -13.827792 -2.179144) (xy -13.824011 -1.994885) (xy -13.819526 -1.866199)
+				(xy -13.814505 -1.802639) (xy -13.812578 -1.797539) (xy -13.772488 -1.811671) (xy -13.669206 -1.85163)
+				(xy -13.511917 -1.913761) (xy -13.309811 -1.994411) (xy -13.072073 -2.089924) (xy -12.80789 -2.196645)
+				(xy -12.732041 -2.227385) (xy -12.461439 -2.336671) (xy -12.214007 -2.435721) (xy -11.999084 -2.520866)
+				(xy -11.826007 -2.588439) (xy -11.704116 -2.634771) (xy -11.642748 -2.656193) (xy -11.637798 -2.657231)
+				(xy -11.62547 -2.62068) (xy -11.616932 -2.521012) (xy -11.612921 -2.373204) (xy -11.614173 -2.192232)
+				(xy -11.614412 -2.181504) (xy -11.625384 -1.705778) (xy -12.728772 -1.258321) (xy -13.832161 -0.810865)
+				(xy -13.842465 0.441905) (xy -13.852769 1.694674) (xy -14.309452 1.878833) (xy -14.483894 1.946869)
+				(xy -14.63121 1.999969) (xy -14.736955 2.033241) (xy -14.786684 2.041791) (xy -14.788144 2.040983)
+				(xy -14.793596 1.997875) (xy -14.798557 1.886266) (xy -14.802852 1.715809) (xy -14.80631 1.496156)
+				(xy -14.808756 1.236959) (xy -14.810018 0.947871) (xy -14.810153 0.814102) (xy -14.811078 0.516219)
+				(xy -14.813697 0.245124) (xy -14.817777 0.01024) (xy -14.823087 -0.179013) (xy -14.829395 -0.313213)
+				(xy -14.836468 -0.382938) (xy -14.839852 -0.390769) (xy -14.882162 -0.376584) (xy -14.987743 -0.336421)
+				(xy -15.147521 -0.273871) (xy -15.352424 -0.192523) (xy -15.593376 -0.095967) (xy -15.861305 0.012206)
+				(xy -15.975698 0.058615) (xy -16.252425 0.170555) (xy -16.506281 0.272317) (xy -16.728111 0.360306)
+				(xy -16.908758 0.430922) (xy -17.039066 0.48057) (xy -17.109879 0.505652) (xy -17.11951 0.508) (xy -17.134788 0.470647)
+				(xy -17.144514 0.365162) (xy -17.148135 0.20141) (xy -17.146202 0.03236) (xy -17.13523 -0.443279)
+				(xy -15.972692 -0.913178) (xy -14.810153 -1.383078) (xy -14.810153 -2.562447) (xy -14.809357 -2.918991)
+				(xy -14.806796 -3.203893) (xy -14.802207 -3.42365) (xy -14.795332 -3.584757) (xy -14.785908 -3.693711)
+				(xy -14.773675 -3.757011) (xy -14.761307 -3.77945) (xy -14.708512 -3.807229) (xy -14.602518 -3.854618)
+				(xy -14.461394 -3.914323) (xy -14.303211 -3.979046) (xy -14.146039 -4.041493) (xy -14.00795 -4.094366)
+				(xy -13.907011 -4.130371) (xy -13.862538 -4.142326)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "83dae2ce-7231-4313-9fff-3cb6b665b3ab")
+		)
+		(fp_poly
+			(pts
+				(xy 21.442744 -0.81339) (xy 21.724959 -0.715484) (xy 21.973207 -0.554067) (xy 22.178468 -0.33281)
+				(xy 22.252413 -0.218192) (xy 22.32715 -0.085081) (xy 22.367163 0.009979) (xy 22.365691 0.080807)
+				(xy 22.315976 0.141219) (xy 22.211256 0.205034) (xy 22.044774 0.286067) (xy 21.994007 0.310023)
+				(xy 21.590887 0.500346) (xy 21.509418 0.338096) (xy 21.382024 0.161585) (xy 21.215332 0.046675)
+				(xy 21.021829 -0.003568) (xy 20.814003 0.013925) (xy 20.60434 0.102218) (xy 20.588604 0.11196) (xy 20.422451 0.252997)
+				(xy 20.320295 0.418319) (xy 20.285591 0.596053) (xy 20.32179 0.774322) (xy 20.370043 0.863683) (xy 20.417741 0.921874)
+				(xy 20.487731 0.982324) (xy 20.588556 1.049956) (xy 20.728759 1.129696) (xy 20.916887 1.226468)
+				(xy 21.161483 1.345198) (xy 21.402683 1.458892) (xy 21.70732 1.625354) (xy 21.941961 1.809218) (xy 22.113984 2.016884)
+				(xy 22.179213 2.132446) (xy 22.228955 2.240942) (xy 22.258498 2.333368) (xy 22.271508 2.434558)
+				(xy 22.27165 2.569345) (xy 22.265143 2.714591) (xy 22.251149 2.908311) (xy 22.2278 3.05606) (xy 22.18736 3.190006)
+				(xy 22.122091 3.342315) (xy 22.10588 3.376753) (xy 21.909406 3.704694) (xy 21.6581 3.987251) (xy 21.362161 4.21902)
+				(xy 21.031788 4.394596) (xy 20.677179 4.508576) (xy 20.308532 4.555556) (xy 19.936045 4.530132)
+				(xy 19.930899 4.529245) (xy 19.596234 4.434102) (xy 19.300682 4.274633) (xy 19.051339 4.0562) (xy 18.855298 3.784164)
+				(xy 18.799042 3.673931) (xy 18.7242 3.50255) (xy 18.689295 3.379783) (xy 18.701199 3.290528) (xy 18.766783 3.219683)
+				(xy 18.892921 3.152147) (xy 19.069539 3.079486) (xy 19.229074 3.017953) (xy 19.362646 2.968928)
+				(xy 19.452854 2.938657) (xy 19.480444 2.931975) (xy 19.514546 2.964952) (xy 19.55965 3.050962) (xy 19.589793 3.126944)
+				(xy 19.68647 3.326327) (xy 19.818765 3.499492) (xy 19.968951 3.625225) (xy 20.034827 3.659513) (xy 20.185286 3.697013)
+				(xy 20.375979 3.710285) (xy 20.572952 3.699686) (xy 20.742251 3.66557) (xy 20.780409 3.651712) (xy 20.986461 3.528304)
+				(xy 21.155338 3.353821) (xy 21.274627 3.145975) (xy 21.331909 2.922473) (xy 21.335142 2.860444)
+				(xy 21.324189 2.717031) (xy 21.284524 2.591986) (xy 21.208319 2.477788) (xy 21.087742 2.366914)
+				(xy 20.914965 2.251844) (xy 20.682158 2.125056) (xy 20.452502 2.012543) (xy 20.105047 1.831777)
+				(xy 19.831255 1.652092) (xy 19.626942 1.467615) (xy 19.487928 1.272476) (xy 19.41003 1.060803) (xy 19.389065 0.826726)
+				(xy 19.420853 0.564372) (xy 19.420885 0.564218) (xy 19.528372 0.226188) (xy 19.702367 -0.078723)
+				(xy 19.935698 -0.343466) (xy 20.221194 -0.56099) (xy 20.551685 -0.724243) (xy 20.812488 -0.803994)
+				(xy 21.13558 -0.844116)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "ec6777aa-2db4-4ae3-9055-bc2282ee159e")
+		)
+		(fp_poly
+			(pts
+				(xy 8.635572 -3.780427) (xy 9.033761 -3.772232) (xy 9.364066 -3.760926) (xy 9.636743 -3.744997)
+				(xy 9.862044 -3.722933) (xy 10.050224 -3.693222) (xy 10.211538 -3.654353) (xy 10.356238 -3.604813)
+				(xy 10.494581 -3.543091) (xy 10.593182 -3.491798) (xy 10.873319 -3.296072) (xy 11.103325 -3.044332)
+				(xy 11.2796 -2.743354) (xy 11.398545 -2.399915) (xy 11.45656 -2.020793) (xy 11.461899 -1.856154)
+				(xy 11.423887 -1.411467) (xy 11.31435 -0.98864) (xy 11.138416 -0.594298) (xy 10.901216 -0.235068)
+				(xy 10.607877 0.082425) (xy 10.263531 0.351554) (xy 9.873305 0.565693) (xy 9.476154 0.709007) (xy 9.344137 0.742253)
+				(xy 9.209604 0.767122) (xy 9.056375 0.785218) (xy 8.86827 0.798145) (xy 8.629108 0.807507) (xy 8.430847 0.812614)
+				(xy 8.201103 0.818044) (xy 8.000638 0.823315) (xy 7.841574 0.828063) (xy 7.736034 0.831927) (xy 7.696143 0.834542)
+				(xy 7.696087 0.834598) (xy 7.689757 0.873085) (xy 7.672442 0.981121) (xy 7.645357 1.151063) (xy 7.609717 1.375264)
+				(xy 7.566734 1.646079) (xy 7.517625 1.955862) (xy 7.463603 2.296969) (xy 7.412779 2.618154) (xy 7.131539 4.396154)
+				(xy 6.659334 4.407074) (xy 6.18713 4.417993) (xy 6.315682 3.605997) (xy 6.341877 3.44032) (xy 6.379029 3.205023)
+				(xy 6.425941 2.907691) (xy 6.48142 2.555906) (xy 6.544269 2.157254) (xy 6.613294 1.719316) (xy 6.687298 1.249679)
+				(xy 6.765086 0.755924) (xy 6.845464 0.245636) (xy 6.898184 -0.089129) (xy 7.854462 -0.089129) (xy 7.862862 -0.066457)
+				(xy 7.895335 -0.051178) (xy 7.962791 -0.04259) (xy 8.076141 -0.03999) (xy 8.246295 -0.042675) (xy 8.469924 -0.04946)
+				(xy 8.794899 -0.065169) (xy 9.047676 -0.088293) (xy 9.233912 -0.11943) (xy 9.300308 -0.137077) (xy 9.643767 -0.27111)
+				(xy 9.922172 -0.440842) (xy 10.142257 -0.651078) (xy 10.265807 -0.825892) (xy 10.38546 -1.075506)
+				(xy 10.468782 -1.352804) (xy 10.513639 -1.638416) (xy 10.517895 -1.912969) (xy 10.479412 -2.157094)
+				(xy 10.427867 -2.295583) (xy 10.28916 -2.492577) (xy 10.091626 -2.657479) (xy 9.852358 -2.776756)
+				(xy 9.796814 -2.795227) (xy 9.710605 -2.813143) (xy 9.570459 -2.833071) (xy 9.391297 -2.853779)
+				(xy 9.188038 -2.874033) (xy 8.975602 -2.8926) (xy 8.768909 -2.908245) (xy 8.582878 -2.919735) (xy 8.432429 -2.925837)
+				(xy 8.332481 -2.925317) (xy 8.298679 -2.919089) (xy 8.289778 -2.878905) (xy 8.270783 -2.771965)
+				(xy 8.243344 -2.608782) (xy 8.209109 -2.399866) (xy 8.169729 -2.155728) (xy 8.126854 -1.886881)
+				(xy 8.082134 -1.603833) (xy 8.037219 -1.317098) (xy 7.993759 -1.037187) (xy 7.953403 -0.774609)
+				(xy 7.917803 -0.539877) (xy 7.888606 -0.343502) (xy 7.867464 -0.195996) (xy 7.856027 -0.107868)
+				(xy 7.854462 -0.089129) (xy 6.898184 -0.089129) (xy 6.927235 -0.273602) (xy 6.963304 -0.502671)
+				(xy 7.482374 -3.799341)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "8e398961-dc51-4602-9381-aa1e773e6a11")
+		)
+		(fp_poly
+			(pts
+				(xy 14.986402 -0.702881) (xy 15.112945 -0.699622) (xy 15.186853 -0.690986) (xy 15.220885 -0.674349)
+				(xy 15.227803 -0.647091) (xy 15.222298 -0.615462) (xy 15.21192 -0.557581) (xy 15.190884 -0.431788)
+				(xy 15.160692 -0.247369) (xy 15.122848 -0.013615) (xy 15.078857 0.260188) (xy 15.030223 0.56475)
+				(xy 14.980279 0.879231) (xy 14.902137 1.383644) (xy 14.839543 1.817493) (xy 14.79282 2.186871) (xy 14.762289 2.49787)
+				(xy 14.748274 2.756582) (xy 14.751097 2.969101) (xy 14.771081 3.141519) (xy 14.808548 3.279929)
+				(xy 14.863822 3.390422) (xy 14.937225 3.479092) (xy 15.029079 3.552032) (xy 15.124785 3.60771) (xy 15.228338 3.658436)
+				(xy 15.316415 3.689727) (xy 15.412137 3.705241) (xy 15.538624 3.708635) (xy 15.718996 3.703567)
+				(xy 15.728462 3.703209) (xy 15.925933 3.692494) (xy 16.069524 3.674757) (xy 16.18348 3.645149) (xy 16.292044 3.598821)
+				(xy 16.319295 3.585036) (xy 16.520591 3.451594) (xy 16.684311 3.274559) (xy 16.816204 3.04483) (xy 16.922021 2.753306)
+				(xy 16.974867 2.547231) (xy 16.996229 2.440805) (xy 17.027484 2.26836) (xy 17.066745 2.041136) (xy 17.11212 1.770377)
+				(xy 17.161722 1.467321) (xy 17.213659 1.143212) (xy 17.254039 0.886462) (xy 17.304531 0.563625)
+				(xy 17.352032 0.261701) (xy 17.395014 -0.009721) (xy 17.431946 -0.24105) (xy 17.461298 -0.422696)
+				(xy 17.481539 -0.545069) (xy 17.490561 -0.595923) (xy 17.512672 -0.703385) (xy 17.959696 -0.703385)
+				(xy 18.151633 -0.702881) (xy 18.278175 -0.699623) (xy 18.352081 -0.690986) (xy 18.386111 -0.674351)
+				(xy 18.393023 -0.647093) (xy 18.387511 -0.615462) (xy 18.377378 -0.557671) (xy 18.356982 -0.431836)
+				(xy 18.327764 -0.247182) (xy 18.291166 -0.012937) (xy 18.24863 0.261671) (xy 18.201596 0.567416)
+				(xy 18.151507 0.895071) (xy 18.150943 0.898769) (xy 18.075767 1.384502) (xy 18.008379 1.800348)
+				(xy 17.946785 2.153962) (xy 17.888991 2.452997) (xy 17.833003 2.705105) (xy 17.776825 2.917939)
+				(xy 17.718464 3.099154) (xy 17.655925 3.256402) (xy 17.587213 3.397336) (xy 17.510333 3.52961) (xy 17.435831 3.642758)
+				(xy 17.182387 3.944457) (xy 16.879665 4.187877) (xy 16.532531 4.371099) (xy 16.145851 4.492203)
+				(xy 15.72449 4.54927) (xy 15.273316 4.540381) (xy 15.183859 4.530987) (xy 14.822613 4.45805) (xy 14.517653 4.331138)
+				(xy 14.268216 4.149694) (xy 14.073539 3.913158) (xy 13.932859 3.620973) (xy 13.930611 3.614615)
+				(xy 13.893292 3.46593) (xy 13.863557 3.263516) (xy 13.844892 3.031691) (xy 13.843817 3.008923) (xy 13.840288 2.89627)
+				(xy 13.84063 2.783577) (xy 13.845877 2.661667) (xy 13.857064 2.521357) (xy 13.875228 2.353469) (xy 13.901402 2.148822)
+				(xy 13.936624 1.898237) (xy 13.981927 1.592534) (xy 14.038346 1.222532) (xy 14.064166 1.055077)
+				(xy 14.117148 0.713104) (xy 14.167158 0.392061) (xy 14.212782 0.100903) (xy 14.252605 -0.151412)
+				(xy 14.285209 -0.355929) (xy 14.309182 -0.503692) (xy 14.323107 -0.585744) (xy 14.325054 -0.595923)
+				(xy 14.347441 -0.703385) (xy 14.794465 -0.703385)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "a3ff1b41-1792-415c-8f27-2143ff62ba79")
+		)
+		(fp_poly
+			(pts
+				(xy -6.346948 -2.940539) (xy -6.202389 -2.695191) (xy -6.064158 -2.460865) (xy -5.939367 -2.249599)
+				(xy -5.835128 -2.073427) (xy -5.758556 -1.944385) (xy -5.72588 -1.889634) (xy -5.605271 -1.688652)
+				(xy -4.986348 -2.739557) (xy -4.367426 -3.790462) (xy -3.058763 -3.790462) (xy -2.696048 -3.78998)
+				(xy -2.404633 -3.788351) (xy -2.177668 -3.785298) (xy -2.008304 -3.780545) (xy -1.889689 -3.773816)
+				(xy -1.814976 -3.764836) (xy -1.777314 -3.753326) (xy -1.769854 -3.739013) (xy -1.770038 -3.738503)
+				(xy -1.795316 -3.697457) (xy -1.860887 -3.598011) (xy -1.962709 -3.446123) (xy -2.096738 -3.247753)
+				(xy -2.258929 -3.008862) (xy -2.44524 -2.735407) (xy -2.651626 -2.43335) (xy -2.874045 -2.108648)
+				(xy -3.036079 -1.87258) (xy -3.267453 -1.535678) (xy -3.485913 -1.217409) (xy -3.687383 -0.923723)
+				(xy -3.867788 -0.660568) (xy -4.023054 -0.433891) (xy -4.149105 -0.249642) (xy -4.241865 -0.11377)
+				(xy -4.297261 -0.032222) (xy -4.311595 -0.010694) (xy -4.295684 0.031263) (xy -4.236125 0.134288)
+				(xy -4.134625 0.295806) (xy -3.992891 0.513239) (xy -3.812633 0.784011) (xy -3.595558 1.105545)
+				(xy -3.343373 1.475265) (xy -3.057788 1.890593) (xy -2.899928 2.118998) (xy -2.648818 2.481854)
+				(xy -2.409477 2.827906) (xy -2.185848 3.15144) (xy -1.981877 3.446738) (xy -1.801506 3.708086) (xy -1.648682 3.929767)
+				(xy -1.527347 4.106065) (xy -1.441446 4.231265) (xy -1.394924 4.299651) (xy -1.389237 4.308231)
+				(xy -1.319626 4.415692) (xy -2.610865 4.415692) (xy -3.902103 4.415692) (xy -4.672948 3.214077)
+				(xy -4.852873 2.933769) (xy -5.022535 2.669766) (xy -5.176562 2.430399) (xy -5.309584 2.224003)
+				(xy -5.416232 2.058911) (xy -5.491134 1.943455) (xy -5.527799 1.887627) (xy -5.611805 1.762793)
+				(xy -6.543465 3.089243) (xy -7.475124 4.415692) (xy -8.762203 4.415692) (xy -9.139243 4.414563)
+				(xy -9.454834 4.411241) (xy -9.705657 4.405826) (xy -9.888395 4.398417) (xy -9.99973 4.389113) (xy -10.036342 4.378012)
+				(xy -10.036256 4.377665) (xy -10.011546 4.340446) (xy -9.944449 4.245427) (xy -9.838766 4.097855)
+				(xy -9.698297 3.902976) (xy -9.52684 3.666037) (xy -9.328197 3.392284) (xy -9.106166 3.086965) (xy -8.864548 2.755325)
+				(xy -8.607142 2.402612) (xy -8.460153 2.201452) (xy -8.196012 1.839444) (xy -7.946027 1.495518)
+				(xy -7.713954 1.174924) (xy -7.503547 0.882911) (xy -7.31856 0.62473) (xy -7.162749 0.405629) (xy -7.039868 0.23086)
+				(xy -6.95367 0.10567) (xy -6.907912 0.035312) (xy -6.901344 0.021864) (xy -6.923684 -0.017126) (xy -6.986451 -0.114563)
+				(xy -7.085684 -0.264571) (xy -7.217419 -0.461272) (xy -7.377695 -0.698791) (xy -7.56255 -0.971249)
+				(xy -7.76802 -1.272772) (xy -7.990143 -1.597481) (xy -8.165149 -1.852502) (xy -8.397634 -2.191227)
+				(xy -8.616917 -2.511487) (xy -8.818976 -2.807353) (xy -8.999787 -3.0729) (xy -9.155328 -3.302198)
+				(xy -9.281575 -3.489321) (xy -9.374505 -3.62834) (xy -9.430094 -3.713328) (xy -9.444831 -3.737964)
+				(xy -9.438745 -3.752495) (xy -9.403564 -3.764186) (xy -9.332376 -3.773318) (xy -9.218268 -3.780173)
+				(xy -9.054327 -3.785033) (xy -8.833641 -3.78818) (xy -8.549298 -3.789894) (xy -8.194384 -3.790458)
+				(xy -8.156192 -3.790462) (xy -6.847407 -3.790462)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "f5485a16-1f12-43cd-9b10-97086eae5fb5")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "eaa7fd71-3ddc-4412-898e-7bfec626289b")
@@ -20594,6 +21934,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3e66f129-40d1-4015-853e-d364bcd529d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a894e230-7ccf-4f52-b9c0-01b68f89e4fe")
 			(effects
 				(font
 					(size 1 1)
@@ -20809,6 +22162,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3527f595-1b8d-4d10-b6d8-0a28a8b4587c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -21119,6 +22485,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5c6d7e1f-ded9-4208-831f-1d917e5085b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1017"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9627340-1965-419f-95a4-3d903eec72d0")
 			(effects
 				(font
 					(size 1 1)
@@ -21441,6 +22820,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73a5e4c3-c4e2-41f3-8464-1d38dd1e950d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/cfffb829-439c-4602-8d62-56e77bc47bbf")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -21752,6 +23144,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ed5b5285-f254-498a-a299-420b223da6c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C625111"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "982cdc57-b4ec-4319-83a2-b9fd7bfbfd29")
 			(effects
 				(font
 					(size 1 1)
@@ -22628,6 +24033,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14663"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "605f97c0-8e11-4794-9345-664b4f887316")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e69c0aad-5694-45b2-950c-ea9a2787a83a")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -22943,6 +24361,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C14709"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "774e9fcb-3daa-4ca6-811d-b58afcbf4504")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1d77209a-7238-49b5-b5a6-9c22d774ecdb")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -23193,6 +24624,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C1681"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74c1eebe-be29-4b1f-9621-e1c78cd3ad2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/88b4dbd6-0649-4891-9300-9f967a6828be")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -23436,6 +24880,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bbda8188-ed93-44d5-a66c-3f0eabbd884f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a8ccc19-8ddb-4c79-84e5-804471e98fd9")
 			(effects
 				(font
 					(size 1 1)
@@ -23758,6 +25215,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C2830246"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faf144ae-788a-431e-9737-2dd2f2287315")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/142a2bfd-de89-489f-bfa5-12bd2dc651ab")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -24066,6 +25536,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0a9e53d8-e797-4abc-aec1-e41fdef784ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a5287f6-a06a-49fb-b5fe-6a9104b22903")
 			(effects
 				(font
 					(size 1 1)
@@ -24396,6 +25879,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fddeddb2-3c4c-418a-9141-9ef3a84af764")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C27882"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "384f2b07-4830-4be1-8804-6338c35f8302")
 			(effects
 				(font
 					(size 1 1)
@@ -26838,6 +28335,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1592"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4bb557d8-3849-47ce-9d58-b71befbb2d76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/2fdf4fdb-9645-461a-8928-ff5ed8ed13bd")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -27162,6 +28673,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "38df91ae-4ead-47cd-a570-74b96ff534c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d48f0e15-da41-4439-aeaa-da3f3511409d")
 			(effects
 				(font
 					(size 1 1)
@@ -27659,6 +29184,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C2830246"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "157473c7-1204-4089-97a0-14c309030ec6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/8316b028-c4c1-4f47-b88a-db621f903f83")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -27974,6 +29513,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C22935"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1c4cbc14-b9ba-4034-b640-0f69a7f2b765")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/6ea79ecf-d3d6-4a00-825c-848b816b2522")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -28225,6 +29778,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1c3cbeef-d896-4721-8b64-76aa23a522de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "577f4ef2-52e9-4119-b4f8-8d10c587baf1")
 			(effects
 				(font
 					(size 1 1)
@@ -28557,6 +30124,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6a2ff915-6df9-42a5-ac99-4709f0758fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be73a919-217f-479a-95db-0cea14f84126")
 			(effects
 				(font
 					(size 1 1)
@@ -28984,6 +30565,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "62fd144b-296b-4a00-8c39-ebe18a0aaeb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/e7f9c431-cb14-4164-82c4-309390277213")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -29308,6 +30903,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d7ed348c-0359-4ee9-bd9d-2e75abade289")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C9006"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5f5f9ade-4cd8-407f-bc50-94a158f5b0e4")
 			(effects
 				(font
 					(size 1 1)
@@ -29756,6 +31365,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C23138"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b3c86b20-3576-4a60-8302-c6713d0e145c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1b229862-5c48-48cd-8899-5162dafe0cde")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -30015,6 +31638,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C23138"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d0464e4-5b03-4ad7-94c1-a9fbaa010e94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e8d672d1-90ba-401e-807a-2b80b695a8f7")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -30266,6 +31903,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c9899d7e-3b83-4fc6-9ca8-e8e4e4b3b43d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C1663"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "255c4109-c334-420b-bae9-7ad3617fc46a")
 			(effects
 				(font
 					(size 1 1)
@@ -30598,6 +32249,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4edd88f7-abb5-4ea3-9156-0dbdd89b3200")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "db6d551f-efc9-426e-8881-7fbf800124df")
 			(effects
 				(font
 					(size 1 1)
@@ -31090,6 +32755,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "34ba39d2-7f1d-4df3-8ac9-94c21a1a4c09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "24879866-5121-43b9-bb65-6636c9ef4a12")
 			(effects
 				(font
 					(size 1 1)
@@ -31600,6 +33279,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C2937184"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "84f997c2-7374-471e-8ccd-c2989498f63c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/40bda950-6f22-45af-aa89-0c88be67ff5c")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -31936,6 +33629,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C21189"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3283d3c7-8557-45b8-97f6-6c8cf7d7defc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/514a26d8-8eca-4aad-b4f5-f50fff5b8dbf")
 		(sheetname "LAN")
@@ -32186,6 +33893,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "cf7500e3-d17b-4b38-81a2-bf55f97b4b1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ef882db0-122b-4c5e-9df9-21ea0854ef30")
 			(effects
 				(font
 					(size 1 1)
@@ -32445,6 +34166,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "1955ec97-21af-4b11-9881-bdfe30d49bd9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C22790"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5aa71ef7-8da3-40e6-beb1-ae5efca89926")
 			(effects
 				(font
 					(size 1 1)
@@ -32782,6 +34517,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "15503289-3838-48d0-87b7-9da047c4d8bb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/c28f3f61-633f-4da7-b875-618900de74d6")
 		(sheetname "GPIO")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
@@ -33097,6 +34846,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C22859"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b0a2d353-2878-4427-b95e-d732ee022450")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/8612e9ac-be92-4cd2-b66f-4213e0e4018c")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -33310,6 +35073,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "484b8a92-91b9-4a30-b244-39a19918ba76")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -33642,6 +35419,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C23138"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f463b5cd-904c-4eb1-ae93-2019edf368a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/c6dfc80b-99d3-406d-896d-990b82adeae4")
 		(sheetname "GPIO")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
@@ -33901,6 +35692,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4e8e26f7-1c8c-423c-9826-9db1dc8c51dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/f030fae4-dc4a-4d41-982e-47da1047de7f")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -34152,6 +35957,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "94f79956-8c5c-41d4-a1c3-997e56087eb0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3eee0c4c-f813-403a-a8c0-8021d2d12888")
 			(effects
 				(font
 					(size 1 1)
@@ -34484,6 +36303,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c81c86fb-5866-4e2a-a99c-ff642bad6c41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "99bc66c6-1c16-4f77-82c2-c7e324f41da3")
 			(effects
 				(font
 					(size 1 1)
@@ -34984,6 +36817,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C2687126"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cff57960-c0df-48f7-9406-190d97508cba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/99825bc9-528f-4d0f-b876-a18cea86d4ea")
 		(sheetname "GPIO")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
@@ -35468,6 +37315,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3e85c788-31db-4c13-a9f7-844cdc2f02cb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C9002"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8bc926c8-21bf-4718-9e11-a9a50fdc525a")
 			(effects
 				(font
 					(size 1 1)
@@ -35989,6 +37850,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C136850"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4d850c25-a2e5-4e1b-a87c-e572a9047780")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/feebee6b-64e3-458a-b6ce-690d02816f39")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -36385,6 +38260,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "893bef66-a645-4751-914a-bc0235904dac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/680841da-2cbe-489b-a8fe-6034ffa184d4")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -36644,6 +38533,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1663"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5ecf0385-9bc9-469b-a07f-0a5108439e40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/b7b6409a-f06c-41c9-a77b-37ffde56ab11")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -36895,6 +38798,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "95ab64fe-1d34-4333-a807-21e0d129f91a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C21122"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b102986c-cfa6-4f65-ab50-655f43e63aa0")
 			(effects
 				(font
 					(size 1 1)
@@ -37232,6 +39149,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1aff17ca-1b18-4684-9285-ab62bb4e6139")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/db1d5116-3104-4cdd-92e2-20247fd7de77")
 		(sheetname "GPIO")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
@@ -37556,6 +39487,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2acf1e90-3ad4-441f-bea5-f73da2dcf45e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "203d7ce6-ab03-4870-a0ea-259ba19ef366")
 			(effects
 				(font
 					(size 1 1)
@@ -37983,6 +39928,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C1658"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "5b31c878-67d2-44e7-b6fa-697175ba2e47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1587533d-ee63-45c3-8d1a-e370e33b41c0")
 		(sheetname "LAN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
@@ -38196,6 +40155,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "19d12160-73e9-4f94-b633-9377ec549ca6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -38523,6 +40496,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ecdcce49-7932-495a-b57c-a22a709ea912")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "075be630-0ec8-44b2-b601-2c62216b8017")
 			(effects
 				(font
 					(size 1 1)
@@ -39006,6 +40993,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C22859"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c8f047d6-c7be-4cc5-9baf-e810cbb24c85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/fe488217-2d8a-4315-93b7-aa0d1f87bd81")
 		(sheetname "MAIN")
 		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
@@ -39330,6 +41331,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "da285470-a7ad-49fa-9e92-b93434aabebe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C2687126"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "12288bd5-7697-4294-a8a7-49b3d34def73")
 			(effects
 				(font
 					(size 1 1)
@@ -39715,6 +41730,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" "C21189"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "fef546cd-de5d-4e25-bb80-69d5dad33d12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/0fe56a57-25b9-4084-b41a-6f7874549e71")
 		(sheetname "LAN")
@@ -39965,6 +41994,20 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "907bdc37-5c9d-485d-b827-84c437f7e2a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" "C1658"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7144e28e-d02d-4c62-8865-274ac0c3fe94")
 			(effects
 				(font
 					(size 1 1)
@@ -40333,6 +42376,17 @@
 		(layer "F.SilkS")
 		(uuid "815e705d-08d1-464c-91c9-0ff466fdbc68")
 	)
+	(gr_rect
+		(start 114 134)
+		(end 141 139)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "84cee13e-dc76-461f-bbc1-30dc743c58e2")
+	)
 	(gr_line
 		(start 127.75 99.375)
 		(end 118.375 99.375)
@@ -40673,6 +42727,18 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "X1P-002-A01"
+		(at 114 133.5 0)
+		(layer "F.SilkS")
+		(uuid "07ca5ce1-2f11-424c-9ff0-71f25f4e36a0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "AC7"

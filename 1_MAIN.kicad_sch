@@ -435,6 +435,141 @@
 				)
 			)
 		)
+		(symbol "Graphic:Logo_Open_Hardware_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#SYM"
+				(at 0 6.985 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Logo_Open_Hardware_Small"
+				(at 0 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Open Hardware logo, small"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Logo_Open_Hardware_Small_0_1"
+				(polyline
+					(pts
+						(xy 3.3528 -4.3434) (xy 3.302 -4.318) (xy 3.175 -4.2418) (xy 2.9972 -4.1148) (xy 2.7686 -3.9624)
+						(xy 2.54 -3.81) (xy 2.3622 -3.7084) (xy 2.2352 -3.6068) (xy 2.1844 -3.5814) (xy 2.159 -3.6068)
+						(xy 2.0574 -3.6576) (xy 1.905 -3.7338) (xy 1.8034 -3.7846) (xy 1.6764 -3.8354) (xy 1.6002 -3.8354)
+						(xy 1.6002 -3.8354) (xy 1.5494 -3.7338) (xy 1.4732 -3.5306) (xy 1.3462 -3.302) (xy 1.2446 -3.0226)
+						(xy 1.1176 -2.7178) (xy 0.9652 -2.413) (xy 0.8636 -2.1082) (xy 0.7366 -1.8288) (xy 0.6604 -1.6256)
+						(xy 0.6096 -1.4732) (xy 0.5842 -1.397) (xy 0.5842 -1.397) (xy 0.6604 -1.3208) (xy 0.7874 -1.2446)
+						(xy 1.0414 -1.016) (xy 1.2954 -0.6858) (xy 1.4478 -0.3302) (xy 1.524 0.0762) (xy 1.4732 0.4572)
+						(xy 1.3208 0.8128) (xy 1.0668 1.143) (xy 0.762 1.3716) (xy 0.4064 1.524) (xy 0 1.5748) (xy -0.381 1.5494)
+						(xy -0.7366 1.397) (xy -1.0668 1.143) (xy -1.2192 0.9906) (xy -1.397 0.6604) (xy -1.524 0.3048)
+						(xy -1.524 0.2286) (xy -1.4986 -0.1778) (xy -1.397 -0.5334) (xy -1.1938 -0.8636) (xy -0.9144 -1.143)
+						(xy -0.8636 -1.1684) (xy -0.7366 -1.27) (xy -0.635 -1.3462) (xy -0.5842 -1.397) (xy -1.0668 -2.5908)
+						(xy -1.143 -2.794) (xy -1.2954 -3.1242) (xy -1.397 -3.4036) (xy -1.4986 -3.6322) (xy -1.5748 -3.7846)
+						(xy -1.6002 -3.8354) (xy -1.6002 -3.8354) (xy -1.651 -3.8354) (xy -1.7272 -3.81) (xy -1.905 -3.7338)
+						(xy -2.0066 -3.683) (xy -2.1336 -3.6068) (xy -2.2098 -3.5814) (xy -2.2606 -3.6068) (xy -2.3622 -3.683)
+						(xy -2.54 -3.81) (xy -2.7686 -3.9624) (xy -2.9718 -4.0894) (xy -3.1496 -4.2164) (xy -3.302 -4.318)
+						(xy -3.3528 -4.3434) (xy -3.3782 -4.3434) (xy -3.429 -4.318) (xy -3.5306 -4.2164) (xy -3.7084 -4.064)
+						(xy -3.937 -3.8354) (xy -3.9624 -3.81) (xy -4.1656 -3.6068) (xy -4.318 -3.4544) (xy -4.4196 -3.3274)
+						(xy -4.445 -3.2766) (xy -4.445 -3.2766) (xy -4.4196 -3.2258) (xy -4.318 -3.0734) (xy -4.2164 -2.8956)
+						(xy -4.064 -2.667) (xy -3.6576 -2.0828) (xy -3.8862 -1.5494) (xy -3.937 -1.3716) (xy -4.0386 -1.1684)
+						(xy -4.0894 -1.0414) (xy -4.1148 -0.9652) (xy -4.191 -0.9398) (xy -4.318 -0.9144) (xy -4.5466 -0.8636)
+						(xy -4.8006 -0.8128) (xy -5.0546 -0.7874) (xy -5.2578 -0.7366) (xy -5.4356 -0.7112) (xy -5.5118 -0.6858)
+						(xy -5.5118 -0.6858) (xy -5.5372 -0.635) (xy -5.5372 -0.5588) (xy -5.5372 -0.4318) (xy -5.5626 -0.2286)
+						(xy -5.5626 0.0762) (xy -5.5626 0.127) (xy -5.5372 0.4064) (xy -5.5372 0.635) (xy -5.5372 0.762)
+						(xy -5.5372 0.8382) (xy -5.5372 0.8382) (xy -5.461 0.8382) (xy -5.3086 0.889) (xy -5.08 0.9144)
+						(xy -4.826 0.9652) (xy -4.8006 0.9906) (xy -4.5466 1.0414) (xy -4.318 1.0668) (xy -4.1656 1.1176)
+						(xy -4.0894 1.143) (xy -4.0894 1.143) (xy -4.0386 1.2446) (xy -3.9624 1.4224) (xy -3.8608 1.6256)
+						(xy -3.7846 1.8288) (xy -3.7084 2.0066) (xy -3.6576 2.159) (xy -3.6322 2.2098) (xy -3.6322 2.2098)
+						(xy -3.683 2.286) (xy -3.7592 2.413) (xy -3.8862 2.5908) (xy -4.064 2.8194) (xy -4.064 2.8448)
+						(xy -4.2164 3.0734) (xy -4.3434 3.2512) (xy -4.4196 3.3782) (xy -4.445 3.4544) (xy -4.445 3.4544)
+						(xy -4.3942 3.5052) (xy -4.2926 3.6322) (xy -4.1148 3.81) (xy -3.937 4.0132) (xy -3.8608 4.064)
+						(xy -3.6576 4.2926) (xy -3.5052 4.4196) (xy -3.4036 4.4958) (xy -3.3528 4.5212) (xy -3.3528 4.5212)
+						(xy -3.302 4.4704) (xy -3.1496 4.3688) (xy -2.9718 4.2418) (xy -2.7432 4.0894) (xy -2.7178 4.0894)
+						(xy -2.4892 3.937) (xy -2.3114 3.81) (xy -2.1844 3.7084) (xy -2.1336 3.683) (xy -2.1082 3.683)
+						(xy -2.032 3.7084) (xy -1.8542 3.7592) (xy -1.6764 3.8354) (xy -1.4732 3.937) (xy -1.27 4.0132)
+						(xy -1.143 4.064) (xy -1.0668 4.1148) (xy -1.0668 4.1148) (xy -1.0414 4.191) (xy -1.016 4.3434)
+						(xy -0.9652 4.572) (xy -0.9144 4.8514) (xy -0.889 4.9022) (xy -0.8382 5.1562) (xy -0.8128 5.3848)
+						(xy -0.7874 5.5372) (xy -0.762 5.588) (xy -0.7112 5.6134) (xy -0.5842 5.6134) (xy -0.4064 5.6134)
+						(xy -0.1524 5.6134) (xy 0.0762 5.6134) (xy 0.3302 5.6134) (xy 0.5334 5.6134) (xy 0.6858 5.588)
+						(xy 0.7366 5.588) (xy 0.7366 5.588) (xy 0.762 5.5118) (xy 0.8128 5.334) (xy 0.8382 5.1054) (xy 0.9144 4.826)
+						(xy 0.9144 4.7752) (xy 0.9652 4.5212) (xy 1.016 4.2926) (xy 1.0414 4.1402) (xy 1.0668 4.0894)
+						(xy 1.0668 4.0894) (xy 1.1938 4.0386) (xy 1.3716 3.9624) (xy 1.5748 3.8608) (xy 2.0828 3.6576)
+						(xy 2.7178 4.0894) (xy 2.7686 4.1402) (xy 2.9972 4.2926) (xy 3.175 4.4196) (xy 3.302 4.4958) (xy 3.3782 4.5212)
+						(xy 3.3782 4.5212) (xy 3.429 4.4704) (xy 3.556 4.3434) (xy 3.7338 4.191) (xy 3.9116 3.9878) (xy 4.064 3.8354)
+						(xy 4.2418 3.6576) (xy 4.3434 3.556) (xy 4.4196 3.4798) (xy 4.4196 3.429) (xy 4.4196 3.4036) (xy 4.3942 3.3274)
+						(xy 4.2926 3.2004) (xy 4.1656 2.9972) (xy 4.0132 2.794) (xy 3.8862 2.5908) (xy 3.7592 2.3876)
+						(xy 3.6576 2.2352) (xy 3.6322 2.159) (xy 3.6322 2.1336) (xy 3.683 2.0066) (xy 3.7592 1.8288) (xy 3.8608 1.6002)
+						(xy 4.064 1.1176) (xy 4.3942 1.0414) (xy 4.5974 1.016) (xy 4.8768 0.9652) (xy 5.1308 0.9144) (xy 5.5372 0.8382)
+						(xy 5.5626 -0.6604) (xy 5.4864 -0.6858) (xy 5.4356 -0.6858) (xy 5.2832 -0.7366) (xy 5.0546 -0.762)
+						(xy 4.8006 -0.8128) (xy 4.5974 -0.8636) (xy 4.3688 -0.9144) (xy 4.2164 -0.9398) (xy 4.1402 -0.9398)
+						(xy 4.1148 -0.9652) (xy 4.064 -1.0668) (xy 3.9878 -1.2446) (xy 3.9116 -1.4478) (xy 3.81 -1.651)
+						(xy 3.7338 -1.8542) (xy 3.683 -2.0066) (xy 3.6576 -2.0828) (xy 3.683 -2.1336) (xy 3.7846 -2.2606)
+						(xy 3.8862 -2.4638) (xy 4.0386 -2.667) (xy 4.191 -2.8956) (xy 4.318 -3.0734) (xy 4.3942 -3.2004)
+						(xy 4.445 -3.2766) (xy 4.4196 -3.3274) (xy 4.3434 -3.429) (xy 4.1656 -3.5814) (xy 3.937 -3.8354)
+						(xy 3.8862 -3.8608) (xy 3.683 -4.064) (xy 3.5306 -4.2164) (xy 3.4036 -4.318) (xy 3.3528 -4.3434)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+		)
 		(symbol "X1 Expande-easyedapro:10"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9697,6 +9832,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2830246"
+			(at 243.713 38.0238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7216552a-e2f9-44fd-84b5-837d637bd50a")
 		)
@@ -9796,6 +9940,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23185"
+			(at 177.038 24.0538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "240cd3a8-29ae-4a7e-8ddb-5eaa1e334d06")
 		)
@@ -9892,6 +10045,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 44.8056 93.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10034,6 +10196,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C191884"
+			(at 122.936 11.1506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "99b9669e-20c7-433f-b63a-6c124dfdeb65")
 		)
@@ -10143,6 +10314,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 196.6468 143.4338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10305,6 +10485,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2937184"
+			(at 267.97 4.572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a61ad68f-76ea-4910-bde9-b3d4b5d7b04f")
 		)
@@ -10437,6 +10626,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 220.0656 140.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10579,6 +10777,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25803"
+			(at 177.038 36.7538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d8c6c7a-336a-44f7-a350-ba3fd2d61dda")
 		)
@@ -10589,6 +10796,79 @@
 			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:Logo_Open_Hardware_Small")
+		(at 279.4 173.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bc22cb2-c400-4bd0-b903-170c7634013c")
+		(property "Reference" "#SYM1"
+			(at 279.4 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Logo_Open_Hardware_Small"
+			(at 279.4 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Open Hardware logo, small"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 279.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
+					(reference "#SYM1")
 					(unit 1)
 				)
 			)
@@ -10675,6 +10955,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
+			(at 109.728 26.5938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10777,6 +11066,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 37.1856 93.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c19550e0-f18d-45fb-965f-ab2bd0da5ceb")
 		)
@@ -10873,6 +11171,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25952"
+			(at 177.038 46.9138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10975,6 +11282,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22790"
+			(at 39.7256 120.5738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9cd7c52-b93c-4dc0-9359-0ccc39395a9f")
 		)
@@ -11071,6 +11387,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 30.8356 115.4938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11171,6 +11496,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 213.1568 143.4338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11310,6 +11644,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 160.02 22.7838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11462,6 +11805,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1017"
+			(at 184.0992 132.1054 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2551c033-db98-4195-8965-865bd8c297c6")
 		)
@@ -11558,6 +11910,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 166.7256 84.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11707,6 +12068,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27882"
+			(at 73.1266 127.2286 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12101,6 +12471,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22859"
+			(at 39.7256 107.8738 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42d09e7e-cdc9-4cfe-8ba1-c55b8a94e499")
 		)
@@ -12197,6 +12576,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1681"
+			(at 168.91 36.7538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12436,6 +12824,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23742"
+			(at 228.6 48.1838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cc55d1b8-eda7-40fe-a375-98c98ffe8933")
 		)
@@ -12575,6 +12972,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C19190478"
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19190478"
+			(at 270.51 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ef96c937-cdf4-4c5b-9373-9cd15d6e5147")
 		)
@@ -12680,6 +13095,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1663"
+			(at 25.7556 175.1838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6599b22d-a434-48fb-88f1-3535bd796029")
 		)
@@ -12776,6 +13200,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 101.6 22.7838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12928,6 +13361,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C9002"
+			(at 31.5468 157.3276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f1874bd-a0c5-4ffc-9494-826694c688e7")
 		)
@@ -13033,6 +13475,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 234.0356 86.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77d8c8c4-8380-480c-ab01-a86e1f6e0bc9")
 		)
@@ -13129,6 +13580,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1663"
+			(at 43.5356 175.1838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13281,6 +13741,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C259972"
+			(at 34.036 10.0076 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e17d1c0c-16df-40e5-a290-1942c62c9e1e")
 		)
@@ -13426,6 +13895,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 25.908 25.3238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e57fa157-a55f-4ebb-a80d-ecc3cb28ff82")
 		)
@@ -13522,6 +14000,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 29.5656 93.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13624,6 +14111,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 226.4156 86.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cff4b4d5-430f-4390-8d84-2893a7e012e3")
 		)
@@ -13720,6 +14216,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 140.716 11.7856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13862,6 +14367,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15850"
+			(at 55.118 25.3238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0064d007-3350-4ee2-a6c1-db146bdc2432")
 		)
@@ -14001,6 +14515,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5189959"
+			(at 151.0792 12.7254 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a72cc6a4-e499-433b-91ba-a74bafffdae3")
 		)
@@ -14100,6 +14623,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 218.7956 86.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9e7bbb22-a4dc-475f-90cd-58769786347c")
 		)
@@ -14161,6 +14693,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 180.34 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 180.34 11.6289 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14317,6 +14858,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1017"
+			(at 184.0992 124.4854 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "949a59f5-fb15-42af-9c2e-8ff2a6d366a5")
 		)
@@ -14413,6 +14963,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 174.3456 84.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14515,6 +15074,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 181.9656 84.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0e8ef498-1f71-4d25-a5e1-271ded116d16")
 		)
@@ -14611,6 +15179,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 211.1756 86.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14713,6 +15290,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 203.5556 140.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c38e1ab-b4b0-4a0e-b380-5cb79ed270a2")
 		)
@@ -14809,6 +15395,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C361063"
+			(at 92.71 22.7838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14951,6 +15546,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22859"
+			(at 30.8356 105.3338 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a8f0110-c6ab-43f6-bd76-2e092b41f57a")
 		)
@@ -15087,6 +15691,15 @@
 					(size 1.27 1.27)
 				)
 				(justify right top)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59461"
+			(at 168.91 22.7838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
