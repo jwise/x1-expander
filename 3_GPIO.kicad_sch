@@ -7543,7 +7543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c145d9eb-0842-4cf1-95d5-558520ceb492")
-		(property "Reference" "STEMMA-I2C1"
+		(property "Reference" "I2C1"
 			(at 258.1148 149.7838 0)
 			(effects
 				(font
@@ -7669,6 +7669,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160235"
+			(at 258.1148 149.7838 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "974f98fd-0d51-4c6e-87b0-7a538b2d55e3")
 		)
@@ -7684,7 +7693,7 @@
 		(instances
 			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/52713671-aa4b-4412-b159-5876c2aaf3b7"
-					(reference "STEMMA-I2C1")
+					(reference "I2C1")
 					(unit 1)
 				)
 			)

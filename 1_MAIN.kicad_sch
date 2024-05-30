@@ -10805,7 +10805,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 279.4 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10848,15 +10848,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 279.4 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 279.4 173.99 0)
 			(effects
 				(font
@@ -12962,7 +12953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C19190478"
+		(property "Supplier Part" "C2935929"
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -12972,7 +12963,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C19190478"
+		(property "LCSC Part" "C2935929"
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -12981,7 +12972,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C19190478"
+		(property "LCSC" "C2935929"
 			(at 270.51 63.5 0)
 			(effects
 				(font

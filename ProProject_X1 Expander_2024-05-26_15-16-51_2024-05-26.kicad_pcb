@@ -9047,7 +9047,7 @@
 				)
 			)
 		)
-		(property "Supplier Part" "C19190478"
+		(property "Supplier Part" "C2935929"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9060,7 +9060,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C19190478"
+		(property "LCSC Part" "C2935929"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9073,7 +9073,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19190478"
+		(property "LCSC" "C2935929"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15977,7 +15977,7 @@
 		(layer "F.Cu")
 		(uuid "ad3bdc03-7aa9-4849-9a12-9810f3703d71")
 		(at 73.425 87.01 -90)
-		(property "Reference" "STEMMA-I2C1"
+		(property "Reference" "I2C1"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
