@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:C0805"
+		(property "Footprint" "x1-expander:C0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -156,7 +156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -253,7 +253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -350,7 +350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:USB-TH_10.0-4C6.3-ZB"
+		(property "Footprint" "x1-expander:USB-TH_10.0-4C6.3-ZB"
 			(at 0 0 0)
 			(effects
 				(font
@@ -555,7 +555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0603"
+		(property "Footprint" "x1-expander:R0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -652,7 +652,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:C0805"
+		(property "Footprint" "x1-expander:C0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -786,7 +786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0603"
+		(property "Footprint" "x1-expander:R0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -883,7 +883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -980,7 +980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1077,7 +1077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:CASE-A_3216"
+		(property "Footprint" "x1-expander:CASE-A_3216"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1221,7 +1221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1318,7 +1318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:OSC-SMD_4P-L3.2-W2.5-BL"
+		(property "Footprint" "x1-expander:OSC-SMD_4P-L3.2-W2.5-BL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1560,7 +1560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0603"
+		(property "Footprint" "x1-expander:R0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1657,7 +1657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1754,7 +1754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0603"
+		(property "Footprint" "x1-expander:R0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1851,7 +1851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:L0603"
+		(property "Footprint" "x1-expander:L0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1993,7 +1993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2090,7 +2090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2187,7 +2187,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:C0402"
+		(property "Footprint" "x1-expander:C0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2321,7 +2321,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:C0603"
+		(property "Footprint" "x1-expander:C0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2459,7 +2459,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2549,7 +2549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:OSC-SMD_4P-L3.2-W2.5-BL"
+		(property "Footprint" "x1-expander:OSC-SMD_4P-L3.2-W2.5-BL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2791,7 +2791,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:L0603"
+		(property "Footprint" "x1-expander:L0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -2935,7 +2935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:C0805"
+		(property "Footprint" "x1-expander:C0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3069,7 +3069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3166,7 +3166,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:C0402"
+		(property "Footprint" "x1-expander:C0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3304,7 +3304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3394,7 +3394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0402"
+		(property "Footprint" "x1-expander:R0402"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3491,7 +3491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:C0805"
+		(property "Footprint" "x1-expander:C0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -3625,7 +3625,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:RES-ARRAY-SMD_0402-8P-L2.0-W1.0-BL"
+		(property "Footprint" "x1-expander:RES-ARRAY-SMD_0402-8P-L2.0-W1.0-BL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4059,7 +4059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:R0603"
+		(property "Footprint" "x1-expander:R0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4160,7 +4160,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4250,7 +4250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:L0805"
+		(property "Footprint" "x1-expander:L0805"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4394,7 +4394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:C0603"
+		(property "Footprint" "x1-expander:C0603"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4532,7 +4532,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4626,7 +4626,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4720,7 +4720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4814,7 +4814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -4908,7 +4908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5002,7 +5002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5096,7 +5096,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5190,7 +5190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5284,7 +5284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5378,7 +5378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5472,7 +5472,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5566,7 +5566,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5660,7 +5660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5754,7 +5754,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5848,7 +5848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5942,7 +5942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -6032,7 +6032,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7266,7 +7266,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7360,7 +7360,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7454,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7548,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7642,7 +7642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7736,7 +7736,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7830,7 +7830,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -7924,7 +7924,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8018,7 +8018,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8112,7 +8112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8206,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8300,7 +8300,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8394,7 +8394,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8488,7 +8488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8582,7 +8582,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8676,7 +8676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8770,7 +8770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8864,7 +8864,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -8954,7 +8954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
+		(property "Footprint" "x1-expander:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10171,7 +10171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10265,7 +10265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10359,7 +10359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10449,7 +10449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+		(property "Footprint" "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10809,7 +10809,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:RJ45-TH_HC913550A-M899-A"
+		(property "Footprint" "x1-expander:RJ45-TH_HC913550A-M899-A"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11133,7 +11133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:F1206"
+		(property "Footprint" "x1-expander:F1206"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11246,7 +11246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11336,7 +11336,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:QFN64G-0.5-9X9MM"
+		(property "Footprint" "x1-expander:QFN64G-0.5-9X9MM"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12732,7 +12732,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
+		(property "Footprint" "x1-expander:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12880,7 +12880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -12974,7 +12974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13068,7 +13068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13158,7 +13158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:HDR-TH_4P-P2.54-H-M-W10.3"
+		(property "Footprint" "x1-expander:HDR-TH_4P-P2.54-H-M-W10.3"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13306,7 +13306,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13400,7 +13400,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13490,7 +13490,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:CONN-TH_S4B-PH-KL-LF-SN"
+		(property "Footprint" "x1-expander:CONN-TH_S4B-PH-KL-LF-SN"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13638,7 +13638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -13728,7 +13728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14485,7 +14485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14658,7 +14658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14752,7 +14752,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14846,7 +14846,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -14940,7 +14940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15034,7 +15034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15128,7 +15128,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15222,7 +15222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15316,7 +15316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15410,7 +15410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15504,7 +15504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15598,7 +15598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15692,7 +15692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15786,7 +15786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15880,7 +15880,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -15974,7 +15974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16064,7 +16064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:CONN-TH_12P-P2.50_HCTL_XH-12A_C2908610"
+		(property "Footprint" "x1-expander:CONN-TH_12P-P2.50_HCTL_XH-12A_C2908610"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16356,7 +16356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16450,7 +16450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 0 0)
 			(effects
 				(font
@@ -16539,7 +16539,7 @@
     )
     (property
       "Footprint"
-      "X1 Expande-easyedapro:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
+      "x1-expander:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
       (id 2)
       (at 0 -26.67 0)
       (effects (font (size 1.27 1.27) ) hide)

@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -369,5 +369,16 @@
 		(size 10.02 10.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "9c726f0b-b5ed-4018-b443-f755b1017a53")
+	)
+	(model "${KIPRJMOD}/x1-expander.3dshapes/TO-263-3_4PIN-L8.6-W10.2-H4.8-P2.54-LS14.4-TL.step"
+		(offset
+			(xyz 3 0 5.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

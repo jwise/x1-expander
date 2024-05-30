@@ -270,7 +270,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "c98e55b2-bd5c-4fe6-9132-bff1920d660a")
 	)
-	(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT.wrl"
+	(model "${KIPRJMOD}/x1-expander.3dshapes/CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT.wrl"
 		(offset
 			(xyz 0 1 1.8)
 		)

@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -556,5 +556,16 @@
 		(size 7.249 7.249)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "23a0574f-b17d-4a17-a03a-6a892bae7361")
+	)
+	(model "${KIPRJMOD}/x1-expander.3dshapes/QFN-64_L9.0-W9.0-H1.0-P0.50.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

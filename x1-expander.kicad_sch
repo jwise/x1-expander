@@ -36,7 +36,7 @@
 			)
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26"
 					(page "2")
 				)
@@ -74,7 +74,7 @@
 			)
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26"
 					(page "4")
 				)
@@ -112,7 +112,7 @@
 			)
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26"
 					(page "3")
 				)

@@ -378,7 +378,7 @@
 		(thermal_bridge_angle 90)
 		(uuid "1bad5cbd-369f-40c2-97c8-ed9b566e4d00")
 	)
-	(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/HDR-TH_4P-P2.54-M-WI-1X4P.step"
+	(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_4P-P2.54-M-WI-1X4P.step"
 		(offset
 			(xyz 0 3 0)
 		)

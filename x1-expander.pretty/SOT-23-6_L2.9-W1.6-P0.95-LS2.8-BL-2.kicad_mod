@@ -341,7 +341,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "e38662fd-4b9a-480d-8d92-617d6eb2545a")
 	)
-	(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
+	(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -423,7 +423,7 @@
 			(uuid "c1e891a7-4ee1-4b71-873d-09bcf61e255e")
 		)
 	)
-	(footprint "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+	(footprint "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 		(layer "F.Cu")
 		(uuid "1decb2cd-a30d-4d54-83be-9f49edfc01d0")
 		(at 158 93.1735 180)
@@ -452,7 +452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+		(property "Footprint" "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1257,7 +1257,7 @@
 			(thermal_bridge_angle 90)
 			(uuid "d65ee873-318f-444b-895f-f4aa53fe0179")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
 			(offset
 				(xyz 0 -7 0)
 			)
@@ -1269,7 +1269,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+	(footprint "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 		(layer "F.Cu")
 		(uuid "237c41b0-eb3a-4167-8d78-aa045f3ca7b4")
 		(at 129 93.1735 180)
@@ -1298,7 +1298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+		(property "Footprint" "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2103,7 +2103,7 @@
 			(thermal_bridge_angle 90)
 			(uuid "37426f74-9096-4df5-a2e4-02c5c9daad11")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
 			(offset
 				(xyz 0 -7 0)
 			)
@@ -2771,7 +2771,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
+	(footprint "x1-expander:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
 		(layer "F.Cu")
 		(uuid "35ed13e7-af0a-496a-a1cd-d65c9ed7b4de")
 		(at 193 128 180)
@@ -2799,7 +2799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
+		(property "Footprint" "x1-expander:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3274,7 +3274,7 @@
 			(pintype "unspecified")
 			(uuid "049b1546-d993-454e-888d-f3aed14952fa")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/TO-263-3_4PIN-L8.6-W10.2-H4.8-P2.54-LS14.4-TL.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/TO-263-3_4PIN-L8.6-W10.2-H4.8-P2.54-LS14.4-TL.step"
 			(offset
 				(xyz 3 0 5.4)
 			)
@@ -3286,7 +3286,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:USB-TH_10.0-4C6.3-ZB"
+	(footprint "x1-expander:USB-TH_10.0-4C6.3-ZB"
 		(layer "F.Cu")
 		(uuid "366d964a-94af-474e-bea0-42bcd2ea834e")
 		(at 73.428 131.5 -90)
@@ -3315,7 +3315,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:USB-TH_10.0-4C6.3-ZB"
+		(property "Footprint" "x1-expander:USB-TH_10.0-4C6.3-ZB"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4107,7 +4107,7 @@
 			(pintype "unspecified")
 			(uuid "619d4bd6-a6c8-4af0-8fc1-512a4598950d")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/USB-TH_10.0-4C6.3-ZB.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/USB-TH_10.0-4C6.3-ZB.step"
 			(offset
 				(xyz 0 -1.25 3.5)
 			)
@@ -4697,7 +4697,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:RJ45-TH_HC913550A-M899-A"
+	(footprint "x1-expander:RJ45-TH_HC913550A-M899-A"
 		(layer "F.Cu")
 		(uuid "4532278e-de33-463b-863c-337806141145")
 		(at 80.105 100.635 -90)
@@ -4726,7 +4726,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:RJ45-TH_HC913550A-M899-A"
+		(property "Footprint" "x1-expander:RJ45-TH_HC913550A-M899-A"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5397,7 +5397,7 @@
 			(thermal_bridge_angle 90)
 			(uuid "ddd2ce41-b8f4-4bc3-86f0-08663ac78706")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/RJ45-TH_HC913550A-M899-A.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/RJ45-TH_HC913550A-M899-A.step"
 			(offset
 				(xyz 0 -2 13.5)
 			)
@@ -7417,7 +7417,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:emarhavil"
+	(footprint "x1-expander:emarhavil"
 		(layer "F.Cu")
 		(uuid "5bf1187a-3cb4-49d6-8b38-31126ee650dc")
 		(at 171 135)
@@ -7445,7 +7445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:emarhavil"
+		(property "Footprint" "x1-expander:emarhavil"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8901,7 +8901,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:HDR-TH_4P-P2.54-H-M-W10.3"
+	(footprint "x1-expander:HDR-TH_4P-P2.54-H-M-W10.3"
 		(layer "F.Cu")
 		(uuid "68feeb3c-c4dd-4f8c-b0ae-727a276c503a")
 		(at 207 92)
@@ -8930,7 +8930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:HDR-TH_4P-P2.54-H-M-W10.3"
+		(property "Footprint" "x1-expander:HDR-TH_4P-P2.54-H-M-W10.3"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9413,7 +9413,7 @@
 			(thermal_bridge_angle 90)
 			(uuid "1e958605-32fc-4e8d-95df-ac1b1543dc3a")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/HDR-TH_4P-P2.54-M-WI-1X4P.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_4P-P2.54-M-WI-1X4P.step"
 			(offset
 				(xyz 0 3 0)
 			)
@@ -15691,7 +15691,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:IND-SMD_L7.2-W6.6_GPSR07X0"
+	(footprint "x1-expander:IND-SMD_L7.2-W6.6_GPSR07X0"
 		(layer "F.Cu")
 		(uuid "a9553767-4308-446c-8c8c-e6f6d3ed98e4")
 		(at 147.625 126.85 90)
@@ -15717,7 +15717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:IND-SMD_L7.2-W6.6_GPSR07X0"
+		(property "Footprint" "x1-expander:IND-SMD_L7.2-W6.6_GPSR07X0"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15961,7 +15961,7 @@
 			(pintype "unspecified")
 			(uuid "f7a77b2c-0e77-4645-b0c0-251c8f205ca1")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/IND-SMD_L7.2-W6.6-H3.0_GPSR07X0.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/IND-SMD_L7.2-W6.6-H3.0_GPSR07X0.wrl"
 			(offset
 				(xyz 0 -0 -0)
 			)
@@ -15973,7 +15973,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:CONN-TH_S4B-PH-KL-LF-SN"
+	(footprint "x1-expander:CONN-TH_S4B-PH-KL-LF-SN"
 		(layer "F.Cu")
 		(uuid "ad3bdc03-7aa9-4849-9a12-9810f3703d71")
 		(at 73.425 87.01 -90)
@@ -16002,7 +16002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:CONN-TH_S4B-PH-KL-LF-SN"
+		(property "Footprint" "x1-expander:CONN-TH_S4B-PH-KL-LF-SN"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16458,7 +16458,7 @@
 			(thermal_bridge_angle 90)
 			(uuid "6a4fcbff-c06a-493a-a19f-702ea48ad1d6")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/CONN-TH_S4B-PH-KL-LF-SN.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/CONN-TH_S4B-PH-KL-LF-SN.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17061,7 +17061,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+	(footprint "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 		(layer "F.Cu")
 		(uuid "b82dbec8-c8fb-4600-bc4e-4687670681bb")
 		(at 187 93.1735 180)
@@ -17090,7 +17090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+		(property "Footprint" "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17895,7 +17895,7 @@
 			(thermal_bridge_angle 90)
 			(uuid "b5ca3dc9-1d41-422b-8900-d1a56a26f677")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
 			(offset
 				(xyz 0 -7 0)
 			)
@@ -18235,7 +18235,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
 		(layer "F.Cu")
 		(uuid "c291ca0d-836c-4abf-b35d-921eae68ad43")
 		(at 147.625 133.35 180)
@@ -18263,7 +18263,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18702,7 +18702,7 @@
 			(pintype "unspecified")
 			(uuid "f0fbeaae-9b1f-45df-8435-036194470ba3")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -18714,7 +18714,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:USB-TH_10.0-4C6.3-ZB"
+	(footprint "x1-expander:USB-TH_10.0-4C6.3-ZB"
 		(layer "F.Cu")
 		(uuid "c83fe080-51b6-403a-b8bb-6c82ce552d61")
 		(at 73.428 117 -90)
@@ -18743,7 +18743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:USB-TH_10.0-4C6.3-ZB"
+		(property "Footprint" "x1-expander:USB-TH_10.0-4C6.3-ZB"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19535,7 +19535,7 @@
 			(pintype "unspecified")
 			(uuid "e1f137ee-9213-4f36-b4f6-a9c820ff4ce0")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/USB-TH_10.0-4C6.3-ZB.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/USB-TH_10.0-4C6.3-ZB.step"
 			(offset
 				(xyz 0 -1.25 3.5)
 			)
@@ -19547,7 +19547,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+	(footprint "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 		(layer "F.Cu")
 		(uuid "ce52cd68-0376-431a-bfc1-fb3ce800b085")
 		(at 100 93.1735 180)
@@ -19576,7 +19576,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
+		(property "Footprint" "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20381,7 +20381,7 @@
 			(thermal_bridge_angle 90)
 			(uuid "50986002-0eaa-4600-b2e3-0f9606e6b72a")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
 			(offset
 				(xyz 0 -7 0)
 			)
@@ -21497,7 +21497,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:x1plus"
+	(footprint "x1-expander:x1plus"
 		(layer "F.Cu")
 		(uuid "e40279d8-11aa-4b5e-a0cb-66a59272d060")
 		(at 138.5 111.5)
@@ -21525,7 +21525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:x1plus"
+		(property "Footprint" "x1-expander:x1plus"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22980,7 +22980,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:QFN64G-0.5-9X9MM"
+	(footprint "x1-expander:QFN64G-0.5-9X9MM"
 		(layer "F.Cu")
 		(uuid "f4b4bb06-d331-4035-b383-e65d3e472433")
 		(at 101 127)
@@ -23008,7 +23008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:QFN64G-0.5-9X9MM"
+		(property "Footprint" "x1-expander:QFN64G-0.5-9X9MM"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23853,7 +23853,7 @@
 			(pintype "unspecified")
 			(uuid "62feaedf-0b3a-48fe-bd2b-e510107ab5fd")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/QFN-64_L9.0-W9.0-H1.0-P0.50.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/QFN-64_L9.0-W9.0-H1.0-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25703,7 +25703,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
+	(footprint "x1-expander:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
 		(layer "B.Cu")
 		(uuid "002676ff-0af4-4356-867f-4b4003d32664")
 		(at 188.25 106.125)
@@ -25733,7 +25733,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
+		(property "Footprint" "x1-expander:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28142,7 +28142,7 @@
 			(pintype "unspecified")
 			(uuid "c4db8084-ec22-425f-b8f7-19bda67625c0")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/LQFP-64_L10.0-W10.0-H1.4-LS12.0-P0.50.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/LQFP-64_L10.0-W10.0-H1.4-LS12.0-P0.50.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28497,7 +28497,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "0c616de8-5bcb-4b98-8608-5f49315f1cf2")
 		(at 192 88 90)
@@ -28527,7 +28527,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28991,7 +28991,7 @@
 			(pintype "input")
 			(uuid "9c2120cb-609b-424e-9037-232aa36be907")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29948,7 +29948,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "22e91370-b916-4be9-9a91-ad71eff2b67a")
 		(at 124 88 90)
@@ -29978,7 +29978,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30442,7 +30442,7 @@
 			(pintype "input")
 			(uuid "7fe415b2-7ab2-446a-8f0e-202feafd9da7")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30727,7 +30727,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:OSC-SMD_4P-L3.2-W2.5-BL"
+	(footprint "x1-expander:OSC-SMD_4P-L3.2-W2.5-BL"
 		(layer "B.Cu")
 		(uuid "4800b55a-22f0-4d4d-aaea-bb62a9dba7ca")
 		(at 90.96425 114.1365)
@@ -30757,7 +30757,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:OSC-SMD_4P-L3.2-W2.5-BL"
+		(property "Footprint" "x1-expander:OSC-SMD_4P-L3.2-W2.5-BL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -31242,7 +31242,7 @@
 			(pintype "unspecified+no_connect")
 			(uuid "13469c28-d142-489c-b9f5-791a601b393a")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32073,7 +32073,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "4d0c7f84-f3c9-4e2e-a0b1-b9024e101c19")
 		(at 134 88 90)
@@ -32103,7 +32103,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32567,7 +32567,7 @@
 			(pintype "input")
 			(uuid "6c81fff8-b8c1-4e03-af11-ea06843a5c09")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -32579,7 +32579,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "5e82deaa-c24d-4542-a529-1d23ee6b403c")
 		(at 163.125 88 90)
@@ -32609,7 +32609,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33073,7 +33073,7 @@
 			(pintype "input")
 			(uuid "93378bdf-708c-4a9f-815b-49459e02f54d")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33085,7 +33085,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
+	(footprint "x1-expander:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
 		(layer "B.Cu")
 		(uuid "6ba93eda-6fe5-45d7-aadb-4706e82ad932")
 		(at 147.5 115.5)
@@ -33114,7 +33114,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
+		(property "Footprint" "x1-expander:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33548,7 +33548,7 @@
 			(pintype "unspecified")
 			(uuid "8d679a0b-434b-47ac-91d8-b976056efc20")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT.wrl"
 			(offset
 				(xyz 0 1 1.8)
 			)
@@ -36127,7 +36127,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "9168b9e6-ac49-4eed-8e88-55867f182e7f")
 		(at 182 88 90)
@@ -36157,7 +36157,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36621,7 +36621,7 @@
 			(pintype "input")
 			(uuid "4736478c-fcf5-420d-b767-2a2baaef65ad")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36633,7 +36633,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "929bd230-e346-4e82-88d6-489b9eaf77a5")
 		(at 105 88 90)
@@ -36663,7 +36663,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37127,7 +37127,7 @@
 			(pintype "input")
 			(uuid "536f2aaf-74ec-4ec9-9361-566c9d698373")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37139,7 +37139,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:OSC-SMD_4P-L3.2-W2.5-BL"
+	(footprint "x1-expander:OSC-SMD_4P-L3.2-W2.5-BL"
 		(layer "B.Cu")
 		(uuid "985744aa-e1b8-463b-91b2-0455cf102985")
 		(at 175.626625 110.748125 90)
@@ -37169,7 +37169,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:OSC-SMD_4P-L3.2-W2.5-BL"
+		(property "Footprint" "x1-expander:OSC-SMD_4P-L3.2-W2.5-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -37654,7 +37654,7 @@
 			(pintype "unspecified+no_connect")
 			(uuid "69e3e456-21d9-4a14-ac41-2ace5af88187")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.step"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -37666,7 +37666,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:RES-ARRAY-SMD_0402-8P-L2.0-W1.0-BL"
+	(footprint "x1-expander:RES-ARRAY-SMD_0402-8P-L2.0-W1.0-BL"
 		(layer "B.Cu")
 		(uuid "99efd98b-4d04-4321-a799-5a08bd178110")
 		(at 102.25 114.25)
@@ -37696,7 +37696,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:RES-ARRAY-SMD_0402-8P-L2.0-W1.0-BL"
+		(property "Footprint" "x1-expander:RES-ARRAY-SMD_0402-8P-L2.0-W1.0-BL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39311,7 +39311,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "b48f14b5-af65-4c69-9205-25aa481d8016")
 		(at 152.875 88 90)
@@ -39341,7 +39341,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39805,7 +39805,7 @@
 			(pintype "input")
 			(uuid "79950871-51d8-4954-b450-7b1c50397f1b")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -40320,7 +40320,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "dac7eac1-0230-4b10-8091-4031c0736f89")
 		(at 72.75 124)
@@ -40350,7 +40350,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40814,7 +40814,7 @@
 			(pintype "input")
 			(uuid "09096965-6aff-4a11-b453-4aec9fe8ac2c")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -41155,7 +41155,7 @@
 			)
 		)
 	)
-	(footprint "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+	(footprint "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 		(layer "B.Cu")
 		(uuid "ed71856e-fc00-4355-968d-d1ee6b51ecff")
 		(at 95 88 90)
@@ -41185,7 +41185,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -41649,7 +41649,7 @@
 			(pintype "input")
 			(uuid "4e67090e-362a-4bb9-a94c-317f86f42840")
 		)
-		(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -340,5 +340,16 @@
 		(size 0.532 1.072)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f53af4ed-13af-4ec0-9c54-3e6b7d82d663")
+	)
+	(model "${KIPRJMOD}/x1-expander.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
 	)
 )

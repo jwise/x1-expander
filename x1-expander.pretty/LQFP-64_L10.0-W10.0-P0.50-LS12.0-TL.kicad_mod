@@ -2112,7 +2112,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "86e51f01-8e3d-4194-8c36-747a76dfe015")
 	)
-	(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/LQFP-64_L10.0-W10.0-H1.4-LS12.0-P0.50.step"
+	(model "${KIPRJMOD}/x1-expander.3dshapes/LQFP-64_L10.0-W10.0-H1.4-LS12.0-P0.50.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -534,5 +534,16 @@
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "5dfc08de-89fe-4067-bdff-dab9c7faacbc")
+	)
+	(model "${KIPRJMOD}/x1-expander.3dshapes/RJ45-TH_HC913550A-M899-A.step"
+		(offset
+			(xyz 0 -2 13.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
 	)
 )

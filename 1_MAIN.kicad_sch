@@ -25,7 +25,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:CASE-A_3216"
+			(property "Footprint" "x1-expander:CASE-A_3216"
 				(at 0 0 0)
 				(effects
 					(font
@@ -179,7 +179,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:CASE-A_3216"
+			(property "Footprint" "x1-expander:CASE-A_3216"
 				(at 0 0 0)
 				(effects
 					(font
@@ -570,7 +570,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:10"
+		(symbol "x1-expander:10"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -590,7 +590,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:R0402"
+			(property "Footprint" "x1-expander:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -667,7 +667,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:100k"
+		(symbol "x1-expander:100k"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -687,7 +687,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:R0603"
+			(property "Footprint" "x1-expander:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -764,7 +764,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:100nF"
+		(symbol "x1-expander:100nF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -784,7 +784,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:C0805"
+			(property "Footprint" "x1-expander:C0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -898,7 +898,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:10uF"
+		(symbol "x1-expander:10uF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -918,7 +918,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:CASE-A_3216"
+			(property "Footprint" "x1-expander:CASE-A_3216"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1042,7 +1042,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:12MHz"
+		(symbol "x1-expander:12MHz"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1062,7 +1062,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:OSC-SMD_4P-L3.2-W2.5-BL"
+			(property "Footprint" "x1-expander:OSC-SMD_4P-L3.2-W2.5-BL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1284,7 +1284,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:12k/1%"
+		(symbol "x1-expander:12k/1%"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1304,7 +1304,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:R0402"
+			(property "Footprint" "x1-expander:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1381,7 +1381,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:13.3k"
+		(symbol "x1-expander:13.3k"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1401,7 +1401,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:R0603"
+			(property "Footprint" "x1-expander:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1478,7 +1478,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:15uH"
+		(symbol "x1-expander:15uH"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1498,7 +1498,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:L0603"
+			(property "Footprint" "x1-expander:L0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1620,7 +1620,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:1k"
+		(symbol "x1-expander:1k"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1640,7 +1640,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:R0402"
+			(property "Footprint" "x1-expander:R0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1717,7 +1717,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:22uF"
+		(symbol "x1-expander:22uF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1737,7 +1737,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:C0603"
+			(property "Footprint" "x1-expander:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1851,7 +1851,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:30pF"
+		(symbol "x1-expander:30pF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1871,7 +1871,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:C0805"
+			(property "Footprint" "x1-expander:C0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1985,7 +1985,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:4.7uF"
+		(symbol "x1-expander:4.7uF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2005,7 +2005,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:C0805"
+			(property "Footprint" "x1-expander:C0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2119,7 +2119,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:49.9"
+		(symbol "x1-expander:49.9"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2139,7 +2139,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:R0603"
+			(property "Footprint" "x1-expander:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2216,7 +2216,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:511k"
+		(symbol "x1-expander:511k"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2236,7 +2236,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:R0603"
+			(property "Footprint" "x1-expander:R0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2313,7 +2313,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:600Ω"
+		(symbol "x1-expander:600Ω"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2333,7 +2333,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:L0805"
+			(property "Footprint" "x1-expander:L0805"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2457,7 +2457,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:75pF"
+		(symbol "x1-expander:75pF"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2477,7 +2477,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:C0603"
+			(property "Footprint" "x1-expander:C0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2591,7 +2591,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:A_A4"
+		(symbol "x1-expander:A_A4"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2611,7 +2611,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:"
+			(property "Footprint" "x1-expander:"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3840,7 +3840,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:FT2232HL"
+		(symbol "x1-expander:FT2232HL"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3860,7 +3860,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
+			(property "Footprint" "x1-expander:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5053,7 +5053,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:HC-1.25-12PWT"
+		(symbol "x1-expander:HC-1.25-12PWT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5073,7 +5073,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
+			(property "Footprint" "x1-expander:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
 				(at 0 -26.67 0)
 				(effects
 					(font
@@ -5386,7 +5386,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:JK-NSMD100-16V"
+		(symbol "x1-expander:JK-NSMD100-16V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5406,7 +5406,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:F1206"
+			(property "Footprint" "x1-expander:F1206"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5495,7 +5495,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:LM1084S-3.3/TR"
+		(symbol "x1-expander:LM1084S-3.3/TR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5515,7 +5515,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
+			(property "Footprint" "x1-expander:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5639,7 +5639,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:P125-1104A0BR138A1"
+		(symbol "x1-expander:P125-1104A0BR138A1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5659,7 +5659,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:HDR-TH_4P-P2.54-H-M-W10.3"
+			(property "Footprint" "x1-expander:HDR-TH_4P-P2.54-H-M-W10.3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5783,7 +5783,7 @@
 				)
 			)
 		)
-		(symbol "X1 Expande-easyedapro:TPS54202DDCR"
+		(symbol "x1-expander:TPS54202DDCR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5803,7 +5803,7 @@
 					)
 				)
 			)
-			(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
+			(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9698,7 +9698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:JK-NSMD100-16V")
+		(lib_id "x1-expander:JK-NSMD100-16V")
 		(at 245.11 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9848,7 +9848,7 @@
 			(uuid "2e52c66c-f475-4292-9d5b-432e38f4f5bb")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "F1")
 					(unit 1)
@@ -9857,7 +9857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:49.9")
+		(lib_id "x1-expander:49.9")
 		(at 175.26 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9956,7 +9956,7 @@
 			(uuid "ce045089-175e-4077-86be-e2dac6afaf85")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R3")
 					(unit 1)
@@ -9965,7 +9965,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 44.45 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10064,7 +10064,7 @@
 			(uuid "f2b7b06a-ccf0-4ae0-b6c5-4b0f342f6627")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C33")
 					(unit 1)
@@ -10073,7 +10073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:TPS54202DDCR")
+		(lib_id "x1-expander:TPS54202DDCR")
 		(at 124.46 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10099,7 +10099,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
+		(property "Footprint" "x1-expander:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2"
 			(at 124.46 26.67 0)
 			(effects
 				(font
@@ -10224,7 +10224,7 @@
 			(uuid "430075d8-2a18-4c68-85ef-eb556f595d0f")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "U3")
 					(unit 1)
@@ -10234,7 +10234,7 @@
 	)
 	(symbol
 		(lib_name "4.7uF_2")
-		(lib_id "X1 Expande-easyedapro:4.7uF")
+		(lib_id "x1-expander:4.7uF")
 		(at 194.31 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10333,7 +10333,7 @@
 			(uuid "65cb3086-4dbd-4d45-8b35-dcf2d64e981e")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C41")
 					(unit 1)
@@ -10342,7 +10342,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:HC-1.25-12PWT")
+		(lib_id "x1-expander:HC-1.25-12PWT")
 		(at 270.51 27.94 0)
 		(mirror x)
 		(unit 1)
@@ -10369,7 +10369,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
+		(property "Footprint" "x1-expander:CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT"
 			(at 270.51 1.27 0)
 			(effects
 				(font
@@ -10537,7 +10537,7 @@
 			(uuid "0b0e88a1-d952-43e7-9586-7f292d7d3e9d")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "AP_HARNESS1")
 					(unit 1)
@@ -10546,7 +10546,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 219.71 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10645,7 +10645,7 @@
 			(uuid "c3996e8e-b003-422f-803e-2ca31f7b24d5")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C44")
 					(unit 1)
@@ -10654,7 +10654,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100k")
+		(lib_id "x1-expander:100k")
 		(at 175.26 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10793,7 +10793,7 @@
 			(uuid "a4a70ca3-75c2-45dd-a238-2dcd1a960c27")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R4")
 					(unit 1)
@@ -10857,7 +10857,7 @@
 			)
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "#SYM1")
 					(unit 1)
@@ -10866,7 +10866,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:511k")
+		(lib_id "x1-expander:511k")
 		(at 107.95 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10965,7 +10965,7 @@
 			(uuid "a4501e0c-0cdf-4b76-8bbe-cd153d8375e5")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R1")
 					(unit 1)
@@ -10974,7 +10974,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 36.83 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11073,7 +11073,7 @@
 			(uuid "0921324b-6daf-44b5-8c4e-35ebd1354cb2")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C32")
 					(unit 1)
@@ -11082,7 +11082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:13.3k")
+		(lib_id "x1-expander:13.3k")
 		(at 175.26 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11181,7 +11181,7 @@
 			(uuid "2b39f28a-5d8b-460d-85e3-e704658624ae")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R5")
 					(unit 1)
@@ -11190,7 +11190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:12k/1%")
+		(lib_id "x1-expander:12k/1%")
 		(at 41.91 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11289,7 +11289,7 @@
 			(uuid "d55bb4d6-8af9-4d59-b034-9a9649e14cfd")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R14")
 					(unit 1)
@@ -11298,7 +11298,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:1k")
+		(lib_id "x1-expander:1k")
 		(at 33.02 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11397,7 +11397,7 @@
 			(uuid "5d121098-d672-4c28-ba59-cbc83fad8e31")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R15")
 					(unit 1)
@@ -11407,7 +11407,7 @@
 	)
 	(symbol
 		(lib_name "4.7uF_1")
-		(lib_id "X1 Expande-easyedapro:4.7uF")
+		(lib_id "x1-expander:4.7uF")
 		(at 210.82 142.24 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11506,7 +11506,7 @@
 			(uuid "cb8292aa-8c7a-4b0f-ad93-a6d3022dbc54")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C43")
 					(unit 1)
@@ -11515,7 +11515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:22uF")
+		(lib_id "x1-expander:22uF")
 		(at 157.48 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11654,7 +11654,7 @@
 			(uuid "4f809996-fb57-4778-904e-c7568189cb0e")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C4")
 					(unit 1)
@@ -11663,7 +11663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:600Ω")
+		(lib_id "x1-expander:600Ω")
 		(at 185.42 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11812,7 +11812,7 @@
 			(uuid "d6305c03-c6c1-4b16-b01e-ceed786e75cd")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "FB4")
 					(unit 1)
@@ -11821,7 +11821,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 166.37 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11920,7 +11920,7 @@
 			(uuid "5392b9df-26f6-4d32-a25c-e7ee1cdd8868")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C38")
 					(unit 1)
@@ -11929,7 +11929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:FT2232HL")
+		(lib_id "x1-expander:FT2232HL")
 		(at 78.74 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11955,7 +11955,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
+		(property "Footprint" "x1-expander:LQFP-64_L10.0-W10.0-P0.50-LS12.0-TL"
 			(at 78.74 130.81 0)
 			(effects
 				(font
@@ -12264,7 +12264,7 @@
 			(uuid "fba20aaa-fcef-4605-b198-18e734ec5295")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "U2")
 					(unit 1)
@@ -12330,7 +12330,7 @@
 			(uuid "0fdbfee1-9dfb-46ab-9409-64c5d5f05d7f")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "#PWR01")
 					(unit 1)
@@ -12339,7 +12339,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:10")
+		(lib_id "x1-expander:10")
 		(at 41.91 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12478,7 +12478,7 @@
 			(uuid "802ea943-7a41-4f49-a62f-f88654159cd7")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R17")
 					(unit 1)
@@ -12487,7 +12487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:75pF")
+		(lib_id "x1-expander:75pF")
 		(at 166.37 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12586,7 +12586,7 @@
 			(uuid "7039e56f-6a56-4b1f-b2fc-e4f358121c20")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C6")
 					(unit 1)
@@ -12595,7 +12595,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:A_A4")
+		(lib_id "x1-expander:A_A4")
 		(at 0 -0.254 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12621,7 +12621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:"
+		(property "Footprint" "x1-expander:"
 			(at 0 -0.254 0)
 			(effects
 				(font
@@ -12723,7 +12723,7 @@
 			)
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "P1")
 					(unit 1)
@@ -12732,7 +12732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 226.06 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12831,7 +12831,7 @@
 			(uuid "32242274-2255-4b31-b3f6-9aef4f3ee629")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C47")
 					(unit 1)
@@ -12840,7 +12840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:P125-1104A0BR138A1")
+		(lib_id "x1-expander:P125-1104A0BR138A1")
 		(at 270.51 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12866,7 +12866,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:HDR-TH_4P-P2.54-H-M-W10.3"
+		(property "Footprint" "x1-expander:HDR-TH_4P-P2.54-H-M-W10.3"
 			(at 270.51 63.5 0)
 			(effects
 				(font
@@ -12994,7 +12994,7 @@
 			(uuid "dba9fd64-58a7-4bf1-a270-7430290dd465")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "UART1")
 					(unit 1)
@@ -13003,7 +13003,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:30pF")
+		(lib_id "x1-expander:30pF")
 		(at 25.4 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13102,7 +13102,7 @@
 			(uuid "b71803cc-b3a8-4f38-a3f5-5278fc0dc97f")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C30")
 					(unit 1)
@@ -13111,7 +13111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 99.06 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13210,7 +13210,7 @@
 			(uuid "d32b7901-44f4-46de-b4a6-3c0d1037b21e")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C2")
 					(unit 1)
@@ -13219,7 +13219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:12MHz")
+		(lib_id "x1-expander:12MHz")
 		(at 33.02 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13245,7 +13245,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:OSC-SMD_4P-L3.2-W2.5-BL"
+		(property "Footprint" "x1-expander:OSC-SMD_4P-L3.2-W2.5-BL"
 			(at 33.02 165.1 0)
 			(effects
 				(font
@@ -13374,7 +13374,7 @@
 			(uuid "cf99eabb-5583-48ba-9f1d-5a62c8f70dbd")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "X2")
 					(unit 1)
@@ -13383,7 +13383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 233.68 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13482,7 +13482,7 @@
 			(uuid "850b07d2-bb45-4747-915b-c242d7aae60a")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C37")
 					(unit 1)
@@ -13491,7 +13491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:30pF")
+		(lib_id "x1-expander:30pF")
 		(at 43.18 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13590,7 +13590,7 @@
 			(uuid "bf548e2b-6122-40d7-9518-be48ed4e3c0c")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C20")
 					(unit 1)
@@ -13599,7 +13599,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:LM1084S-3.3/TR")
+		(lib_id "x1-expander:LM1084S-3.3/TR")
 		(at 35.56 17.78 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13625,7 +13625,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
+		(property "Footprint" "x1-expander:TO-263-3_L8.6-W10.2-P2.54-LS14.4-TL"
 			(at 35.56 17.78 0)
 			(effects
 				(font
@@ -13754,7 +13754,7 @@
 			(uuid "2cbc47fe-70ea-4673-a188-da8ddeaefa34")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "U4")
 					(unit 1)
@@ -13763,7 +13763,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:10uF")
+		(lib_id "x1-expander:10uF")
 		(at 22.86 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13902,7 +13902,7 @@
 			(uuid "64413a42-c71c-4117-bb59-d11d1ebec75c")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C7")
 					(unit 1)
@@ -13911,7 +13911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:4.7uF")
+		(lib_id "x1-expander:4.7uF")
 		(at 29.21 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14010,7 +14010,7 @@
 			(uuid "31db94dc-b513-4774-b24b-725b37fe65f8")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C31")
 					(unit 1)
@@ -14019,7 +14019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 226.06 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14118,7 +14118,7 @@
 			(uuid "daa7de84-6bf3-462c-9280-4359c51e8b40")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C36")
 					(unit 1)
@@ -14127,7 +14127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 142.24 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14226,7 +14226,7 @@
 			(uuid "6e7383b0-692c-4dba-8cdf-1c89f2ba98c2")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C3")
 					(unit 1)
@@ -14235,7 +14235,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:10uF")
+		(lib_id "x1-expander:10uF")
 		(at 52.07 24.13 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14374,7 +14374,7 @@
 			(uuid "8728174d-0799-4ee3-9ea2-7f4a4d17acaa")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C8")
 					(unit 1)
@@ -14383,7 +14383,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:15uH")
+		(lib_id "x1-expander:15uH")
 		(at 152.4 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14409,7 +14409,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "X1 Expande-easyedapro:IND-SMD_L7.2-W6.6_GPSR07X0"
+		(property "Footprint" "x1-expander:IND-SMD_L7.2-W6.6_GPSR07X0"
 			(at 152.4 16.51 0)
 			(effects
 				(font
@@ -14522,7 +14522,7 @@
 			(uuid "9af1cac1-f295-4875-8891-913bd048bfba")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "L1")
 					(unit 1)
@@ -14531,7 +14531,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 218.44 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14630,7 +14630,7 @@
 			(uuid "ba54e2fb-ec7c-49b2-9ba0-073541501c51")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C35")
 					(unit 1)
@@ -14707,7 +14707,7 @@
 			(uuid "6af4f056-0832-4a57-9fb2-06781da98c87")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R2")
 					(unit 1)
@@ -14716,7 +14716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:600Ω")
+		(lib_id "x1-expander:600Ω")
 		(at 185.42 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14865,7 +14865,7 @@
 			(uuid "697e8978-167b-4924-afc0-79c77350cbad")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "FB3")
 					(unit 1)
@@ -14874,7 +14874,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 173.99 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14973,7 +14973,7 @@
 			(uuid "41d98fd2-89db-4461-97f1-3502c2c08b7b")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C39")
 					(unit 1)
@@ -14982,7 +14982,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 181.61 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15081,7 +15081,7 @@
 			(uuid "d8120419-1b61-40ec-aa8c-fc53179a5ed5")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C40")
 					(unit 1)
@@ -15090,7 +15090,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 210.82 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15189,7 +15189,7 @@
 			(uuid "01f0308d-8a1f-4ea7-8e71-e4d74812559c")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C34")
 					(unit 1)
@@ -15198,7 +15198,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 203.2 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15297,7 +15297,7 @@
 			(uuid "95e8e286-578b-4303-bdb3-d23645385b19")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C42")
 					(unit 1)
@@ -15306,7 +15306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:100nF")
+		(lib_id "x1-expander:100nF")
 		(at 90.17 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15405,7 +15405,7 @@
 			(uuid "25f411ea-2651-49bc-abe3-63dc7f75efca")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C1")
 					(unit 1)
@@ -15414,7 +15414,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:10")
+		(lib_id "x1-expander:10")
 		(at 33.02 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15553,7 +15553,7 @@
 			(uuid "5819d951-f018-4775-bc3d-85d13d1d9278")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "R16")
 					(unit 1)
@@ -15562,7 +15562,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X1 Expande-easyedapro:22uF")
+		(lib_id "x1-expander:22uF")
 		(at 166.37 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15701,7 +15701,7 @@
 			(uuid "6e3f0c47-b6b0-4c7a-ae36-a481dd70afaf")
 		)
 		(instances
-			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C5")
 					(unit 1)

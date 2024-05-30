@@ -675,7 +675,7 @@
 		(remove_unused_layers no)
 		(uuid "60dd8a4b-a99b-450f-9915-8eabc36ee910")
 	)
-	(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/USB-TH_10.0-4C6.3-ZB.step"
+	(model "${KIPRJMOD}/x1-expander.3dshapes/USB-TH_10.0-4C6.3-ZB.step"
 		(offset
 			(xyz 0 -1.25 3.5)
 		)

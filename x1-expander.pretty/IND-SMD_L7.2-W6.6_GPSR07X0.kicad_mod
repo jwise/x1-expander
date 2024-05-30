@@ -18,7 +18,7 @@
 	(pad 1 smd rect (at -2.85 0.00 0.00) (size 2.35 3.50) (layers F.Cu F.Paste F.Mask))
 	(pad 2 smd rect (at 2.85 0.00 0.00) (size 2.35 3.50) (layers F.Cu F.Paste F.Mask))
 	(fp_circle (center -3.60 3.25) (end -3.57 3.25) (layer F.Fab) (width 0.06))
-	(model "${KIPRJMOD}/X1 Expande-easyedapro.3dshapes/IND-SMD_L7.2-W6.6-H3.0_GPSR07X0.wrl"
+	(model "${KIPRJMOD}/x1-expander.3dshapes/IND-SMD_L7.2-W6.6-H3.0_GPSR07X0.wrl"
 		(offset (xyz 0.000 -0.000 -0.000))
 		(scale (xyz 1 1 1))
 		(rotate (xyz 0 0 0))

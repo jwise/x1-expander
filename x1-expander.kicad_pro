@@ -484,7 +484,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26.kicad_pro",
+    "filename": "x1-expander.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -556,7 +556,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26.step",
+      "step": "x1-expander.step",
       "svg": "",
       "vrml": ""
     },

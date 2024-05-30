@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -367,5 +367,16 @@
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "4c3c3fd3-036a-475a-acf8-71d6c70b12f0")
+	)
+	(model "${KIPRJMOD}/x1-expander.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

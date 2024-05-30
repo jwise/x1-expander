@@ -1,5 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26")(type "KiCad")(uri "$(KIPRJMOD)/ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26.pretty")(options "")(descr ""))
-  (lib (name "X1 Expande-easyedapro")(type "KiCad")(uri "$(KIPRJMOD)/X1 Expande-easyedapro.pretty")(options "")(descr ""))
+  (lib (name "x1-expander")(type "KiCad")(uri "$(KIPRJMOD)/x1-expander.pretty")(options "")(descr ""))
 )

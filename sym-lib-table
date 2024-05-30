@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 0)
-  (lib (name "X1 Expande-easyedapro")(type "KiCad")(uri "${KIPRJMOD}/X1 Expande-easyedapro.kicad_sym")(options "")(descr ""))
+  (lib (name "x1-expander")(type "KiCad")(uri "${KIPRJMOD}/x1-expander.kicad_sym")(options "")(descr ""))
 )
