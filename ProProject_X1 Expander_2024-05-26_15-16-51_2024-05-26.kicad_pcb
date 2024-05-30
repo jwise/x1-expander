@@ -610,7 +610,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/52d87af5-5b44-4439-84fd-2a405adb5ed9")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 13.96 12.39)
 			(end 13.96 3.39)
@@ -1456,7 +1456,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/6d0a403d-3c5f-4f33-86c9-3106f79cae2e")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 13.96 12.39)
 			(end 13.96 3.39)
@@ -2298,7 +2298,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/02cd1b1c-3919-44f1-b2de-5379effa6727")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -2626,7 +2626,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/138a7fac-4b3a-40f6-abda-dc24bd38491f")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -2957,7 +2957,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/b7ea64f5-c88c-49ca-b507-c163397f5255")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(fp_line
 			(start -1.625 5.0015)
 			(end -2.326 5.0015)
@@ -3473,7 +3473,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/38a73a1f-fa1a-460c-9de6-66558aea8229")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(fp_line
 			(start -6.604 6.104)
 			(end 6.604 6.104)
@@ -4289,7 +4289,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/4c308612-7bb0-4bb8-a5bb-a5891db9cc9d")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4552,7 +4552,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/d4c981c6-52ad-48f1-b7cc-9fd0dc17cc1c")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -4884,7 +4884,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/10ff6154-2014-4e16-a599-04fa0ec74a99")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(fp_line
 			(start -8.128 12.827)
 			(end -8.128 0.2775)
@@ -5579,7 +5579,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/fe7baaa8-8cac-4dfe-9aa5-737a5f65ab15")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -5907,7 +5907,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/7abf7c60-2aab-465d-916a-5c431809903f")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 -0.56)
@@ -6132,7 +6132,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e0501f1d-ca84-4b2f-8d9b-8eda0505c64c")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -6393,7 +6393,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/8aca237e-5b47-458a-9ecc-19209141b14e")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -6618,7 +6618,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/d0b15415-5e94-428d-ac91-3df6bddd6795")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -6944,7 +6944,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1c1e356b-c6a2-4d4c-85bd-6f41283215d2")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -7272,7 +7272,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/0dda5f81-7d78-4197-b9b9-ad1aee18d5ad")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -7639,7 +7639,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/f55c5325-450e-45a5-b2bd-1ad839e4f482")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -7902,7 +7902,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/254ca072-ed65-4266-8389-b3c2e1c6bcfb")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -8165,7 +8165,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/653175fa-d4fc-4200-a413-2b3b0a03f478")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -8493,7 +8493,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e5efc63f-fe12-4a1c-84f3-c4b80ffd1176")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -8756,7 +8756,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/906f2719-697e-49ff-bf2b-8f2f900b2160")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 -1.36)
@@ -9088,7 +9088,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/937b510a-fb48-4073-96fc-e800bcf729fe")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(fp_line
 			(start -5.08 -3.81)
 			(end 5.08 -3.81)
@@ -9608,7 +9608,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/985caaad-4bdb-42c1-9ece-5e78abfd0d20")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -9833,7 +9833,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/e4aa307c-34b2-489b-b2b0-41b9a380da36")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(zone_connect 1)
 		(attr smd)
 		(fp_line
@@ -10095,7 +10095,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/9b2d7186-b377-4e09-ad0a-2800c35854e7")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -10423,7 +10423,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1ee9efdf-83b4-4617-8902-c008ebc1a698")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -10686,7 +10686,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/fb88fff1-4105-4cc1-88e7-c14f467d25de")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -10949,7 +10949,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/28018c48-ffed-4289-8070-f975b08175c8")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -11212,7 +11212,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/af0d7711-8437-472e-9b6b-a6982a1066a2")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -11540,7 +11540,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/794a84aa-780d-48f4-a319-0b1460d9b318")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -11765,7 +11765,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/c714250d-2ad2-46dd-bf6b-5c7274fc4a18")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -12026,7 +12026,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/10cb5ded-e237-4961-80f2-db182b9d173c")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -12354,7 +12354,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e88646ca-e42f-4315-9477-f1034b91d5e4")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -12682,7 +12682,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/96ced79d-ceb4-4e87-9e61-6f1f9fd1bf9c")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -13010,7 +13010,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/d85bf42c-e8c5-4016-9169-c4461b708da8")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -13273,7 +13273,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/7ae77852-f80c-4d95-a352-a015da87dcaa")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -13536,7 +13536,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/442e0aac-0675-4442-b34b-787e8e0724e4")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -13799,7 +13799,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/00c1292a-a074-495c-9af3-0009b3b4bb4c")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -14114,7 +14114,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/dfa83af2-2444-48fe-8ccf-8d0921061718")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -14377,7 +14377,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e437b63f-fdca-4a44-9513-1d29d87a7da6")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -14692,7 +14692,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/bbdbab10-f272-49db-b84e-0669f8a3d363")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -14955,7 +14955,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/176ea21c-54aa-4922-8733-40abf7430449")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 1.36)
@@ -15218,7 +15218,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/692a9460-39cd-454d-9085-40a3c5d91ccc")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -15546,7 +15546,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e6080755-255e-47fb-8980-6619bb95de56")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -15859,7 +15859,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/e164590d-62af-4780-8785-0295eae51a64")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.3 -3.3)
@@ -16147,7 +16147,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/c145d9eb-0842-4cf1-95d5-558520ceb492")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start -4.94 6.25)
 			(end -4.94 -1.4)
@@ -16588,7 +16588,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/de486f58-9baf-49ca-b29a-77c84372e92e")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -16916,7 +16916,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/2815abdb-71a1-49bc-b78b-15c76d9802b2")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.162779 0.51)
@@ -17248,7 +17248,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/dc363507-5359-447d-b3a4-9b62d3c903f3")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 13.96 12.39)
 			(end 13.96 3.39)
@@ -18090,7 +18090,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e63bef10-8408-4953-87ea-2788125b7acd")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -18408,7 +18408,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/2a606b9d-f91b-414e-8cc8-349086449b20")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -18901,7 +18901,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e492f769-559b-45df-b9f5-68f923f858d1")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(fp_line
 			(start -6.604 6.104)
 			(end 6.604 6.104)
@@ -19734,7 +19734,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/1a9c2c7e-bea6-45d0-8659-5e8636fd48fc")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 13.96 12.39)
 			(end 13.96 3.39)
@@ -20511,7 +20511,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/f2ee22f8-8abc-4f58-aa58-1ae1ea0307b5")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -20826,7 +20826,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/70111f2a-c316-4d8c-b031-41bdb843f2c9")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -21089,7 +21089,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/2f6a7923-2af3-4aaa-82d2-6a01346dc659")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -21352,7 +21352,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/e269f4dc-16be-40d3-a2a5-d62e5e73f7ea")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 -0.36)
@@ -21956,7 +21956,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/f6da71fe-b3d9-4a25-8c87-fa9e13a2b5ac")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -22181,7 +22181,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/27086676-25e0-4984-9f94-b5780b2d2a8e")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -22507,7 +22507,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/e6b12c16-fbab-444e-8b51-dc09ade8ff98")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.399622 -0.56)
@@ -22835,7 +22835,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/cfffb829-439c-4602-8d62-56e77bc47bbf")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -23166,7 +23166,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/45f80223-b7e0-458f-b321-9d7f1b133e17")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(fp_line
 			(start -4.496 -4.14)
 			(end -4.496 -3.988)
@@ -24048,7 +24048,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e69c0aad-5694-45b2-950c-ea9a2787a83a")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -24376,7 +24376,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1d77209a-7238-49b5-b5a6-9c22d774ecdb")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.162779 -0.51)
@@ -24639,7 +24639,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/88b4dbd6-0649-4891-9300-9f967a6828be")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -24902,7 +24902,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/6f11340b-a101-4893-8f9f-16db17002df2")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -25230,7 +25230,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/142a2bfd-de89-489f-bfa5-12bd2dc651ab")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.602064 -0.91)
@@ -25558,7 +25558,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/99a876eb-5b62-4568-9f78-8cf1c975dbe8")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -25903,7 +25903,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/7f0b7a60-4a6c-41de-bdf8-9d1d4b6e8f85")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(fp_line
 			(start -4.25 -4.25)
 			(end -4.25 4.25)
@@ -28351,7 +28351,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/2fdf4fdb-9645-461a-8928-ff5ed8ed13bd")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -28697,7 +28697,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/33f1a37f-0aba-48b1-bcac-ec35c12d261c")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -29200,7 +29200,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/8316b028-c4c1-4f47-b88a-db621f903f83")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.602064 -0.91)
@@ -29529,7 +29529,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/6ea79ecf-d3d6-4a00-825c-848b816b2522")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -29802,7 +29802,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/7dd66d46-d317-4667-bbfd-26029682f4b4")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.107836 0.36)
@@ -30148,7 +30148,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/6e543ad5-131e-469d-aa9d-5c18fe3a8b77")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -30581,7 +30581,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/e7f9c431-cb14-4164-82c4-309390277213")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.107836 -0.36)
@@ -30927,7 +30927,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/9ab4a8ee-2338-433b-a47a-757b39f73c65")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(fp_line
 			(start -2.286 -1.905)
 			(end -2.286 -1.397)
@@ -31381,7 +31381,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1b229862-5c48-48cd-8899-5162dafe0cde")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -31654,7 +31654,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/e8d672d1-90ba-401e-807a-2b80b695a8f7")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -31927,7 +31927,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/97bad361-7183-444d-bf16-8609846d36e4")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -32273,7 +32273,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/8676d975-c41e-42d7-b52d-6ea322109b2b")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -32779,7 +32779,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/53eb6750-cd60-4dd4-8f11-defc25e8d023")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -33295,7 +33295,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/40bda950-6f22-45af-aa89-0c88be67ff5c")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -10 -3.4)
@@ -33646,7 +33646,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/514a26d8-8eca-4aad-b4f5-f50fff5b8dbf")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -33917,7 +33917,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/6ad44154-443d-42b7-ba82-571656aa0736")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -34190,7 +34190,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/6a13b8db-0347-4528-a271-b74b288f0846")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -34533,7 +34533,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/c28f3f61-633f-4da7-b875-618900de74d6")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -34862,7 +34862,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/8612e9ac-be92-4cd2-b66f-4213e0e4018c")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -35094,7 +35094,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/15d858da-a402-4fdf-9c29-dd129859864c")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -35435,7 +35435,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/c6dfc80b-99d3-406d-896d-990b82adeae4")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -35708,7 +35708,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/f030fae4-dc4a-4d41-982e-47da1047de7f")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.107836 -0.36)
@@ -35981,7 +35981,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/d045103b-58a1-4f97-811a-354b0b87c8d8")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -36327,7 +36327,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/fa8acb65-03f5-408e-beb0-2c865c797c38")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -36833,7 +36833,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/99825bc9-528f-4d0f-b876-a18cea86d4ea")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -37339,7 +37339,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/a0d2506f-7663-459d-a657-d216d6f604f0")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(fp_line
 			(start -1.778 -1.905)
 			(end -2.286 -1.905)
@@ -37866,7 +37866,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/feebee6b-64e3-458a-b6ce-690d02816f39")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(fp_line
 			(start -1.2285 -0.9085)
 			(end -1.2285 -0.175)
@@ -38276,7 +38276,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/680841da-2cbe-489b-a8fe-6034ffa184d4")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.107836 0.36)
@@ -38549,7 +38549,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/b7b6409a-f06c-41c9-a77b-37ffde56ab11")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)
@@ -38822,7 +38822,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/6c332a79-ce0a-486c-b054-d855073d094f")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -39165,7 +39165,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/db1d5116-3104-4cdd-92e2-20247fd7de77")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -39511,7 +39511,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/a6ba2e59-5fb1-4a7e-9d6a-f7722bdfa64e")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -39944,7 +39944,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1587533d-ee63-45c3-8d1a-e370e33b41c0")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 -0.51)
@@ -40176,7 +40176,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/022426d6-3990-40b3-839d-bd8d8c5ecb2d")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 0.5225)
@@ -40520,7 +40520,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/1dd41696-1545-408c-9aaa-dbebb14a64a0")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(fp_line
 			(start -1.539 0.889)
 			(end -1.539 -0.889)
@@ -41009,7 +41009,7 @@
 		)
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/fe488217-2d8a-4315-93b7-aa0d1f87bd81")
 		(sheetname "MAIN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch")
+		(sheetfile "1_MAIN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -41355,7 +41355,7 @@
 		)
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/78e1a046-da5d-4971-91d1-44a14669434a")
 		(sheetname "GPIO")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch")
+		(sheetfile "3_GPIO.kicad_sch")
 		(fp_line
 			(start 1.539 0.889)
 			(end 1.539 -0.889)
@@ -41747,7 +41747,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/0fe56a57-25b9-4084-b41a-6f7874549e71")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.237258 -0.5225)
@@ -42018,7 +42018,7 @@
 		)
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/6ac934d7-f505-481c-9210-ec5b10889c3e")
 		(sheetname "LAN")
-		(sheetfile "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch")
+		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.14058 0.51)

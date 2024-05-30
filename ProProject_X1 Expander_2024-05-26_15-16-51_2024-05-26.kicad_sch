@@ -26,7 +26,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/1_MAIN.kicad_sch"
+		(property "Sheetfile" "1_MAIN.kicad_sch"
 			(at 5.08 9.4746 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/3_GPIO.kicad_sch"
+		(property "Sheetfile" "3_GPIO.kicad_sch"
 			(at 5.08 27.2546 0)
 			(effects
 				(font
@@ -102,7 +102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/Users/joshua/work/x1plus/x1-expander/x1-expander-pro-project/2_LAN.kicad_sch"
+		(property "Sheetfile" "2_LAN.kicad_sch"
 			(at 5.08 18.3646 0)
 			(effects
 				(font
