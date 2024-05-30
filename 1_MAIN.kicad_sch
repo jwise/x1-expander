@@ -313,6 +313,128 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "X1 Expande-easyedapro:10"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5829,12 +5951,6 @@
 		(uuid "2029d3a7-0599-4498-aee5-641c3b1e25ec")
 	)
 	(junction
-		(at 175.26 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20506636-10c2-4833-b880-6c56e8572ad4")
-	)
-	(junction
 		(at 203.2 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5989,6 +6105,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "799d49b2-5f09-41dd-b408-5206418ea6ca")
+	)
+	(junction
+		(at 175.26 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d881900-d65a-4fb0-bb33-9babdbb9a15c")
 	)
 	(junction
 		(at 90.17 26.67)
@@ -6468,16 +6590,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 16.51) (xy 175.26 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b8b9be7-d65d-4f7c-a57b-917942d316bc")
-	)
-	(wire
-		(pts
 			(xy 52.07 15.24) (xy 55.88 15.24)
 		)
 		(stroke
@@ -6665,6 +6777,26 @@
 			(type default)
 		)
 		(uuid "4b7aeaf0-2f31-4568-a2ef-2d1fcf580988")
+	)
+	(wire
+		(pts
+			(xy 182.88 16.51) (xy 189.23 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9c53d2-2c45-47be-bfd6-7b03dbfcbd4a")
+	)
+	(wire
+		(pts
+			(xy 175.26 16.51) (xy 177.8 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5094a69e-3113-4fad-a2df-37024a5788a1")
 	)
 	(wire
 		(pts
@@ -7838,6 +7970,17 @@
 			(justify left bottom)
 		)
 		(uuid "bd3dd103-ccfe-43c5-b352-96b1c0782c25")
+	)
+	(label "5V_INT"
+		(at 160.02 16.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b11cc98-9e78-4bc7-8160-9e5d3ae763fa")
 	)
 	(global_label "ADBUS7"
 		(shape bidirectional)
@@ -9061,7 +9204,7 @@
 	)
 	(global_label "5V"
 		(shape bidirectional)
-		(at 177.8 16.51 0)
+		(at 189.23 16.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9070,7 +9213,7 @@
 		)
 		(uuid "b94e7974-480b-4a8e-8eab-4ce4d022afba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 16.51 0)
+			(at 189.23 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13967,6 +14110,74 @@
 			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 180.34 16.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4aa307c-34b2-489b-b2b0-41b9a380da36")
+		(property "Reference" "R2"
+			(at 180.34 11.6289 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 180.34 14.0532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 180.34 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 180.34 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3026c68c-5f23-43b0-b8b7-305ad978716d")
+		)
+		(pin "1"
+			(uuid "6af4f056-0832-4a57-9fb2-06781da98c87")
+		)
+		(instances
+			(project "ProProject_X1 Expander_2024-05-26_15-16-51_2024-05-26"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
+					(reference "R2")
 					(unit 1)
 				)
 			)
