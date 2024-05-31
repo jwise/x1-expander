@@ -7678,6 +7678,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C160235"
+			(at 262.89 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "974f98fd-0d51-4c6e-87b0-7a538b2d55e3")
 		)
