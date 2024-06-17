@@ -25,7 +25,7 @@
       "text": false,
       "tracks": true,
       "vias": true,
-      "zones": false
+      "zones": true
     },
     "visible_items": [
       0,
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "ff83f30_fffffff9",
-    "zone_display_mode": 1
+    "visible_layers": "ff83f10_7ffffff9",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",
