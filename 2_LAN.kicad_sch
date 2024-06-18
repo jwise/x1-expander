@@ -3207,166 +3207,6 @@
 				)
 			)
 		)
-		(symbol "x1-expander:AF14.0CC-T"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "USB"
-				(at 0 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AF 14.0 CC-T"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "x1-expander:USB-A-TH_AF14.0CC-T"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-AF-14-0-CC-T_C456020.html"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C456020"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AF14.0CC-T_0_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "D-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 0 180)
-					(length 5.08)
-					(name "D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "SHLD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "x1-expander:HR911103A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5933,6 +5773,237 @@
 				)
 			)
 		)
+		(symbol "x1-expander:USB-226-BRW"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "USB"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "USB-226-BRW"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "x1-expander:USB-A-TH_USB-226-BRW"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_XUNPU-USB-226-BRW_C720524.html"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C720524"
+				(at 0 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB-226-BRW_0_1"
+				(rectangle
+					(start -7.62 6.35)
+					(end 7.62 -6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -6.35 5.08)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 281.94 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04208dfc-4df7-45a5-8d9c-b92cf9676ee4")
 	)
 	(junction
 		(at 153.67 17.78)
@@ -6043,6 +6114,12 @@
 		(uuid "345333c2-60ae-4de8-8319-5ddb4e473b0b")
 	)
 	(junction
+		(at 281.94 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "34bb5705-d19a-479c-ae8f-1144ba1813dc")
+	)
+	(junction
 		(at 278.13 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6053,6 +6130,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a149d7d-1077-4024-bac5-9d54e19ff623")
+	)
+	(junction
+		(at 281.94 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41185b32-36ca-40d6-abbf-73686d6ac946")
 	)
 	(junction
 		(at 19.05 39.37)
@@ -6077,6 +6160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "541fe307-e542-496b-a5f0-1a7806761201")
+	)
+	(junction
+		(at 281.94 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54acacce-fa6c-4cb1-8b34-4c1e4bad1ba3")
 	)
 	(junction
 		(at 47.752 25.4)
@@ -6119,6 +6208,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73804a16-c710-452f-813e-eac0b85c4cf0")
+	)
+	(junction
+		(at 281.94 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77360227-37bc-4bee-a1fd-33c32a80f72d")
 	)
 	(junction
 		(at 20.32 96.52)
@@ -6251,6 +6346,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8a7d5fc-fa71-4b7f-b345-598f97fcf2a0")
+	)
+	(junction
+		(at 281.94 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c30785f6-523c-411e-a243-974003da9258")
 	)
 	(junction
 		(at 233.68 36.83)
@@ -6536,6 +6637,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 137.16) (xy 281.94 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba5cd5e-7842-464c-8241-6d22f84341cd")
+	)
+	(wire
+		(pts
 			(xy 207.01 129.54) (xy 209.55 129.54)
 		)
 		(stroke
@@ -6603,6 +6714,16 @@
 			(type default)
 		)
 		(uuid "14758c77-ef7d-4f09-bd17-b03bdcd80c44")
+	)
+	(wire
+		(pts
+			(xy 280.67 160.02) (xy 281.94 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "163e6554-e259-469a-9353-8c16ab163f67")
 	)
 	(wire
 		(pts
@@ -6826,6 +6947,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 165.1) (xy 281.94 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cadad00-9118-4daf-a5c2-e7a11895e7c1")
+	)
+	(wire
+		(pts
 			(xy 179.07 176.53) (xy 179.07 180.34)
 		)
 		(stroke
@@ -6893,6 +7024,16 @@
 			(type default)
 		)
 		(uuid "370ba35a-9517-42c5-bdb4-6dbe99caae6b")
+	)
+	(wire
+		(pts
+			(xy 281.94 160.02) (xy 281.94 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "385fcb3a-50ba-43c0-9c7e-17e2832d4eb6")
 	)
 	(wire
 		(pts
@@ -7236,6 +7377,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 134.62) (xy 281.94 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5926f7e4-1c4a-4f7f-8018-e09116ac5a56")
+	)
+	(wire
+		(pts
 			(xy 281.94 142.24) (xy 270.51 142.24)
 		)
 		(stroke
@@ -7486,6 +7637,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 137.16) (xy 281.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ada1f11-772b-48c1-97bc-4dcf8230bc2e")
+	)
+	(wire
+		(pts
 			(xy 161.29 17.78) (xy 161.29 19.05)
 		)
 		(stroke
@@ -7513,6 +7674,16 @@
 			(type default)
 		)
 		(uuid "7e7988b4-36f4-4791-95bc-5c942de82d40")
+	)
+	(wire
+		(pts
+			(xy 281.94 167.64) (xy 281.94 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1d0fbc-eacf-4250-a21a-4379a63efde7")
 	)
 	(wire
 		(pts
@@ -7636,7 +7807,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 132.08) (xy 281.94 142.24)
+			(xy 281.94 132.08) (xy 281.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7703,6 +7874,16 @@
 			(type default)
 		)
 		(uuid "8b2cdb24-ab2e-4be5-b468-359630bcae28")
+	)
+	(wire
+		(pts
+			(xy 280.67 165.1) (xy 281.94 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b66fcc1-1ba6-4e28-85b9-070d2f2e39f5")
 	)
 	(wire
 		(pts
@@ -7866,6 +8047,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 167.64) (xy 281.94 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a97d3c-91aa-4bf1-8273-6b2ab946edac")
+	)
+	(wire
+		(pts
 			(xy 176.53 27.94) (xy 184.15 27.94)
 		)
 		(stroke
@@ -7883,6 +8074,16 @@
 			(type default)
 		)
 		(uuid "9fa509e1-fb68-4e39-ade7-e309c929a273")
+	)
+	(wire
+		(pts
+			(xy 280.67 129.54) (xy 281.94 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe676d6-8ee0-4b66-8ab0-a81a1bb8c41c")
 	)
 	(wire
 		(pts
@@ -7943,6 +8144,16 @@
 			(type default)
 		)
 		(uuid "a463e674-3822-4773-a127-5f0ad3737eed")
+	)
+	(wire
+		(pts
+			(xy 281.94 129.54) (xy 281.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56f3ca6-261f-45a9-b6de-a9c436fce0e1")
 	)
 	(wire
 		(pts
@@ -8056,7 +8267,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 162.56) (xy 281.94 172.72)
+			(xy 281.94 162.56) (xy 281.94 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8363,6 +8574,16 @@
 			(type default)
 		)
 		(uuid "d49b7a82-432c-41df-8bbd-1c4ceffaf6da")
+	)
+	(wire
+		(pts
+			(xy 281.94 134.62) (xy 281.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d66675e8-2bf0-4240-ab8e-08cd95b33134")
 	)
 	(wire
 		(pts
@@ -12559,9 +12780,8 @@
 		)
 	)
 	(symbol
-		(lib_id "x1-expander:AF14.0CC-T")
-		(at 270.51 165.1 0)
-		(mirror y)
+		(lib_id "x1-expander:USB-226-BRW")
+		(at 270.51 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12569,7 +12789,7 @@
 		(dnp no)
 		(uuid "38a73a1f-fa1a-460c-9de6-66558aea8229")
 		(property "Reference" "USB2"
-			(at 270.764 156.972 0)
+			(at 270.256 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12577,8 +12797,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "AF 14.0 CC-T"
-			(at 273.6088 153.1874 0)
+		(property "Value" "USB-226-BRW"
+			(at 267.4112 151.9174 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12587,7 +12807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "x1-expander:USB-A-TH_AF14.0CC-T"
+		(property "Footprint" "x1-expander:USB-A-TH_USB-226-BRW"
 			(at 270.51 175.26 0)
 			(effects
 				(font
@@ -12596,7 +12816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-AF-14-0-CC-T_C456020.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_XUNPU-USB-226-BRW_C720524.html"
 			(at 270.51 177.8 0)
 			(effects
 				(font
@@ -12606,7 +12826,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 165.1 0)
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12615,7 +12835,7 @@
 			)
 		)
 		(property "Add into BOM" "yes"
-			(at 270.51 165.1 0)
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12625,7 +12845,7 @@
 			)
 		)
 		(property "Convert to PCB" "yes"
-			(at 270.51 165.1 0)
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12635,7 +12855,7 @@
 			)
 		)
 		(property "JLCPCB Part Class" "Extended Part"
-			(at 270.51 165.1 0)
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12644,8 +12864,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 270.51 165.1 0)
+		(property "Manufacturer" ""
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12654,8 +12874,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "10.0 4C6.3 ZB"
-			(at 270.51 165.1 0)
+		(property "Manufacturer Part" "USB-226-BRW"
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,8 +12884,8 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "USB-TH_10.0-4C6.3-ZB"
-			(at 270.51 165.1 0)
+		(property "Origin Footprint" "USB-226-BRW"
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12675,7 +12895,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 270.51 165.1 0)
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12684,8 +12904,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C456020"
-			(at 270.51 165.1 0)
+		(property "Supplier Part" "C720524"
+			(at 270.51 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12694,8 +12914,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C456020"
-			(at 273.6088 150.9522 0)
+		(property "LCSC" "C720524"
+			(at 267.4112 149.6822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,7 +12923,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C456020"
+		(property "LCSC Part" "C720524"
 			(at 270.51 180.34 0)
 			(effects
 				(font
@@ -12726,6 +12946,15 @@
 		)
 		(pin "1"
 			(uuid "6cca51ae-e967-4d0e-a073-b897edc528f8")
+		)
+		(pin "6"
+			(uuid "c3231ee5-b7be-4228-b8eb-739a71304f23")
+		)
+		(pin "7"
+			(uuid "49a53205-c696-46a6-9744-af2f4b659c11")
+		)
+		(pin "8"
+			(uuid "8e4808c9-5016-448b-8dfb-7178d8f24aed")
 		)
 		(instances
 			(project "x1-expander"
@@ -16320,9 +16549,8 @@
 		)
 	)
 	(symbol
-		(lib_id "x1-expander:AF14.0CC-T")
-		(at 270.51 134.62 0)
-		(mirror y)
+		(lib_id "x1-expander:USB-226-BRW")
+		(at 270.51 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16330,7 +16558,7 @@
 		(dnp no)
 		(uuid "e492f769-559b-45df-b9f5-68f923f858d1")
 		(property "Reference" "USB1"
-			(at 270.51 124.714 0)
+			(at 270.51 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16338,8 +16566,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "AF 14.0 CC-T"
-			(at 278.892 126.492 0)
+		(property "Value" "USB-226-BRW"
+			(at 262.128 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16347,7 +16575,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "x1-expander:USB-A-TH_AF14.0CC-T"
+		(property "Footprint" "x1-expander:USB-A-TH_USB-226-BRW"
 			(at 270.51 144.78 0)
 			(effects
 				(font
@@ -16356,7 +16584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_SHOU-HAN-AF-14-0-CC-T_C456020.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/USB-Connectors_XUNPU-USB-226-BRW_C720524.html"
 			(at 270.51 147.32 0)
 			(effects
 				(font
@@ -16366,7 +16594,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 270.51 134.62 0)
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16375,7 +16603,7 @@
 			)
 		)
 		(property "Add into BOM" "yes"
-			(at 270.51 134.62 0)
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16385,7 +16613,7 @@
 			)
 		)
 		(property "Convert to PCB" "yes"
-			(at 270.51 134.62 0)
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16395,7 +16623,7 @@
 			)
 		)
 		(property "JLCPCB Part Class" "Extended Part"
-			(at 270.51 134.62 0)
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16404,8 +16632,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SHOU HAN(首韩)"
-			(at 270.51 134.62 0)
+		(property "Manufacturer" ""
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16414,8 +16642,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "10.0 4C6.3 ZB"
-			(at 270.51 134.62 0)
+		(property "Manufacturer Part" "USB-226-BRW"
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16424,8 +16652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "USB-TH_10.0-4C6.3-ZB"
-			(at 270.51 134.62 0)
+		(property "Origin Footprint" ""
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16435,7 +16663,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 270.51 134.62 0)
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16444,8 +16672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C456020"
-			(at 270.51 134.62 0)
+		(property "Supplier Part" "C720524"
+			(at 270.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16454,8 +16682,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C456020"
-			(at 273.6088 120.4722 0)
+		(property "LCSC" "C720524"
+			(at 267.4112 119.2022 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16463,7 +16691,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C456020"
+		(property "LCSC Part" "C720524"
 			(at 270.51 149.86 0)
 			(effects
 				(font
@@ -16486,6 +16714,15 @@
 		)
 		(pin "1"
 			(uuid "4abfffde-c8fb-4cd0-939d-b65a02257eca")
+		)
+		(pin "6"
+			(uuid "9c210a51-6082-4583-9ef4-027e63b4bbcb")
+		)
+		(pin "7"
+			(uuid "394afc50-14dc-4f2e-a2e3-db4aad0d586e")
+		)
+		(pin "8"
+			(uuid "dc4cddcc-6dda-430c-b982-e7eba2f58373")
 		)
 		(instances
 			(project "x1-expander"
