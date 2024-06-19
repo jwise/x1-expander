@@ -42,6 +42,9 @@ connectors:
     spn: C20613692
     pinlabels: [ CAM5V, CAMD-, CAMD+, CAMGND, MBD-, MBD+, UART3V3, UARTRX, UARTTX, UARTGND, PSU24V, PSUGND ]
     <<: *mh125t
+    image:
+      src: dll_mh1_25_12y.png
+      width: 200
   MB_USB:
     type: DLL MH1.25-4Y
     supplier: LCSC
