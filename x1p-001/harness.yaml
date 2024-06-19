@@ -1,11 +1,25 @@
 metadata:
   title: X1Plus Expansion Board Wiring Harness
-  pn: X1P-001-A02
+  pn: X1P-001
   
   authors:
-    Created:
+    created:
       name: J. Wise
       date: 2024-06-19
+  
+  revisions:
+    A01:
+      name: J. Wise
+      date: 2024-05-13
+    
+    A02:
+      name: J. Wise
+      date: 2024-06-19
+      changelog: Added twisted pairs for USB.  Added heat shrink.  Fixed order of CAM_USB pins.
+  
+  template:
+    name: din-6771
+    sheetsize: A3
 
 templates:
   - &mh125t
