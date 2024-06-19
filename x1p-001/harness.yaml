@@ -12,7 +12,7 @@ metadata:
       name: J. Wise
       date: 2024-05-13
     
-    A02:
+    WIP:
       name: J. Wise
       date: 2024-06-19
       changelog: Added twisted pairs for USB.  Added heat shrink.  Fixed order of CAM_USB pins.
