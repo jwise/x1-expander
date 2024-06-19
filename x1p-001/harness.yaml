@@ -1,0 +1,90 @@
+connectors:
+  EXT:
+    type: DLL MH1.25-12Y
+    pinlabels: [ CAM5V, CAMD-, CAMD+, CAMGND, MBD-, MBD+, UART3V3, UARTRX, UARTTX, UARTGND, PSU24V, PSUGND ]
+  MB_USB:
+    type: DLL MH1.25-4Y
+    pinlabels: [ MB5V, MBD-, MBD+, MBGND ]
+    image:
+      src: dll_mh1_25_4y.png
+      width: 200
+  MB_UART:
+    type: DLL MH1.25-4Y
+    pinlabels: [ UART3V3, UARTRX, UARTTX, UARTGND ]
+    image:
+      src: dll_mh1_25_4y.png
+      width: 200
+  CAM_USB:
+    type: DLL MH1.25-4R
+    pinlabels: [ CAM5V, CAMD-, CAMD+, CAMGND ]
+    image:
+      src: dll_mh1_25_4r.png
+      width: 200
+  MB_PSU:
+    type: HC-PHB-2*3-Y
+    pinlabels: [ 24V_0, 24V_1, 24V_2, GND_0, GND_1, GND_2 ]
+    image:
+      src: hc_phb_2_3_y.jpg
+      width: 200
+  PSU_IN:
+    type: HC-PHB-2*3-EY
+    image:
+      src: hc_phb_2_3_ey.jpg
+      width: 200
+    pinlabels: [ 24V_0, 24V_1, 24V_2, GND_0, GND_1, GND_2 ]
+
+# panel to MB:
+#   20mm slack
+#   40mm Y
+#   120mm X to edge
+#   85mm to cam / UART connector = 270mm
+#   170mm to power connector = 350mm
+
+cables:
+  W_CAM_USB:
+    wirecount: 4
+    length: 270 mm
+    gauge: 28 AWG
+    colors: [ RD, WH, GN, BK ]
+  W_MB_USB:
+    wirecount: 2
+    length: 270 mm
+    gauge: 28 AWG
+    colors: [ WH, GN ]
+  W_MB_UART:
+    wirecount: 4
+    length: 270 mm
+    gauge: 28 AWG
+    colors: [ RD, BU, TQ, BK ]
+  W_EXT_PSU:
+    wirecount: 2
+    length: 350 mm
+    gauge: 28 AWG
+    colors: [ RD, BK ]
+  W_MB_PSU:
+    wirecount: 6
+    length: 50 mm
+    gauge: 24 AWG
+    colors: [ RD, RD, RD, BK, BK, BK ]
+
+connections:
+  -
+    - EXT: [1-4]
+    - W_CAM_USB: [1-4]
+    - CAM_USB: [1-4]
+  -
+    - EXT: [5-6]
+    - W_MB_USB: [1-2]
+    - MB_USB: [2-3]
+  -
+    - EXT: [7-10]
+    - W_MB_UART: [1-4]
+    - MB_UART: [1-4]
+  - 
+    - EXT: [11-12]
+    - W_EXT_PSU: [1-2]
+    - MB_PSU: [1, 4]
+  -
+    - MB_PSU: [1-6]
+    - W_MB_PSU: [1-6]
+    - PSU_IN: [1-6]
