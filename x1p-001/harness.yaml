@@ -79,7 +79,7 @@ connectors:
     spn: C2979578
     pinlabels: [ 24V_0, 24V_1, 24V_2, GND_0, GND_1, GND_2 ]
     image:
-      src: hc_phb_2_3_y.jpg
+      src: hc_phb_2_3_y.png
       width: 200
     additional_components:
       - type: HC-PHB-T
@@ -91,7 +91,7 @@ connectors:
     supplier: LCSC
     spn: C18548022
     image:
-      src: hc_phb_2_3_ey.jpg
+      src: hc_phb_2_3_ey.png
       width: 200
     pinlabels: [ 24V_0, 24V_1, 24V_2, GND_0, GND_1, GND_2 ]
     additional_components:
