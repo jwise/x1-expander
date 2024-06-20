@@ -11,6 +11,7 @@ metadata:
     A01:
       name: J. Wise
       date: 2024-05-13
+      changelog: Initial revision.
     
     WIP:
       name: J. Wise
@@ -113,7 +114,7 @@ connectors:
 cables:
   W_CAM_USB:
     wirecount: 4
-    length: 270 mm
+    length: 245 mm
     gauge: 28 AWG
     colors: [ RD, WH, GN, BK ]
     shield: true
@@ -124,7 +125,7 @@ cables:
     type: USB twisted pair, black
     show_wirecount: false
     wirecount: 4
-    length: 270 mm
+    length: 245 mm
     gauge: 28 AWG
     colors: [ RD, WH, GN, BK ]
     notes: Use USB 2.0 cable.  Red and black are unconnected.
@@ -132,7 +133,7 @@ cables:
   W_MB_UART:
     category: bundle
     wirecount: 4
-    length: 270 mm
+    length: 245 mm
     gauge: 28 AWG
     colors: [ RD, BU, TQ, BK ]
     additional_components:
@@ -142,7 +143,7 @@ cables:
   W_EXT_PSU:
     category: bundle
     wirecount: 2
-    length: 350 mm
+    length: 325 mm
     gauge: 28 AWG
     colors: [ RD, BK ]
     additional_components:
