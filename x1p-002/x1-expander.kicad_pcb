@@ -4125,7 +4125,7 @@
 		(uuid "36f1955b-9f34-4e15-aaee-11488ff5dec8")
 		(at 163.75 124.25 90)
 		(property "Reference" "LED1"
-			(at -3.429 0 270)
+			(at -3.429 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c399f3ad-0a3f-4615-820b-a61e9cec8212")
@@ -4137,7 +4137,7 @@
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 0 4 270)
+			(at 0 4 -90)
 			(layer "F.Fab")
 			(uuid "1bc0faf9-dcc3-42b7-a71c-290d41783196")
 			(effects
@@ -4375,7 +4375,7 @@
 			(uuid "7a409c0c-1f4c-4b13-9a08-007fa4854aa0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "34e9811d-cb9e-48dc-b6b8-35f973f25ff2")
 			(effects
@@ -4740,7 +4740,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R35"
-			(at 0 1.625 270)
+			(at 0 1.625 -90)
 			(layer "F.SilkS")
 			(uuid "676ab6be-3f35-405f-9c81-843024dc39fa")
 			(effects
@@ -4751,7 +4751,7 @@
 			)
 		)
 		(property "Value" "820"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "ea631923-ea5c-4512-86f2-f5696583e866")
 			(effects
@@ -5022,7 +5022,7 @@
 			(uuid "4ab6aeea-873f-4e7f-a00d-7f961caf8f2c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "76c0fcdc-658d-445c-8914-c5294da1cd6d")
 			(effects
@@ -5336,7 +5336,7 @@
 		(uuid "421cf5b3-00ef-43cb-88b4-70eba144bad3")
 		(at 137.25 124.375 90)
 		(property "Reference" "LED3"
-			(at -3.429 0 270)
+			(at -3.429 0 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "bfec1391-eb6f-4868-ab14-1f0a1dd02dee")
@@ -5348,7 +5348,7 @@
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 0 4 270)
+			(at 0 4 -90)
 			(layer "F.Fab")
 			(uuid "e3017898-48f3-4fd5-95d8-5ebdf6b5b662")
 			(effects
@@ -5359,7 +5359,7 @@
 			)
 		)
 		(property "Footprint" "x1-expander:LED0603-RD"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c64e0739-a3ec-47ca-8c0d-a26fc7ad7ff5")
@@ -5371,7 +5371,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94b73d60-d6ef-48fb-8a31-1adaed440b0e")
@@ -5383,7 +5383,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "efbea505-4cb1-4db3-ad98-abf65f46bc90")
@@ -5583,7 +5583,7 @@
 			(uuid "01f0940a-7eec-466e-aa35-9617f47df248")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "3bcd1bd5-0fa5-40e8-92bd-9fbc2e202cc5")
 			(effects
@@ -8549,7 +8549,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R23"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "7f99f524-5a6f-4652-8789-8fec484d73ab")
 			(effects
@@ -8560,7 +8560,7 @@
 			)
 		)
 		(property "Value" "5.6k"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "c695c642-abd2-4377-9de6-304ef6d77ca5")
 			(effects
@@ -8579,6 +8579,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8591,6 +8592,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8603,6 +8605,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8828,7 +8831,7 @@
 			(uuid "a5288ad0-2739-4044-9874-f8c0001ec1cd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "e5e1dd7f-b37e-484b-8c39-b1faf539cc3d")
 			(effects
@@ -18288,7 +18291,7 @@
 		(uuid "d6a7c663-4981-4505-a1b1-a4e67b42b974")
 		(at 178 124.25 90)
 		(property "Reference" "LED2"
-			(at -3.335 -0.045 270)
+			(at -3.335 -0.045 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "63d9232f-87cd-4060-ab4d-2eb4ff51cf05")
@@ -18300,7 +18303,7 @@
 			)
 		)
 		(property "Value" "KT-0603R"
-			(at 0 4 270)
+			(at 0 4 -90)
 			(layer "F.Fab")
 			(uuid "51c550d4-0259-49f5-b632-4a717f9ce130")
 			(effects
@@ -18311,7 +18314,7 @@
 			)
 		)
 		(property "Footprint" "x1-expander:LED0603-RD"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8cf15f4-4452-486c-9d43-f4456cc7db81")
@@ -18323,7 +18326,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Red-LED-0603_C2286.html"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "37a8f216-dce8-47a8-a6d5-68cdc4dad1d3")
@@ -18335,7 +18338,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "608b8d37-2b0f-4564-b883-ad0c16312bbd")
@@ -18535,7 +18538,7 @@
 			(uuid "8a24a30b-699b-44a7-9544-6c07f551135f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "30a704e3-6117-4875-b32d-2b2e115b718f")
 			(effects
@@ -19684,7 +19687,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at 0 -1.75 270)
+			(at 0 -1.75 -90)
 			(layer "F.SilkS")
 			(uuid "6b7f8834-cf6f-49bf-bf13-381d7ec6a79b")
 			(effects
@@ -19695,7 +19698,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "cff4de57-4d93-4f35-b0e4-b4227fa9b51a")
 			(effects
@@ -19966,7 +19969,7 @@
 			(uuid "bbdc0311-a5f0-40e1-b96e-bdf3083e38f1")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "969e9f22-6fb9-4f2b-97c2-0ba197931243")
 			(effects
@@ -39239,6 +39242,17 @@
 			(pinfunction "8")
 			(pintype "input")
 			(uuid "456c90b8-688c-487f-8dff-4f91db18927c")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_4x0402.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 90)
+			)
 		)
 	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
