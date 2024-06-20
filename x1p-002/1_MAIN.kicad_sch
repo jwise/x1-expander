@@ -10971,7 +10971,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "820"
 			(at 241.554 152.0698 90)
 			(effects
 				(font
@@ -11027,7 +11027,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Class" "Basic Part"
+		(property "JLCPCB Part Class" ""
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11037,7 +11037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" ""
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11047,7 +11047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "0603WAF1001T5E"
+		(property "Manufacturer Part" ""
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11057,7 +11057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R0603"
+		(property "Origin Footprint" ""
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11067,7 +11067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11077,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C21190"
+		(property "Supplier Part" ""
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11087,7 +11087,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C21190"
+		(property "LCSC" ""
 			(at 241.554 149.7838 0)
 			(effects
 				(font
@@ -12335,7 +12335,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "680"
+		(property "Value" "330"
 			(at 263.144 152.0698 90)
 			(effects
 				(font
@@ -12401,7 +12401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" ""
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12411,7 +12411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "0603WAF6800T5E"
+		(property "Manufacturer Part" ""
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12421,7 +12421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R0603"
+		(property "Origin Footprint" ""
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12431,7 +12431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12441,7 +12441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C23228"
+		(property "Supplier Part" ""
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12451,7 +12451,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23228"
+		(property "LCSC" ""
 			(at 263.144 149.7838 0)
 			(effects
 				(font
@@ -13555,7 +13555,7 @@
 			(uuid "6291be7e-a0e9-45ca-9a6b-4c00e76b7f72")
 		)
 		(instances
-			(project ""
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "LED1")
 					(unit 1)
@@ -15908,7 +15908,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "5.6k"
 			(at 219.964 152.0698 90)
 			(effects
 				(font
@@ -15917,7 +15917,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 218.44 148.59 0)
 			(effects
 				(font
@@ -15974,7 +15974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" ""
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -15984,7 +15984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "1206W4F4701T5E"
+		(property "Manufacturer Part" ""
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -15994,7 +15994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R1206"
+		(property "Origin Footprint" ""
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -16004,7 +16004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "LCSC"
+		(property "Supplier" ""
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -16014,7 +16014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C17936"
+		(property "Supplier Part" ""
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -16024,7 +16024,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C17936"
+		(property "LCSC" ""
 			(at 219.964 149.7838 0)
 			(effects
 				(font
