@@ -115,7 +115,7 @@ cables:
     wirecount: 4
     length: 270 mm
     gauge: 28 AWG
-    colors: [ BK, GN, WH, RD ]
+    colors: [ RD, WH, GN, BK ]
     shield: true
     type: USB twisted pair, black
     notes: Use USB 2.0 cable.
@@ -159,7 +159,7 @@ cables:
 connections:
   -
     - EXT: [1-4]
-    - W_CAM_USB: [4, 3, 2, 1]
+    - W_CAM_USB: [1-4]
     - CAM_USB: [4, 3, 2, 1]
   -
     - EXT: [5-6]
@@ -183,3 +183,8 @@ connections:
   -
     - W_MB_USB: s
     - MB_USB: 4
+
+tweak:
+  override:
+    graph:
+      ranksep: "4"
