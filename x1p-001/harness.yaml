@@ -41,6 +41,7 @@ connectors:
     type: DLL MH1.25-12Y
     supplier: LCSC
     spn: C20613692
+    pins: [ 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ]
     pinlabels: [ CAM5V, CAMD-, CAMD+, CAMGND, MBD-, MBD+, UART3V3, UARTRX, UARTTX, UARTGND, PSU24V, PSUGND ]
     <<: *mh125t
     image:
@@ -159,19 +160,19 @@ cables:
 
 connections:
   -
-    - EXT: [1-4]
+    - EXT: [12, 11, 10, 9]
     - W_CAM_USB: [1-4]
     - CAM_USB: [4, 3, 2, 1]
   -
-    - EXT: [5-6]
+    - EXT: [8, 7]
     - W_MB_USB: [2-3]
     - MB_USB: [2-3]
   -
-    - EXT: [7-10]
+    - EXT: [6, 5, 4, 3]
     - W_MB_UART: [1-4]
     - MB_UART: [1-4]
   - 
-    - EXT: [11-12]
+    - EXT: [2, 1]
     - W_EXT_PSU: [1-2]
     - MB_PSU: [1, 4]
   -
