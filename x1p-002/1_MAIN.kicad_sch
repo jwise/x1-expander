@@ -11037,7 +11037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11047,7 +11047,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0603WAF8200T5E"
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11067,7 +11067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11077,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C23253"
 			(at 240.03 148.59 90)
 			(effects
 				(font
@@ -11087,7 +11087,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23253"
 			(at 241.554 149.7838 0)
 			(effects
 				(font
@@ -12401,7 +12401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12411,7 +12411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "0603WAF3300T5E"
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12421,7 +12421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" ""
+		(property "Origin Footprint" "R0603"
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12431,7 +12431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12441,7 +12441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C23138"
 			(at 261.62 148.59 90)
 			(effects
 				(font
@@ -12451,7 +12451,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C23138"
 			(at 263.144 149.7838 0)
 			(effects
 				(font
@@ -15917,7 +15917,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 218.44 148.59 0)
 			(effects
 				(font
@@ -15935,13 +15935,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 218.44 148.59 0)
+		(property "Description" "250mw 1206"
+			(at 225.044 153.162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Add into BOM" "yes"
@@ -15964,7 +15963,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part Class" "Basic Part"
+		(property "JLCPCB Part Class" "Extended Part"
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -15984,7 +15983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" ""
+		(property "Manufacturer Part" "1206W4J0562T5E"
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -15994,7 +15993,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" ""
+		(property "Origin Footprint" "R1206"
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -16004,7 +16003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" ""
+		(property "Supplier" "LCSC"
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -16014,7 +16013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" ""
+		(property "Supplier Part" "C26045"
 			(at 218.44 148.59 90)
 			(effects
 				(font
@@ -16024,7 +16023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C26045"
 			(at 219.964 149.7838 0)
 			(effects
 				(font
