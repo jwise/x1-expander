@@ -313,6 +313,265 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Polarized_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_Small_0_1"
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 0.6858)
+					(end 1.524 0.3048)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.524) (xy -0.762 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Polarized_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.8542)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -7137,6 +7396,18 @@
 		(uuid "2d217659-bd15-4caf-9a87-bc9cf729a1af")
 	)
 	(junction
+		(at 233.68 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e5cb54a-169b-47fe-87a0-7ac11bcbe67c")
+	)
+	(junction
+		(at 21.59 17.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "32412ce6-71c2-4b8f-9979-886f5042ff5d")
+	)
+	(junction
 		(at 172.72 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7359,6 +7630,12 @@
 		(uuid "c313dfd0-9f7c-45f6-98ac-c40c2e6b9345")
 	)
 	(junction
+		(at 185.42 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c61107f2-2a4e-41af-abcb-a6cb636f0972")
+	)
+	(junction
 		(at 71.12 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7369,6 +7646,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5f1ec0b-22bf-4ae3-80cf-73bee0ce8048")
+	)
+	(junction
+		(at 226.06 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcf5ef18-6c3c-49bc-8413-5b940cb78483")
 	)
 	(junction
 		(at 160.02 135.89)
@@ -7450,7 +7733,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 17.78) (xy 20.32 17.78)
+			(xy 22.86 17.78) (xy 21.59 17.78)
 		)
 		(stroke
 			(width 0)
@@ -7470,7 +7753,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 52.07) (xy 226.06 54.61)
+			(xy 226.06 49.53) (xy 226.06 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7627,6 +7910,16 @@
 			(type default)
 		)
 		(uuid "1e9276f9-dedc-47b9-8b78-bc0496d1353d")
+	)
+	(wire
+		(pts
+			(xy 223.52 53.34) (xy 226.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff4fea7-c9b3-4da9-9266-e018f417fdea")
 	)
 	(wire
 		(pts
@@ -7920,7 +8213,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 39.37) (xy 240.03 39.37)
+			(xy 226.06 39.37) (xy 233.68 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7940,7 +8233,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 16.51) (xy 189.23 16.51)
+			(xy 182.88 16.51) (xy 185.42 16.51)
 		)
 		(stroke
 			(width 0)
@@ -8340,6 +8633,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 16.51) (xy 21.59 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904b8c98-0eea-4099-9075-fa2bdb8f2a4e")
+	)
+	(wire
+		(pts
 			(xy 168.91 135.89) (xy 160.02 135.89)
 		)
 		(stroke
@@ -8460,6 +8763,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 15.24) (xy 185.42 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eaa6435-7be9-4cf9-98be-2d03f643bfb6")
+	)
+	(wire
+		(pts
 			(xy 110.49 99.06) (xy 109.22 99.06)
 		)
 		(stroke
@@ -8560,7 +8873,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 39.37) (xy 226.06 41.91)
+			(xy 226.06 39.37) (xy 226.06 44.45)
 		)
 		(stroke
 			(width 0)
@@ -8710,6 +9023,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 16.51) (xy 189.23 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1621781-b533-4465-af8e-df1e1ea00b47")
+	)
+	(wire
+		(pts
 			(xy 38.1 119.38) (xy 48.26 119.38)
 		)
 		(stroke
@@ -8820,6 +9143,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 17.78) (xy 20.32 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da6163b5-8f7c-4266-8852-2f691124fcdf")
+	)
+	(wire
+		(pts
 			(xy 48.26 185.42) (xy 57.15 185.42)
 		)
 		(stroke
@@ -8827,6 +9160,16 @@
 			(type default)
 		)
 		(uuid "dc5ae760-b374-4cf2-9c31-ee497de7c76d")
+	)
+	(wire
+		(pts
+			(xy 226.06 53.34) (xy 226.06 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddc96d66-21de-4628-8952-60ececf702c1")
 	)
 	(wire
 		(pts
@@ -8940,6 +9283,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 38.1) (xy 233.68 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eccbca34-5b50-40ea-91c1-420b78bd62d7")
+	)
+	(wire
+		(pts
 			(xy 142.24 81.28) (xy 149.86 81.28)
 		)
 		(stroke
@@ -9027,6 +9380,16 @@
 			(type default)
 		)
 		(uuid "f7daaf8d-4f42-407d-8f01-4d1031913d7e")
+	)
+	(wire
+		(pts
+			(xy 233.68 39.37) (xy 240.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81437cd-1a0e-405e-b5f4-9c4aac1ed662")
 	)
 	(wire
 		(pts
@@ -11112,6 +11475,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 223.52 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "138344e4-55fa-4012-9686-71ffe1e6b040")
+		(property "Reference" "TP8"
+			(at 219.456 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 219.456 58.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 223.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50ec9bef-3c03-43c6-b286-092a3cae8b8e")
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "x1-expander:JK-NSMD100-16V")
 		(at 245.11 39.37 0)
 		(unit 1)
@@ -11641,6 +12068,73 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b0f7682-8c9a-4401-bb41-93de71441937")
+		(property "Reference" "TP1"
+			(at 235.077 33.5858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 235.077 36.0101 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 238.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "987644af-57d7-45dc-b8b5-32301ab66d83")
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -12204,6 +12698,73 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "AP_HARNESS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 21.59 16.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "425b7534-3929-4255-9d32-92055e53f8eb")
+		(property "Reference" "TP3"
+			(at 22.987 11.9958 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 22.987 14.4201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 26.67 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 21.59 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "383defd6-a093-47d0-9838-e993815d2a40")
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -14633,8 +15194,8 @@
 		)
 	)
 	(symbol
-		(lib_id "x1-expander:100nF")
-		(at 226.06 46.99 90)
+		(lib_id "Device:C_Polarized_Small")
+		(at 226.06 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14642,7 +15203,7 @@
 		(dnp no)
 		(uuid "906f2719-697e-49ff-bf2b-8f2f900b2160")
 		(property "Reference" "C47"
-			(at 228.6 48.1838 90)
+			(at 232.918 46.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14650,8 +15211,8 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100µF"
-			(at 228.6 50.4698 90)
+		(property "Value" "35V 47uF"
+			(at 238.506 43.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14659,7 +15220,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -14668,7 +15229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -14677,7 +15238,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Polarized capacitor, small symbol"
 			(at 226.06 46.99 0)
 			(effects
 				(font
@@ -14706,7 +15267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "C0603"
+		(property "Origin Footprint" ""
 			(at 226.06 46.99 90)
 			(effects
 				(font
@@ -14716,8 +15277,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23742"
-			(at 228.6 48.1838 0)
+		(property "LCSC" "C5246552"
+			(at 224.8662 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15278,6 +15839,73 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 15.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c2d9e4-3206-4b60-8f90-b5a767c00a96")
+		(property "Reference" "TP2"
+			(at 186.817 10.7258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 186.817 13.1501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 190.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0cbf8e2-8220-412c-a7df-2a1226750a8d")
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
