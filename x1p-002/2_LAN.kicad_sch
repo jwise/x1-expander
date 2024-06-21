@@ -13760,7 +13760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "D+"
 			(at 149.86 50.8 0)
 			(effects
 				(font
@@ -15886,7 +15886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "D-"
 			(at 149.86 59.69 0)
 			(effects
 				(font

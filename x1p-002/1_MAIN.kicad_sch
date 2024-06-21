@@ -11517,7 +11517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "GND"
 			(at 223.52 53.34 0)
 			(effects
 				(font
@@ -12119,7 +12119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "24V"
 			(at 233.68 38.1 0)
 			(effects
 				(font
@@ -12749,7 +12749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "3V3"
 			(at 21.59 16.51 0)
 			(effects
 				(font
@@ -15890,7 +15890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "5V"
 			(at 185.42 15.24 0)
 			(effects
 				(font

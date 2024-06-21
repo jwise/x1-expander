@@ -5780,7 +5780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "SDA"
 			(at 248.92 175.26 0)
 			(effects
 				(font
@@ -8629,7 +8629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "SCL"
 			(at 251.46 175.26 0)
 			(effects
 				(font
