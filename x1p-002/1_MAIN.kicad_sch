@@ -11479,7 +11479,7 @@
 		(at 223.52 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "138344e4-55fa-4012-9686-71ffe1e6b040")
@@ -12078,7 +12078,7 @@
 		(at 233.68 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12484,6 +12484,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 222.25 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f8e4803-23d0-48bd-9226-40916a7800fe")
 		)
@@ -12708,7 +12717,7 @@
 		(at 21.59 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14102,6 +14111,15 @@
 		)
 		(property "LCSC Part" "C2286"
 			(at 252.73 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 243.84 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15849,7 +15867,7 @@
 		(at 185.42 15.24 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15968,6 +15986,15 @@
 		)
 		(property "LCSC Part" "C2286"
 			(at 274.32 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
+			(at 265.43 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)

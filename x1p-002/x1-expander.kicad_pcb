@@ -11450,16 +11450,16 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0402_1005Metric"
+	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "91d66222-9729-446c-bba4-c2199ef53604")
 		(at 96.75 116.4912 90)
-		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0.2412 2 -90)
+			(at 0 -1.17 90)
 			(layer "F.SilkS")
-			(uuid "02768c60-f3e0-4e39-a700-d862b4776375")
+			(uuid "331dede6-5c7b-4aa1-a0ea-aafe8b995a81")
 			(effects
 				(font
 					(size 1 1)
@@ -11468,9 +11468,9 @@
 			)
 		)
 		(property "Value" "12k 1/10W 1%"
-			(at 0 1.16 -90)
+			(at 0 1.17 90)
 			(layer "F.Fab")
-			(uuid "595d57b4-80cc-4fbb-8466-f8c25385ff82")
+			(uuid "7392ec7b-3dfd-4c29-a218-63bdd32b75d7")
 			(effects
 				(font
 					(size 1 1)
@@ -11478,16 +11478,15 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a9098be1-6520-405a-938d-e190fee90e4f")
+			(uuid "4c655fc1-2796-4d19-a2b6-522490e0f64c")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11496,11 +11495,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b3f93d3-9757-499c-b43b-4df5e15f6732")
+			(uuid "e3f67d19-6fbc-410a-980b-dc9b5a40b828")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11509,11 +11507,10 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "133267ca-43fd-4e3b-837d-31d4c94c0382")
+			(uuid "cee25777-320c-46b9-a67a-14c0d4cf8455")
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -11574,137 +11571,137 @@
 		(sheetfile "2_LAN.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.107836 -0.36)
-			(end 0.107836 -0.36)
+			(start -0.153641 -0.38)
+			(end 0.153641 -0.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "3a716058-7b6d-42db-82b2-c441fb8474be")
+			(uuid "38ca848e-cde6-4652-b76a-470104e7664a")
 		)
 		(fp_line
-			(start -0.107836 0.36)
-			(end 0.107836 0.36)
+			(start -0.153641 0.38)
+			(end 0.153641 0.38)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fb3dd911-1a84-4f8a-baf5-ed17de2e6d1d")
+			(uuid "423b5353-e18f-43bf-8811-8819cee51a9d")
 		)
 		(fp_line
-			(start 0.91 -0.46)
-			(end 0.91 0.46)
+			(start 0.93 -0.47)
+			(end 0.93 0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9e5dde02-64a7-402b-b163-e0c0910278a7")
+			(uuid "3cfd71ea-4219-4601-b293-68cbaeff1100")
 		)
 		(fp_line
-			(start -0.91 -0.46)
-			(end 0.91 -0.46)
+			(start -0.93 -0.47)
+			(end 0.93 -0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "da20ccab-353b-4c20-81b2-da30658bffb7")
+			(uuid "66fc6c86-0076-4687-9588-06e3b072db6e")
 		)
 		(fp_line
-			(start 0.91 0.46)
-			(end -0.91 0.46)
+			(start 0.93 0.47)
+			(end -0.93 0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "67912567-09e8-4e64-9bfc-dcf4c2a514f4")
+			(uuid "eb112dd2-3e27-4f67-928f-4868bc4e599c")
 		)
 		(fp_line
-			(start -0.91 0.46)
-			(end -0.91 -0.46)
+			(start -0.93 0.47)
+			(end -0.93 -0.47)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "12af6ebe-7553-4eb3-9246-72eb097665b4")
+			(uuid "397d5e27-c124-4a8c-8172-cdb48531e124")
 		)
 		(fp_line
-			(start 0.5 -0.25)
-			(end 0.5 0.25)
+			(start 0.525 -0.27)
+			(end 0.525 0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f38d7d5a-0fce-430c-b182-6e566c7c7de3")
+			(uuid "04c1d977-2e41-468a-a2bb-bffb4b97088a")
 		)
 		(fp_line
-			(start -0.5 -0.25)
-			(end 0.5 -0.25)
+			(start -0.525 -0.27)
+			(end 0.525 -0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4691197c-8c5f-493b-8cb9-2a323a3ad93f")
+			(uuid "0e7bfee1-b472-43ff-aa4f-ca5edb9f7c71")
 		)
 		(fp_line
-			(start 0.5 0.25)
-			(end -0.5 0.25)
+			(start 0.525 0.27)
+			(end -0.525 0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d0411097-59b9-46a1-88bb-1a533f97c8b7")
+			(uuid "5e42ae53-f5bb-4edb-ba48-36151b5ad6aa")
 		)
 		(fp_line
-			(start -0.5 0.25)
-			(end -0.5 -0.25)
+			(start -0.525 0.27)
+			(end -0.525 -0.27)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b1b45f80-e99b-4c96-9826-8ad89050195e")
+			(uuid "116bd03e-ddea-4cd5-a471-456fb53bd6b3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
-			(uuid "52d0e22e-1c2f-4472-9a4e-a065eed9b093")
+			(uuid "d3422f92-69eb-4251-9b66-b4e06d58c526")
 			(effects
 				(font
-					(size 0.25 0.25)
+					(size 0.26 0.26)
 					(thickness 0.04)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.48 0 90)
-			(size 0.56 0.62)
+			(at -0.51 0 90)
+			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 74 "Net-(U1-USBRBIAS)")
 			(pinfunction "1")
 			(pintype "unspecified")
-			(uuid "00f682fe-f04b-4806-9bb4-0cb7d9d40908")
+			(uuid "40f3f931-8d2a-4ad3-9e88-de141a914e80")
 		)
 		(pad "2" smd roundrect
-			(at 0.48 0 90)
-			(size 0.56 0.62)
+			(at 0.51 0 90)
+			(size 0.54 0.64)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 3 "GND")
 			(pinfunction "2")
 			(pintype "unspecified")
-			(uuid "b33fb22e-5155-4d58-9caf-7d2cf18dd932")
+			(uuid "8cc3ba90-4d1c-4d8c-b03b-efae749251b2")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0402_1005Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -27200,7 +27197,7 @@
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/67154199-1d56-4ffb-82c6-3be470ba4c0d")
 		(sheetname "LAN")
 		(sheetfile "2_LAN.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -28796,7 +28793,7 @@
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/2b0f7682-8c9a-4401-bb41-93de71441937")
 		(sheetname "MAIN")
 		(sheetfile "1_MAIN.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -29194,7 +29191,7 @@
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/425b7534-3929-4255-9d32-92055e53f8eb")
 		(sheetname "MAIN")
 		(sheetfile "1_MAIN.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -31272,7 +31269,7 @@
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/a5c2d9e4-3206-4b60-8f90-b5a767c00a96")
 		(sheetname "MAIN")
 		(sheetfile "1_MAIN.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -41845,7 +41842,7 @@
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/19cf9b6a-0be0-43f4-a3db-6002a14473ae")
 		(sheetname "GPIO")
 		(sheetfile "3_GPIO.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -42819,7 +42816,7 @@
 		(path "/1898a0d3-3c33-4600-8778-eef1e2c48cfc/138344e4-55fa-4012-9686-71ffe1e6b040")
 		(sheetname "MAIN")
 		(sheetfile "1_MAIN.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -42941,7 +42938,7 @@
 		(path "/52713671-aa4b-4412-b159-5876c2aaf3b7/e0ec1717-94cf-4142-959d-1d1a3522ec23")
 		(sheetname "GPIO")
 		(sheetfile "3_GPIO.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
@@ -44307,7 +44304,7 @@
 		(path "/59f5b442-dc6c-49f9-8b13-7a2ac6495930/c0963d25-1a21-4649-84db-0340409bb4bd")
 		(sheetname "LAN")
 		(sheetfile "2_LAN.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.7)
