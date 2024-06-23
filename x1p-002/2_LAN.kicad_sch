@@ -14970,7 +14970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M93C86-WMN6TP"
+		(property "Value" "AT93C66B-SSHM-T"
 			(at 195.2341 169.7298 0)
 			(effects
 				(font
@@ -15006,7 +15006,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C111883"
+		(property "LCSC" "C30841"
 			(at 193.04 176.53 0)
 			(effects
 				(font

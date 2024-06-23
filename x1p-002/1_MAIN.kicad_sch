@@ -7698,10 +7698,6 @@
 		(uuid "2319dc3d-513a-46ae-bae5-0095a73a773e")
 	)
 	(no_connect
-		(at 48.26 154.94)
-		(uuid "3bc609a2-bece-434d-8b6d-5cc21f6e32ed")
-	)
-	(no_connect
 		(at 262.89 29.21)
 		(uuid "69efa50c-7ebb-4d52-8966-c5874a3e8e99")
 	)
@@ -8203,6 +8199,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 154.94) (xy 39.37 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426705a3-e226-408d-b643-afede0f179de")
+	)
+	(wire
+		(pts
 			(xy 25.4 185.42) (xy 43.18 185.42)
 		)
 		(stroke
@@ -8243,6 +8249,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 142.24) (xy 39.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca48c69-3428-4cfd-9c17-bc29292f8381")
+	)
+	(wire
+		(pts
 			(xy 175.26 16.51) (xy 177.8 16.51)
 		)
 		(stroke
@@ -8270,6 +8286,16 @@
 			(type default)
 		)
 		(uuid "515dac51-1af0-4e3e-9d64-1a0c7a2eb67e")
+	)
+	(wire
+		(pts
+			(xy 39.37 154.94) (xy 39.37 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e0aa88-d8e2-46bf-ad61-d0082b7efa8f")
 	)
 	(wire
 		(pts
@@ -9728,6 +9754,26 @@
 		(uuid "2ffdb671-f606-41d7-91b2-411a55394ece")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.49 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape bidirectional)
+		(at 39.37 142.24 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33f2f3a8-90b7-40b4-94a7-706be1f174cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 39.37 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16120,6 +16166,85 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 39.37 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3423eee-b161-4c10-8935-2d9f9c0ecce4")
+		(property "Reference" "R24"
+			(at 40.8686 147.3778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 40.8686 149.8021 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 39.37 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 34.4889 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "008a4e48-2013-4e5e-b139-959f52da1216")
+		)
+		(pin "2"
+			(uuid "0aa4ef9b-3201-4230-b772-613ab848ff5f")
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
+					(reference "R24")
 					(unit 1)
 				)
 			)
