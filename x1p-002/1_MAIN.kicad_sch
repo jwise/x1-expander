@@ -16962,7 +16962,7 @@
 			(uuid "3aabce8b-fb5f-4f92-836f-fd0750d9cfd4")
 		)
 		(instances
-			(project ""
+			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/1898a0d3-3c33-4600-8778-eef1e2c48cfc"
 					(reference "F1")
 					(unit 1)
