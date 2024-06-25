@@ -26685,7 +26685,7 @@
 		(descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F2"
-			(at 1.25 1.82 360)
+			(at 1.25 1.82 0)
 			(layer "B.SilkS")
 			(uuid "6d5ac4f3-66e8-46f8-85d5-46fb70c7049b")
 			(effects
@@ -26697,7 +26697,7 @@
 			)
 		)
 		(property "Value" "JK-NSMD100-16V"
-			(at 0 -1.82 360)
+			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "dba5e336-2708-4508-986b-79020a6bf23f")
 			(effects
@@ -26981,7 +26981,7 @@
 			(uuid "b8f5da51-4b5e-466c-95ea-e86ce86e4e81")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "fd8ae065-dd2d-4a1b-976e-728913e15a80")
 			(effects
@@ -39938,7 +39938,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C46"
-			(at 0.125 -2.375 270)
+			(at 0.125 -2.375 -90)
 			(layer "B.SilkS")
 			(uuid "6243323a-0073-4c73-af89-67d600b2182f")
 			(effects
@@ -39950,7 +39950,7 @@
 			)
 		)
 		(property "Value" "100µF"
-			(at 0 -2.3 270)
+			(at 0 -2.3 -90)
 			(layer "B.Fab")
 			(uuid "474bf8f7-4e7d-4914-8c8e-7e78fe1ab1dd")
 			(effects
@@ -40164,7 +40164,7 @@
 			(uuid "e67be93d-7c5b-4f91-a217-d0acc4182d59")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "B.Fab")
 			(uuid "ba2c625c-46ef-4aa1-8333-9ca16bf0b47d")
 			(effects
