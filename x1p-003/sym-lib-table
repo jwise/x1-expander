@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "X1P-003")(type "KiCad")(uri "${KIPRJMOD}/x1p-003.kicad_sym")(options "")(descr ""))
+)
