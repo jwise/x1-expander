@@ -2627,6 +2627,10 @@
 		(at 123.19 43.18)
 		(uuid "c9093db2-af82-4d4d-a2a0-386b3744d482")
 	)
+	(no_connect
+		(at 123.19 53.34)
+		(uuid "eb41dd5a-aca7-4e4b-a3eb-955f81d8f060")
+	)
 	(wire
 		(pts
 			(xy 101.6 130.81) (xy 101.6 133.35)
@@ -6437,7 +6441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6201ad7d-130f-4688-82d1-4481b76bc3b1")
-		(property "Reference" "J10"
+		(property "Reference" "J11"
 			(at 121.92 91.4399 0)
 			(effects
 				(font
@@ -6500,7 +6504,7 @@
 		(instances
 			(project "x1p-003"
 				(path "/9d65e234-c9ea-4162-90c2-0a323aa2325b"
-					(reference "J10")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8762,7 +8766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4b2954f-93cd-4b4d-abb0-bffc65091a25")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 121.92 77.4699 0)
 			(effects
 				(font
@@ -8825,7 +8829,7 @@
 		(instances
 			(project "x1p-003"
 				(path "/9d65e234-c9ea-4162-90c2-0a323aa2325b"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
