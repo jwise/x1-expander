@@ -1,0 +1,237 @@
+(footprint "Pogo_Drill_0.9mm__Pad_2.0mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Through hole straight pin header, 1x01, 1.00mm pitch, single row")
+	(tags "Through hole pin header THT 1x01 1.00mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.3 0)
+		(layer "F.SilkS")
+		(uuid "ddcb7c2b-9a2e-4ab3-9e06-b70bfd27c99d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Pogo_Drill_0.9mm__Pad_2.0mm"
+		(at 0 2.3 0)
+		(layer "F.Fab")
+		(uuid "4af68824-554f-41bf-8860-6b4a92538eb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87e90a1c-86c0-4188-a4b1-87d407d04195")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "668043c7-c8d0-46db-8a4c-290f3e3aa34e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f38f8cf1-2e82-4bc2-9310-329e9b4abffd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.6 -1.6)
+		(end -0.905 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75a92855-ddf8-4694-a9fd-329f1b0efda9")
+	)
+	(fp_line
+		(start -1.6 -0.915)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c94ef63c-4dee-431d-9f83-582bc969ea5a")
+	)
+	(fp_line
+		(start -1.6 1.6)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7986b056-6e2d-4cff-8074-1b06a41f67c1")
+	)
+	(fp_line
+		(start -1.6 1.6)
+		(end 1.6 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a9be3692-d1e7-4772-b789-be054b059e29")
+	)
+	(fp_line
+		(start 1.6 1.6)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "553b3394-0854-4398-9b43-b9770ea694c8")
+	)
+	(fp_line
+		(start -1.6 -1.6)
+		(end -1.6 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67e640fd-a342-4b7a-9ccf-00d7fd667248")
+	)
+	(fp_line
+		(start -1.6 1.6)
+		(end 1.6 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21d3032f-6616-4e7f-b86d-57898eb6c7ce")
+	)
+	(fp_line
+		(start 1.6 -1.6)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ecd3a27f-7974-4806-bc2e-387d88068bbc")
+	)
+	(fp_line
+		(start 1.6 1.6)
+		(end 1.6 -1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63464c70-3c76-4ae2-a994-f1751f697bad")
+	)
+	(fp_line
+		(start -0.635 -0.1825)
+		(end -0.3175 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3bf1545b-4d1b-4f23-8c9a-9379242ebe43")
+	)
+	(fp_line
+		(start -0.635 0.5)
+		(end -0.635 -0.1825)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f5056da-27ed-4280-906a-486d798bd578")
+	)
+	(fp_line
+		(start -0.3175 -0.5)
+		(end 0.635 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58f8198a-7429-410c-9a36-1bf051639b55")
+	)
+	(fp_line
+		(start 0.635 -0.5)
+		(end 0.635 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "276ba206-b0c5-4691-a7e6-f082512a2444")
+	)
+	(fp_line
+		(start 0.635 0.5)
+		(end -0.635 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b133ccf9-4850-4b4b-ad0f-dda55b5b8c2e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "c62e8eb9-889f-45f7-a7ea-9cc40b50fdac")
+		(effects
+			(font
+				(size 0.76 0.76)
+				(thickness 0.114)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "958fb2db-d87c-4c22-874d-09d39114a5f1")
+	)
+	(model "${KIPRJMOD}/x1p-003.3dshapes/YZ60615150D-2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

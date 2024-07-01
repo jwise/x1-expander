@@ -4770,7 +4770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 238.76 109.22 0)
 			(effects
 				(font
@@ -4906,7 +4906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 27.94 139.7 0)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.06 158.75 0)
 			(effects
 				(font
@@ -5043,7 +5043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 43.18 177.8 0)
 			(effects
 				(font
@@ -5452,7 +5452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 245.11 52.07 0)
 			(effects
 				(font
@@ -5587,7 +5587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x1p-003:Pogo_Drill_0.9mm__Pad_2.0mm"
 			(at 40.64 74.93 0)
 			(effects
 				(font
@@ -5663,7 +5663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 139.7 0)
 			(effects
 				(font
@@ -5731,7 +5731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x1p-003:Pogo_Drill_0.9mm__Pad_2.0mm"
 			(at 40.64 44.45 0)
 			(effects
 				(font
@@ -5978,7 +5978,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x1p-003:Pogo_Drill_0.9mm__Pad_2.0mm"
 			(at 40.64 67.31 0)
 			(effects
 				(font
@@ -6054,7 +6054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 177.8 0)
 			(effects
 				(font
@@ -6188,7 +6188,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 226.06 146.05 0)
 			(effects
 				(font
@@ -6255,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 184.15 109.22 0)
 			(effects
 				(font
@@ -6322,7 +6322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
 			(at 229.87 109.22 0)
 			(effects
 				(font
@@ -6389,7 +6389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 135.89 0)
 			(effects
 				(font
@@ -6668,7 +6668,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 180.34 0)
 			(effects
 				(font
@@ -6735,7 +6735,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 38.1 175.26 0)
 			(effects
 				(font
@@ -6871,7 +6871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 38.1 139.7 0)
 			(effects
 				(font
@@ -7205,7 +7205,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x1p-003:Pogo_Drill_0.9mm__Pad_2.0mm"
 			(at 40.64 82.55 0)
 			(effects
 				(font
@@ -7345,7 +7345,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x1p-003:Pogo_Drill_0.9mm__Pad_2.0mm"
 			(at 40.64 52.07 0)
 			(effects
 				(font
@@ -7487,7 +7487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 226.06 76.2 0)
 			(effects
 				(font
@@ -7554,7 +7554,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 175.26 0)
 			(effects
 				(font
@@ -7690,7 +7690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 193.04 109.22 0)
 			(effects
 				(font
@@ -7958,7 +7958,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x1p-003:Pogo_Drill_0.9mm__Pad_2.0mm"
 			(at 40.64 90.17 0)
 			(effects
 				(font
@@ -8309,7 +8309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x1p-003:Pogo_Drill_0.9mm__Pad_2.0mm"
 			(at 40.64 59.69 0)
 			(effects
 				(font
@@ -8582,7 +8582,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 180.34 0)
 			(effects
 				(font
@@ -8861,7 +8861,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "x1p-003:Pogo_Drill_0.9mm__Pad_2.0mm"
 			(at 40.64 97.79 0)
 			(effects
 				(font
@@ -8936,7 +8936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 180.34 76.2 0)
 			(effects
 				(font
@@ -9069,7 +9069,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 110.49 140.97 0)
 			(effects
 				(font
@@ -9205,7 +9205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.42 139.7 0)
 			(effects
 				(font
@@ -9341,7 +9341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 138.43 0)
 			(effects
 				(font
