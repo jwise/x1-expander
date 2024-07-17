@@ -52,10 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "silk_edge_clearance|57950000|126500000|adacbb7e-a54c-46f7-81c1-4570d0e75f34|dbfd9970-db84-40fc-8ab4-69fdcbbb447d",
-        "silk_edge_clearance|78870000|126500000|adacbb7e-a54c-46f7-81c1-4570d0e75f34|373770cd-e384-4da0-849e-621d858bfd47"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -469,8 +466,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "jlcpcb/",
+      "pos_files": "jlcpcb/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
