@@ -52,7 +52,10 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|57950000|126500000|adacbb7e-a54c-46f7-81c1-4570d0e75f34|dbfd9970-db84-40fc-8ab4-69fdcbbb447d",
+        "silk_edge_clearance|78870000|126500000|adacbb7e-a54c-46f7-81c1-4570d0e75f34|373770cd-e384-4da0-849e-621d858bfd47"
+      ],
       "meta": {
         "version": 2
       },
@@ -119,7 +122,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.75,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
