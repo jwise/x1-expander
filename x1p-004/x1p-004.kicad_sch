@@ -3347,12 +3347,6 @@
 		(uuid "22f116b8-4ed8-4a0c-b260-e9ff3220d835")
 	)
 	(junction
-		(at 35.56 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f687ab7-f8c6-42e5-b284-0c7fc9d28e25")
-	)
-	(junction
 		(at 45.72 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3407,10 +3401,10 @@
 		(uuid "cd992b09-d930-41f8-8e05-500beedeee78")
 	)
 	(junction
-		(at 35.56 80.01)
+		(at 33.02 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f0d76b7e-ebad-4dfe-aeaf-2683c221ad03")
+		(uuid "d859f3f5-a663-441e-ba9f-f5af3ca7973e")
 	)
 	(no_connect
 		(at 132.08 69.85)
@@ -3550,7 +3544,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 80.01) (xy 35.56 80.01)
+			(xy 26.67 80.01) (xy 33.02 80.01)
 		)
 		(stroke
 			(width 0)
@@ -3567,16 +3561,6 @@
 			(type default)
 		)
 		(uuid "455ae30d-def0-49cd-aa46-d52a70564d29")
-	)
-	(wire
-		(pts
-			(xy 35.56 95.25) (xy 35.56 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54a8d772-88f5-46d5-899f-dd2579c1aee9")
 	)
 	(wire
 		(pts
@@ -3610,7 +3594,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 80.01) (xy 35.56 95.25)
+			(xy 33.02 80.01) (xy 33.02 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3810,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 111.76) (xy 40.64 111.76)
+			(xy 33.02 111.76) (xy 40.64 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3840,16 +3824,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 80.01) (xy 48.26 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35606c4-7cfc-4bc2-8dbb-643b641ff6ab")
-	)
-	(wire
-		(pts
 			(xy 45.72 87.63) (xy 45.72 68.58)
 		)
 		(stroke
@@ -3857,6 +3831,16 @@
 			(type default)
 		)
 		(uuid "d44bcfc1-977a-4ce1-845e-31761bf5d409")
+	)
+	(wire
+		(pts
+			(xy 33.02 80.01) (xy 48.26 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c63608-66a8-4829-a66e-aacb60032685")
 	)
 	(wire
 		(pts
@@ -4417,6 +4401,17 @@
 			)
 		)
 		(uuid "ddddc644-bb3c-4aa8-a796-530a379d4618")
+	)
+	(label "5V_SW"
+		(at 33.02 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2efc8b2-c762-40f9-973a-7cb7c29e0286")
 	)
 	(global_label "HD0"
 		(shape input)
