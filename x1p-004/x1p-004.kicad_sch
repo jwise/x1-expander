@@ -4545,6 +4545,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 214.63 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e319077-7576-4e4f-afaf-fc7725ed3a62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 20.1772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LD6"
 		(shape bidirectional)
 		(at 105.41 118.11 180)
@@ -4778,6 +4800,28 @@
 		(uuid "6b9c922e-f942-4e85-8140-1744a46ba136")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 162.0543 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 214.63 34.29 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ca827b9-0d6c-4608-a595-4827d7c55c89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 41.1457 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,6 +6523,84 @@
 			(project "x1p-004"
 				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:CL05B104KO5NNNC")
+		(at 214.63 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b20b82c-8c3e-4953-abad-76fb08aadd75")
+		(property "Reference" "C3"
+			(at 217.17 29.718 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uf"
+			(at 216.916 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "x1p-004:C0402"
+			(at 207.01 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL05B104KO5NNNC_100nF-104-10-16V_C1525.html"
+			(at 204.47 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 201.93 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56b8d30e-0616-4924-a602-972905999a38")
+		)
+		(pin "1"
+			(uuid "73422470-028c-461e-972a-88922e772d4b")
+		)
+		(instances
+			(project "x1p-004"
+				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
+					(reference "C3")
 					(unit 1)
 				)
 			)
