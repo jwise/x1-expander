@@ -113,29 +113,129 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized_Small_US"
+		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.762) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C_Polarized_Small_US"
-				(at 0.254 -2.032 0)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "Footprint" ""
@@ -156,7 +256,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor, small US symbol"
+			(property "Description" "Jumper, 2-pole, closed/bridged"
 				(at 0 0 0)
 				(effects
 					(font
@@ -165,7 +265,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "ki_keywords" "Jumper SPST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -174,7 +274,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CP_*"
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -183,23 +283,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_Small_US_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -208,10 +295,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -220,12 +306,14 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
 				(arc
-					(start 1.524 -0.762)
-					(mid 0 -0.3734)
-					(end -1.524 -0.762)
+					(start 1.524 0.254)
+					(mid 0 0.762)
+					(end -1.524 0.254)
 					(stroke
-						(width 0.3048)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -233,11 +321,11 @@
 					)
 				)
 			)
-			(symbol "C_Polarized_Small_US_1_1"
+			(symbol "Jumper_2_Bridged_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -253,9 +341,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1836,6 +1924,151 @@
 				)
 			)
 		)
+		(symbol "x1p-005:CL31A106KBHNNNE"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CL31A106KBHNNNE"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "x1p-005:C1206"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A106KBHNNNE_10uF-106-10-50V_C13585.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C13585"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CL31A106KBHNNNE_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "x1p-005:LMBT3904LT1G"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -2312,16 +2545,16 @@
 		(uuid "1781a77e-8683-455b-9fcd-97fb20f7b19d")
 	)
 	(junction
+		(at 100.33 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1cb8f5a6-0a99-480a-b9a0-57e1aa82c784")
+	)
+	(junction
 		(at 203.2 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f09a70a-78c1-4f07-831b-636b59fee071")
-	)
-	(junction
-		(at 234.95 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32bcf7fc-61c5-4132-a909-416feba6d99e")
 	)
 	(junction
 		(at 85.09 36.83)
@@ -2336,10 +2569,22 @@
 		(uuid "58607604-dbfb-419c-ab13-b81d81c696c7")
 	)
 	(junction
+		(at 234.95 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d4bfc8e-b5da-47af-9288-14697410d3e5")
+	)
+	(junction
 		(at 34.29 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ff74478-516f-4cc4-9dee-e9929cd0e81b")
+	)
+	(junction
+		(at 234.95 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70446bef-22ad-4f61-aa85-9f95176d822f")
 	)
 	(junction
 		(at 210.82 73.66)
@@ -2390,12 +2635,6 @@
 		(uuid "db9c5337-811c-4af8-bd05-428bc1c124d9")
 	)
 	(junction
-		(at 234.95 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1775538-abbd-4963-820a-b83522eae07c")
-	)
-	(junction
 		(at 180.34 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2424,10 +2663,6 @@
 		(uuid "2237ff33-2c18-4eea-85f1-9fee0b61d067")
 	)
 	(no_connect
-		(at 49.53 38.1)
-		(uuid "26168dc7-0f9a-4939-8b08-a61149993429")
-	)
-	(no_connect
 		(at 245.11 55.88)
 		(uuid "440f6ae5-9f66-41d8-be07-bc402f558b22")
 	)
@@ -2436,7 +2671,7 @@
 		(uuid "5f1750c4-26f5-4c9b-acb1-7303f715cfad")
 	)
 	(no_connect
-		(at 107.95 77.47)
+		(at 115.57 77.47)
 		(uuid "6753534c-82ae-4c48-a562-f860193bbf2e")
 	)
 	(wire
@@ -2451,7 +2686,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 107.95 87.63)
+			(xy 114.3 87.63) (xy 115.57 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2491,6 +2726,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 66.04) (xy 243.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e32c16d-4328-4b8c-b30b-62e915ab7b67")
+	)
+	(wire
+		(pts
 			(xy 203.2 73.66) (xy 210.82 73.66)
 		)
 		(stroke
@@ -2518,6 +2763,16 @@
 			(type default)
 		)
 		(uuid "132ff5e4-18be-46b6-9eb9-7a98060c2275")
+	)
+	(wire
+		(pts
+			(xy 90.17 93.98) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f16ea7-27d7-4cfd-a9a7-5ff2d588fa42")
 	)
 	(wire
 		(pts
@@ -2568,6 +2823,16 @@
 			(type default)
 		)
 		(uuid "1d6c26e3-be59-419e-9366-44ae9e9bd4e1")
+	)
+	(wire
+		(pts
+			(xy 85.09 87.63) (xy 90.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dd8510b-9002-4eec-8270-f8e3e9d3858c")
 	)
 	(wire
 		(pts
@@ -2641,16 +2906,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 73.66) (xy 243.84 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bbb50db-1ba1-4298-8b71-351c08f8af8a")
-	)
-	(wire
-		(pts
 			(xy 163.83 46.99) (xy 163.83 53.34)
 		)
 		(stroke
@@ -2701,16 +2956,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 72.39) (xy 243.84 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "615083c9-9b54-4c9f-91fb-24152d1668b2")
-	)
-	(wire
-		(pts
 			(xy 187.96 27.94) (xy 187.96 25.4)
 		)
 		(stroke
@@ -2731,6 +2976,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 73.66) (xy 243.84 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69684b0f-f062-4a2e-9d1c-d34e8c488716")
+	)
+	(wire
+		(pts
 			(xy 83.82 36.83) (xy 85.09 36.83)
 		)
 		(stroke
@@ -2741,7 +2996,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 72.39) (xy 118.11 72.39)
+			(xy 100.33 72.39) (xy 125.73 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2961,16 +3216,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 66.04) (xy 243.84 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e0f4fe-ecd2-4976-9214-967d1cdb9ef2")
-	)
-	(wire
-		(pts
 			(xy 219.71 39.37) (xy 227.33 39.37)
 		)
 		(stroke
@@ -3021,17 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 66.04) (xy 243.84 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1bf57a4-57e9-4fee-bdf8-e7a052b84d80")
-	)
-	(wire
-		(pts
-			(xy 92.71 87.63) (xy 96.52 87.63)
+			(xy 100.33 87.63) (xy 104.14 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3459,7 +3694,7 @@
 	)
 	(text "Volume Control"
 		(exclude_from_sim no)
-		(at 113.284 73.66 0)
+		(at 120.904 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3613,9 +3848,31 @@
 			)
 		)
 	)
-	(global_label "LD1"
+	(global_label "LD2"
 		(shape input)
-		(at 92.71 87.63 180)
+		(at 49.53 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13cd1590-eb60-4ea2-8726-644601c5d102")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.0228 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LD0"
+		(shape input)
+		(at 85.09 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3623,9 +3880,9 @@
 			)
 			(justify right)
 		)
-		(uuid "16c2b0b6-38b0-4849-8c50-f1767ef517fd")
+		(uuid "1c43d968-2813-4033-b348-7d6a323d3ef1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.2172 87.63 0)
+			(at 78.5972 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3635,7 +3892,7 @@
 			)
 		)
 	)
-	(global_label "HD0"
+	(global_label "HD1"
 		(shape output)
 		(at 111.76 36.83 0)
 		(fields_autoplaced yes)
@@ -3943,7 +4200,7 @@
 			)
 		)
 	)
-	(global_label "HD0"
+	(global_label "HD1"
 		(shape input)
 		(at 163.83 25.4 180)
 		(fields_autoplaced yes)
@@ -3987,28 +4244,6 @@
 			)
 		)
 	)
-	(global_label "LD0"
-		(shape input)
-		(at 49.53 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f3f7e94-e3fe-40f6-a789-a413f3ce8135")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0228 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 34.29 30.48 180)
@@ -4031,9 +4266,31 @@
 			)
 		)
 	)
+	(global_label "LD0"
+		(shape output)
+		(at 49.53 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ae79170-c667-4d53-a5de-0b7b8fcc67d6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.0228 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
-		(at 113.03 92.71 0)
+		(at 120.65 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4043,7 +4300,7 @@
 		)
 		(uuid "5b69207f-eb4c-4c14-9d47-3dec4759c589")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.8857 92.71 0)
+			(at 127.5057 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,6 +4486,28 @@
 			)
 		)
 	)
+	(global_label "LD4"
+		(shape output)
+		(at 49.53 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87aa883c-6a23-427e-b614-3aa3c7e1dd91")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.0228 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "5V"
 		(shape input)
 		(at 245.11 39.37 0)
@@ -4264,28 +4543,6 @@
 		(uuid "9506fb28-d0a5-4fdc-a47d-aa273a886720")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 218.6433 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LD2"
-		(shape input)
-		(at 49.53 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9534976c-a287-4e3c-a09a-8d0eb6f01af4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0228 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4339,7 +4596,7 @@
 			)
 		)
 	)
-	(global_label "LD0"
+	(global_label "LD1"
 		(shape input)
 		(at 83.82 36.83 180)
 		(fields_autoplaced yes)
@@ -4581,6 +4838,28 @@
 			)
 		)
 	)
+	(global_label "LD3"
+		(shape input)
+		(at 49.53 35.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ceb60696-b1b8-4ea9-8584-209ada6f9ef2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.0228 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GND"
 		(shape input)
 		(at 55.88 96.52 270)
@@ -4691,6 +4970,28 @@
 			)
 		)
 	)
+	(global_label "LD4"
+		(shape input)
+		(at 85.09 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5b5e97b-1566-4374-b5d4-c3a36714fd7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.5972 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape input)
 		(at 26.67 69.85 90)
@@ -4737,7 +5038,7 @@
 	)
 	(global_label "3V3"
 		(shape input)
-		(at 92.71 72.39 180)
+		(at 100.33 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4747,7 +5048,7 @@
 		)
 		(uuid "f3e6a422-62f0-419c-9660-02133ae5ab7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.2172 72.39 0)
+			(at 93.8372 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,28 +5120,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LD3"
-		(shape input)
-		(at 49.53 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff77a7f3-aa22-4d74-8c79-9c7cd0fb02e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.0228 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4924,8 +5203,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 100.33 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c5b2f5f-6875-4ad6-bf6c-3b3b18365a4a")
+		(property "Reference" "TP2"
+			(at 98.806 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 102.87 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 100.33 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "500f4c49-9491-4c26-9400-fde0fdf36dc7")
+		)
+		(instances
+			(project "x1p-005"
+				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "x1p-005:3362P-1-102")
-		(at 113.03 77.47 180)
+		(at 120.65 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4933,7 +5279,7 @@
 		(dnp no)
 		(uuid "1352dbcf-a714-48f2-8117-5f68c46f0b62")
 		(property "Reference" "R5"
-			(at 110.236 75.438 0)
+			(at 117.856 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +5287,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 114.3 75.438 0)
+			(at 121.92 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +5295,7 @@
 			)
 		)
 		(property "Footprint" "x1p-005:RES-ADJ-TH_3362P"
-			(at 113.03 69.85 0)
+			(at 120.65 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +5304,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Precision-Potentiometer_1KR_C118947.html"
-			(at 113.03 67.31 0)
+			(at 120.65 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4967,7 +5313,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 77.47 0)
+			(at 120.65 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +5322,7 @@
 			)
 		)
 		(property "LCSC Part" "C118947"
-			(at 113.03 64.77 0)
+			(at 120.65 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5428,7 @@
 	)
 	(symbol
 		(lib_id "x1p-005:QMB-09B-03")
-		(at 123.19 74.93 0)
+		(at 130.81 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5090,7 +5436,7 @@
 		(dnp no)
 		(uuid "19178587-ad01-46eb-9117-ca1ab3d648a2")
 		(property "Reference" "BUZZER1"
-			(at 128.524 74.93 0)
+			(at 136.144 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5445,7 @@
 			)
 		)
 		(property "Value" "QMB-09B-03"
-			(at 129.54 76.1999 0)
+			(at 137.16 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +5455,7 @@
 			)
 		)
 		(property "Footprint" "x1p-005:BUZ-TH_BD9.0-P4.00-D0.6-FD"
-			(at 123.19 85.09 0)
+			(at 130.81 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +5464,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Buzzers_BuzzersQMB-09B-03_C96256.html"
-			(at 123.19 87.63 0)
+			(at 130.81 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +5473,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 74.93 0)
+			(at 130.81 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +5482,7 @@
 			)
 		)
 		(property "LCSC Part" "C96256"
-			(at 123.19 90.17 0)
+			(at 130.81 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,6 +5950,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 95.25 87.63 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3b442188-43f6-443b-8818-fe041be44491")
+		(property "Reference" "JP1"
+			(at 95.25 85.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa8d1d81-31e5-46a0-b43f-bd07ac853720")
+		)
+		(pin "1"
+			(uuid "459a394d-66b6-423b-9e5c-7e5bc9057cce")
+		)
+		(instances
+			(project ""
+				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc:CL05B104KO5NNNC")
 		(at 234.95 69.85 270)
 		(unit 1)
@@ -5676,84 +6090,6 @@
 			(project "x1p-005"
 				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
-		(at 243.84 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "407893bf-f43f-446e-8061-3fce5d835f63")
-		(property "Reference" "C12"
-			(at 245.618 68.834 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uf"
-			(at 245.618 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "x1p-005:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD"
-			(at 243.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small US symbol"
-			(at 243.84 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C134237"
-			(at 243.84 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7fdd209a-8a6e-4131-80e3-a2aa97b85da7")
-		)
-		(pin "1"
-			(uuid "79e81e9a-32c1-43c4-9cbe-cdaa6b45eebc")
-		)
-		(instances
-			(project ""
-				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
-					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -6332,7 +6668,7 @@
 	)
 	(symbol
 		(lib_id "x1p-005:0402WGF2201TCE")
-		(at 101.6 87.63 0)
+		(at 109.22 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6341,7 +6677,7 @@
 		(fields_autoplaced yes)
 		(uuid "9969be23-0c80-488d-9700-c28d611c2f7b")
 		(property "Reference" "R6"
-			(at 101.6 81.28 0)
+			(at 109.22 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6349,7 +6685,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 101.6 83.82 0)
+			(at 109.22 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +6693,7 @@
 			)
 		)
 		(property "Footprint" "x1p-005:R0402"
-			(at 101.6 95.25 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6366,7 +6702,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
-			(at 101.6 97.79 0)
+			(at 109.22 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6375,7 +6711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 87.63 0)
+			(at 109.22 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6384,7 +6720,7 @@
 			)
 		)
 		(property "LCSC Part" "C25879"
-			(at 101.6 100.33 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,8 +6900,86 @@
 		)
 	)
 	(symbol
+		(lib_id "x1p-005:CL31A106KBHNNNE")
+		(at 243.84 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8dfd7f3-04c3-45a6-b9a1-a1a05752aca4")
+		(property "Reference" "C12"
+			(at 246.126 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uf"
+			(at 246.126 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "x1p-005:C1206"
+			(at 251.46 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A106KBHNNNE_10uF-106-10-50V_C13585.html"
+			(at 254 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C13585"
+			(at 256.54 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f15025a-e9d7-439f-9a43-7b9fcfdc1405")
+		)
+		(pin "1"
+			(uuid "88fedc0e-06d9-47a6-94f9-c53892705564")
+		)
+		(instances
+			(project ""
+				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "x1p-005:LMBT3904LT1G")
-		(at 110.49 87.63 0)
+		(at 118.11 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6574,7 +6988,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa29336a-9301-4bac-8acb-4733db3a8f2f")
 		(property "Reference" "Q1"
-			(at 114.3 86.3599 0)
+			(at 121.92 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6997,7 @@
 			)
 		)
 		(property "Value" "LMBT3904LT1G"
-			(at 114.3 88.8999 0)
+			(at 121.92 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6593,7 +7007,7 @@
 			)
 		)
 		(property "Footprint" "x1p-005:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 110.49 100.33 0)
+			(at 118.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6602,7 +7016,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_LMBT3904LT1G_C49580.html"
-			(at 110.49 102.87 0)
+			(at 118.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6611,7 +7025,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 87.63 0)
+			(at 118.11 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6620,7 +7034,7 @@
 			)
 		)
 		(property "LCSC Part" "C49580"
-			(at 110.49 105.41 0)
+			(at 118.11 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7449,6 +7863,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5234924-d163-471d-9f82-729397c5d4a6")
+		(property "Reference" "TP1"
+			(at 94.996 94.234 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 95.25 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 90.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5016f756-d00b-4e12-a928-030d1d64a78e")
+		)
+		(instances
+			(project ""
+				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "x1p-005:XL-5050RGBC-WS2812B")
 		(at 172.72 26.67 0)
 		(mirror y)
@@ -7558,7 +8039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x1p-004:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
+		(property "Footprint" "x1p-005:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR"
 			(at 99.06 44.45 0)
 			(effects
 				(font
