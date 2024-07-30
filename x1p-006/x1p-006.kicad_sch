@@ -1892,6 +1892,10 @@
 		(uuid "1d36b487-9b37-4f5d-80d4-85af27c26e51")
 	)
 	(no_connect
+		(at 34.29 35.56)
+		(uuid "19c46ab1-cffb-4af5-9c90-afa06b4d78c2")
+	)
+	(no_connect
 		(at 49.53 38.1)
 		(uuid "2dc9d1ae-ea85-423f-9cb8-e0c6b510ccdb")
 	)
@@ -1906,6 +1910,10 @@
 	(no_connect
 		(at 49.53 35.56)
 		(uuid "626bda16-b5ae-40e0-80dd-6fb3ac6b0294")
+	)
+	(no_connect
+		(at 34.29 38.1)
+		(uuid "db573c92-0c0b-421c-ac35-a3c8f1889707")
 	)
 	(wire
 		(pts
@@ -2295,28 +2303,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape output)
-		(at 34.29 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2a076700-c866-441e-981a-f15a46850509")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 90.17 50.8 180)
@@ -2603,28 +2589,6 @@
 			)
 		)
 	)
-	(global_label "5V"
-		(shape output)
-		(at 34.29 35.56 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ccf7753f-8dea-447f-a9ca-d9293c94147c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.0067 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LD0"
 		(shape input)
 		(at 90.17 22.86 180)
@@ -2741,7 +2705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "x1p-005:R0402"
+		(property "Footprint" "x1p-006:R0402"
 			(at 59.69 72.39 0)
 			(effects
 				(font
@@ -2818,7 +2782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "x1p-005:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Footprint" "x1p-006:SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL"
 			(at 33.02 71.12 0)
 			(effects
 				(font
@@ -2980,7 +2944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "x1p-005:HDR-TH_16P-P2.54-H-F-R2-C8-W8.5"
+		(property "Footprint" "x1p-006:HDR-TH_16P-P2.54-H-F-R2-C8-W8.5"
 			(at 41.91 53.34 0)
 			(effects
 				(font
@@ -3267,7 +3231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "x1p-005:C0402"
+		(property "Footprint" "x1p-006:C0402"
 			(at 60.96 73.66 0)
 			(effects
 				(font
@@ -3587,7 +3551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "x1p-005:R0402"
+		(property "Footprint" "x1p-006:R0402"
 			(at 52.07 72.39 0)
 			(effects
 				(font
