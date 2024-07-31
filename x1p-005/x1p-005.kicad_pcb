@@ -1163,7 +1163,7 @@
 		)
 		(model "/x1p-005.3dshapes/SW-SMD_4P-L6.0-W6.0-P4.50-LS8.6.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1454,7 +1454,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1745,7 +1745,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2036,7 +2036,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2282,7 +2282,7 @@
 		)
 		(model "/x1p-005.3dshapes/SW-SMD_4P-L6.0-W6.0-P4.50-LS8.6.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.5)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2573,7 +2573,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2864,7 +2864,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3155,7 +3155,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3636,7 +3636,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3927,7 +3927,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4218,7 +4218,7 @@
 		)
 		(model "/x1p-005.3dshapes/LED-SMD_4P-L5.0-W5.0-BL_XL-5050RGBC.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.85)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4450,7 +4450,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4682,7 +4682,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -4868,9 +4868,9 @@
 			(pintype "input")
 			(uuid "255ef84f-fe7e-4a9c-bec7-335c05c1b869")
 		)
-		(model "/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
+		(model "${KIPRJMOD}/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz -0.25 0.18 -0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5102,7 +5102,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5486,7 +5486,7 @@
 		)
 		(model "/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz -0.25 0.18 -0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5718,7 +5718,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -5950,7 +5950,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6138,7 +6138,7 @@
 		)
 		(model "/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz -0.25 0.18 -0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6326,7 +6326,7 @@
 		)
 		(model "/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz -0.25 0.18 -0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6512,9 +6512,9 @@
 			(pintype "input")
 			(uuid "bfd4f652-2326-4688-8301-3fecbf1364cd")
 		)
-		(model "/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
+		(model "${KIPRJMOD}/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz -0.25 0.18 -0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -6908,13 +6908,13 @@
 		)
 		(model "/x1p-005.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
-				(xyz 0.84 -0.97 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 270)
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -7140,7 +7140,7 @@
 		)
 		(model "/x1p-005.3dshapes/C1206_L3.2-W1.6-H1.3.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.63)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7372,7 +7372,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7604,7 +7604,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -7836,7 +7836,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8032,9 +8032,9 @@
 			(pintype "unspecified")
 			(uuid "15baa57e-552f-498d-b963-eb8beb254051")
 		)
-		(model "/x1p-005.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
+		(model "${KIPRJMOD}/x1p-005.3dshapes/SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95.wrl"
 			(offset
-				(xyz -861.57 843.28 -0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8266,7 +8266,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8704,7 +8704,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8936,7 +8936,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -9168,7 +9168,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -9374,13 +9374,13 @@
 		)
 		(model "/x1p-005.3dshapes/SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95.wrl"
 			(offset
-				(xyz 0.84 -0.97 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 270)
+				(xyz 0 0 -90)
 			)
 		)
 	)
@@ -9794,7 +9794,7 @@
 		)
 		(model "/x1p-005.3dshapes/C0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz 0 -0 -0)
+				(xyz 0 -0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
