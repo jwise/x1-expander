@@ -113,37 +113,30 @@
 				)
 			)
 		)
-		(symbol "PJ-211_1"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "PJ"
-				(at 0 7.62 0)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PJ-211"
-				(at 0 -7.62 0)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "x1p-006:AUDIO-TH_PJ-211"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -152,7 +145,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -161,8 +154,8 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC Part" "C668603"
-				(at 0 -12.7 0)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -170,10 +163,63 @@
 					(hide yes)
 				)
 			)
-			(symbol "PJ-211_1_0_1"
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 1.016)
+					(mid -1.2656 0)
+					(end -0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy -2.29 -2.54) (xy -2.79 -1.78) (xy -3.3 -2.54)
+						(xy -0.254 1.016) (xy -0.254 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -185,7 +231,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy -2.29 0) (xy -2.79 -0.76) (xy -3.3 0)
+						(xy 0.254 1.016) (xy 0.254 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -195,10 +241,10 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -5.08 2.54) (xy -5.08 -3.81) (xy -5.59 -2.29)
-					)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
 					(stroke
 						(width 0)
 						(type default)
@@ -207,10 +253,24 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
-					(at 5.08 2.54 180)
+				(arc
+					(start 0.254 -1.016)
+					(mid 1.2656 0)
+					(end 0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -225,10 +285,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 5.08 0 180)
+				(pin passive line
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "2"
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -236,24 +296,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1247,6 +1289,208 @@
 				)
 			)
 		)
+		(symbol "x1p-006:PJ-2013-L6S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AUDIO"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PJ-2013-L6S"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "x1p-006:AUDIO-TH_PJ-2013-L6S"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C5117893"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PJ-2013-L6S_0_1"
+				(rectangle
+					(start -12.45 -1.27)
+					(end -10.67 -5.59)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -11.43 -1.27) (xy -11.43 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0) (xy -6.35 -1.27) (xy -7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy -2.54 -5.08) (xy -3.81 -3.81) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -3.81 0) (xy -5.08 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy -7.62 -7.62) (xy -8.89 -6.35) (xy -10.16 -7.62) (xy -10.16 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -7.62 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -5.08 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "x1p-006:TLP240A(TP1,F"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1846,6 +2090,18 @@
 		(color 0 0 0 0)
 		(uuid "1d36b487-9b37-4f5d-80d4-85af27c26e51")
 	)
+	(junction
+		(at 135.89 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d416c8e6-95ae-4540-9102-58a742612101")
+	)
+	(junction
+		(at 135.89 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "def90c73-0995-44b9-806b-aef4f9d084d6")
+	)
 	(no_connect
 		(at 30.48 46.99)
 		(uuid "095e7f6b-7f56-4ebd-9232-14b91e465cc8")
@@ -1853,6 +2109,10 @@
 	(no_connect
 		(at 30.48 26.67)
 		(uuid "32c25e6c-b9ed-4da4-8dc6-5e7d2b0884c3")
+	)
+	(no_connect
+		(at 143.51 27.94)
+		(uuid "3ce759d6-4717-4998-ba15-2e228c636284")
 	)
 	(no_connect
 		(at 30.48 29.21)
@@ -1883,8 +2143,22 @@
 		(uuid "d9031797-3f16-42e0-8854-38ffdd33a72c")
 	)
 	(no_connect
+		(at 143.51 53.34)
+		(uuid "df615d1b-faea-4a46-9714-6c49824bcdcf")
+	)
+	(no_connect
 		(at 50.8 34.29)
 		(uuid "e02141bd-4a47-48fa-a062-a410f523608e")
+	)
+	(wire
+		(pts
+			(xy 135.89 30.48) (xy 135.89 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098898d4-a78e-467f-8e80-364f709bf60a")
 	)
 	(wire
 		(pts
@@ -1898,16 +2172,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 50.8) (xy 129.54 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dad39e2-95fa-4ce2-9f16-317250d50737")
-	)
-	(wire
-		(pts
 			(xy 52.07 78.74) (xy 41.91 78.74)
 		)
 		(stroke
@@ -1918,13 +2182,33 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 40.64) (xy 129.54 35.56)
+			(xy 129.54 55.88) (xy 135.89 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e0ec03e-4116-4adc-9b73-7be9e29f1b7a")
+		(uuid "17b4d032-d6a2-471d-9506-8a947cf0378a")
+	)
+	(wire
+		(pts
+			(xy 135.89 55.88) (xy 135.89 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dfdb05-b708-48bf-9eb7-16bdba180329")
+	)
+	(wire
+		(pts
+			(xy 129.54 38.1) (xy 143.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342deb6e-cc80-46dc-93ea-1af10e96b331")
 	)
 	(wire
 		(pts
@@ -1938,16 +2222,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 129.54 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37d1ac3f-d83a-4ba8-b98b-64ef11d4b414")
-	)
-	(wire
-		(pts
 			(xy 52.07 77.47) (xy 52.07 78.74)
 		)
 		(stroke
@@ -1958,23 +2232,23 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 33.02) (xy 133.35 33.02)
+			(xy 129.54 50.8) (xy 129.54 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "45a1f442-71fd-407f-a91e-5b8830107f42")
+		(uuid "5be1518b-efc7-4a55-a3f9-e45ea6d32a20")
 	)
 	(wire
 		(pts
-			(xy 129.54 60.96) (xy 133.35 60.96)
+			(xy 129.54 30.48) (xy 135.89 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65587c29-3a99-41e4-a8b5-e179fe687779")
+		(uuid "5eb94a48-4c7d-42a9-ad03-218565e6f1b4")
 	)
 	(wire
 		(pts
@@ -1998,6 +2272,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 40.64) (xy 129.54 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a48159f2-e79e-4ada-bf26-e96bc4940406")
+	)
+	(wire
+		(pts
+			(xy 135.89 55.88) (xy 143.51 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97b6580-17bb-41d5-b4b0-8e6caf86d845")
+	)
+	(wire
+		(pts
 			(xy 90.17 50.8) (xy 100.33 50.8)
 		)
 		(stroke
@@ -2005,6 +2299,16 @@
 			(type default)
 		)
 		(uuid "aa21a63d-dc2c-414b-a7a1-65b65e1f3b58")
+	)
+	(wire
+		(pts
+			(xy 129.54 66.04) (xy 129.54 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ff2c56-212f-4805-8aa8-bbde519c2a4a")
 	)
 	(wire
 		(pts
@@ -2018,13 +2322,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 25.4) (xy 129.54 33.02)
+			(xy 129.54 63.5) (xy 143.51 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b63cc77d-a4a1-4093-89a0-1ab47c0b2850")
+		(uuid "bb78a254-bed8-402d-a7cc-05293ac6d6e4")
 	)
 	(wire
 		(pts
@@ -2038,13 +2342,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 133.35 58.42)
+			(xy 135.89 30.48) (xy 143.51 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "caaf3a1e-ae6f-4b7d-9b7c-5ce43dd2dfc3")
+		(uuid "c49423b1-64cd-45e6-becc-889297e9e722")
 	)
 	(wire
 		(pts
@@ -2078,6 +2382,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 25.4) (xy 129.54 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e70728c9-961b-4073-b602-19dbddacc15c")
+	)
+	(wire
+		(pts
 			(xy 125.73 66.04) (xy 129.54 66.04)
 		)
 		(stroke
@@ -2085,16 +2399,6 @@
 			(type default)
 		)
 		(uuid "f08c4a75-0ab2-4a4a-b980-0fc115e90e84")
-	)
-	(wire
-		(pts
-			(xy 129.54 35.56) (xy 133.35 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6a35a3-ca5a-48ec-9c16-6d66341180ee")
 	)
 	(rectangle
 		(start 12.7 53.34)
@@ -2122,7 +2426,7 @@
 	)
 	(rectangle
 		(start 80.01 12.7)
-		(end 154.94 72.39)
+		(end 187.96 72.39)
 		(stroke
 			(width 0)
 			(type default)
@@ -2993,6 +3297,92 @@
 		)
 	)
 	(symbol
+		(lib_id "x1p-006:PJ-2013-L6S")
+		(at 148.59 60.96 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7aec822c-4ea0-4368-b6a9-ca233cbd5d0b")
+		(property "Reference" "CAM2"
+			(at 162.56 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ-2013-L6S"
+			(at 162.56 59.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "x1p-006:AUDIO-TH_PJ-2013-L6S"
+			(at 148.59 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5117893"
+			(at 148.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "903d32b6-8239-418c-bf06-636b0bbd8425")
+		)
+		(pin "4"
+			(uuid "e8e9ac54-f266-4dca-950e-1056b65d7e4e")
+		)
+		(pin "1"
+			(uuid "05cac00a-a317-4f0e-855d-68bdcdb47222")
+		)
+		(pin "2"
+			(uuid "bd857c63-7878-487f-bb1e-5e8b161be878")
+		)
+		(instances
+			(project "x1p-006"
+				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
+					(reference "CAM2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc:CL05B104KO5NNNC")
 		(at 68.58 73.66 270)
 		(unit 1)
@@ -3285,6 +3675,160 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 60.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a919b6df-a5d5-4f2d-aa35-c7d9162a9ba3")
+		(property "Reference" "JP2"
+			(at 139.954 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 139.7 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 139.7 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd01025-32d6-45b7-bae4-43c7be3afa01")
+		)
+		(pin "2"
+			(uuid "8aee483e-ed35-4c31-bab6-3bdef593443d")
+		)
+		(instances
+			(project "x1p-006"
+				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "x1p-006:PJ-2013-L6S")
+		(at 148.59 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3e805a3-c960-4207-aa91-97b3b48cf2ae")
+		(property "Reference" "CAM1"
+			(at 162.56 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PJ-2013-L6S"
+			(at 162.56 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "x1p-006:AUDIO-TH_PJ-2013-L6S"
+			(at 148.59 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C5117893"
+			(at 148.59 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "110cbff4-3123-4443-b687-41bf77c9ac1b")
+		)
+		(pin "4"
+			(uuid "ecbef565-4aa6-4825-9098-9a162a5d4445")
+		)
+		(pin "1"
+			(uuid "5dd3921b-6d4b-4183-9a27-196697a6a1bb")
+		)
+		(pin "2"
+			(uuid "f264cfa0-3471-4dff-a2a5-782359b77ac2")
+		)
+		(instances
+			(project "x1p-006"
+				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
+					(reference "CAM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "x1p-006:0402WGF2200TCE")
 		(at 95.25 40.64 0)
 		(unit 1)
@@ -3355,89 +3899,6 @@
 			(project "x1p-006"
 				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "PJ-211_1")
-		(lib_id "x1p-006:PJ-211")
-		(at 138.43 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d85336c7-c4dd-41c1-8a35-7ac774c62c57")
-		(property "Reference" "PJ1"
-			(at 144.78 31.1149 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PJ-211"
-			(at 144.78 33.6549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "x1p-006:AUDIO-TH_PJ-211"
-			(at 138.43 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C668603"
-			(at 138.43 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2a25e3b9-d5f1-467a-8899-01bd73fd7c10")
-		)
-		(pin "2"
-			(uuid "1459cc44-e594-4db0-8291-7f7ac7df46fa")
-		)
-		(pin "1"
-			(uuid "febfadbf-088d-40f4-9e32-cb7598764990")
-		)
-		(instances
-			(project "x1p-006"
-				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
-					(reference "PJ1")
 					(unit 1)
 				)
 			)
@@ -3522,36 +3983,24 @@
 		)
 	)
 	(symbol
-		(lib_name "PJ-211_1")
-		(lib_id "x1p-006:PJ-211")
-		(at 138.43 58.42 180)
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 139.7 35.56 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6b71162-7bf6-4b01-b00a-d007476cc9ba")
-		(property "Reference" "PJ2"
-			(at 144.78 56.5149 0)
+		(uuid "ef9f5f2e-9502-4b11-a27d-6517d20197f8")
+		(property "Reference" "JP1"
+			(at 139.954 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "PJ-211"
-			(at 144.78 59.0549 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "x1p-006:AUDIO-TH_PJ-211"
-			(at 138.43 48.26 0)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 139.7 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3559,8 +4008,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 138.43 58.42 0)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 139.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3568,8 +4017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 138.43 58.42 0)
+		(property "Datasheet" "~"
+			(at 139.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3577,28 +4026,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C668603"
-			(at 138.43 45.72 0)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 139.7 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "3"
-			(uuid "750d8405-0dc2-4e24-8c3c-c6d17648f1db")
-		)
-		(pin "2"
-			(uuid "087f062a-ff8f-42fd-86c2-c08ed6570606")
 		)
 		(pin "1"
-			(uuid "4da45a97-0a93-489c-9da4-9f5151ada0d8")
+			(uuid "8dde8401-666a-45b3-a780-dc5f3570f868")
+		)
+		(pin "2"
+			(uuid "e74b54f1-f0e5-4c97-8f13-ccbfd53c616b")
 		)
 		(instances
-			(project "x1p-006"
+			(project ""
 				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
-					(reference "PJ2")
+					(reference "JP1")
 					(unit 1)
 				)
 			)
