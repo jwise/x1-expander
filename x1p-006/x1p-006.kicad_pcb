@@ -889,7 +889,7 @@
 		(uuid "285c3132-b8d9-46a7-8b40-e7205f781a75")
 		(at 70.63 110.2)
 		(property "Reference" "R6"
-			(at 0 -4 360)
+			(at 0 -4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "50c20392-f779-4f0f-b4f3-5270b17c501b")
@@ -901,7 +901,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "76bc377d-4b3d-4f5c-bff8-2db5abfdefc6")
@@ -913,7 +913,7 @@
 			)
 		)
 		(property "Footprint" "x1p-006:R0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09b40eb2-a053-4e76-99e2-c3b347c289d9")
@@ -925,7 +925,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b47d997-b771-4fe4-97f8-56c75a40f74a")
@@ -937,7 +937,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fb3c59cd-28e5-49eb-bd48-980afd22056c")
@@ -1054,9 +1054,9 @@
 			(pintype "input")
 			(uuid "981c20cd-556b-423d-b563-9a59600d8d6f")
 		)
-		(model "/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
+		(model "${KIPRJMOD}/x1p-006.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz -0.25 0.18 -0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1071,7 +1071,7 @@
 		(uuid "30c9ae4f-87cc-44d4-b53c-22cf4db7d423")
 		(at 57.97 110.2)
 		(property "Reference" "R5"
-			(at 0 -4 360)
+			(at 0 -4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1b071212-d02b-4301-99a6-f772e7a9222f")
@@ -1083,7 +1083,7 @@
 			)
 		)
 		(property "Value" "3.3k"
-			(at 0 4 360)
+			(at 0 4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "637ad661-9778-4d54-86e9-9a7e07dc7894")
@@ -1095,7 +1095,7 @@
 			)
 		)
 		(property "Footprint" "x1p-006:R0402"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1b8ad6ec-d834-4dda-9c11-dd7c25cea7d4")
@@ -1107,7 +1107,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4aaad027-ab99-4fbd-8b7e-fdfd8dd1ea45")
@@ -1119,7 +1119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03125e46-a64d-405c-83b5-e8341c58cd7c")
@@ -1236,9 +1236,9 @@
 			(pintype "input")
 			(uuid "06969490-05db-4ed6-818d-f7e388fb406d")
 		)
-		(model "/x1p-005.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
+		(model "${KIPRJMOD}/x1p-006.3dshapes/R0402_L1.0-W0.5-H0.5.wrl"
 			(offset
-				(xyz -0.25 0.18 -0)
+				(xyz 0 0 0.24)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -3368,7 +3368,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP6"
-			(at 0 1.8 360)
+			(at 0 1.8 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "23836596-6964-4a7b-a206-0ab231769d22")
@@ -3381,7 +3381,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "408846a1-77d9-411d-85e1-467b6d15cd17")
@@ -4502,7 +4502,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, bridged with 1 copper strip")
 		(tags "net tie solder jumper bridged")
 		(property "Reference" "JP5"
-			(at 0 1.8 360)
+			(at 0 1.8 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "1430685d-8ebc-499f-ac51-b5d49f63fb94")
@@ -4515,7 +4515,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Bridged"
-			(at 0 -1.9 360)
+			(at 0 -1.9 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "dca03487-2348-41f4-9992-9e9664c40a9a")
@@ -7522,7 +7522,28 @@
 		)
 	)
 	(group ""
-		(uuid "2132bf94-a73f-4b28-9a45-9c3b65a4cc21")
+		(uuid "349e1218-7ea3-4833-8c57-5becbc7adca6")
+		(members "09e960ab-c29b-40aa-afa1-358ccb0d94b0" "1e422f5c-6f33-4e37-abc5-f0b1924f755b"
+			"28527488-3865-4450-ab0f-b4d43205b15a" "30c9ae4f-87cc-44d4-b53c-22cf4db7d423"
+			"31c21362-1dec-4d83-9b8e-6173a1008a1a" "42c5a1fa-94a9-4b23-9f62-2b2453d8375e"
+			"6f37269f-19ef-4243-a2f4-654079a72b6a" "7b6cd99e-bb51-4cfc-8fd2-47f8ea39d0a2"
+			"7f35aa94-5940-488b-9940-d354e5e3a20d" "901a6ec2-63f5-4de7-9ec5-b3dec2344fb5"
+			"afd5d228-94ea-4415-a3cb-760fcf73ad2a" "b85eb11d-9982-4cf7-b9f3-37a22d41ee30"
+			"ce2f6751-87a6-47d5-8527-9ff1cb1ebe4a"
+		)
+	)
+	(group ""
+		(uuid "577ff2ad-b6ee-4254-a8c1-8ef75e056d82")
+		(members "02122de3-2f67-4231-a199-d48a066badc8" "0a3d85c1-69ff-403c-a69f-54a8c398a6e4"
+			"14a9484c-87a8-4825-a75f-20fde403d52b" "285c3132-b8d9-46a7-8b40-e7205f781a75"
+			"29c2a45a-e239-4923-a12e-eac73f628e0b" "31c52e36-58b4-48b7-973c-3ce88fa470a6"
+			"7669aa68-2d21-463c-8570-65de71f3c6bf" "9f36a1b9-f0ec-4356-b5a7-c0196423aeb1"
+			"ad89a838-8632-4f4b-b71e-9dac041853f5" "edc468c0-7ca7-42fa-a533-49b825841afa"
+			"f980109d-6f00-4ca8-858b-a67dcaf6d2f9"
+		)
+	)
+	(group ""
+		(uuid "9aa393b8-7c6e-4983-9b8b-0c59ad19c0ce")
 		(members "004a6125-9719-4ef8-8bd3-685145068763" "0d4c7c4c-15a0-4389-8ff2-509cf155f431"
 			"1ba92f18-f10e-40ff-81c1-44eedbd06eda" "215c7a98-e39f-4f04-806c-7c9b688cc704"
 			"256ffbc2-7699-46bf-9864-f9e225828008" "35d4a84c-b0c7-4c36-80f9-762505397878"
