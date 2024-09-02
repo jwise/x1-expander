@@ -53,10 +53,10 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "padstack|60800000|103000000|b0b3626a-8445-404d-99f8-9eef6d7e8b73|00000000-0000-0000-0000-000000000000",
-        "padstack|60800000|96200000|d3166699-03da-4fdd-bdee-63f776765e15|00000000-0000-0000-0000-000000000000",
-        "padstack|76000000|103000000|977debdf-7632-4a8e-9c9d-52b2da46dabd|00000000-0000-0000-0000-000000000000",
-        "padstack|76000000|96200000|c5fff19f-fa4e-4254-aa24-1732db9312cd|00000000-0000-0000-0000-000000000000"
+        "annular_width|60800000|98400000|79d7ec78-b619-436e-b6d1-0d98d9d2e28d|00000000-0000-0000-0000-000000000000",
+        "annular_width|76000000|98400000|fe262f1a-217d-4309-89cb-af6e737831ce|00000000-0000-0000-0000-000000000000",
+        "padstack|60800000|98400000|79d7ec78-b619-436e-b6d1-0d98d9d2e28d|00000000-0000-0000-0000-000000000000",
+        "padstack|76000000|98400000|fe262f1a-217d-4309-89cb-af6e737831ce|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -568,6 +568,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
