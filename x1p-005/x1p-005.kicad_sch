@@ -5278,28 +5278,6 @@
 			)
 		)
 	)
-	(global_label "HD1"
-		(shape input)
-		(at 168.91 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "18e8bd7e-eda3-49a8-b99b-0a641c5aee34")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.1148 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 25.4 73.66 180)
@@ -5868,6 +5846,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HD1"
+		(shape input)
+		(at 267.97 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "498e0120-16ff-4bd0-95ba-0057200f44a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.7652 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
