@@ -52,10 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "starved_thermal|65800000|115550000|9cbe07e0-bf56-4fd1-9e1c-10d7e08ee2e9|0ee3ccb6-1b1a-45cd-bfec-5b2f6a7b017b|B.Cu",
-        "starved_thermal|75750000|117200000|9cbe07e0-bf56-4fd1-9e1c-10d7e08ee2e9|9727316c-2051-445c-a9ac-bb92f34cb216|B.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
