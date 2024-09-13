@@ -632,7 +632,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "empty.kicad_wks",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -650,15 +650,19 @@
     ],
     [
       "1898a0d3-3c33-4600-8778-eef1e2c48cfc",
-      "MAIN"
+      "FTDI"
     ],
     [
       "59f5b442-dc6c-49f9-8b13-7a2ac6495930",
-      "LAN"
+      "LAN9514"
     ],
     [
       "52713671-aa4b-4412-b159-5876c2aaf3b7",
       "GPIO"
+    ],
+    [
+      "111302fa-6002-451b-a994-52e42f5b8198",
+      "Power"
     ]
   ],
   "text_variables": {}

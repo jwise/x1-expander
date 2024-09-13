@@ -3,10 +3,62 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "5c4052f8-31d6-4de3-b862-4d09b0660e26")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "X1Plus Expansion Board: X1P-002")
+		(rev "X1P-002-B01")
+	)
 	(lib_symbols)
+	(text "24Vsys polyfuse\n24V -> 5V Buck\n5V -> 3V3 Buck\nUser power OCP\nPower status LEDs"
+		(exclude_from_sim no)
+		(at 51.054 55.626 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "34610181-1217-455e-9599-81130b9e70a3")
+	)
 	(sheet
-		(at 5.08 5.08)
+		(at 34.29 43.18)
+		(size 34.29 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "111302fa-6002-451b-a994-52e42f5b8198")
+		(property "Sheetname" "Power"
+			(at 34.29 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 34.29 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 43.18)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -17,8 +69,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "1898a0d3-3c33-4600-8778-eef1e2c48cfc")
-		(property "Sheetname" "MAIN"
-			(at 5.08 4.3684 0)
+		(property "Sheetname" "FTDI"
+			(at 86.36 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "1_MAIN.kicad_sch"
-			(at 5.08 9.4746 0)
+			(at 86.36 47.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +96,7 @@
 		)
 	)
 	(sheet
-		(at 5.08 22.86)
+		(at 86.36 60.96)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +108,7 @@
 		)
 		(uuid "52713671-aa4b-4412-b159-5876c2aaf3b7")
 		(property "Sheetname" "GPIO"
-			(at 5.08 22.1484 0)
+			(at 86.36 60.2484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +117,7 @@
 			)
 		)
 		(property "Sheetfile" "3_GPIO.kicad_sch"
-			(at 5.08 27.2546 0)
+			(at 86.36 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +134,7 @@
 		)
 	)
 	(sheet
-		(at 5.08 13.97)
+		(at 86.36 52.07)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -93,8 +145,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "59f5b442-dc6c-49f9-8b13-7a2ac6495930")
-		(property "Sheetname" "LAN"
-			(at 5.08 13.2584 0)
+		(property "Sheetname" "LAN9514"
+			(at 86.36 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +155,7 @@
 			)
 		)
 		(property "Sheetfile" "2_LAN.kicad_sch"
-			(at 5.08 18.3646 0)
+			(at 86.36 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
