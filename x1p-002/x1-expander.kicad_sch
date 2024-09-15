@@ -78,7 +78,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1_MAIN.kicad_sch"
+		(property "Sheetfile" "FTDI.kicad_sch"
 			(at 86.36 47.5746 0)
 			(effects
 				(font
