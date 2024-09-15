@@ -3650,115 +3650,6 @@
 				)
 			)
 		)
-		(symbol "x1-expander:JK-NSMD100-16V"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F?"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "x1-expander:F1206"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JK-NSMD100-16V_1_0"
-				(rectangle
-					(start -3.302 -0.762)
-					(end 3.302 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "x1-expander:LAN9514"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6325,6 +6216,12 @@
 		(uuid "59bb2d5f-7112-4320-9d50-8638bd897c75")
 	)
 	(junction
+		(at 105.41 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59beae9b-36f2-4550-8797-1b6f7e523db6")
+	)
+	(junction
 		(at 191.77 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6601,10 +6498,6 @@
 		(uuid "1354cc63-3b4c-494d-a235-ad609f65524c")
 	)
 	(no_connect
-		(at 107.95 96.52)
-		(uuid "27f2b5d7-2cb1-4422-b1c8-f122d1fe0872")
-	)
-	(no_connect
 		(at 74.93 123.19)
 		(uuid "2841485a-f479-4e39-b884-8f9f5f9f3ded")
 	)
@@ -6639,10 +6532,6 @@
 	(no_connect
 		(at 107.95 160.02)
 		(uuid "a25d9f8c-293a-4210-a7a6-f0de5a635299")
-	)
-	(no_connect
-		(at 107.95 104.14)
-		(uuid "a92c6f94-3b79-423c-aefd-c5776104d787")
 	)
 	(no_connect
 		(at 107.95 111.76)
@@ -6898,6 +6787,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 96.52) (xy 107.95 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "169b1753-ae49-4f0c-a85d-60a8d8bf51dc")
+	)
+	(wire
+		(pts
 			(xy 287.02 72.39) (xy 287.02 90.17)
 		)
 		(stroke
@@ -7115,6 +7014,16 @@
 			(type default)
 		)
 		(uuid "2cadad00-9118-4daf-a5c2-e7a11895e7c1")
+	)
+	(wire
+		(pts
+			(xy 105.41 104.14) (xy 105.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf418dc-34fd-48f4-9651-cdc043455f66")
 	)
 	(wire
 		(pts
@@ -8468,6 +8377,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 96.52) (xy 105.41 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5927d2-a2f0-4231-86ef-7a866b389b8f")
+	)
+	(wire
+		(pts
 			(xy 298.45 195.58) (xy 302.26 195.58)
 		)
 		(stroke
@@ -8635,6 +8554,16 @@
 			(type default)
 		)
 		(uuid "cd11d0ef-ebc2-4f0f-b7c9-0cf6043190fb")
+	)
+	(wire
+		(pts
+			(xy 107.95 104.14) (xy 105.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7e9dd6-c2e0-43b0-8d78-f4e5fc2d88a0")
 	)
 	(wire
 		(pts
@@ -8878,16 +8807,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 157.48) (xy 276.86 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8ebd97b-74dc-4572-a623-13cbbcbdb439")
-	)
-	(wire
-		(pts
 			(xy 234.95 215.9) (xy 234.95 218.44)
 		)
 		(stroke
@@ -8928,7 +8847,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 157.48) (xy 260.35 157.48)
+			(xy 254 157.48) (xy 276.86 157.48)
 		)
 		(stroke
 			(width 0)
@@ -9663,6 +9582,28 @@
 			)
 		)
 	)
+	(global_label "OCP_ACT_N"
+		(shape input)
+		(at 102.87 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71586d65-0451-43ca-b528-24a7102894c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.4224 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3V3"
 		(shape bidirectional)
 		(at 233.68 193.04 180)
@@ -9783,7 +9724,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 240.03 157.48 180)
 		(effects
@@ -14654,165 +14595,6 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/59f5b442-dc6c-49f9-8b13-7a2ac6495930"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "x1-expander:JK-NSMD100-16V")
-		(at 265.43 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8316b028-c4c1-4f47-b88a-db621f903f83")
-		(property "Reference" "F2"
-			(at 264.033 156.1338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JK-NSMD100-16V"
-			(at 264.033 156.3116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Add into BOM" "yes"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Convert to PCB" "yes"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Class" "Extended Part"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "JK(金科)"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "JK-nSMD100-16"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Origin Footprint" "F1206"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C369161"
-			(at 265.43 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2830246"
-			(at 264.033 156.1338 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e545475b-30ed-4ec8-ae43-08b7401e2838")
-		)
-		(pin "1"
-			(uuid "24f190fa-9567-488a-a374-b7cf6b850937")
-		)
-		(instances
-			(project "x1-expander"
-				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/59f5b442-dc6c-49f9-8b13-7a2ac6495930"
-					(reference "F2")
 					(unit 1)
 				)
 			)

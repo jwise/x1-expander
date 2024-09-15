@@ -1711,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 130.81) (xy 231.14 130.81)
+			(xy 222.25 130.81) (xy 231.14 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2269,7 +2269,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 139.7 128.27 0)
 		(effects
@@ -2389,7 +2389,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 195.58 130.81 0)
 		(effects
@@ -2549,7 +2549,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 195.58 48.26 0)
 		(effects
@@ -2729,7 +2729,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 195.58 40.64 0)
 		(effects
@@ -2769,7 +2769,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 195.58 74.93 0)
 		(effects
@@ -2789,7 +2789,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 195.58 77.47 0)
 		(effects
@@ -2889,7 +2889,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 195.58 43.18 0)
 		(effects
@@ -3349,7 +3349,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 195.58 104.14 0)
 		(effects
@@ -3429,7 +3429,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 195.58 135.89 0)
 		(effects
@@ -3489,7 +3489,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 195.58 101.6 0)
 		(effects
@@ -3529,7 +3529,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 66.04 83.82 0)
 		(effects
@@ -3549,7 +3549,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 66.04 168.91 0)
 		(effects
@@ -3589,7 +3589,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 195.58 133.35 0)
 		(effects
@@ -3609,7 +3609,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 195.58 72.39 0)
 		(effects
@@ -3629,7 +3629,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 195.58 106.68 0)
 		(effects
@@ -3829,7 +3829,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 139.7 43.18 0)
 		(effects
@@ -4009,7 +4009,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 139.7 168.91 0)
 		(effects
@@ -4029,7 +4029,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 66.04 128.27 0)
 		(effects
@@ -4069,7 +4069,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 195.58 99.06 0)
 		(effects
@@ -4089,7 +4089,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "5V_USER"
 		(shape bidirectional)
 		(at 195.58 45.72 0)
 		(effects
@@ -4129,9 +4129,9 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
-		(at 218.44 130.81 180)
+		(at 222.25 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4140,7 +4140,7 @@
 		)
 		(uuid "e555173e-7b81-4399-a5df-6a54a985357d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.44 130.81 0)
+			(at 222.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +4269,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 139.7 83.82 0)
 		(effects
@@ -4429,7 +4429,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 66.04 43.18 0)
 		(effects
@@ -4449,7 +4449,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 195.58 69.85 0)
 		(effects
@@ -4469,7 +4469,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 195.58 128.27 0)
 		(effects

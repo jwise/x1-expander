@@ -6736,7 +6736,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 247.65 95.25 0)
 		(effects
@@ -6956,7 +6956,7 @@
 			)
 		)
 	)
-	(global_label "3V3"
+	(global_label "3V3_USER"
 		(shape bidirectional)
 		(at 229.87 45.72 180)
 		(effects
