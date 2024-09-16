@@ -111,103 +111,6 @@
 				)
 			)
 		)
-		(symbol "x1-expander:10kΩ"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R?"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "x1-expander:R0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "10kΩ_1_0"
-				(rectangle
-					(start -2.54 -1.016)
-					(end 2.54 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "x1-expander:4.7k"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1603,12 +1506,6 @@
 		(color 0 0 0 0)
 		(uuid "be2d1274-babf-4f7f-bd26-00793d46de0a")
 	)
-	(junction
-		(at 227.33 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e65022d2-3898-48de-a7fb-c2c90d7981c7")
-	)
 	(wire
 		(pts
 			(xy 66.04 33.02) (xy 64.77 33.02)
@@ -1901,7 +1798,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 140.97) (xy 227.33 140.97)
+			(xy 222.25 140.97) (xy 231.14 140.97)
 		)
 		(stroke
 			(width 0)
@@ -1918,16 +1815,6 @@
 			(type default)
 		)
 		(uuid "71c995cd-3625-4403-88a1-2c8a05c2ebff")
-	)
-	(wire
-		(pts
-			(xy 222.25 151.13) (xy 227.33 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71fa9781-24b1-4f06-9106-cfe38ae92d43")
 	)
 	(wire
 		(pts
@@ -2108,16 +1995,6 @@
 			(type default)
 		)
 		(uuid "d2857409-fbdb-427d-a933-a038c7488bc1")
-	)
-	(wire
-		(pts
-			(xy 227.33 140.97) (xy 222.25 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d46f099c-7a9c-4381-a45c-953abfa93d0e")
 	)
 	(wire
 		(pts
@@ -2631,26 +2508,6 @@
 		(uuid "2b0329d6-2b2f-40f7-aef3-eb475febad13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 66.04 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PORTD2"
-		(shape bidirectional)
-		(at 222.25 151.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2d228adc-64ea-429a-a8f5-1329243b994f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 222.25 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6852,164 +6709,6 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/52713671-aa4b-4412-b159-5876c2aaf3b7"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "x1-expander:10kΩ")
-		(at 227.33 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6dfc80b-99d3-406d-896d-990b82adeae4")
-		(property "Reference" "R18"
-			(at 228.854 147.2438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "330"
-			(at 228.854 149.5298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 227.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 227.33 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Add into BOM" "yes"
-			(at 227.33 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Convert to PCB" "yes"
-			(at 227.33 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part Class" "Basic Part"
-			(at 227.33 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 227.33 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF1002TCE"
-			(at 227.33 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Origin Footprint" "R0402"
-			(at 227.33 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 227.33 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C25744"
-			(at 227.33 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23138"
-			(at 228.854 147.2438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd4f4b60-6976-4016-ba12-872dd719bc12")
-		)
-		(pin "2"
-			(uuid "3f8a256b-43ef-4261-82e2-057b0250da06")
-		)
-		(instances
-			(project "x1-expander"
-				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/52713671-aa4b-4412-b159-5876c2aaf3b7"
-					(reference "R18")
 					(unit 1)
 				)
 			)
