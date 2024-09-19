@@ -111,163 +111,6 @@
 				)
 			)
 		)
-		(symbol "Device:C_Polarized_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_0_1"
-				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 0.6858)
-					(end 1.524 0.3048)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1720,6 +1563,12 @@
 		(uuid "2078abe2-d59b-4379-bb1b-0165a3934f6a")
 	)
 	(junction
+		(at 64.77 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21abd1ac-bed7-4253-9275-3b97d29aaf5b")
+	)
+	(junction
 		(at 101.6 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1840,6 +1689,12 @@
 		(uuid "8ec4aa4b-5d9e-4ce3-83f8-a6ae965c69a2")
 	)
 	(junction
+		(at 59.69 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "900bb7fd-2bac-4c5b-9158-e47cbec6103e")
+	)
+	(junction
 		(at 111.76 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1870,6 +1725,12 @@
 		(uuid "9d78380f-0969-4630-8325-7e8211896984")
 	)
 	(junction
+		(at 59.69 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1a4a84a-b7bf-4c0f-a406-1f6cd84a69d6")
+	)
+	(junction
 		(at 157.48 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1898,6 +1759,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c70f84da-3cd7-403d-acc2-be2b9e843a1c")
+	)
+	(junction
+		(at 64.77 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc9defae-b525-42a2-ac00-82ecc31340ba")
 	)
 	(junction
 		(at 184.15 52.07)
@@ -2088,6 +1955,16 @@
 			(type default)
 		)
 		(uuid "1199f4c9-9046-4cc3-8b3a-c48cde8c2789")
+	)
+	(wire
+		(pts
+			(xy 59.69 44.45) (xy 64.77 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1467dad2-b3af-4dc3-9b71-40ddd488db42")
 	)
 	(wire
 		(pts
@@ -2291,6 +2168,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 49.53) (xy 64.77 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd7538a-2aac-4815-b464-e3de3a9c3126")
+	)
+	(wire
+		(pts
 			(xy 31.75 113.03) (xy 31.75 115.57)
 		)
 		(stroke
@@ -2338,6 +2225,16 @@
 			(type default)
 		)
 		(uuid "30b56a8f-97ad-4da4-a122-06c7433c5f59")
+	)
+	(wire
+		(pts
+			(xy 54.61 44.45) (xy 59.69 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e61b6b-2847-4d32-9df4-0dea7a08a301")
 	)
 	(wire
 		(pts
@@ -2488,6 +2385,16 @@
 			(type default)
 		)
 		(uuid "45dba929-f249-416a-9766-aac376f36504")
+	)
+	(wire
+		(pts
+			(xy 64.77 44.45) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4609eb1c-7c3a-4656-bb4f-b0921dc80cbe")
 	)
 	(wire
 		(pts
@@ -3011,6 +2918,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 49.53) (xy 69.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8dd4e9-9ca7-44bf-9d9b-1f91903c0e6d")
+	)
+	(wire
+		(pts
 			(xy 157.48 41.91) (xy 160.02 41.91)
 		)
 		(stroke
@@ -3398,6 +3315,16 @@
 			(type default)
 		)
 		(uuid "bffc509d-df81-4215-9dc2-74c1479b8930")
+	)
+	(wire
+		(pts
+			(xy 54.61 49.53) (xy 59.69 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08b2ea5-e110-4493-9b8a-fe830e715389")
 	)
 	(wire
 		(pts
@@ -4019,6 +3946,17 @@
 			(justify left bottom)
 		)
 		(uuid "19cd77d1-2026-4b06-80ef-a04f2fd8bf99")
+	)
+	(text "GCM32EC71H106KA03L is 10uF 1210 X7R;\nspec capacitance 6.4uF at 24V"
+		(exclude_from_sim no)
+		(at 20.828 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "38dbc6ce-02ac-4391-a6a9-58fc8e28913b")
 	)
 	(text "Vout = 4.98V = 0.6 * (1 + 100k / 13.7k)\nTss = 6ms = 100nF * 0.6V / 10 uA\nL_min = 6.6 uH @ 3A out 40% ripple\nIsat_min = 3.6A @ 3A out\nF = 500 kHz\n~90% efficiency"
 		(exclude_from_sim no)
@@ -4928,6 +4866,85 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/111302fa-6002-451b-a994-52e42f5b8198"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 64.77 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "18d34f6f-f26e-4c96-8991-3d15cecee3d3")
+		(property "Reference" "C44"
+			(at 66.04 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GCM32EC71H106KA03L"
+			(at 67.0941 48.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C126612"
+			(at 64.77 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f449914-aecb-44bf-a4d6-f7b7d01e7129")
+		)
+		(pin "2"
+			(uuid "c24b5270-abf1-4707-b1b2-ab270e7fe7cc")
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/111302fa-6002-451b-a994-52e42f5b8198"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -6100,115 +6117,6 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/111302fa-6002-451b-a994-52e42f5b8198"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 64.77 46.99 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3c536fca-c495-4318-90db-6631367ab8ab")
-		(property "Reference" "C51"
-			(at 57.912 46.228 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "35V 47uF"
-			(at 52.324 43.942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x5.8"
-			(at 64.77 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 64.77 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Add into BOM" "yes"
-			(at 64.77 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Convert to PCB" "yes"
-			(at 64.77 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "Origin Footprint" ""
-			(at 64.77 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right top)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5246552"
-			(at 65.9638 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "492a0dba-530a-486f-9c6b-32c9648baa7b")
-		)
-		(pin "1"
-			(uuid "756aa692-51ba-4494-b4eb-647f1a228a63")
-		)
-		(instances
-			(project "x1-expander"
-				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/111302fa-6002-451b-a994-52e42f5b8198"
-					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -10182,6 +10090,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 59.69 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ec3e23d-5909-4a90-af7b-f6abf43094ce")
+		(property "Reference" "C43"
+			(at 57.658 42.926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GCM32EC71H106KA03L"
+			(at 62.0141 48.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C126612"
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1a0be1-2043-4cbd-91ff-34a7e6eda0dd")
+		)
+		(pin "2"
+			(uuid "bee5469b-f6d9-40a6-a0c7-0733d5c1926a")
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/111302fa-6002-451b-a994-52e42f5b8198"
+					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Small")
 		(at 232.41 44.45 90)
 		(unit 1)
@@ -12243,6 +12230,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 54.61 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de3e09e5-b91f-497e-a428-4bf7e9e72cdd")
+		(property "Reference" "C42"
+			(at 52.286 45.7841 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "GCM32EC71H106KA03L"
+			(at 52.286 48.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C126612"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b53173f1-20a1-4751-b0be-6a35baaca2d7")
+		)
+		(pin "2"
+			(uuid "0fcce370-2902-43da-b211-7ba341e13529")
+		)
+		(instances
+			(project ""
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/111302fa-6002-451b-a994-52e42f5b8198"
+					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 139.7 113.03 0)
 		(unit 1)
@@ -12582,6 +12648,85 @@
 			(project "x1-expander"
 				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/111302fa-6002-451b-a994-52e42f5b8198"
 					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 69.85 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e881dfa1-b11b-4607-818e-cc5400ad49bc")
+		(property "Reference" "C51"
+			(at 72.898 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GCM32EC71H106KA03L"
+			(at 72.1741 48.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C126612"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "195d72ae-c2f5-4188-9e29-f1c1a45545c8")
+		)
+		(pin "2"
+			(uuid "58bdaf89-0373-4c03-92af-3b6bf56fb2a3")
+		)
+		(instances
+			(project "x1-expander"
+				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/111302fa-6002-451b-a994-52e42f5b8198"
+					(reference "C51")
 					(unit 1)
 				)
 			)
