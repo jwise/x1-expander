@@ -4669,7 +4669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "HCTL(华灿天禄)"
+		(property "Manufacturer" "HCTL"
 			(at 187.96 132.08 0)
 			(effects
 				(font
@@ -4890,7 +4890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 48.26 83.82 90)
 			(effects
 				(font
@@ -5040,7 +5040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "HCTL(华灿天禄)"
+		(property "Manufacturer" "HCTL"
 			(at 187.96 73.66 0)
 			(effects
 				(font
@@ -5261,7 +5261,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 121.92 83.82 90)
 			(effects
 				(font
@@ -5411,7 +5411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "HCTL(华灿天禄)"
+		(property "Manufacturer" "HCTL"
 			(at 187.96 102.87 0)
 			(effects
 				(font
@@ -5632,7 +5632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 48.26 128.27 90)
 			(effects
 				(font
@@ -5803,7 +5803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 121.92 128.27 90)
 			(effects
 				(font
@@ -5974,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 48.26 168.91 90)
 			(effects
 				(font
@@ -6145,7 +6145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 121.92 168.91 90)
 			(effects
 				(font
@@ -6316,7 +6316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 121.92 43.18 90)
 			(effects
 				(font
@@ -6487,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "CONN-TH_S4B-PH-KL-LF-SN"
+		(property "Origin Footprint" ""
 			(at 256.54 142.24 0)
 			(effects
 				(font
@@ -6640,7 +6640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 231.14 135.89 90)
 			(effects
 				(font
@@ -6660,7 +6660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R0402"
+		(property "Origin Footprint" "R0603"
 			(at 231.14 135.89 90)
 			(effects
 				(font
@@ -6798,7 +6798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 237.49 148.59 90)
 			(effects
 				(font
@@ -6818,7 +6818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R0402"
+		(property "Origin Footprint" "R0603"
 			(at 237.49 148.59 90)
 			(effects
 				(font
@@ -6956,7 +6956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "HCTL(华灿天禄)"
+		(property "Manufacturer" "HCTL"
 			(at 187.96 44.45 0)
 			(effects
 				(font
@@ -7244,7 +7244,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 48.26 43.18 90)
 			(effects
 				(font

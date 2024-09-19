@@ -6797,7 +6797,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 213.36) (xy 220.98 215.9)
+			(xy 220.98 204.47) (xy 220.98 215.9)
 		)
 		(stroke
 			(width 0)
@@ -6974,16 +6974,6 @@
 			(type default)
 		)
 		(uuid "2cf418dc-34fd-48f4-9651-cdc043455f66")
-	)
-	(wire
-		(pts
-			(xy 220.98 204.47) (xy 220.98 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cfd34aa-31bc-47bd-8e99-bbe9320b1631")
 	)
 	(wire
 		(pts
@@ -10438,7 +10428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R0603"
+		(property "Origin Footprint" "R0402"
 			(at 97.79 86.36 0)
 			(effects
 				(font
@@ -10450,6 +10440,24 @@
 		)
 		(property "LCSC" "C25752"
 			(at 95.6818 82.3722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1202TCE"
+			(at 97.79 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,6 +10541,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF0000T5E"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "R0603"
+			(at 199.39 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad82e0c9-c83c-4678-8ad4-e45f61b29a19")
 		)
@@ -10566,7 +10601,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 71.374 42.2656 90)
 			(effects
 				(font
@@ -10632,7 +10667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 73.914 49.53 90)
 			(effects
 				(font
@@ -10790,7 +10825,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 95.0976 42.1386 90)
 			(effects
 				(font
@@ -10856,7 +10891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 97.282 49.53 90)
 			(effects
 				(font
@@ -10992,6 +11027,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF0000T5E"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "R0603"
+			(at 196.85 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9135ef5d-3a3c-4b16-b7db-ec9baea04d86")
 		)
@@ -11100,6 +11162,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1002TCE"
+			(at 99.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa5363b8-9a43-4b60-b7fa-3f842968fc5a")
 		)
@@ -11133,7 +11213,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 215.9 42.2656 90)
 			(effects
 				(font
@@ -11199,7 +11279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 218.44 50.8 90)
 			(effects
 				(font
@@ -11291,7 +11371,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "29pF"
+		(property "Value" "27pF C0G"
 			(at 65.786 122.0216 0)
 			(effects
 				(font
@@ -11359,6 +11439,24 @@
 		)
 		(property "LCSC" "C1557"
 			(at 65.786 119.7356 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(at 67.31 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG270J500NT"
+			(at 67.31 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11435,6 +11533,33 @@
 		)
 		(property "LCSC" "C21189"
 			(at 195.326 117.856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF0000T5E"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "R0603"
+			(at 199.39 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +11656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "C0603"
+		(property "Origin Footprint" "C1210"
 			(at 254 163.83 90)
 			(effects
 				(font
@@ -11543,6 +11668,24 @@
 		)
 		(property "LCSC" "C23742"
 			(at 256.54 165.0238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 254 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL32A107MPVNNNE"
+			(at 254 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,7 +11782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R0402"
+		(property "Origin Footprint" "R0603"
 			(at 198.12 160.02 0)
 			(effects
 				(font
@@ -11651,6 +11794,24 @@
 		)
 		(property "LCSC" "C23138"
 			(at 196.596 156.0322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 198.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF3300T5E"
+			(at 198.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11757,7 +11918,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 223.52 42.2656 90)
 			(effects
 				(font
@@ -11823,7 +11984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 226.06 50.8 90)
 			(effects
 				(font
@@ -11981,7 +12142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "muRata(村田)"
+		(property "Manufacturer" "Murata Electronics"
 			(at 250.19 45.72 0)
 			(effects
 				(font
@@ -12160,7 +12321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 254 132.08 90)
 			(effects
 				(font
@@ -12244,7 +12405,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 231.14 42.2656 90)
 			(effects
 				(font
@@ -12310,7 +12471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 233.68 50.8 90)
 			(effects
 				(font
@@ -12402,7 +12563,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" ".022uF"
+		(property "Value" "22nF X7R"
 			(at 289.56 98.7552 90)
 			(effects
 				(font
@@ -12458,7 +12619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "C0805"
+		(property "Origin Footprint" "C0603"
 			(at 287.02 95.25 90)
 			(effects
 				(font
@@ -12470,6 +12631,24 @@
 		)
 		(property "LCSC" "C21122"
 			(at 289.56 96.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 287.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL10B223KB8NNNC"
+			(at 287.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12577,7 +12756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "muRata(村田)"
+		(property "Manufacturer" "Murata Electronics"
 			(at 96.52 73.66 0)
 			(effects
 				(font
@@ -12735,7 +12914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -12894,7 +13073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "XUNPU"
 			(at 312.42 191.77 0)
 			(effects
 				(font
@@ -12914,7 +13093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "USB-226-BRW"
+		(property "Origin Footprint" ""
 			(at 312.42 191.77 0)
 			(effects
 				(font
@@ -12996,85 +13175,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 220.98 210.82 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e13abe5-5865-4576-9e59-78b0ce1c290f")
-		(property "Reference" "R33"
-			(at 222.4786 209.6078 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0"
-			(at 222.4786 212.0321 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 220.98 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 220.98 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17168"
-			(at 216.0989 210.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ac70bfef-c1ba-41b7-b025-e953ec8f0cef")
-		)
-		(pin "2"
-			(uuid "fcf690d5-f304-466b-9af9-a17bde7f0e60")
-		)
-		(instances
-			(project "x1-expander"
-				(path "/5c4052f8-31d6-4de3-b862-4d09b0660e26/59f5b442-dc6c-49f9-8b13-7a2ac6495930"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "100nF_2")
 		(lib_id "x1-expander:100nF")
 		(at 264.16 208.28 90)
@@ -13093,7 +13193,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 261.62 203.5556 90)
 			(effects
 				(font
@@ -13159,7 +13259,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 264.16 208.28 90)
 			(effects
 				(font
@@ -13307,7 +13407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "MICROCHIP(美国微芯)"
+		(property "Manufacturer" "Microchip Tech"
 			(at 113.03 40.64 0)
 			(effects
 				(font
@@ -13327,7 +13427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "QFN64G-0.5-9X9MM"
+		(property "Origin Footprint" "QFN-64-EP"
 			(at 113.03 40.64 0)
 			(effects
 				(font
@@ -13641,6 +13741,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF0000T5E"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "R0603"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80672230-ce02-43ba-aaca-1e2e10fdcb6e")
 		)
@@ -13722,6 +13849,24 @@
 		)
 		(property "LCSC" "C3021374"
 			(at 309.5341 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL"
+			(at 307.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "HC913550A-M899-A"
+			(at 307.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13931,7 +14076,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "29pF"
+		(property "Value" "27pF C0G"
 			(at 65.1256 104.2416 0)
 			(effects
 				(font
@@ -13999,6 +14144,24 @@
 		)
 		(property "LCSC" "C1557"
 			(at 65.1256 101.9556 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Guangdong Fenghua Advanced Tech"
+			(at 67.31 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG270J500NT"
+			(at 67.31 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14095,7 +14258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
+		(property "Manufacturer" "UNI-ROYAL"
 			(at 87.63 115.57 90)
 			(effects
 				(font
@@ -14187,7 +14350,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 87.122 42.2656 90)
 			(effects
 				(font
@@ -14253,7 +14416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 89.662 49.53 90)
 			(effects
 				(font
@@ -14401,7 +14564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "C0603"
+		(property "Origin Footprint" "C1210"
 			(at 243.84 163.83 90)
 			(effects
 				(font
@@ -14413,6 +14576,24 @@
 		)
 		(property "LCSC" "C23742"
 			(at 246.38 165.0238 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 243.84 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL32A107MPVNNNE"
+			(at 243.84 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,6 +14672,33 @@
 			)
 		)
 		(property "LCSC" "C30841"
+			(at 234.95 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Tech"
+			(at 234.95 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "AT93C66B-SSHM-T"
+			(at 234.95 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "SOIC-8"
 			(at 234.95 204.47 0)
 			(effects
 				(font
@@ -14625,6 +14833,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 287.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF100JTCE"
+			(at 287.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1018c453-94a2-44b5-881e-e709b545a8da")
 		)
@@ -14658,7 +14884,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 238.76 42.2656 90)
 			(effects
 				(font
@@ -14724,7 +14950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 241.3 50.8 90)
 			(effects
 				(font
@@ -14882,7 +15108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 76.2 63.5 90)
 			(effects
 				(font
@@ -14975,7 +15201,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 58.42 58.7756 90)
 			(effects
 				(font
@@ -15041,7 +15267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 60.96 63.5 90)
 			(effects
 				(font
@@ -15199,7 +15425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YXC(扬兴晶振)"
+		(property "Manufacturer" "YXC Crystal Oscillators"
 			(at 77.47 115.57 90)
 			(effects
 				(font
@@ -15219,7 +15445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "OSC-SMD_4P-L3.2-W2.5-BL"
+		(property "Origin Footprint" "SMD3225-4P"
 			(at 77.47 115.57 90)
 			(effects
 				(font
@@ -15410,6 +15636,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 214.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1002TCE"
+			(at 214.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Origin Footprint" "R0402"
+			(at 214.63 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "303be363-d0d3-43e7-8819-04392b72ea1b")
 		)
@@ -15509,7 +15762,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 63.5 42.2656 90)
 			(effects
 				(font
@@ -15575,7 +15828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 66.04 49.53 90)
 			(effects
 				(font
@@ -15667,7 +15920,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 200.66 42.2656 90)
 			(effects
 				(font
@@ -15733,7 +15986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 203.2 50.8 90)
 			(effects
 				(font
@@ -15881,7 +16134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R0402"
+		(property "Origin Footprint" "R0603"
 			(at 99.06 142.24 0)
 			(effects
 				(font
@@ -15893,6 +16146,24 @@
 		)
 		(property "LCSC" "C22865"
 			(at 97.79 138.7856 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 99.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF1242T5E"
+			(at 99.06 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +16270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "XUNPU"
 			(at 312.42 161.29 0)
 			(effects
 				(font
@@ -16119,7 +16390,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 66.04 58.7756 90)
 			(effects
 				(font
@@ -16185,7 +16456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 68.58 63.5 90)
 			(effects
 				(font
@@ -16277,7 +16548,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 193.04 42.2656 90)
 			(effects
 				(font
@@ -16343,7 +16614,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 195.58 50.8 90)
 			(effects
 				(font
@@ -16363,7 +16634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" ""
+		(property "Origin Footprint" "C0402"
 			(at 195.58 50.8 90)
 			(effects
 				(font
@@ -16435,7 +16706,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 208.28 42.2656 90)
 			(effects
 				(font
@@ -16501,7 +16772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 210.82 50.8 90)
 			(effects
 				(font
@@ -16594,7 +16865,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 82.55 66.7258 0)
 			(effects
 				(font
@@ -16660,7 +16931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 85.09 71.12 0)
 			(effects
 				(font
@@ -16752,7 +17023,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF X7R"
 			(at 79.248 42.2656 90)
 			(effects
 				(font
@@ -16818,7 +17089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 81.788 49.53 90)
 			(effects
 				(font
@@ -16966,7 +17237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "R0402"
+		(property "Origin Footprint" "R0603"
 			(at 198.12 162.56 0)
 			(effects
 				(font
@@ -16978,6 +17249,24 @@
 		)
 		(property "LCSC" "C23138"
 			(at 195.9356 166.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 198.12 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0603WAF3300T5E"
+			(at 198.12 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17084,7 +17373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO(国巨)"
+		(property "Manufacturer" "YAGEO"
 			(at 278.13 55.88 0)
 			(effects
 				(font
@@ -17104,7 +17393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "RES-ARRAY-SMD_0402-8P-L2.0-W1.0-BL"
+		(property "Origin Footprint" "0402x4"
 			(at 278.13 55.88 0)
 			(effects
 				(font
@@ -17262,6 +17551,24 @@
 		)
 		(property "LCSC" "C25744"
 			(at 96.8756 171.2976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL"
+			(at 99.06 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1002TCE"
+			(at 99.06 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

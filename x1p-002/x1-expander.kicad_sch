@@ -2171,7 +2171,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Yxcon(宇熙精密)"
+		(property "Manufacturer" "DEALON"
 			(at 224.79 66.04 0)
 			(effects
 				(font
@@ -2181,7 +2181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "P125-1104A0BR138A1"
+		(property "Manufacturer Part" "DZ254W-11-04-65"
 			(at 224.79 66.04 0)
 			(effects
 				(font
@@ -2191,7 +2191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "HDR-TH_4P-P2.54-H-M-W10.3"
+		(property "Origin Footprint" ""
 			(at 224.79 66.04 0)
 			(effects
 				(font
@@ -2495,7 +2495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Origin Footprint" "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL"
+		(property "Origin Footprint" "SOT-23-6"
 			(at 228.6 101.6 90)
 			(effects
 				(font
