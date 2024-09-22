@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 import struct
 import ecdsa
@@ -6,6 +8,10 @@ import time
 # DO NOT USE THIS ON AN UNTRUSTED MACHINE.  IT TAKES NO EFFORT TO AVOID SIDE
 # CHANNEL ATTACKS AND DOES NOTHING TO CLEAN ITS KEYS OUT OF MEMORY AFTER
 # USE.
+
+# to generate keys:
+#  $ openssl ecparam -name prime256v1 -genkey -noout -out private.pem
+#  $ openssl ec -in private.pem -pubout -out public.pem
 
 # ecdsa.util.sigencode_string format; to transform into an OpenSSL DER digest:
 #   ecdsa.util.sigencode_der(*ecdsa.util.sigdecode_string(sig, ecdsa.NIST256p.order), ecdsa.NIST256p.order)
