@@ -2,6 +2,7 @@ import lan9514
 import time
 import struct
 import sys
+import sign_eeprom
 
 EEPROM_SIZE = 512
 
@@ -24,10 +25,12 @@ eeprom_base = lan9514.Lan9514(
 #
 #   version 1: 4 bytes
 #     4 bytes: time_t serialization_date
+#
+#   version 2: 68 bytes
+#     64 bytes: ECDSA signature
+#     4 bytes: time_t serialization_date
 
-tail_data = struct.pack("<LB", int(time.time()), 1)
-
-eeprom = eeprom_base + b'\xFF' * (EEPROM_SIZE - len(eeprom_base) - len(tail_data)) + tail_data
+eeprom = sign_eeprom.sign(eeprom_base + b'\xFF' * (EEPROM_SIZE - len(eeprom_base)))
 
 with open(f"eeprom-{serial}.bin", 'wb') as f:
     f.write(eeprom)
