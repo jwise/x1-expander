@@ -32,7 +32,8 @@ eeprom_base = lan9514.Lan9514(
 
 eeprom = sign_eeprom.sign(eeprom_base + b'\xFF' * (EEPROM_SIZE - len(eeprom_base)))
 
-with open(f"eeprom-{serial}.bin", 'wb') as f:
+fname = f"eeprom-X1P-002-{board_rev}-{serial}.bin"
+with open(fname, 'wb') as f:
     f.write(eeprom)
 
-print(f"write with: ./ethtool -E eth0 magic 0x9500 offset 0 length 512 < eeprom-{serial}.bin")
+print(f"write with: ./ethtool -E eth0 magic 0x9500 offset 0 length 512 < {fname}")
