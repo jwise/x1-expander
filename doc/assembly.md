@@ -1,6 +1,6 @@
-# Assembly instructions for X1Plus Expansion Board
+# Assembly instructions for X1Plus Expander
 
-My suggestion for assembling early revisions of the X1Plus Expansion Board
+My suggestion for assembling early revisions of X1Plus Expander
 is as follows.  Print [the X1P-800](../x1p-800) parts (four copies of the
 clips).  The lower case can be more reliable to drive screws into if printed
 from PETG; the clips are also less prone to creep if printed from PETG.  The
