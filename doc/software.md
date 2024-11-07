@@ -1,5 +1,7 @@
 # Getting started with X1Plus Expander
 
+This assumes that you have already [assembled the hardware](assembly.md).
+
 ## Installing a firmware
 
 You will need to install an X1Plus firmware build that supports X1Plus
