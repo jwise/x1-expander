@@ -533,7 +533,7 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "x1-expander.emn",
       "netlist": "",
       "plot": "",
       "pos_files": "",

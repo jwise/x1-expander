@@ -143,6 +143,166 @@ ledstrip:
   leds: 25
 ```
 
-TODO: document how to read buttons from an Action, document how to trigger buzzer from an Action
+The Andon module will, by default, light up like any other LED strip.  To
+use the buzzer or buttons, see the "Using X1Plus Actions" section, below.
 
-### Shutter release module
+### X1P-006 Shutter release module
+
+A shutter release module is a GPIO module that has two outputs. 
+Conveniently, the `ledstrip` driver can be used to drive GPIOs (the shutter
+release module does not have anything connected to the LED output pin).  You
+can configure a shutter release module as follows:
+
+```
+# x1plus settings set expansion.port_x --json '{"ledstrip": {"leds": 0, "gpios": [ { "pin": 3, "function": "shutter", "default": 0 }, { "pin": 5, "function": "shutter", "default": 0 } ] } }'
+```
+
+By default, the shutter release module will short only tip to sleeve.  Some
+cameras (notably, Sony cameras) require both tip and ring to be shorted to
+sleeve.  To enable this, apply a small amount of solder to bridge each of
+the solder jumpers on the back.  Future versions of the X1P-006 board will
+come with these pre-shorted (disconnectable using a hobby knife).
+
+### Using I2C sensors
+
+TODO: document `i2c` driver
+
+## Using X1Plus Actions
+
+X1Plus Actions is a new mechanism to trigger behavior from inside X1Plus. 
+Actions are a commonized way to trigger tasks from the command line, from
+G-code, or in response to various system events (including button presses). 
+Actions are either a JSON dictionary specifying an Action, or a list of
+Actions.  For instance, the following is a valid Action:
+
+```json
+{
+  "gpio": {
+    "action": "pulse",
+    "duration": 0.5,
+    "gpio": {
+      "function": "buzzer"
+    }
+  }
+}
+```
+
+This Action calls the "gpio" action type, and provides it with three
+parameters -- a subaction ("pulse", which turns a GPIO on for `duration`
+time, and then turns it back off), a duration, and a GPIO specification.  In
+this case, the GPIO specification causes the `pulse` to match all GPIOs on
+the system that have a `function` of `buzzer`.
+
+The following is also a valid Action:
+
+```json
+{ "delay": 0.5 }
+```
+
+This Action simply waits for 0.5 seconds before proceeding.  If you executed
+this Action on its own, you would see nothing, but if you created a list of
+Actions with this as a part of it, you would see a delay happen in between
+beeps:
+
+```json
+[
+  {"gpio": {"action": "pulse", "duration": 0.5, "gpio": {"function": "buzzer"}}},
+  {"delay": 0.5},
+  {"gpio": {"action": "pulse", "duration": 0.5, "gpio": {"function": "buzzer"}}}
+]
+```
+
+Another useful type of action is to submit G-code to the MC.  For instance,
+you might consider:
+
+```json
+{"gcode": "G91\nG0 Z-7.5"}
+```
+
+which puts the printer into relative mode, and then jogs the Z axis.
+
+### Testing Actions from the command line
+
+You can use the `x1plus action` command to submit an Action from the command
+line.  Like `settings`, it allows you to use JSON on the command line, JSON
+from a file, or YAML from a file.  For instance, to make a pleasing
+bee-beep! sound from any buzzers that you have connected, consider:
+
+```
+# x1plus action --json '[{"gpio": {"action": "pulse", "duration": 0.08, "gpio": {"function": "buzzer"}}}, {"delay": 0.08}, {"gpio": {"action": "pulse", "duration": 0.05, "gpio": {"function": "buzzer"}}}]'
+```
+
+You may find it more friendly to edit your actions in JSON on disk.  For
+instance, you might prefer:
+
+```
+# cat > beep.json <<EOF
+[
+    {
+        "gpio": {
+            "action": "pulse",
+            "duration": 0.08,
+            "gpio": {
+                "function": "buzzer"
+            }
+        }
+    },
+    {
+        "delay": 0.08
+    },
+    {
+        "gpio": {
+            "action": "pulse",
+            "duration": 0.05,
+            "gpio": {
+                "function": "buzzer"
+            }
+        }
+    }
+]
+EOF
+# x1plus action --json --file beep.json
+```
+
+Or you may even prefer to edit your actions in YAML, since after all, JSON
+is a rather unpleasant language to write by hand.  For this, you might
+prefer:
+
+```
+# cat > beep.yaml <<EOF
+- gpio:
+    action: pulse
+    duration: 0.08
+    gpio: 
+      function: buzzer
+- delay: 0.08
+- gpio:
+    action: pulse
+    duration: 0.05
+    gpio: 
+      function: buzzer
+EOF
+# x1plus action --yaml --file beep.yaml
+```
+
+If you have an X1P-007 shutter release connected, you might otherwise prefer
+to trigger a shutter to test it.  Connect your camera, and try:
+
+```
+# x1plus action --json '{"gpio": {"action": "pulse", "duration": 0.15, "gpio": {"function": "shutter"}}}'
+```
+
+You can match on other properties, as well.  For instance, if you'd like to
+trigger only one of the two connected cameras, and you care about which port
+it's on:
+
+```
+# x1plus action --json '{"gpio": {"action": "pulse", "duration": 0.15, "gpio": {"function": "shutter", "pin": 3, "port": "b"}}}'
+```
+
+This matches on only things that have a function of "shutter", *and* are on
+pin 3, *and* are plugged into port B.
+
+### Embedding Actions in G-code
+
+### Triggering Actions from buttons
