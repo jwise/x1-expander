@@ -305,4 +305,154 @@ pin 3, *and* are plugged into port B.
 
 ### Embedding Actions in G-code
 
+*This section describes in detail how G-code embedded Actions work, but if
+you would just like some recipes that you can paste into the G-code window
+in your slicer, see below.*
+
+You can run X1Plus Actions from inside G-code.  The general concept is that
+you define an action number using a specially-formatted `;x1plus define`
+comment, and then use the G-code command `M976 S99 Pn` to trigger it.  For
+instance, you can trigger the buzzer with a G-code command sequence as
+follows:
+
+```
+G0 X... Y...
+;x1plus define 5 {"gpio": {"action": "pulse", "duration": 0.2, "gpio": {"function": "buzzer"}}}
+M976 S99 P5
+G0 X... Y...
+```
+
+(Note that an `;x1plus define` must always come before its respective `M976
+S99`, and you should not redefine an action number to a new value later in a
+print -- however, it is safe to redefine an action to the same value as it had
+previously, however.)
+
+#### Using compiled Actions in G-code
+
+Unfortunately, most slicers will not accept commands with `{curly braces}`
+-- they seem to interpret these as variable interpolation.  X1Plus supports
+an alternate "compiled" syntax, which does not include curly braces; you can
+use the `x1plus convert` command to convert JSON or YAML into the "compiled"
+form.  For instance, you can convert the above action as:
+
+```
+# x1plus convert '{"gpio": {"action": "pulse", "duration": 0.2, "gpio": {"function": "buzzer"}}}'
+eNqrVkovyMxXslKoVkpMLsnMzwMylQpKc4pTlXQUlFJKixKhggZ6RkABuOK00jy48qTSqqrUIqXa2loAyekZIg==
+```
+
+Or, equivalently:
+
+```
+# cat > beep.yaml <<EOF
+gpio:
+  action: pulse
+  duration: 0.2
+  gpio:
+    function: buzzer
+EOF
+# x1plus convert --file beep.yaml
+eNqrVkovyMxXslKoVkpMLsnMzwMylQpKc4pTlXQUlFJKixKhggZ6RkABuOK00jy48qTSqqrUIqXa2loAyekZIg==
+```
+
+You can use this "compiled" string the same way as you would a JSON string. 
+For instance, to beep on each layer change, you could insert the following
+into your layer change G-code in your slicer:
+
+```
+;x1plus define 1 eNqrVkovyMxXslKoVkpMLsnMzwMylQpKc4pTlXQUlFJKixKhggZ6RkABuOK00jy48qTSqqrUIqXa2loAyekZIg==
+M976 S99 P1
+```
+
+You can also use `x1plus convert` to produce readable JSON or YAML from
+compiled Actions:
+
+```
+# x1plus convert --to=json eNqrVkovyMxXslKoVkpMLsnMzwMylQpKc4pTlXQUlFJKixKhggZ6RkABuOK00jy48qTSqqrUIqXa2loAyekZIg==
+{
+    "gpio": {
+        "action": "pulse",
+        "duration": 0.2,
+        "gpio": {
+            "function": "buzzer"
+        }
+    }
+}
+```
+
+#### Pausing G-code until an Action completes
+
+By default, `M976 S99`-triggered Actions will run in parallel with G-code --
+i.e., movement commands will continue to run while the Action runs.  For
+certain actions -- like time lapses, or waiting for external GPIOs, you may
+wish to have G-code wait until an Action completes.  You can do this using
+the `M400 W1` and `M400 W0` G-code commands.  `M400 W1` will cause G-code to
+stop executing until an Action sends a `M400 G0` G-code.  For example,
+consider the following G-code sequence:
+
+```
+G0 X100 Y175  ; move the toolhead
+G0 X100 Y100
+M400          ; wait for all toolhead motion to complete
+; Define an action that pulses the shutter, waits, and then resumes G-code execution.
+;x1plus define 1 [{"gpio": {"action": "pulse", "duration": 0.5, "gpio": { "function": "shutter" }}}, {"delay": 1.0}, {"gcode": "M400 W0"}]
+M976 S99 P1   ; trigger the action
+M400 W1       ; pause until the M400 W0 is sent
+G0 X175 Y100  ; move the toolhead
+G0 X175 Y175
+```
+
+This sequence, as described, causes the printer to stop moving until the
+Action finishes and the camera has taken its photo (as one might hope for a
+potentially long exposure required for good depth of field!).
+
+#### Recipe: triggering a shutter on layer change
+
+The above G-code is appropriate for triggering a shutter, but is not
+suitable for embedding in a slicer configuration -- the Action is not
+encoded in compiled format.  To use an Action to trigger a shutter, modify
+the Machine G-code in your slicer, and add the following to the Layer change
+G-code:
+
+```
+M400
+; pulse shutter for 0.5 seconds, and then wait 1.0 seconds before proceeding
+;x1plus define 100 eNqLrlZKL8jMV7JSqFZKTC7JzM8DMpUKSnOKU5V0FJRSSosSoYIGeqZAAbjitNI8uPLijNKSktQipdraWh2gVEpqTmIlUNxQzwDMT0/OT0kFqfM1MTBQCDdQqo0FAMvxJHo=
+M976 S99 P100
+M400 W1
+```
+
+Place these commands immediately underneath the `M971 S11 C10 O0` command. 
+(This command will appear twice: one for "without wipe tower", and one for
+"with wipe tower".  Insert the commands underneath both.
+
+To start off with, I suggest the following (he says, as a checklist for
+himself...):
+
+* Make sure your camera has auto white balance turned off; that your camera
+  is set for a fixed ISO, shutter speed, and aperture; and that your camera
+  will not attempt to autofocus.
+* Home the bed before printing, and then move the toolhead out of the way,
+  move the bed up, and focus on or slightly beyond the bed.
+* If using a macro lens, you probably want to stop the aperture down more
+  than you think.
+* You probably do not want to shoot 800 RAW photos, so if you normally shoot
+  RAW, remember to set the camera to JPEG only...
+* Unsurprisingly, smaller layer heights result in "smoother" time lapses.
+* The object will grow taller than you think.  If you are zoomed way in,
+  consider putting the build area for your part in the very top of the
+  frame.
+* Don't be afraid to take long exposures!
+
+#### Recipe: sounding the buzzer
+
+You may also wish to sound the buzzer, either at the end of a print, or upon
+a certain layer being reached.  You can paste the following G-code into a
+slicer to sound the buzzer for half a second:
+
+```
+; sound buzzer for 0.5 seconds
+;x1plus define 101 eNqrVkovyMxXslKoVkpMLsnMzwMylQpKc4pTlXQUlFJKixKhggZ6pkABuOK00jy48qTSqqrUIqXa2loAylIZJQ==
+M976 S99 P101
+```
+
 ### Triggering Actions from buttons
