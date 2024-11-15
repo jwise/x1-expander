@@ -17,6 +17,11 @@ metadata:
       name: J. Wise
       date: 2024-06-19
       changelog: Added twisted pairs for USB.  Added heat shrink.  Fixed order of CAM_USB pins.
+    
+    A03:
+      name: J. Wise
+      date: 2024-11-14
+      changelog: Switched from individual cables to ribbon cable.
   
   template:
     name: din-6771
@@ -24,11 +29,12 @@ metadata:
 
 templates:
   - &mh125t
-    additional_components:
-      - type: MH1.25-T
-        qty_multiplier: pincount
-        supplier: LCSC
-        spn: C20613846
+    type: MH1.25-T
+    qty_multiplier: pincount
+    supplier: LCSC
+    spn: C20613846
+  - &glue
+    type: Glue on connector
   - &mh125rt
     additional_components:
       - type: MH1.25-RT
@@ -43,7 +49,9 @@ connectors:
     spn: C20613692
     pins: [ 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 ]
     pinlabels: [ CAM5V, CAMD-, CAMD+, CAMGND, MBD-, MBD+, UART3V3, UARTRX, UARTTX, UARTGND, PSU24V, PSUGND ]
-    <<: *mh125t
+    additional_components:
+      - <<: *glue
+      - <<: *mh125t
     image:
       src: dll_mh1_25_12y.png
       width: 200
@@ -55,7 +63,8 @@ connectors:
     image:
       src: dll_mh1_25_4y.png
       width: 200
-    <<: *mh125t
+    additional_components:
+      - <<: *mh125t
   MB_UART:
     type: DLL MH1.25-4Y
     supplier: LCSC
@@ -64,7 +73,8 @@ connectors:
     image:
       src: dll_mh1_25_4y.png
       width: 200
-    <<: *mh125t
+    additional_components:
+      - <<: *mh125t
   CAM_USB:
     type: DLL MH1.25-4R
     supplier: LCSC
@@ -113,39 +123,17 @@ connectors:
 #   170mm to power connector = 350mm
 
 cables:
-  W_CAM_USB:
-    wirecount: 4
+  W_RIBBON:
+    wirecount: 10
+    colors: [ RD, GY, GY, GY, GY, GY, GY, GY, GY, GY ]
     length: 245 mm
     gauge: 28 AWG
-    colors: [ RD, WH, GN, BK ]
-    shield: true
-    type: USB twisted pair, black
-    notes: Use USB 2.0 cable.
-    show_wirecount: false
-  W_MB_USB:
-    type: USB twisted pair, black
-    show_wirecount: false
-    wirecount: 4
-    length: 245 mm
-    gauge: 28 AWG
-    colors: [ RD, WH, GN, BK ]
-    notes: Use USB 2.0 cable.  Red and black are unconnected.
-    shield: true
-  W_MB_UART:
-    category: bundle
-    wirecount: 4
-    length: 245 mm
-    gauge: 28 AWG
-    colors: [ RD, BU, TQ, BK ]
-    additional_components:
-      - type: Heat shrink sleeve, blue
-        qty_multiplier: length
-        unit: mm
+    type: 1.0mm 28AWG stranded ribbon cable (3M 3625/10 or similar)
   W_EXT_PSU:
     category: bundle
     wirecount: 2
     length: 325 mm
-    gauge: 28 AWG
+    gauge: 26 AWG
     colors: [ RD, BK ]
     additional_components:
       - type: Heat shrink sleeve, red
@@ -161,15 +149,15 @@ cables:
 connections:
   -
     - EXT: [12, 11, 10, 9]
-    - W_CAM_USB: [1-4]
+    - W_RIBBON: [1-4]
     - CAM_USB: [4, 3, 2, 1]
   -
     - EXT: [8, 7]
-    - W_MB_USB: [2-3]
+    - W_RIBBON: [5-6]
     - MB_USB: [2-3]
   -
     - EXT: [6, 5, 4, 3]
-    - W_MB_UART: [1-4]
+    - W_RIBBON: [7-10]
     - MB_UART: [1-4]
   - 
     - EXT: [2, 1]
@@ -179,12 +167,6 @@ connections:
     - MB_PSU: [1-6]
     - W_MB_PSU: [1-6]
     - PSU_IN: [1-6]
-  -
-    - W_CAM_USB: s
-    - CAM_USB: 1
-  -
-    - W_MB_USB: s
-    - MB_USB: 4
 
 tweak:
   override:

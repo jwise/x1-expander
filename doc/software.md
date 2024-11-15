@@ -28,9 +28,10 @@ by letters.  "B01" revisions of X1Plus Expander have only two functioning
 ports -- the port on the left of X1Plus Expander (next to the I2C connector)
 is "port B", and the connector two over from that is "port A".  (The port on
 the right, and the port between port A and port B, are not usable in X1Plus
-Expander B01.  All four ports will be usable in X1Plus Expander revision C.)
-The leftmost port (port B, on revision B01) is always shared with the STEMMA
-I2C connector.
+Expander B01; X1Plus Expander B01 hardware labels the usable ports in
+silkscreen as "AD" and "BD".  All four ports will be usable in X1Plus
+Expander revision C.) The leftmost port (port B, on revision B01) is always
+shared with the STEMMA I2C connector.
 
 It is better to power the printer off before connecting or disconnecting
 add-on modules to the X1Plus Expander ports, but I can't stop you if you
@@ -156,12 +157,6 @@ can configure a shutter release module as follows:
 ```
 # x1plus settings set expansion.port_x --json '{"ledstrip": {"leds": 0, "gpios": [ { "pin": 3, "function": "shutter", "default": 0 }, { "pin": 5, "function": "shutter", "default": 0 } ] } }'
 ```
-
-By default, the shutter release module will short only tip to sleeve.  Some
-cameras (notably, Sony cameras) require both tip and ring to be shorted to
-sleeve.  To enable this, apply a small amount of solder to bridge each of
-the solder jumpers on the back.  Future versions of the X1P-006 board will
-come with these pre-shorted (disconnectable using a hobby knife).
 
 ### Using I2C sensors
 
@@ -330,7 +325,7 @@ previously, however.)
 #### Using compiled Actions in G-code
 
 Unfortunately, most slicers will not accept commands with `{curly braces}`
--- they seem to interpret these as variable interpolation.  X1Plus supports
+-- they seem to interpret these as variable substitution.  X1Plus supports
 an alternate "compiled" syntax, which does not include curly braces; you can
 use the `x1plus convert` command to convert JSON or YAML into the "compiled"
 form.  For instance, you can convert the above action as:
@@ -433,8 +428,8 @@ himself...):
   will not attempt to autofocus.
 * Home the bed before printing, and then move the toolhead out of the way,
   move the bed up, and focus on or slightly beyond the bed.
-* If using a macro lens, you probably want to stop the aperture down more
-  than you think.
+* If using a macro / zoom lens, you probably want to stop the aperture down
+  more than you think to achieve a usably wide depth of field.
 * You probably do not want to shoot 800 RAW photos, so if you normally shoot
   RAW, remember to set the camera to JPEG only...
 * Unsurprisingly, smaller layer heights result in "smoother" time lapses.
@@ -442,6 +437,12 @@ himself...):
   consider putting the build area for your part in the very top of the
   frame.
 * Don't be afraid to take long exposures!
+* If it's an option on your camera, remember to connect it to external
+  power (or use a battery emulator, if you're on a camera that has the
+  shutter release occupy the same plug as a power adapter).
+* Make sure your camera has auto-sleep turned off, if applicable.
+* Give your test image one last pixel-peep to make sure you aren't about to
+  take a 12 hour time lapse of crap...
 
 #### Recipe: sounding the buzzer
 
