@@ -1,5 +1,5 @@
 metadata:
-  title: X1Plus Expansion Board Wiring Harness
+  title: X1Plus Expander Wiring Harness
   pn: X1P-001
   
   authors:
@@ -65,6 +65,7 @@ connectors:
       width: 200
     additional_components:
       - <<: *mh125t
+      - type: "Add heat shrink label on wire: 'CAM'"
   MB_UART:
     type: DLL MH1.25-4Y
     supplier: LCSC
@@ -75,6 +76,7 @@ connectors:
       width: 200
     additional_components:
       - <<: *mh125t
+      - type: "Add heat shrink label on wire: 'UART'"
   CAM_USB:
     type: DLL MH1.25-4R
     supplier: LCSC
@@ -126,13 +128,13 @@ cables:
   W_RIBBON:
     wirecount: 10
     colors: [ RD, GY, GY, GY, GY, GY, GY, GY, GY, GY ]
-    length: 245 mm
+    length: 205 mm
     gauge: 28 AWG
     type: 1.0mm 28AWG stranded ribbon cable (3M 3625/10 or similar)
   W_EXT_PSU:
     category: bundle
     wirecount: 2
-    length: 325 mm
+    length: 285 mm
     gauge: 26 AWG
     colors: [ RD, BK ]
     additional_components:
@@ -142,7 +144,7 @@ cables:
   W_MB_PSU:
     category: bundle
     wirecount: 6
-    length: 50 mm
+    length: 40 mm
     gauge: 24 AWG
     colors: [ RD, RD, RD, BK, BK, BK ]
 
