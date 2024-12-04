@@ -3980,7 +3980,7 @@
 		)
 		(uuid "4c0fa3b6-9ec4-4c45-b7c4-5515eb27ba9a")
 	)
-	(text "Iset = 6800 / Rlim\n3V3_USER set at 1A\n5V_USER set at 2A"
+	(text "Iset = 6800 / Rlim\n3V3_USER set at 1A\n5V_USER set at 1.82A"
 		(exclude_from_sim no)
 		(at 234.442 116.84 0)
 		(effects
@@ -10389,7 +10389,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.4k"
+		(property "Value" "3.74k"
 			(at 186.9186 153.6121 0)
 			(effects
 				(font
@@ -10425,7 +10425,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4940"
+		(property "LCSC" "C15172"
 			(at 186.9186 151.1878 0)
 			(effects
 				(font
@@ -10443,7 +10443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF3401TCE"
+		(property "Manufacturer Part" "0402WGF3741TCE"
 			(at 185.42 152.4 0)
 			(effects
 				(font

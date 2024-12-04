@@ -9098,7 +9098,7 @@
 			(uuid "ed887d9c-4ce3-464f-a2ad-2567f6c56ec3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7fb08629-f6f2-4641-b70c-bcf65bf6360e")
@@ -18543,7 +18543,7 @@
 				)
 			)
 		)
-		(property "Value" "P125-1104A0BR138A1"
+		(property "Value" "DZ254W-11-04-65"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20973,7 +20973,7 @@
 				)
 			)
 		)
-		(property "Value" "10K 1/10W 1%"
+		(property "Value" "10k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22168,7 +22168,7 @@
 				)
 			)
 		)
-		(property "Value" "12k 1/10W 1%"
+		(property "Value" "12k 1%"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24852,7 +24852,7 @@
 				)
 			)
 		)
-		(property "Value" "3.4k"
+		(property "Value" "3.74k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24903,7 +24903,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C4940"
+		(property "LCSC" "C15172"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24929,7 +24929,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF3401TCE"
+		(property "Manufacturer Part" "0402WGF3741TCE"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25552,7 +25552,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CYA0630-15UH"
+		(property "Manufacturer Part" "CYA0630-6.8UH"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25604,7 +25604,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5189959"
+		(property "LCSC" "C5189749"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32729,7 +32729,7 @@
 				)
 			)
 		)
-		(property "Value" "10K 1/10W 1%"
+		(property "Value" "10k"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -48007,7 +48007,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF1002TCE"
+		(property "Manufacturer Part" "0603WAF4701T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -51634,7 +51634,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF1002TCE"
+		(property "Manufacturer Part" "0603WAF4701T5E"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -53868,7 +53868,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "4x 49.9"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
