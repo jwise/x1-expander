@@ -485,7 +485,7 @@
       "plot": "jlcpcb/",
       "pos_files": "jlcpcb/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "x1p-004.step",
       "svg": "",
       "vrml": ""
     },

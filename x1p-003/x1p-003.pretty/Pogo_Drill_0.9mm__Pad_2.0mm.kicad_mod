@@ -217,10 +217,11 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 3 3)
-		(drill 1)
+		(size 2.1 2.1)
+		(drill 1.15)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
 		(uuid "958fb2db-d87c-4c22-874d-09d39114a5f1")
 	)
 	(model "${KIPRJMOD}/x1p-003.3dshapes/YZ60615150D-2.step"

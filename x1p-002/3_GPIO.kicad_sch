@@ -6650,7 +6650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF1002TCE"
+		(property "Manufacturer Part" "0603WAF4701T5E"
 			(at 231.14 135.89 90)
 			(effects
 				(font
@@ -6808,7 +6808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "0402WGF1002TCE"
+		(property "Manufacturer Part" "0603WAF4701T5E"
 			(at 237.49 148.59 90)
 			(effects
 				(font

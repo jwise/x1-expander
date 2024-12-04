@@ -13006,7 +13006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CYA0630-15UH"
+		(property "Manufacturer Part" "CYA0630-6.8UH"
 			(at 165.1 41.91 0)
 			(effects
 				(font
@@ -13046,7 +13046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5189959"
+		(property "LCSC" "C5189749"
 			(at 163.7792 38.1254 0)
 			(effects
 				(font

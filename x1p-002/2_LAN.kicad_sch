@@ -10372,7 +10372,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "12k 1/10W 1%"
+		(property "Value" "12k 1%"
 			(at 91.3384 85.0138 0)
 			(effects
 				(font
@@ -11087,7 +11087,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10K 1/10W 1%"
+		(property "Value" "10k"
 			(at 92.71 154.0256 0)
 			(effects
 				(font
@@ -17307,7 +17307,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "49.9"
+		(property "Value" "4x 49.9"
 			(at 266.9286 58.3438 0)
 			(effects
 				(font
@@ -17483,7 +17483,7 @@
 				(justify right top)
 			)
 		)
-		(property "Value" "10K 1/10W 1%"
+		(property "Value" "10k"
 			(at 92.4052 173.9138 0)
 			(effects
 				(font
