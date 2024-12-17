@@ -22,6 +22,11 @@ metadata:
       name: J. Wise
       date: 2024-11-14
       changelog: Switched from individual cables to ribbon cable.
+
+    A04:
+      name: J. Wise
+      date: 2024-12-16
+      changelog: Added heat shrink labels.  Shortened power components of harness.
   
   template:
     name: din-6771
@@ -52,6 +57,7 @@ connectors:
     additional_components:
       - <<: *glue
       - <<: *mh125t
+      - type: "Add 16mm heat shrink label on wires with X1Plus logo"
     image:
       src: dll_mh1_25_12y.png
       width: 200
@@ -64,6 +70,7 @@ connectors:
       src: dll_mh1_25_4y.png
       width: 200
     additional_components:
+      - <<: *glue
       - <<: *mh125t
       - type: "Add heat shrink label on wire: 'CAM'"
   MB_UART:
@@ -75,6 +82,7 @@ connectors:
       src: dll_mh1_25_4y.png
       width: 200
     additional_components:
+      - <<: *glue
       - <<: *mh125t
       - type: "Add heat shrink label on wire: 'UART'"
   CAM_USB:
@@ -86,6 +94,7 @@ connectors:
       src: dll_mh1_25_4r.png
       width: 200
     additional_components:
+      - <<: *glue
       - type: MH1.25-RT
         qty_multiplier: pincount
         supplier: LCSC
@@ -99,6 +108,7 @@ connectors:
       src: hc_phb_2_3_y.png
       width: 200
     additional_components:
+      - <<: *glue
       - type: HC-PHB-T
         qty_multiplier: pincount
         supplier: LCSC
@@ -112,6 +122,7 @@ connectors:
       width: 200
     pinlabels: [ 24V_0, 24V_1, 24V_2, GND_0, GND_1, GND_2 ]
     additional_components:
+      - <<: *glue
       - type: HC-PHB-PT-05
         qty_multiplier: pincount
         supplier: LCSC
@@ -134,7 +145,7 @@ cables:
   W_EXT_PSU:
     category: bundle
     wirecount: 2
-    length: 285 mm
+    length: 273 mm
     gauge: 26 AWG
     colors: [ RD, BK ]
     additional_components:
@@ -144,7 +155,7 @@ cables:
   W_MB_PSU:
     category: bundle
     wirecount: 6
-    length: 40 mm
+    length: 25 mm
     gauge: 24 AWG
     colors: [ RD, RD, RD, BK, BK, BK ]
 

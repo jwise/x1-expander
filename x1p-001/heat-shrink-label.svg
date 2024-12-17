@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="365"
+   height="120"
+   viewBox="0 0 96.572978 31.75"
+   version="1.1"
+   id="svg336"
+   inkscape:export-filename="x1p-001-a04-graphic.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="heat-shrink-label.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview338"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.1085951"
+     inkscape:cx="243.52708"
+     inkscape:cy="235.93909"
+     inkscape:window-width="1676"
+     inkscape:window-height="1205"
+     inkscape:window-x="1847"
+     inkscape:window-y="795"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs333" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g12243"
+       transform="translate(-0.4380077)">
+      <g
+         id="g5220"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.46281;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         transform="matrix(0.11222492,0,0,0.12527903,6.81323,-0.1626128)">
+        <path
+           d="M 34.882665,107.16935 V 16.162418 h 51.144148 v 70.260249 z"
+           fill="white"
+           id="path882"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.46282;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           d="M 34.882665,163.83758 V 119.11323 L 86.026813,98.366784 v 65.470796 z"
+           fill="white"
+           id="path884"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.46282;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.46282;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+           d="M 91.37339,85.814592 117.85226,75.073407 V 48.424232 l 8.8184,-3.577196 v 26.649177 l 24.902,-10.101525 v 8.818908 l -24.902,10.102309 v 27.853465 l -8.8184,3.57747 V 83.893376 L 91.37339,94.635394 Z"
+           id="path4422"
+           sodipodi:nodetypes="ccccccccccccc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.9235px;line-height:1.25;font-family:'Futura Std';-inkscape-font-specification:'Futura Std';letter-spacing:-0.509841px;word-spacing:-0.0173809px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.928324;stroke-dasharray:none;paint-order:stroke fill markers"
+         x="26.318447"
+         y="19.406492"
+         id="text2"
+         transform="scale(0.9453818,1.0577737)"><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Futura Std';-inkscape-font-specification:'Futura Std';letter-spacing:-0.509841px;word-spacing:-0.0173809px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.928324;stroke-dasharray:none;paint-order:stroke fill markers"
+           x="26.318447"
+           y="19.406492"
+           id="tspan3"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Futura Std';-inkscape-font-specification:'Futura Std Bold';letter-spacing:-0.652743px;word-spacing:-0.0173809px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.928324;stroke-dasharray:none;paint-order:stroke fill markers"
+             id="tspan5">X1</tspan><tspan
+             style="font-style:oblique;font-variant:normal;font-stretch:normal;font-family:'Futura Std';-inkscape-font-specification:'Futura Std weight=653 Oblique';letter-spacing:-0.509841px;word-spacing:-0.0173809px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.928324;stroke-dasharray:none;paint-order:stroke fill markers"
+             id="tspan6">Plus</tspan></tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.05644px;line-height:1.25;font-family:Inconsol;-inkscape-font-specification:Inconsol;letter-spacing:-0.187356px;word-spacing:-0.00638713px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.928324;stroke-dasharray:none;paint-order:stroke fill markers"
+       x="51.023769"
+       y="27.857845"
+       id="text2-5"
+       transform="scale(0.9453818,1.0577737)"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Inconsolata;-inkscape-font-specification:Inconsolata;text-align:center;letter-spacing:-0.187356px;word-spacing:-0.00638713px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.928324;stroke-dasharray:none;paint-order:stroke fill markers"
+         x="50.930092"
+         y="27.857845"
+         id="tspan3-3">X1P-001-A04</tspan></text>
+  </g>
+</svg>
