@@ -12,6 +12,49 @@
 
 #include "device/usbd_pvt.h"
 
+#include "hardware/pio.h"
+#include "ws2812.pio.h"
+
+#define WS2812_PIN 4
+
+void put_ws2812(int pin, uint8_t *buf, int pixels) {
+	PIO pio = pio0;
+	int sm = 0;
+	pio_clear_instruction_memory(pio);
+	uint offset = pio_add_program(pio, &ws2812_program);
+
+	ws2812_program_init(pio, sm, offset, pin, 800000 /* freq */, 0 /* is_rgbw */);
+	pio_sm_restart(pio, sm);
+
+	for (int i = 0; i < pixels; i++) {
+		uint32_t pxl = 0;
+		pxl = (pxl | *(buf++)) << 8;
+		pxl = (pxl | *(buf++)) << 8;
+		pxl = (pxl | *(buf++)) << 8;
+		pio_sm_put_blocking(pio, sm, pxl);
+	}
+	uint32_t stall_mask = 1 << (PIO_FDEBUG_TXSTALL_LSB + sm);
+	pio->fdebug = stall_mask;
+	while ((pio->fdebug & stall_mask) == 0)
+		;
+	pio_sm_set_enabled(pio, sm, false);
+}
+
+uint8_t xbuf[512];
+
+void do_read(void *buf, int len) {
+	while (len) {
+		while (tud_vendor_available() == 0) {
+			/* timeout ... */
+			/* check for disconnect ... */
+			tud_task();
+		}
+		int n = tud_vendor_read(buf, len);
+		buf += n;
+		len -= n;
+	}	
+}
+
 int main(void)
 {
 	board_init();
@@ -28,9 +71,15 @@ int main(void)
 		}
 		
 		/* handle the vendor RX FIFO */
-		if (tud_vendor_available()) {
-			printf("vendor: got %d bytes\n", tud_vendor_available());
-			tud_vendor_read_flush();
+		if (tud_vendor_available() >= 3) {
+			uint16_t len;
+			uint8_t pin;
+			tud_vendor_read(&len, 2);
+			tud_vendor_read(&pin, 1);
+			printf("vendor: got write command for %d bytes on pin %d\n", len, pin);
+			do_read(xbuf, len);
+			printf("vendor: got data\n");
+			put_ws2812(pin, xbuf, len / 3);
 		}
 	}
 }
