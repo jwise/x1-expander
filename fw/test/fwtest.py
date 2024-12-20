@@ -87,6 +87,40 @@ def rainbow(args):
             ph -= 1
         time.sleep(0.03)
 
+@mkcmd
+def i2c_eeprom(args):
+    gpio(port[5], False)
+    ep_out.write(struct.pack('<BBB', 4, port[7], port[6]))
+    for addr in range(0x80):
+        ep_out.write(struct.pack('<BBB', 1, addr, 0))
+    ep_out.write(struct.pack('<B', 0))
+    
+    buf = b""
+    while len(buf) < 0x80:
+        buf += ep_in.read(0x80)
+    for addr in range(0x80):
+        if buf[addr] == 0:
+            print(f"I2C device at {addr:02x}")
+
+    ep_out.write(struct.pack('<BBB', 4, port[7], port[6]))
+    ep_out.write(struct.pack('<BBBB', 2, 0x50, 0x01, 0x00))
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 1:
+        buf += ep_in.read(0x100)
+    print(f"set addr buf {buf}")
+    # eeprom is slow, so this must be done in two transactions
+
+    ep_out.write(struct.pack('<BBB', 4, port[7], port[6]))
+    ep_out.write(struct.pack('<BBB', 1, 0x50, 0x80))
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 0x81:
+        buf += ep_in.read(0x100)
+    print(f"eeprom buf {buf} {len(buf)}")
+    
+    
+
 args = parser.parse_args()
 port = PORTS[args.port[0]]
 args.func(args)

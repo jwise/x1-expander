@@ -17,8 +17,7 @@
 #include "hardware/structs/pads_qspi.h"
 #include "hardware/structs/io_qspi.h"
 #include "ws2812.pio.h"
-
-#define WS2812_PIN 4
+#include "pio_i2c.h"
 
 void put_ws2812(int pin, uint8_t *buf, int pixels) {
 	PIO pio = pio0;
@@ -27,7 +26,6 @@ void put_ws2812(int pin, uint8_t *buf, int pixels) {
 	uint offset = pio_add_program(pio, &ws2812_program);
 
 	ws2812_program_init(pio, sm, offset, pin, 800000 /* freq */, 0 /* is_rgbw */);
-	pio_sm_restart(pio, sm);
 
 	for (int i = 0; i < pixels; i++) {
 		uint32_t pxl = 0;
@@ -43,6 +41,7 @@ void put_ws2812(int pin, uint8_t *buf, int pixels) {
 	pio_sm_set_enabled(pio, sm, false);
 }
 
+
 uint8_t xbuf[512];
 
 void do_read(void *buf, int len) {
@@ -56,6 +55,63 @@ void do_read(void *buf, int len) {
 		buf += n;
 		len -= n;
 	}	
+}
+
+void do_i2c() {
+	uint8_t sda, scl;
+	do_read(&scl, 1);
+	do_read(&sda, 1);
+	
+	PIO pio = pio0;
+	int sm = 0;
+	pio_clear_instruction_memory(pio);
+	uint offset = pio_add_program(pio, &i2c_program);
+	i2c_program_init(pio, sm, offset, sda, scl);
+
+	printf("enter i2c subcmd, sda %d, scl %d\n", sda, scl);
+	while (1) {
+		uint8_t cmd;
+		do_read(&cmd, 1);
+		
+		switch (cmd) {
+		case 0x00:
+			printf("done\n");
+			goto alldone;
+		case 0x01: /* read */ {
+			uint8_t addr;
+			uint8_t bytes;
+			
+			do_read(&addr, 1);
+			do_read(&bytes, 1);
+			
+			printf("read %d bytes from adr %02x\n", bytes, addr);
+			
+			int result = pio_i2c_read_blocking(pio, sm, addr, xbuf, bytes);
+			printf("  -> %d\n", result);
+			tud_vendor_write(&result, 1);
+			if (bytes)
+				tud_vendor_write(xbuf, bytes);
+			break;
+		}
+		case 0x02: /* write */ {
+			uint8_t addr;
+			uint8_t bytes;
+			
+			do_read(&addr, 1);
+			do_read(&bytes, 1);
+			do_read(xbuf, bytes);
+			
+			printf("write %d bytes to adr %02x\n", bytes, addr);
+			
+			int result = pio_i2c_write_blocking(pio, sm, addr, xbuf, bytes);
+			printf("  -> %d\n", result);
+			tud_vendor_write(&result, 1);
+			break;
+		}
+		}
+	}
+alldone:
+	tud_vendor_write_flush();
 }
 
 int main(void)
@@ -140,6 +196,10 @@ int main(void)
 				printf("vendor: pin %d is value %d\n", pin, data);
 				tud_vendor_write(&data, 1);
 				tud_vendor_write_flush();
+				break;
+			}
+			case 0x04: { /* do I2C subcommand */
+				do_i2c();
 				break;
 			}
 			default:

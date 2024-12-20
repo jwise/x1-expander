@@ -9,9 +9,10 @@ project(x1p_002_c_fw)
 # initialize the Raspberry Pi Pico SDK
 pico_sdk_init()
 
-add_executable(x1p_002_c_fw main.c usb_descriptors.c)
+add_executable(x1p_002_c_fw main.c usb_descriptors.c pio_i2c.c)
 
 pico_generate_pio_header(x1p_002_c_fw ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
+pico_generate_pio_header(x1p_002_c_fw ${CMAKE_CURRENT_LIST_DIR}/i2c.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
 
 # tusb_config.h
 target_include_directories(x1p_002_c_fw PUBLIC ${CMAKE_CURRENT_LIST_DIR})
