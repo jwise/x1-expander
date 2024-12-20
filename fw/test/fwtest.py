@@ -63,6 +63,23 @@ def beep(args):
     gpio_get(port[3])
 
 @mkcmd
+def shutter_cama(args):
+    gpio(port[3], True)
+    gpio_get(port[3])
+    time.sleep(0.2)
+    gpio(port[3], False)
+    gpio_get(port[3])
+
+@mkcmd
+def shutter_camb(args):
+    gpio(port[5], True)
+    gpio_get(port[5])
+    time.sleep(0.2)
+    gpio(port[5], False)
+    gpio_get(port[5])
+
+
+@mkcmd
 def buttons(args):
     gpio(port[5], True)
     gpio(port[6], pull_up = True)
