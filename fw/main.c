@@ -13,6 +13,9 @@
 #include "device/usbd_pvt.h"
 
 #include "hardware/pio.h"
+#include "hardware/structs/pads_bank0.h"
+#include "hardware/structs/pads_qspi.h"
+#include "hardware/structs/io_qspi.h"
 #include "ws2812.pio.h"
 
 #define WS2812_PIN 4
@@ -71,15 +74,77 @@ int main(void)
 		}
 		
 		/* handle the vendor RX FIFO */
-		if (tud_vendor_available() >= 3) {
-			uint16_t len;
-			uint8_t pin;
-			tud_vendor_read(&len, 2);
-			tud_vendor_read(&pin, 1);
-			printf("vendor: got write command for %d bytes on pin %d\n", len, pin);
-			do_read(xbuf, len);
-			printf("vendor: got data\n");
-			put_ws2812(pin, xbuf, len / 3);
+		if (tud_vendor_available() >= 1) {
+			uint8_t cmd;
+			do_read(&cmd, 1);
+			
+			switch (cmd) {
+			case 0x01: { /* ws2812 */
+				uint16_t len;
+				uint8_t pin;
+				do_read(&len, 2);
+				do_read(&pin, 1);
+				printf("vendor: got ws2812 command for %d bytes on pin %d\n", len, pin);
+				do_read(xbuf, len);
+				printf("vendor: got data\n");
+				put_ws2812(pin, xbuf, len / 3);
+				break;
+			}
+			case 0x02: { /* configure gpio */
+				uint8_t pin;
+				uint8_t cfg;
+				do_read(&pin, 1);
+				do_read(&cfg, 1);
+				uint8_t padcfg = PADS_BANK0_GPIO0_IE_BITS | PADS_BANK0_GPIO0_DRIVE_BITS | ((cfg & 1) ? PADS_BANK0_GPIO0_PUE_BITS : 0) | ((cfg & 2) ? PADS_BANK0_GPIO0_PDE_BITS : 0);
+				if (pin < 32) {
+					pads_bank0_hw->io[pin] = padcfg;
+					io_bank0_hw->io[pin].ctrl = GPIO_FUNC_SIO;
+					if (cfg & 4) {
+						sio_hw->gpio_oe_set = 1 << pin;
+					} else {
+						sio_hw->gpio_oe_clr = 1 << pin;
+					}
+					if (cfg & 8) {
+						sio_hw->gpio_set = 1 << pin;
+					} else {
+						sio_hw->gpio_clr = 1 << pin;
+					}
+				} else {
+					pads_qspi_hw->io[pin - 32] = padcfg;
+					io_qspi_hw->io[pin - 32].ctrl = GPIO_FUNC1_SIO;
+					if (cfg & 4) {
+						sio_hw->gpio_hi_oe_set = 1 << (pin - 32);
+					} else {
+						sio_hw->gpio_hi_oe_clr = 1 << (pin - 32);
+					}
+					if (cfg & 8) {
+						sio_hw->gpio_hi_set = 1 << (pin - 32);
+					} else {
+						sio_hw->gpio_hi_clr = 1 << (pin - 32);
+					}
+				}
+				gpio_put(pin, (cfg & 8) == 8);
+				gpio_set_dir(pin, (cfg & 4) == 4);
+				printf("vendor: set pin %d gpio %02x\n", pin, cfg);
+				break;
+			}
+			case 0x03: { /* read GPIO */
+				uint8_t pin;
+				do_read(&pin, 1);
+				uint8_t data;
+				if (pin < 32) {
+					data = (sio_hw->gpio_in & (1 << pin)) != 0;
+				} else {
+					data = (sio_hw->gpio_hi_in & (1 << (pin - 32))) != 0;
+				}
+				printf("vendor: pin %d is value %d\n", pin, data);
+				tud_vendor_write(&data, 1);
+				tud_vendor_write_flush();
+				break;
+			}
+			default:
+				printf("vendor: unknown command %02x\n", cmd);
+			}
 		}
 	}
 }
