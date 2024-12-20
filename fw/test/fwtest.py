@@ -18,7 +18,7 @@ ep_in  = intf[1]
 
 PORTS = {
     'A': { 0:  5, 1:  4, 2:  4, 3:  2, 4: 29, 5: 35, 6:  1, 7:  0 },
-    'B': { 0: 11, 1: 10, 2:  9, 3:  8, 4: 28, 5: 36, 6:  7, 7:  5 },
+    'B': { 0: 11, 1: 10, 2:  9, 3:  8, 4: 28, 5: 36, 6:  7, 7:  6 },
     'C': { 0: 17, 1: 16, 2: 15, 3: 14, 4: 27, 5: 34, 6: 13, 7: 12 },
     'D': { 0: 23, 1: 22, 2: 21, 3: 20, 4: 26, 5: 37, 6: 19, 7: 18 },
 }
@@ -119,6 +119,19 @@ def i2c_eeprom(args):
         buf += ep_in.read(0x100)
     print(f"eeprom buf {buf} {len(buf)}")
     
+@mkcmd
+def i2c_stemma(args):
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    for addr in range(0x80):
+        ep_out.write(struct.pack('<BBB', 1, addr, 0))
+    ep_out.write(struct.pack('<B', 0))
+    
+    buf = b""
+    while len(buf) < 0x80:
+        buf += ep_in.read(0x80)
+    for addr in range(0x80):
+        if buf[addr] == 0:
+            print(f"I2C device at {addr:02x}")
     
 
 args = parser.parse_args()
