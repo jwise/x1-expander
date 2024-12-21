@@ -6,7 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "X1Plus Expansion Board: X1P-002")
-		(rev "X1P-002-B01")
+		(date "2024-12-20")
+		(rev "X1P-002-C02")
 	)
 	(lib_symbols
 		(symbol "100nF_1"
@@ -14019,7 +14020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 196.85 78.74 0)
 			(effects
 				(font
@@ -15051,7 +15052,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 63.5 0)
 			(effects
 				(font
@@ -15533,7 +15534,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 186.69 87.63 0)
 			(effects
 				(font

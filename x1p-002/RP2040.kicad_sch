@@ -6,7 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "X1Plus Expansion Board: X1P-002")
-		(rev "X1P-002-B01")
+		(date "2024-12-20")
+		(rev "X1P-002-C02")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Counter_Clockwise"
@@ -2402,12 +2403,20 @@
 		(uuid "f4002d8d-e0ce-41ce-9edf-a60bfb480de9")
 	)
 	(no_connect
+		(at 228.6 121.92)
+		(uuid "0bae98a5-a3e0-4f0c-9763-08691745edf7")
+	)
+	(no_connect
 		(at 77.47 111.76)
 		(uuid "2811261c-8cf9-494c-8cc8-adcb41f4764a")
 	)
 	(no_connect
 		(at 215.9 119.38)
 		(uuid "37b29bb4-da17-4614-9eef-1c95ae1db54e")
+	)
+	(no_connect
+		(at 228.6 119.38)
+		(uuid "e2a39fd3-da89-4724-9bd0-ff740b1107a6")
 	)
 	(wire
 		(pts

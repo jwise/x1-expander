@@ -6,7 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "X1Plus Expansion Board: X1P-002")
-		(rev "X1P-002-B01")
+		(date "2024-12-20")
+		(rev "X1P-002-C02")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -4546,7 +4547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 237.49 160.02 0)
 			(effects
 				(font
@@ -7100,7 +7101,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 240.03 160.02 0)
 			(effects
 				(font
