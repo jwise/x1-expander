@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "X1Plus Expander Board X1P-002")
-		(date "2024-12-20")
-		(rev "C02")
+		(date "2024-01-03")
+		(rev "C03")
 	)
 	(layers
 		(0 "F.Cu" signal "Top Layer")
@@ -8095,7 +8095,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R36"
-			(at 2.5 -1.125 90)
+			(at 2.5 0.125 90)
 			(layer "F.SilkS")
 			(uuid "69be3b28-f7a0-405f-830d-478c0815d518")
 			(effects
@@ -19239,7 +19239,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C55"
-			(at -2.5 -1.25 90)
+			(at -2.5 0.125 90)
 			(layer "F.SilkS")
 			(uuid "10c2014f-2406-41f1-bf13-edbbf79695e4")
 			(effects
@@ -52980,7 +52980,7 @@
 			(justify bottom)
 		)
 	)
-	(gr_text "X1P-002-C02"
+	(gr_text "X1P-002-C03"
 		(at 177.375 137.625 0)
 		(layer "F.SilkS")
 		(uuid "07ca5ce1-2f11-424c-9ff0-71f25f4e36a0")
