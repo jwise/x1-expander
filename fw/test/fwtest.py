@@ -149,6 +149,101 @@ def i2c_stemma(args):
     for addr in range(0x80):
         if buf[addr] == 0:
             print(f"I2C device at {addr:02x}")
+
+@mkcmd
+def i2c_ina219(args):
+    for addr in [0x40, 0x42, 0x43]:
+        print(f"trying INA219 at {addr:02x}")
+        ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+        ep_out.write(struct.pack('<BBBBBB', 2, addr, 0x03, 0x00, 0x31, 0x9F)) # set PGA = 160 mV (PGA = /4)
+        ep_out.write(struct.pack('<B', 0))
+        buf = b""
+        while len(buf) < 1:
+            buf += ep_in.read(0x100)
+        # print(buf)
+
+        ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+        ep_out.write(struct.pack('<BBB', 1, addr, 0x02))
+        ep_out.write(struct.pack('<B', 0))
+        buf = b""
+        while len(buf) < 2:
+            buf += ep_in.read(0x100)
+        # print(buf)
+        rv,cfg = struct.unpack(">BH", buf)
+        print(f"config {cfg:04x}")
+        time.sleep(0.2)
+        
+        ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+        ep_out.write(struct.pack('<BBBB', 2, addr, 0x01, 0x01))
+        ep_out.write(struct.pack('<BBB', 1, addr, 0x03))
+        ep_out.write(struct.pack('<B', 0))
+        ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+        ep_out.write(struct.pack('<BBBB', 2, addr, 0x01, 0x02))
+        ep_out.write(struct.pack('<BBB', 1, addr, 0x03))
+        ep_out.write(struct.pack('<B', 0))
+        buf = b""
+        while len(buf) < 10:
+            buf += ep_in.read(0x100)
+        # print(buf)
+        rv0, rv1, vshunt, vs1, rv2, rv3, vbus, vb1 = struct.unpack('<BBHBBBHB', buf)
+        vbus_f = float(vbus >> 4 | (vbus & 1) << 12) * 0.004 # no idea why the latter is needed or why it's >> 4 instead of >> 3
+        vshunt_f = float(vshunt) * 1e-5 / 2.0 # also why *2??
+        ishunt_f = vshunt_f * 0.5 / 0.04
+        print(f"vshunt {vshunt:04x} = {vshunt_f * 1000:.1f} mV = {ishunt_f * 1000:.1f} mA, vbus {vbus:04x} = {vbus_f:.3f} V ")
+        
+        
+        
+@mkcmd
+def i2c_pca9536(args):
+    addr = 0x41
+
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, 0x04)) # set outputs to LED_PASS
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 2:
+        buf += ep_in.read(0x100)
+    print(buf)
+    
+    time.sleep(1)
+
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, 0x00)) # set outputs to off
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 2:
+        buf += ep_in.read(0x100)
+    print(buf)
+
+@mkcmd
+def i2c_pca9536_load5(args):
+    addr = 0x41
+
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, 0x01)) # set outputs to load_5v
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 2:
+        buf += ep_in.read(0x100)
+    print(buf)
+
+@mkcmd
+def i2c_pca9536_load3v3(args):
+    addr = 0x41
+
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, 0x02)) # set outputs to load_3v3
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 2:
+        buf += ep_in.read(0x100)
+    print(buf)
+
+    
     
 
 args = parser.parse_args()
