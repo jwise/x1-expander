@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "X1Plus Expander Board X1P-002")
+		(title "X1Plus Expander X1P-002")
 		(date "2024-01-03")
 		(rev "C03")
 	)
@@ -6861,7 +6861,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R17"
-			(at -2.5 -1.25 0)
+			(at -2.625 0.25 0)
 			(layer "F.SilkS")
 			(uuid "065afde1-fc64-42ff-93fc-f975c532568c")
 			(effects
@@ -16505,7 +16505,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 -2.3 0)
+			(at 0 -3.75 0)
 			(layer "F.SilkS")
 			(uuid "fd76e31c-6b36-4674-85ba-f3dbade7680a")
 			(effects
@@ -20433,7 +20433,7 @@
 		(uuid "a9553767-4308-446c-8c8c-e6f6d3ed98e4")
 		(at 148 126.355 -90)
 		(property "Reference" "L1"
-			(at 4.475 -2.625 0)
+			(at 8.145 -0.25 0)
 			(layer "F.SilkS")
 			(uuid "80f10a71-41a8-4719-af8f-1527b000cbdc")
 			(effects
@@ -22160,7 +22160,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 2.5 -1.25 0)
+			(at 2.625 0.25 0)
 			(layer "F.SilkS")
 			(uuid "6009bb4f-597d-4291-b4a3-d5a850ca5d3d")
 			(effects
@@ -31193,7 +31193,7 @@
 				)
 			)
 		)
-		(property "Value" "75pF NP0"
+		(property "Value" "220pF NP0"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31283,7 +31283,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C107010"
+		(property "LCSC" "C107001"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31309,7 +31309,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CC0402JRNPO9BN750"
+		(property "Manufacturer Part" "CC0402JRNPO9BN221"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31817,7 +31817,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100pF NP0"
+		(property "Value" "470pF NP0"
 			(at 0 1.16 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31907,7 +31907,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C106200"
+		(property "LCSC" "C526993"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31933,7 +31933,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "CC0402JRNPO9BN101"
+		(property "Manufacturer Part" "CC0402JRNPO7BN471"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -52318,7 +52318,7 @@
 		(start 176.75 125.25)
 		(end 203.75 138.25)
 		(stroke
-			(width 0.5)
+			(width 0.3)
 			(type solid)
 		)
 		(fill none)
@@ -52981,7 +52981,7 @@
 		)
 	)
 	(gr_text "X1P-002-C03"
-		(at 177.375 137.625 0)
+		(at 190.25 131.75 0)
 		(layer "F.SilkS")
 		(uuid "07ca5ce1-2f11-424c-9ff0-71f25f4e36a0")
 		(effects
@@ -52990,7 +52990,6 @@
 				(thickness 0.3)
 				(bold yes)
 			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "A7"

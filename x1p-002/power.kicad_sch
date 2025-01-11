@@ -7634,7 +7634,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "75pF NP0"
+		(property "Value" "220pF NP0"
 			(at 122.9741 134.5557 0)
 			(effects
 				(font
@@ -7700,7 +7700,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C107010"
+		(property "LCSC" "C107001"
 			(at 121.8438 130.81 0)
 			(effects
 				(font
@@ -7718,7 +7718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0402JRNPO9BN750"
+		(property "Manufacturer Part" "CC0402JRNPO9BN221"
 			(at 120.65 133.35 0)
 			(effects
 				(font
@@ -11449,7 +11449,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100pF NP0"
+		(property "Value" "470pF NP0"
 			(at 195.3641 60.8957 0)
 			(effects
 				(font
@@ -11515,7 +11515,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C106200"
+		(property "LCSC" "C526993"
 			(at 194.2338 57.15 0)
 			(effects
 				(font
@@ -11533,7 +11533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "CC0402JRNPO9BN101"
+		(property "Manufacturer Part" "CC0402JRNPO7BN471"
 			(at 193.04 59.69 0)
 			(effects
 				(font
