@@ -6,6 +6,7 @@ import random
 import colorsys
 import math
 import argparse
+from collections import namedtuple
 
 def is_expander_rp2040(dev):
     return dev.idVendor == 0x2E8A and dev.idProduct == 0x000A and dev.manufacturer == "X1Plus" and dev.product == "X1Plus Expander GPIO controller"
@@ -150,101 +151,179 @@ def i2c_stemma(args):
         if buf[addr] == 0:
             print(f"I2C device at {addr:02x}")
 
+def _pca9536(led_pass = False, led_fail = False, load_5v = False, load_3v3 = False):
+    addr = 0x41
+
+    outputs = 0
+    if led_pass:
+        outputs |= 0x04
+    if led_fail:
+        outputs |= 0x08
+    if load_5v:
+        outputs |= 0x01
+    if load_3v3:
+        outputs |= 0x02
+
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, outputs)) # set outputs to LED_PASS
+    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 2:
+        buf += ep_in.read(0x100)
+    
+    if buf != b'\x00\x00':
+        raise RuntimeError("comm error with pca9536")
+
+INA219_24V = 0x40
+INA219_3V3 = 0x42
+INA219_5V  = 0x43
+
+Ina219Result = namedtuple("Ina219Result", ["vbus", "vshunt", "ishunt", "vbus_raw", "vshunt_raw"])
+
+def _ina219(addr):
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBBBBB', 2, addr, 0x03, 0x00, 0x31, 0x9F)) # set PGA = 160 mV (PGA = /4)
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 1:
+        buf += ep_in.read(0x100)
+    if buf != b'\x00':
+        raise RuntimeError("comm error setting INA219 config")
+
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBB', 1, addr, 0x02))
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 3:
+        buf += ep_in.read(0x100)
+    if buf[0] != 0:
+        raise RuntimeError("comm error getting INA219 config")
+
+    rv,cfg = struct.unpack(">BH", buf)
+    assert cfg == 0x319F
+    time.sleep(0.2)
+    
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBBB', 2, addr, 0x01, 0x01))
+    ep_out.write(struct.pack('<BBB', 1, addr, 0x03))
+    ep_out.write(struct.pack('<B', 0))
+    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
+    ep_out.write(struct.pack('<BBBB', 2, addr, 0x01, 0x02))
+    ep_out.write(struct.pack('<BBB', 1, addr, 0x03))
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 10:
+        buf += ep_in.read(0x100)
+    # print(buf)
+    rv0, rv1, vshunt, vs1, rv2, rv3, vbus, vb1 = struct.unpack('<BBHBBBHB', buf)
+    assert rv0 == 0
+    assert rv1 == 0
+    assert rv2 == 0
+    assert rv3 == 0
+    
+    vbus_f = float(vbus >> 4 | (vbus & 1) << 12) * 0.004 # no idea why the latter is needed or why it's >> 4 instead of >> 3
+    vshunt_f = float(vshunt) * 1e-5 / 2.0 # also why *2??
+    ishunt_f = vshunt_f * 0.5 / 0.04
+    
+    return Ina219Result(vbus = vbus_f, vshunt = vshunt_f, ishunt = ishunt_f, vbus_raw = vbus, vshunt_raw = vshunt)
+
 @mkcmd
 def i2c_ina219(args):
     for addr in [0x40, 0x42, 0x43]:
         print(f"trying INA219 at {addr:02x}")
-        ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
-        ep_out.write(struct.pack('<BBBBBB', 2, addr, 0x03, 0x00, 0x31, 0x9F)) # set PGA = 160 mV (PGA = /4)
-        ep_out.write(struct.pack('<B', 0))
-        buf = b""
-        while len(buf) < 1:
-            buf += ep_in.read(0x100)
-        # print(buf)
-
-        ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
-        ep_out.write(struct.pack('<BBB', 1, addr, 0x02))
-        ep_out.write(struct.pack('<B', 0))
-        buf = b""
-        while len(buf) < 2:
-            buf += ep_in.read(0x100)
-        # print(buf)
-        rv,cfg = struct.unpack(">BH", buf)
-        print(f"config {cfg:04x}")
-        time.sleep(0.2)
-        
-        ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
-        ep_out.write(struct.pack('<BBBB', 2, addr, 0x01, 0x01))
-        ep_out.write(struct.pack('<BBB', 1, addr, 0x03))
-        ep_out.write(struct.pack('<B', 0))
-        ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
-        ep_out.write(struct.pack('<BBBB', 2, addr, 0x01, 0x02))
-        ep_out.write(struct.pack('<BBB', 1, addr, 0x03))
-        ep_out.write(struct.pack('<B', 0))
-        buf = b""
-        while len(buf) < 10:
-            buf += ep_in.read(0x100)
-        # print(buf)
-        rv0, rv1, vshunt, vs1, rv2, rv3, vbus, vb1 = struct.unpack('<BBHBBBHB', buf)
-        vbus_f = float(vbus >> 4 | (vbus & 1) << 12) * 0.004 # no idea why the latter is needed or why it's >> 4 instead of >> 3
-        vshunt_f = float(vshunt) * 1e-5 / 2.0 # also why *2??
-        ishunt_f = vshunt_f * 0.5 / 0.04
-        print(f"vshunt {vshunt:04x} = {vshunt_f * 1000:.1f} mV = {ishunt_f * 1000:.1f} mA, vbus {vbus:04x} = {vbus_f:.3f} V ")
-        
-        
+        result = _ina219(addr)
+        print(f"{result.vbus:.3f} V @ {result.ishunt * 1000:.1f} mA")
         
 @mkcmd
 def i2c_pca9536(args):
-    addr = 0x41
-
-    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
-    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, 0x04)) # set outputs to LED_PASS
-    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
-    ep_out.write(struct.pack('<B', 0))
-    buf = b""
-    while len(buf) < 2:
-        buf += ep_in.read(0x100)
-    print(buf)
-    
+    _pca9536(led_pass = True)
+    print("PASS light is on")
     time.sleep(1)
-
-    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
-    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, 0x00)) # set outputs to off
-    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
-    ep_out.write(struct.pack('<B', 0))
-    buf = b""
-    while len(buf) < 2:
-        buf += ep_in.read(0x100)
-    print(buf)
+    _pca9536()
+    print("PASS light is off")
 
 @mkcmd
 def i2c_pca9536_load5(args):
-    addr = 0x41
-
-    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
-    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, 0x01)) # set outputs to load_5v
-    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
-    ep_out.write(struct.pack('<B', 0))
-    buf = b""
-    while len(buf) < 2:
-        buf += ep_in.read(0x100)
-    print(buf)
+    _pca9536(load_5v = True)
 
 @mkcmd
 def i2c_pca9536_load3v3(args):
-    addr = 0x41
+    _pca9536(load_3v3 = True)
 
-    ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
-    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x01, 0x02)) # set outputs to load_3v3
-    ep_out.write(struct.pack('<BBBBB', 2, addr, 0x02, 0x03, 0x00)) # set pins as outputs
-    ep_out.write(struct.pack('<B', 0))
-    buf = b""
-    while len(buf) < 2:
-        buf += ep_in.read(0x100)
-    print(buf)
+@mkcmd
+def boardtest(args):
+    _pca9536()
+    try:
+        print("checking quiescent current...")
+        iq_24v = _ina219(INA219_24V)
+        iq_5v = _ina219(INA219_5V)
+        iq_3v3 = _ina219(INA219_3V3)
+        
+        assert 23.8 < iq_24v.vbus < 24.2
+        assert 3.2 < iq_3v3.vbus < 3.4
+        assert 4.9 < iq_5v.vbus < 5.1
+        print(f"  quiescent voltages OK ({iq_24v.vbus:.2f}V, {iq_3v3.vbus:.2f}V, {iq_5v.vbus:.2f}V)")
+        
+        assert iq_24v.ishunt < 0.02
+        assert iq_3v3.ishunt < 0.002
+        assert iq_5v.ishunt < 0.002
+        print(f"  quiescent current OK ({iq_24v.ishunt*1000:.2f}mA, {iq_3v3.ishunt*1000:.2f}mA, {iq_5v.ishunt*1000:.2f}mA)")
+        
+        # try 5V load
+        print("checking 5V load efficiency...")
+        _pca9536(load_5v = True)
+        i5v_24v = _ina219(INA219_24V)
+        i5v_5v = _ina219(INA219_5V)
+        i5v_3v3 = _ina219(INA219_3V3)
+        _pca9536()
 
-    
-    
+        assert 23.8 < i5v_24v.vbus < 24.2
+        assert 0.45 < i5v_5v.ishunt < 0.55
+        assert 3.2 < i5v_3v3.vbus < 3.4
+        
+        dv = iq_5v.vbus - i5v_5v.vbus
+        di_5v = i5v_5v.ishunt - iq_5v.ishunt
+        esr = dv/di_5v
+        print(f"  ESR = {esr:.3f} ohms at {i5v_5v.ishunt:.3f}A ({i5v_5v.vbus:.3f}V)")
+        assert esr < 0.2
+        
+        dp_5v = iq_5v.vbus * di_5v
+        dp_24v = i5v_24v.vbus * i5v_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
+        efficiency_5v = dp_5v / dp_24v
+        print(f"  input dP {dp_24v:.3f}W, output dP {dp_5v:.3f}W, efficiency {efficiency_5v*100:.1f}%")
+        assert efficiency_5v > .88
+        # we assume the ESR is in the pins, not the reg
+
+        print("checking 3v3 load efficiency...")
+        _pca9536(load_3v3 = True)
+        i3v3_24v = _ina219(INA219_24V)
+        i3v3_5v = _ina219(INA219_5V)
+        i3v3_3v3 = _ina219(INA219_3V3)
+        _pca9536()
+
+        assert 23.8 < i3v3_24v.vbus < 24.2
+        assert 0.9 < i3v3_3v3.ishunt < 1.1
+        assert 4.9 < i3v3_5v.vbus < 5.1
+        
+        dv = iq_3v3.vbus - i3v3_3v3.vbus
+        di_3v3 = i3v3_3v3.ishunt - iq_3v3.ishunt
+        esr = dv/di_3v3
+        print(f"  ESR = {esr:.3f} ohms at {i3v3_3v3.ishunt:.3f}A ({i3v3_3v3.vbus:.3f}V)")
+        assert esr < 0.2
+        
+        dp_3v3 = iq_3v3.vbus * di_3v3
+        dp_24v = i3v3_24v.vbus * i3v3_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
+        efficiency_3v3 = dp_3v3 / dp_24v
+        print(f"  input dP {dp_24v:.3f}W, output dP {dp_3v3:.3f}W, 24v -> 3v3 efficiency {efficiency_3v3*100:.1f}%, 5v -> 3v3 efficiency {efficiency_3v3/efficiency_5v*100:.1f}%")
+        assert (efficiency_3v3/efficiency_5v) > .88
+
+        print("regulator test PASS")
+        _pca9536(led_pass = True)
+        
+    except AssertionError as e:
+        _pca9536(led_fail = True)
+        raise
 
 args = parser.parse_args()
 port = PORTS[args.port[0]]
