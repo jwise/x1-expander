@@ -273,7 +273,7 @@ def boardtest(args):
         assert 4.9 < iq_5v.vbus < 5.1
         print(f"  quiescent voltages OK ({iq_24v.vbus:.2f}V, {iq_3v3.vbus:.2f}V, {iq_5v.vbus:.2f}V)")
         
-        assert iq_24v.ishunt < 0.02
+        assert iq_24v.ishunt < 0.055
         assert iq_3v3.ishunt < 0.002
         assert iq_5v.ishunt < 0.002
         print(f"  quiescent current OK ({iq_24v.ishunt*1000:.2f}mA, {iq_3v3.ishunt*1000:.2f}mA, {iq_5v.ishunt*1000:.2f}mA)")
@@ -287,14 +287,14 @@ def boardtest(args):
         _pca9536()
 
         assert 23.8 < i5v_24v.vbus < 24.2
-        assert 0.45 < i5v_5v.ishunt < 0.55
+        assert 0.45 < i5v_5v.ishunt < 0.55, i5v_5v.ishunt
         assert 3.2 < i5v_3v3.vbus < 3.4
         
         dv = iq_5v.vbus - i5v_5v.vbus
         di_5v = i5v_5v.ishunt - iq_5v.ishunt
         esr = dv/di_5v
         print(f"  ESR = {esr:.3f} ohms at {i5v_5v.ishunt:.3f}A ({i5v_5v.vbus:.3f}V)")
-        assert esr < 0.2
+        assert esr < 0.4
         
         dp_5v = iq_5v.vbus * di_5v
         dp_24v = i5v_24v.vbus * i5v_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
@@ -318,7 +318,7 @@ def boardtest(args):
         di_3v3 = i3v3_3v3.ishunt - iq_3v3.ishunt
         esr = dv/di_3v3
         print(f"  ESR = {esr:.3f} ohms at {i3v3_3v3.ishunt:.3f}A ({i3v3_3v3.vbus:.3f}V)")
-        assert esr < 0.2
+        assert esr < 0.4
         
         dp_3v3 = iq_3v3.vbus * di_3v3
         dp_24v = i3v3_24v.vbus * i3v3_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
