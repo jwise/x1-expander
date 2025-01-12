@@ -13,7 +13,7 @@ serial = sys.argv[1]
 
 eeprom_base = lan9514.Lan9514(
     manufacturer_id = "X1Plus",
-    product_name = f"Expansion Board X1P-002-{board_rev}",
+    product_name = f"Expander X1P-002-{board_rev}",
     serial_number = f"X1P-002-{board_rev}-{serial}",
     hs_device_descriptor = b'\x12\x01\x00\x02\x00\x00\x00\x40\x24\x04\x00\xec\x00\x01\x01\x02\x03\x01',
     fs_device_descriptor = b'\x12\x01\x00\x02\x00\x00\x00\x40\x24\x04\x00\xec\x00\x01\x01\x02\x03\x01',
