@@ -8,7 +8,7 @@ import sign_eeprom
 
 EEPROM_SIZE = 512
 
-board_rev = "B01"
+board_rev = "C02"
 serial = sys.argv[1]
 
 eeprom_base = lan9514.Lan9514(
