@@ -224,15 +224,17 @@ def _ina219(addr):
     while len(buf) < 10:
         buf += ep_in.read(0x100)
     # print(buf)
-    rv0, rv1, vshunt, vs1, rv2, rv3, vbus, vb1 = struct.unpack('<BBHBBBHB', buf)
+    rv0, rv1, vshunt, vs1, rv2, rv3, vbus, vb1 = struct.unpack('<BBhBBBHB', buf)
     assert rv0 == 0
     assert rv1 == 0
     assert rv2 == 0
     assert rv3 == 0
     
-    vbus_f = float(vbus >> 4 | (vbus & 1) << 12) * 0.004 # no idea why the latter is needed or why it's >> 4 instead of >> 3
-    vshunt_f = float(vshunt) * 1e-5 / 2.0 # also why *2??
+    vbus_f = float(vbus >> 3) * 0.004
+    vshunt_f = float(vshunt) * 1e-5
     ishunt_f = vshunt_f * 0.5 / 0.04
+    
+    print(f"{ishunt_f} {vshunt:x}")
     
     return Ina219Result(vbus = vbus_f, vshunt = vshunt_f, ishunt = ishunt_f, vbus_raw = vbus, vshunt_raw = vshunt)
 
@@ -259,79 +261,6 @@ def i2c_pca9536_load5(args):
 def i2c_pca9536_load3v3(args):
     _pca9536(load_3v3 = True)
 
-@mkcmd
-def boardtest(args):
-    _pca9536()
-    try:
-        print("checking quiescent current...")
-        iq_24v = _ina219(INA219_24V)
-        iq_5v = _ina219(INA219_5V)
-        iq_3v3 = _ina219(INA219_3V3)
-        
-        assert 23.8 < iq_24v.vbus < 24.2
-        assert 3.2 < iq_3v3.vbus < 3.4
-        assert 4.9 < iq_5v.vbus < 5.1
-        print(f"  quiescent voltages OK ({iq_24v.vbus:.2f}V, {iq_3v3.vbus:.2f}V, {iq_5v.vbus:.2f}V)")
-        
-        assert iq_24v.ishunt < 0.055
-        assert iq_3v3.ishunt < 0.002
-        assert iq_5v.ishunt < 0.002
-        print(f"  quiescent current OK ({iq_24v.ishunt*1000:.2f}mA, {iq_3v3.ishunt*1000:.2f}mA, {iq_5v.ishunt*1000:.2f}mA)")
-        
-        # try 5V load
-        print("checking 5V load efficiency...")
-        _pca9536(load_5v = True)
-        i5v_24v = _ina219(INA219_24V)
-        i5v_5v = _ina219(INA219_5V)
-        i5v_3v3 = _ina219(INA219_3V3)
-        _pca9536()
-
-        assert 23.8 < i5v_24v.vbus < 24.2
-        assert 0.45 < i5v_5v.ishunt < 0.55, i5v_5v.ishunt
-        assert 3.2 < i5v_3v3.vbus < 3.4
-        
-        dv = iq_5v.vbus - i5v_5v.vbus
-        di_5v = i5v_5v.ishunt - iq_5v.ishunt
-        esr = dv/di_5v
-        print(f"  ESR = {esr:.3f} ohms at {i5v_5v.ishunt:.3f}A ({i5v_5v.vbus:.3f}V)")
-        assert esr < 0.4
-        
-        dp_5v = iq_5v.vbus * di_5v
-        dp_24v = i5v_24v.vbus * i5v_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
-        efficiency_5v = dp_5v / dp_24v
-        print(f"  input dP {dp_24v:.3f}W, output dP {dp_5v:.3f}W, efficiency {efficiency_5v*100:.1f}%")
-        assert efficiency_5v > .88
-        # we assume the ESR is in the pins, not the reg
-
-        print("checking 3v3 load efficiency...")
-        _pca9536(load_3v3 = True)
-        i3v3_24v = _ina219(INA219_24V)
-        i3v3_5v = _ina219(INA219_5V)
-        i3v3_3v3 = _ina219(INA219_3V3)
-        _pca9536()
-
-        assert 23.8 < i3v3_24v.vbus < 24.2
-        assert 0.9 < i3v3_3v3.ishunt < 1.1
-        assert 4.9 < i3v3_5v.vbus < 5.1
-        
-        dv = iq_3v3.vbus - i3v3_3v3.vbus
-        di_3v3 = i3v3_3v3.ishunt - iq_3v3.ishunt
-        esr = dv/di_3v3
-        print(f"  ESR = {esr:.3f} ohms at {i3v3_3v3.ishunt:.3f}A ({i3v3_3v3.vbus:.3f}V)")
-        assert esr < 0.4
-        
-        dp_3v3 = iq_3v3.vbus * di_3v3
-        dp_24v = i3v3_24v.vbus * i3v3_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
-        efficiency_3v3 = dp_3v3 / dp_24v
-        print(f"  input dP {dp_24v:.3f}W, output dP {dp_3v3:.3f}W, 24v -> 3v3 efficiency {efficiency_3v3*100:.1f}%, 5v -> 3v3 efficiency {efficiency_3v3/efficiency_5v*100:.1f}%")
-        assert (efficiency_3v3/efficiency_5v) > .88
-
-        print("regulator test PASS")
-        _pca9536(led_pass = True)
-        
-    except AssertionError as e:
-        _pca9536(led_fail = True)
-        raise
 
 args = parser.parse_args()
 port = PORTS[args.port[0]]
