@@ -5,9 +5,9 @@
 	(uuid "046f674e-bb7e-4f95-b6e0-c6b5ced4b117")
 	(paper "USLetter")
 	(title_block
-		(title "X1Plus Expansion Board: X1P-002")
+		(title "X1Plus Expander: X1P-002")
 		(date "2024-12-20")
-		(rev "X1P-002-C02")
+		(rev "X1P-002-C03")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"

@@ -7,7 +7,7 @@
 	(title_block
 		(title "X1Plus Expansion Board: X1P-002")
 		(date "2024-12-20")
-		(rev "X1P-002-C02")
+		(rev "X1P-002-C03")
 	)
 	(lib_symbols
 		(symbol "100nF_1"
