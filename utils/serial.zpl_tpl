@@ -15,8 +15,12 @@
 ^FO10,110
 ^FD{{ serial }}^FS
 
-{# blank label #}
-{% if loop.last %}^PH{% endif %}
-
 ^XZ
 {% endfor %}
+
+^XA
+^XB
+^CF0,30
+^FO10,110
+^FDdummy^FS
+^XZ
