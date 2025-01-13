@@ -19,6 +19,9 @@
 #include "ws2812.pio.h"
 #include "pio_i2c.h"
 
+extern int bb_i2c_read(int scl, int sda, uint8_t addr, uint8_t *buf, size_t len);
+extern int bb_i2c_write(int scl, int sda, uint8_t addr, uint8_t *buf, size_t len);
+
 void put_ws2812(int pin, uint8_t *buf, int pixels) {
 	PIO pio = pio0;
 	int sm = 0;
@@ -62,12 +65,6 @@ void do_i2c() {
 	do_read(&scl, 1);
 	do_read(&sda, 1);
 	
-	PIO pio = pio0;
-	int sm = 0;
-	pio_clear_instruction_memory(pio);
-	uint offset = pio_add_program(pio, &i2c_program);
-	i2c_program_init(pio, sm, offset, sda, scl);
-
 	printf("enter i2c subcmd, sda %d, scl %d\n", sda, scl);
 	while (1) {
 		uint8_t cmd;
@@ -86,7 +83,7 @@ void do_i2c() {
 			
 			printf("read %d bytes from adr %02x\n", bytes, addr);
 			
-			int result = pio_i2c_read_blocking(pio, sm, addr, xbuf, bytes);
+			int result = bb_i2c_read(scl, sda, addr, xbuf, bytes);
 			printf("  -> %d\n", result);
 			tud_vendor_write(&result, 1);
 			if (bytes)
@@ -103,7 +100,7 @@ void do_i2c() {
 			
 			printf("write %d bytes to adr %02x\n", bytes, addr);
 			
-			int result = pio_i2c_write_blocking(pio, sm, addr, xbuf, bytes);
+			int result = bb_i2c_write(scl, sda, addr, xbuf, bytes);
 			printf("  -> %d\n", result);
 			tud_vendor_write(&result, 1);
 			break;
