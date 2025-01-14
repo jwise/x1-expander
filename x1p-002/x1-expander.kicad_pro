@@ -535,8 +535,8 @@
       "gencad": "",
       "idf": "x1-expander.emn",
       "netlist": "",
-      "plot": "x1p-002-c02",
-      "pos_files": "x1p-002-c02/",
+      "plot": "x1p-002-c03",
+      "pos_files": "x1p-002-c03/",
       "specctra_dsn": "",
       "step": "x1-expander.step",
       "svg": "",
@@ -546,7 +546,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "x1p-002-c02/x1-expander-bom.csv",
+    "bom_export_filename": "x1p-002-c03/x1-expander-bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
