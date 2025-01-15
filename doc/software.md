@@ -11,7 +11,7 @@ that you will need to install a prerelease build.
 The currently recommended build is
 [9e4a232](https://nightly.link/X1Plus/X1Plus/actions/runs/11763650540/x1p.zip). 
 Download this and unzip the `x1p.zip`; it will contain a file named
-similarly to `2.0-22+g9e4a232.x1p`.  Put this in the root of your SD card,
+similarly to `2.0-24+g9e4a232.x1p`.  Put this in the root of your SD card,
 and then restart your printer; on reboot, select "startup options", and then
 "start X1Plus installer", and select it from the dropdown menu.
 
