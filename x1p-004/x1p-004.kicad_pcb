@@ -119,7 +119,7 @@
 				)
 			)
 		)
-		(property "Value" "220R-2*10P H=8.5MM Ytype Gold-plated black"
+		(property "Value" "B-2200R20P-B120"
 			(at 0 5.27 0)
 			(layer "F.Fab")
 			(uuid "9b194050-db24-4b60-abd6-bb2de5f66be8")
@@ -172,6 +172,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7d9b5619-e9a6-4210-9f39-acd24318b51a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B-2200R20P-B120"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da66f451-ccd8-4118-b05e-793efe807d60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "CKMTW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56d55e3b-4519-48be-b812-3944127f8d30")
 			(effects
 				(font
 					(size 1 1)
@@ -784,6 +810,32 @@
 				)
 			)
 		)
+		(property "MPN" "AD24C02"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "860243a6-1efc-4984-b80d-6092610dc828")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "IDCHIP"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55560023-2e43-48bd-b00a-eb9e196dce1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/cea54c61-6a41-48cb-88fd-aa7f6f817894")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
@@ -969,7 +1021,7 @@
 		(path "/7ba7f6c0-4835-4b23-984e-4f8280094da6")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -1080,6 +1132,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "51adfa59-389d-4be8-9574-8c97b73df9f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "2060-453/998-404"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f35e61f0-87c2-4285-93df-17fea126aa6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd1fcc08-aa79-435b-baa5-a9416c17eef1")
 			(effects
 				(font
 					(size 1 1)
@@ -1708,7 +1786,7 @@
 		(uuid "3d100591-f730-420d-9887-fc954269c6db")
 		(at 154.75 84.5 180)
 		(property "Reference" "F1"
-			(at 0 -4 360)
+			(at 0 -4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "d710e095-a2e3-467d-bb5f-606b14b60618")
@@ -1719,8 +1797,8 @@
 				)
 			)
 		)
-		(property "Value" "500ma"
-			(at 0 4 360)
+		(property "Value" "BSMD0805-050-15V"
+			(at 0 4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6c2738ba-13fd-4407-8454-1531da1eaf3d")
@@ -1732,7 +1810,7 @@
 			)
 		)
 		(property "Footprint" "x1p-004:F0805"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "02b1ae70-6db9-4493-a32b-5e3268c7b65c")
@@ -1744,7 +1822,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/PTC-Resettable-Fuses_BHFUSE-BSMD0805-050-15V_C883109.html"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e989635-ffb4-4052-973a-7bfb909116cc")
@@ -1756,7 +1834,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e78ea50a-3e5e-4742-af69-44828167ef97")
@@ -1773,6 +1851,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6fe2601-79e1-4ce4-9f8b-74a32fac21a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BSMD0805-050-15V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0914fca-8648-41ef-b1df-b0fe2b3db664")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "BHFUSE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fb31c73-2648-4e3a-ab4d-49378d08eb08")
 			(effects
 				(font
 					(size 1 1)
@@ -1984,6 +2088,32 @@
 				)
 			)
 		)
+		(property "MPN" "SN74LVC1T45DBVR"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a1a4a9cd-86cd-4294-8f55-b9ed3895f1fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a3d1fd31-6f12-49c8-97d3-43e209058670")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9f85014f-59b9-4a6f-be93-58b9b19048f2")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
@@ -2125,7 +2255,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "86249dea-9c2d-43eb-86d6-555c9d55f3af")
@@ -2149,7 +2279,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2175,7 +2305,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2340,7 +2470,7 @@
 		(uuid "54a95f36-8eb9-4cfe-aaf3-bf480f3467f2")
 		(at 140.25 82)
 		(property "Reference" "SW1"
-			(at 0 -7.81 360)
+			(at 0 -7.81 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a5542dc6-d9c8-4893-af62-7f4216879b8f")
@@ -2352,7 +2482,7 @@
 			)
 		)
 		(property "Value" "DSIC01THGET"
-			(at 0 7.81 360)
+			(at 0 7.81 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09ca7428-462f-43bb-874d-c0cca49f305a")
@@ -2364,7 +2494,7 @@
 			)
 		)
 		(property "Footprint" "x1p-004:SW-TH_DSIC01THGET"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67e7ed47-3e29-43b9-a4a9-56f3f2842a0e")
@@ -2376,7 +2506,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/DIP-Switches_2-54mm-1-Plugin_C126858.html"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e0a75345-9e72-421e-9a46-21b9882f953c")
@@ -2388,7 +2518,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ff0336b-bdb4-4cfb-b926-1ad2daeeef90")
@@ -2405,6 +2535,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad17d679-32f2-4d2b-8858-ae795d258b6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "DSIC01THGET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3a030c8-d2e0-4fd4-9dd8-92583b3e8d18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "DongGuan KINGTEK Industrial Co. Ltd."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9d020c6-112b-4de4-8584-c9e1fe7b6d2e")
 			(effects
 				(font
 					(size 1 1)
@@ -2580,7 +2736,7 @@
 			(uuid "c23a63a3-70ca-47ed-993d-933337d78df3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "811ced0f-4e25-40e8-b2d6-09f940a81916")
 			(effects
@@ -2693,6 +2849,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "337b9c34-9efc-44ea-9bc9-5eb481726c7c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "BC857BS,115"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d8468e3c-2921-49ea-ba89-4e4c8d0e9c3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7e0ddc7-83c9-485e-9629-b431909de107")
 			(effects
 				(font
 					(size 1 1)
@@ -2951,6 +3133,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85c96958-815f-4b1f-ac01-2a8c99e4c958")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "MMSZ5234BT1G"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41cb8541-bd5e-459a-b74b-08d70dbd0e96")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/24023f37-f9d8-49c9-ac11-bbcc5b795be3")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
@@ -3154,7 +3362,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 0 1.16 90)
 			(layer "F.Fab")
 			(uuid "ec95e695-9b85-4dba-a923-ed0877b6cdc7")
@@ -3382,7 +3590,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 0 1.16 -90)
 			(layer "F.Fab")
 			(uuid "ecc218bd-f9d0-4490-8a21-db461734c91d")
@@ -3609,7 +3817,7 @@
 			)
 		)
 		(property "Value" "HC-PH-3AWT"
-			(at 0 6.95 360)
+			(at 0 6.95 0)
 			(layer "F.Fab")
 			(uuid "d916e962-56fb-41ae-96ce-fed863a424cf")
 			(effects
@@ -3620,7 +3828,7 @@
 			)
 		)
 		(property "Footprint" "x1p-004:CONN-SMD_3P-P2.0-HC-PH-3AWT"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f119e9ef-fd92-4ca7-9313-8d494d0683ea")
@@ -3632,7 +3840,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "03f6251c-7457-4084-8c66-aa6c117a641f")
@@ -3644,7 +3852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eba9b220-5e5a-4535-a747-598f007e3bfd")
@@ -3661,6 +3869,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05f0049e-243e-4841-8419-44873f2aae8c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "HC-PH-3AWT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8eeecee6-b40a-42d9-973a-08f909af93fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "HCTL"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7bf8c754-e4cf-431e-886d-5f325d6d2f52")
 			(effects
 				(font
 					(size 1 1)
@@ -3826,7 +4060,7 @@
 			(uuid "d31ea551-a852-4dca-8b6c-f514cf005ebf")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c230f086-73e0-4800-abf2-f11491bf83a5")
 			(effects
@@ -4126,7 +4360,7 @@
 		(uuid "b5638e15-9fba-4718-b780-96ab7c96ff75")
 		(at 154.25 87.505)
 		(property "Reference" "U4"
-			(at 0 -4.95 360)
+			(at 0 -4.95 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c44795c4-60a0-46a2-befd-c13959ee9b98")
@@ -4138,7 +4372,7 @@
 			)
 		)
 		(property "Value" "SI2301-ZE"
-			(at 0 4.95 360)
+			(at 0 4.95 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56046f0c-afed-4d4b-816d-16556b506ef8")
@@ -4150,7 +4384,7 @@
 			)
 		)
 		(property "Footprint" "x1p-004:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb9fbb16-f2f1-407c-b944-ae36c27d40a7")
@@ -4162,7 +4396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1315f10f-7ef1-4e7c-80fa-6900803f4e35")
@@ -4174,7 +4408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "89714474-5ec6-4885-8059-46dea1224d01")
@@ -4191,6 +4425,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "694e8fcf-7d66-43f9-ad8b-245c0c5074e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SI2301-ZE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecac915b-cbee-47a5-981e-84497650be66")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "HXY MOSFET"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e25c6519-6ff4-4d31-86c5-3d151b14969b")
 			(effects
 				(font
 					(size 1 1)
@@ -4331,7 +4591,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "41fa6bb7-c234-4e66-8b58-b5c92764ed9d")
@@ -4355,7 +4615,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4381,7 +4641,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4841,7 +5101,7 @@
 		(path "/4f9ccb1f-4577-4174-a13d-a1a8ee368be7")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard dnp)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -4953,6 +5213,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1fd676a8-747d-4d7d-b0de-b8db675d4038")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SRV05-4.TCT"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bddb0b3-c5ba-44ab-ae77-a44521c037fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UMW"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ae8fc39-f9d9-478f-8301-ab90710b8ed9")
 			(effects
 				(font
 					(size 1 1)
@@ -5101,7 +5387,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "ff30a2ed-a702-4972-92bd-c0e8af443898")
@@ -5125,7 +5411,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5151,7 +5437,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7890,8 +8176,8 @@
 		)
 		(polygon
 			(pts
-				(xy 141.5 84) (xy 141.5 94.75) (xy 151.25 94.75) (xy 151.25 101.25) (xy 146.75 101.25) (xy 146.75 101.25)
-				(xy 136.75 101.25) (xy 136.75 84)
+				(xy 141.5 84) (xy 141.5 94.75) (xy 151.25 94.75) (xy 151.25 101.25) (xy 146.75 101.25) (xy 136.75 101.25)
+				(xy 136.75 84)
 			)
 		)
 		(filled_polygon

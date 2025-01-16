@@ -3696,6 +3696,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c25b6e83-16f9-416d-896f-8ee8c2c544b6")
 		)
@@ -3718,7 +3736,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "03c8f706-683c-4e9e-9e10-7a8861f99e0c")
 		(property "Reference" "JP2"
 			(at 161.29 28.194 0)
@@ -3764,6 +3782,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 161.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 161.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59c5d065-eb27-4a38-8ad4-f11f7ba3fd51")
 		)
@@ -3798,7 +3834,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 53.34 73.66 90)
 			(effects
 				(font
@@ -3816,7 +3852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 62.23 72.39 0)
 			(effects
 				(font
@@ -3834,8 +3870,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 64.77 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 52.07 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 52.07 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3913,6 +3967,24 @@
 		)
 		(property "LCSC Part" "C5125083"
 			(at 33.02 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD24C02"
+			(at 33.02 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "IDCHIP"
+			(at 33.02 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,6 +4079,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AQY212EHAX"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 132.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6e2af2ca-bd74-4c49-86a5-938e8ae8925d")
 		)
@@ -4092,6 +4182,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PJ-211A"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 165.1 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "9dcc9204-bc2e-46c6-b0d9-51ef4eb453d9")
 		)
@@ -4117,7 +4225,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "61763d46-b00a-4960-a001-d3260309ea8a")
 		(property "Reference" "H1"
@@ -4165,6 +4273,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 93.98 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/730ef4da-dc57-4617-8546-a344005f5ae4"
@@ -4192,7 +4318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 70.866 75.438 90)
 			(effects
 				(font
@@ -4230,6 +4356,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 55.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 68.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,6 +4460,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PJ-211A"
+			(at 165.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 165.1 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "84347c5c-04c8-40a3-bac9-6d6ce5196166")
 		)
@@ -4351,7 +4513,7 @@
 				)
 			)
 		)
-		(property "Value" "220R-2*10P H=8.5MM Ytype Gold-plated black"
+		(property "Value" "B-2200R20P-B120"
 			(at 40.64 19.05 0)
 			(effects
 				(font
@@ -4389,6 +4551,24 @@
 		)
 		(property "LCSC Part" "C124406"
 			(at 40.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B-2200R20P-B120"
+			(at 40.64 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CKMTW"
+			(at 40.64 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +4664,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 104.14 59.69 90)
 			(effects
 				(font
@@ -4502,7 +4682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -4520,8 +4700,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 115.57 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4761,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 104.14 34.29 90)
 			(effects
 				(font
@@ -4581,7 +4779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 113.03 33.02 0)
 			(effects
 				(font
@@ -4599,8 +4797,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 102.87 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 102.87 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4630,7 +4846,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "aedb6ed5-6861-41c8-84eb-070cc431c10d")
 		(property "Reference" "JP1"
 			(at 161.544 35.306 0)
@@ -4668,6 +4884,24 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 161.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 161.29 33.02 0)
 			(effects
 				(font
@@ -4752,6 +4986,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ece081f-3a50-40e3-bde9-248a6e54df18")
 		)
@@ -4829,6 +5081,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "AQY212EHAX"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 132.08 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "54933160-ce10-4eed-af92-d93dfb85df35")
 		)
@@ -4868,7 +5138,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 45.72 73.66 90)
 			(effects
 				(font
@@ -4886,7 +5156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 54.61 72.39 0)
 			(effects
 				(font
@@ -4904,8 +5174,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 44.45 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4935,7 +5223,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e3a3970a-b2eb-4974-b855-fa7b9b714398")
 		(property "Reference" "JP3"
 			(at 161.544 60.706 0)
@@ -4981,6 +5269,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 161.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2367627-a038-4e2b-9e22-d65f18f67bd3")
 		)
@@ -5003,7 +5309,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eebf01e9-d34a-4632-8dbc-7bfdd0a76331")
 		(property "Reference" "JP4"
 			(at 161.29 53.594 0)
@@ -5041,6 +5347,24 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 161.29 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 161.29 55.88 0)
 			(effects
 				(font

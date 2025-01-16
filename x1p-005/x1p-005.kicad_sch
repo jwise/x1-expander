@@ -7258,7 +7258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 214.376 138.938 90)
 			(effects
 				(font
@@ -7296,6 +7296,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 199.39 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 212.09 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 212.09 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7373,6 +7391,24 @@
 		)
 		(property "LCSC Part" "C5125083"
 			(at 34.29 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD24C02"
+			(at 34.29 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "IDCHIP"
+			(at 34.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,6 +7502,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 198.12 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d785d33c-e722-4339-b724-2b133c7d2654")
 		)
@@ -7505,7 +7559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 28.956 103.378 90)
 			(effects
 				(font
@@ -7550,6 +7604,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 26.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 26.67 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f22c478b-3a29-4115-a1e7-56840f174fcc")
 		)
@@ -7583,7 +7655,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 257.556 138.938 90)
 			(effects
 				(font
@@ -7628,6 +7700,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "55ec22e4-8fb7-45f5-b3f8-3d3515fd472e")
 		)
@@ -7661,7 +7751,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 176.276 138.938 90)
 			(effects
 				(font
@@ -7699,6 +7789,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 161.29 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 173.99 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 173.99 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7776,6 +7884,24 @@
 		)
 		(property "LCSC Part" "C3040658"
 			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC1G3157DBVR(UMW)"
+			(at 50.8 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW"
+			(at 50.8 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7872,6 +7998,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 177.8 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24937867-3733-4aac-aa9e-8786106c793d")
 		)
@@ -7955,6 +8099,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 177.8 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "67f725cf-c46f-415e-b5c7-ef6b027470bf")
 		)
@@ -7994,7 +8156,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 176.276 151.638 90)
 			(effects
 				(font
@@ -8032,6 +8194,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 161.29 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 173.99 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8109,6 +8289,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 259.08 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 259.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,6 +8398,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 74.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "547e551b-fdeb-498e-97ea-b776e1aa18b4")
 		)
@@ -8277,6 +8493,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 198.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 198.12 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d51a9ddf-a48a-48c9-960a-2b32a047b178")
 		)
@@ -8316,7 +8550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 230.886 138.938 90)
 			(effects
 				(font
@@ -8354,6 +8588,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 215.9 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 228.6 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 228.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,6 +8690,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 259.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 259.08 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2be4f657-1eab-498c-b820-bcc8e0838446")
 		)
@@ -8477,7 +8747,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 131.826 28.448 90)
 			(effects
 				(font
@@ -8515,6 +8785,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 116.84 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 129.54 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 129.54 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,6 +8887,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a26317c7-8691-4aa9-b6f2-bda96cae2eb3")
 		)
@@ -8638,7 +8944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 257.556 151.638 90)
 			(effects
 				(font
@@ -8676,6 +8982,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 242.57 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 255.27 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,6 +9085,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 85.09 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8187bd89-f92c-4442-8ae4-7e43976937c5")
 		)
@@ -8794,7 +9136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 199.136 138.938 90)
 			(effects
 				(font
@@ -8839,6 +9181,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 196.85 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6026a924-eb02-4c7f-8624-852d681c9009")
 		)
@@ -8872,7 +9232,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 266.446 151.638 90)
 			(effects
 				(font
@@ -8910,6 +9270,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 251.46 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 264.16 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 264.16 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8996,6 +9374,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 68.58 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2815af64-8148-45dc-af16-d626a27e0012")
 		)
@@ -9029,7 +9425,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 191.516 138.938 90)
 			(effects
 				(font
@@ -9074,6 +9470,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 189.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 189.23 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a58c8570-df31-4dad-a517-85b238a787d9")
 		)
@@ -9106,7 +9520,7 @@
 				)
 			)
 		)
-		(property "Value" "220R-2*10P H=8.5MM Ytype Gold-plated black"
+		(property "Value" "B-2200R20P-B120"
 			(at 39.37 20.32 0)
 			(effects
 				(font
@@ -9144,6 +9558,24 @@
 		)
 		(property "LCSC Part" "C124406"
 			(at 39.37 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B-2200R20P-B120"
+			(at 39.37 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CKMTW"
+			(at 39.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,6 +9714,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 218.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 218.44 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "139084db-e4cb-4d64-ade7-1f60a5f53c6b")
 		)
@@ -9358,6 +9808,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 259.08 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 259.08 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 259.08 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9448,6 +9916,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 238.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 238.76 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "642dff6d-e5d0-4241-aa14-84e3cb3c4786")
 		)
@@ -9486,7 +9972,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "220"
 			(at 107.95 127.508 0)
 			(effects
 				(font
@@ -9503,7 +9989,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_330R-3300-1_C25104.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C25091.html"
 			(at 107.95 139.7 0)
 			(effects
 				(font
@@ -9521,8 +10007,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25104"
+		(property "LCSC Part" "C25091"
 			(at 107.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 107.95 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 107.95 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9563,7 +10067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 230.886 151.638 90)
 			(effects
 				(font
@@ -9601,6 +10105,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 215.9 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 228.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 228.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,6 +10207,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 238.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49716a3f-f644-4f29-90be-2f2819e7bb29")
 		)
@@ -9724,7 +10264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 20.066 103.378 90)
 			(effects
 				(font
@@ -9769,6 +10309,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 17.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 17.78 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5799769-82ba-455e-b563-14d313cb7df6")
 		)
@@ -9791,7 +10349,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "72fd8d61-44f8-42bc-89d1-39e71bdfb33a")
 		(property "Reference" "H2"
@@ -9831,6 +10389,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 121.92 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 121.92 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 121.92 148.59 0)
 			(effects
 				(font
@@ -9903,6 +10479,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 259.08 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 259.08 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 259.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,6 +10587,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 218.44 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d0627be-2aa4-470a-a2b8-690a6ee475e3")
 		)
@@ -10032,7 +10644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 168.656 151.638 90)
 			(effects
 				(font
@@ -10077,6 +10689,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 166.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 166.37 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ecde71aa-3157-421b-ac43-e79e53a1866c")
 		)
@@ -10110,7 +10740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 199.136 151.638 90)
 			(effects
 				(font
@@ -10148,6 +10778,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 184.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 196.85 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10232,6 +10880,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9e9a5e3-4e47-407c-b70a-7aa97d3b0d8b")
 		)
@@ -10271,7 +10937,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 58.166 70.358 90)
 			(effects
 				(font
@@ -10316,6 +10982,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 55.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00064bac-2416-40dc-b226-aad2776ef6ee")
 		)
@@ -10349,7 +11033,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 214.376 151.638 90)
 			(effects
 				(font
@@ -10394,6 +11078,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 212.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 212.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9025b1c-e9f6-4576-bd8b-05e5c2557354")
 		)
@@ -10416,7 +11118,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "87bb1a84-6dd3-4ddd-9e21-18faabde8a4a")
 		(property "Reference" "H1"
@@ -10456,6 +11158,24 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 101.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 101.6 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
 			(at 101.6 148.59 0)
 			(effects
 				(font
@@ -10528,6 +11248,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 198.12 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 198.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 198.12 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10618,6 +11356,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 198.12 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "90aaf493-cf51-4cf6-b977-3314a82efc8c")
 		)
@@ -10657,7 +11413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 221.996 138.938 90)
 			(effects
 				(font
@@ -10702,6 +11458,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 219.71 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6eb8b5e7-4dbf-43c1-b5d0-f7d0d494d51c")
 		)
@@ -10735,7 +11509,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 221.996 151.638 90)
 			(effects
 				(font
@@ -10780,6 +11554,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 219.71 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "63a587cc-3f92-47ba-8743-e4af7897e700")
 		)
@@ -10813,7 +11605,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 248.666 151.638 90)
 			(effects
 				(font
@@ -10851,6 +11643,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 233.68 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 246.38 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 246.38 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10935,6 +11745,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 105.41 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d144ec66-5029-46e3-9cb1-d433f163e83d")
 		)
@@ -11005,6 +11833,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 238.76 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 238.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 238.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11094,6 +11940,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "HNB09A03"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Jiangsu Huaneng Electronics"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7d087e93-1d86-4c8c-b195-a18ef4ebb18e")
 		)
@@ -11127,7 +11991,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 206.756 151.638 90)
 			(effects
 				(font
@@ -11165,6 +12029,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 191.77 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 204.47 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 204.47 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,6 +12131,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1618db69-a2e3-4358-9222-73e58384b18c")
 		)
@@ -11288,7 +12188,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 191.516 151.638 90)
 			(effects
 				(font
@@ -11326,6 +12226,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 176.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 189.23 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 189.23 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,6 +12328,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 238.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 238.76 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a73a698e-42e2-456a-b7df-4e1f1d633b3c")
 		)
@@ -11486,6 +12422,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 238.76 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 238.76 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 238.76 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11579,6 +12533,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LMBT3904LT1G"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "LRC"
+			(at 114.3 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "356325f7-6494-47c3-b2d1-6158a7f48765")
 		)
@@ -11652,6 +12624,24 @@
 		)
 		(property "LCSC Part" "C5127964"
 			(at 120.65 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "6.0*6.0*6.0"
+			(at 120.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOOMELE"
+			(at 120.65 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11743,6 +12733,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "734e4c47-ad8a-4007-9976-5611c806ae50")
 		)
@@ -11776,7 +12784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 239.776 138.938 90)
 			(effects
 				(font
@@ -11821,6 +12829,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 237.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d8bf5968-15f8-4246-a7fe-45d74eaade3b")
 		)
@@ -11853,7 +12879,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "220"
 			(at 107.95 112.268 0)
 			(effects
 				(font
@@ -11870,7 +12896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_330R-3300-1_C25104.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_220R-2200-1_C25091.html"
 			(at 107.95 124.46 0)
 			(effects
 				(font
@@ -11888,8 +12914,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25104"
+		(property "LCSC Part" "C25091"
 			(at 107.95 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 107.95 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11930,7 +12974,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 206.756 138.938 90)
 			(effects
 				(font
@@ -11968,6 +13012,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 204.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 204.47 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12045,6 +13107,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 218.44 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 218.44 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 218.44 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12135,6 +13215,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 177.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe5b04a3-eb93-4f0e-a32a-038df5567f17")
 		)
@@ -12174,7 +13272,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 248.666 138.938 90)
 			(effects
 				(font
@@ -12212,6 +13310,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 233.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 246.38 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 246.38 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12296,6 +13412,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "6.0*6.0*6.0"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BOOMELE"
+			(at 120.65 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "cd308692-4f0c-42d9-a125-544dc1a104b0")
 		)
@@ -12335,7 +13469,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 183.896 151.638 90)
 			(effects
 				(font
@@ -12373,6 +13507,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 168.91 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 181.61 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12450,6 +13602,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 218.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 218.44 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 218.44 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12540,6 +13710,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a68ca734-a967-49be-a3e2-23d2bc7632b2")
 		)
@@ -12579,7 +13767,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 168.656 138.938 90)
 			(effects
 				(font
@@ -12624,6 +13812,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 166.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 166.37 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "372ea09c-9f30-465c-b1b4-2d660693ec50")
 		)
@@ -12657,7 +13863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 183.896 138.938 90)
 			(effects
 				(font
@@ -12695,6 +13901,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 168.91 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 181.61 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 181.61 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12772,6 +13996,24 @@
 		)
 		(property "LCSC Part" "C5349954"
 			(at 198.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XL-1615RGBC-WS2812B"
+			(at 198.12 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XINGLIGHT"
+			(at 198.12 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12862,6 +14104,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SN74LVC1T45DBVR"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8df98609-0f82-439c-8d92-7624f4648a52")
 		)
@@ -12907,7 +14167,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 239.776 151.638 90)
 			(effects
 				(font
@@ -12945,6 +14205,24 @@
 		)
 		(property "LCSC Part" "C1525"
 			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 237.49 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 237.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13022,6 +14300,24 @@
 		)
 		(property "LCSC Part" "C3040658"
 			(at 50.8 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC1G3157DBVR(UMW)"
+			(at 50.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW"
+			(at 50.8 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -122,7 +122,7 @@
 				)
 			)
 		)
-		(property "Value" "220R-2*10P H=8.5MM Ytype Gold-plated black"
+		(property "Value" "B-2200R20P-B120"
 			(at 0 5.27 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -176,6 +176,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "74a6b8c2-c10d-418e-9c20-0b073648ee8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "B-2200R20P-B120"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c7ac903-bcf9-4a11-b22a-b3cc7fca8551")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "CKMTW"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "984d274f-cc24-48a2-87dd-afaff7374b03")
 			(effects
 				(font
 					(size 1 1)
@@ -781,6 +807,32 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dce8d54f-9783-4232-ab4c-19b7353c00f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3440d3b5-9810-4279-a412-4dda7b6f8cf8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/02ae37bd-170b-4845-a6ab-01863630f730")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
@@ -946,7 +998,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "769dbef0-de95-47bb-ae60-7d68c32f3358")
@@ -970,7 +1022,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -996,12 +1048,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16552064-4f13-4191-8535-e9b448c40087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b986d60-6993-4241-9238-1cb3cc47d88f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfe56aca-a1e1-4bf2-9dd0-a3d50b337c31")
 			(effects
 				(font
 					(size 1 1)
@@ -1174,7 +1252,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "92dc1cd3-6b6e-43f1-b328-9dc3fbd08228")
@@ -1198,7 +1276,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1224,12 +1302,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "05247bb2-6d63-4285-97aa-31f02a5b1cbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d504ae7-9bba-4274-8226-56f36cc825af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "375b5f71-72e1-4900-be28-c137392e0ec2")
 			(effects
 				(font
 					(size 1 1)
@@ -1461,6 +1565,32 @@
 				)
 			)
 		)
+		(property "MPN" "AQY212EHAX"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6475bf5a-538e-4a91-b715-f05b456c4e54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e596e382-f349-43a7-ab5e-46610ccc03f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1d0190cd-fca5-430d-b01e-13cae23d80e6")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
@@ -1652,6 +1782,32 @@
 				)
 			)
 		)
+		(property "MPN" "AQY212EHAX"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68b28ec8-2900-4aed-b4b6-b96bbec20ea3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71b24372-6528-4750-80da-e7ab80075642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ce8ff0b1-205a-4b84-a4f4-aed539e7d7f0")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
@@ -1836,6 +1992,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "942ff395-1aa1-4314-b211-c333acaacc73")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PJ-211A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0d5b492-e6c0-4a69-89d3-5e4f24f7cb88")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e2c3457-6644-4226-ba21-6a24a0ccac8f")
 			(effects
 				(font
 					(size 1 1)
@@ -2050,7 +2232,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "9923259f-b723-41e3-851f-67b82d7a30ce")
@@ -2074,7 +2256,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2100,12 +2282,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b87279c3-3603-4845-b5d4-8241e9427ab8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a0f5c05-ac2c-494a-9a5c-4d48501486d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8ee3aa8-ecef-4732-8742-f660a19e7b59")
 			(effects
 				(font
 					(size 1 1)
@@ -2341,6 +2549,32 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51a34ae6-9ed6-4111-bb09-a846c9c23560")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd1c498e-4b58-4bec-aaa6-67c70bcec322")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c92518e3-bb3f-42bf-bf23-435dcd5aa948")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
@@ -2495,7 +2729,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "ed12e2f2-cd90-4f0c-9982-ede15f92645b")
@@ -2506,8 +2740,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uf"
-			(at 0 1.16 360)
+		(property "Value" "0.1uF"
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "a46898e7-9a28-4a59-8eb9-1eb86c395187")
 			(effects
@@ -2562,6 +2796,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa1449ad-cdc1-4563-93ac-71dd56c95ec3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11cd5503-2cfe-448f-adce-49a305cb3ab2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd700acc-d02e-4666-b47c-27ced949c9d3")
 			(effects
 				(font
 					(size 1 1)
@@ -2674,7 +2934,7 @@
 			(uuid "fc1ff61a-945d-43bc-a536-d5ccf5e07f3c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3ebc4e5a-7a12-4177-b8cd-b4cd54eac4e6")
 			(effects
@@ -2786,6 +3046,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43d64b9c-b536-47a6-8074-731bcab0ba93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "AD24C02"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "017c5e9e-aefe-43f5-bc13-4cf62f84ffae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "IDCHIP"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c8637a4-7b66-4d99-ba7a-c72e6cbb11c2")
 			(effects
 				(font
 					(size 1 1)
@@ -2976,6 +3262,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8260cc90-01e8-4d88-92de-674d3e558820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "PJ-211A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05b118eb-7df0-42f9-ac91-20795382a625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f7d995d-c12e-46c8-ab3f-d651c8256291")
 			(effects
 				(font
 					(size 1 1)
@@ -3190,7 +3502,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "e2f33ab0-34d9-4556-9aa8-20148593c645")
@@ -3214,7 +3526,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3240,12 +3552,38 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d85ea23-541c-4d32-ae6d-c3b134c3aaf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed8ac067-ff80-4d1f-afbc-63f691074348")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c47d150f-1330-4223-961a-d744812c50b9")
 			(effects
 				(font
 					(size 1 1)
@@ -3469,11 +3807,37 @@
 				)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff17780f-d114-44c7-a9ce-e9256174a16b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59c9b82e-873d-4ee1-af26-d40f96f78f11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/61763d46-b00a-4960-a001-d3260309ea8a")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_circle
 			(center 0 0)
 			(end 1.75 0)
@@ -3589,12 +3953,40 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b7e9e9f5-8893-4032-aa69-8d2c69f932c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc8f87a4-c0b2-45f7-9a98-721d9d4aedcc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/03c8f706-683c-4e9e-9e10-7a8861f99e0c")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -1)
 			(end 0.7 -1)
@@ -3866,12 +4258,40 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df2752a3-85ca-4f64-b7df-18768c96156d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "af68c557-e8f1-4d2d-8932-87b42cf5d925")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/e3a3970a-b2eb-4974-b855-fa7b9b714398")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -4156,12 +4576,40 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "51d20c7d-0181-4861-901c-6ff10c438b6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "28310e24-7aa1-4630-a1a4-ff7ca512ee12")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/aedb6ed5-6861-41c8-84eb-070cc431c10d")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
@@ -4446,12 +4894,40 @@
 				(justify mirror)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7a4d2188-c212-43c8-8669-ee024aa9679e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "229ead05-823e-403b-b8ae-f3e25a09ce79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/eebf01e9-d34a-4632-8dbc-7bfdd0a76331")
 		(sheetname "Root")
 		(sheetfile "x1p-006.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.7 -1)
 			(end 0.7 -1)

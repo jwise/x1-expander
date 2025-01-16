@@ -1,5 +1,5 @@
 {
-    "export_path": "/home/joshua/hthebambu/x1-expander/module-panels.kicad_pcb",
+    "export_path": "module-panels.kicad_pcb",
     "hide_outside_reference_value": true,
     "use_frame": true,
     "tight": false,

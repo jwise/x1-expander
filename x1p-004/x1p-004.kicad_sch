@@ -5968,6 +5968,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "onsemi"
+			(at 45.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MMSZ5234BT1G"
+			(at 45.72 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f7fec3cd-6585-4833-b2d6-2adcc38c7bf7")
 		)
@@ -6038,6 +6056,24 @@
 		)
 		(property "LCSC Part" "C2687126"
 			(at 158.75 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SRV05-4.TCT"
+			(at 185.42 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UMW"
+			(at 185.42 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6137,6 +6173,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "SI2301-ZE"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HXY MOSFET"
+			(at 45.72 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1b9ecd3a-5d26-43b4-8a47-1395d718b281")
 		)
@@ -6162,7 +6216,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4f9ccb1f-4577-4174-a13d-a1a8ee368be7")
 		(property "Reference" "H1"
@@ -6237,7 +6291,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 140.716 123.698 90)
 			(effects
 				(font
@@ -6316,7 +6370,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 118.11 105.41 90)
 			(effects
 				(font
@@ -6334,7 +6388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 127 104.14 0)
 			(effects
 				(font
@@ -6352,7 +6406,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 129.54 104.14 0)
 			(effects
 				(font
@@ -6393,7 +6447,7 @@
 				)
 			)
 		)
-		(property "Value" "500ma"
+		(property "Value" "BSMD0805-050-15V"
 			(at 57.15 36.576 0)
 			(effects
 				(font
@@ -6437,6 +6491,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BSMD0805-050-15V"
+			(at 57.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BHFUSE"
+			(at 57.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4e02bd20-9251-49af-a5fe-745efa4896c4")
 		)
@@ -6459,7 +6531,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7ba7f6c0-4835-4b23-984e-4f8280094da6")
 		(property "Reference" "H2"
@@ -6534,7 +6606,7 @@
 				)
 			)
 		)
-		(property "Value" "220R-2*10P H=8.5MM Ytype Gold-plated black"
+		(property "Value" "B-2200R20P-B120"
 			(at 124.46 50.8 0)
 			(effects
 				(font
@@ -6572,6 +6644,24 @@
 		)
 		(property "LCSC Part" "C124406"
 			(at 124.46 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "B-2200R20P-B120"
+			(at 124.46 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "CKMTW"
+			(at 124.46 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +6756,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 216.916 32.258 90)
 			(effects
 				(font
@@ -6745,7 +6835,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 173.99 73.66 90)
 			(effects
 				(font
@@ -6763,7 +6853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 175.26 82.55 0)
 			(effects
 				(font
@@ -6781,7 +6871,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 175.26 85.09 0)
 			(effects
 				(font
@@ -6860,6 +6950,24 @@
 		)
 		(property "LCSC Part" "C7843"
 			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74LVC1T45DBVR"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 184.15 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6950,6 +7058,24 @@
 		)
 		(property "LCSC Part" "C8654"
 			(at 35.56 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BC857BS,115"
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 54.61 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +7204,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "2.2k"
 			(at 110.49 105.41 90)
 			(effects
 				(font
@@ -7096,7 +7222,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_3-3KR-3301-1_C25890.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_2-2KR-2201-1_C25879.html"
 			(at 119.38 104.14 0)
 			(effects
 				(font
@@ -7114,7 +7240,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25890"
+		(property "LCSC Part" "C25879"
 			(at 121.92 104.14 0)
 			(effects
 				(font
@@ -7193,6 +7319,24 @@
 		)
 		(property "LCSC Part" "C5125083"
 			(at 128.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD24C02"
+			(at 128.27 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "IDCHIP"
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7286,6 +7430,24 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "DSIC01THGET"
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DongGuan KINGTEK Industrial Co. Ltd."
+			(at 26.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1728c590-79c6-4637-af68-b170f0cb092b")
 		)
@@ -7358,6 +7520,24 @@
 		)
 		(property "LCSC Part" "C2845443"
 			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HC-PH-3AWT"
+			(at 76.2 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HCTL"
+			(at 76.2 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,6 +7623,24 @@
 		)
 		(property "LCSC Part" "C2765056"
 			(at 77.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "2060-453/998-404"
+			(at 77.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "WAGO"
+			(at 77.47 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
