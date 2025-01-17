@@ -29,11 +29,11 @@ for fp in pcb.footprints:
 
 total_placements = 0
 
-print('"Id";"Designator";"Footprint";"Quantity";"Value";"Manufacturer";"MPN"')
+print('"Id","Designator","Footprint","Qty","Qty @ 3 panels","Qty @ 66 panels","Value","Manufacturer","MPN"')
 for id,k in enumerate(fpks):
     fps = fpks[k]
     total_placements += len(fps)
     alldes = ",".join(fp.reference for fp in fps)
-    print(f"{id+1};\"{alldes}\";\"{fps[0].fp_name}\";{len(fps)};\"{fps[0].value}\";\"{fps[0].manufacturer}\";\"{fps[0].mpn}\"")
+    print(f"{id+1},\"{alldes}\",\"{fps[0].fp_name}\",{len(fps)},{len(fps)*3},{len(fps)*66},\"{fps[0].value}\",\"{fps[0].manufacturer}\",\"{fps[0].mpn}\"")
 
 print(f"{len(fpks)} unique BOM items, with {total_placements} total placements", file=sys.stderr)
