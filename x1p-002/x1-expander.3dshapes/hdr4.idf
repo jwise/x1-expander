@@ -1,0 +1,14 @@
+# rectangular outline
+# file: "hdr4.idf"
+# width: 10.000 mm
+# length: 10.400 mm
+# height: 2.400 mm
+# chamfer: 0.000 mm
+.ELECTRICAL
+"RECTMM" "W10.000_L10.400_H2.400_C0.000" MM 2.400
+0 5.000 5.200 0
+0 -5.000 5.200 0
+0 -5.000 -5.200 0
+0 5.000 -5.200 0
+0 5.000 5.200 0
+.END_ELECTRICAL

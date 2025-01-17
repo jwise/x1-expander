@@ -1,0 +1,14 @@
+# rectangular outline
+# file: "HC-1.25-12-PWT.idf"
+# width: 20.200 mm
+# length: 4.700 mm
+# height: 3.300 mm
+# chamfer: 0.000 mm
+.ELECTRICAL
+"RECTMM" "W20.200_L4.700_H3.300_C0.000" MM 3.300
+0 10.100 2.350 0
+0 -10.100 2.350 0
+0 -10.100 -2.350 0
+0 10.100 -2.350 0
+0 10.100 2.350 0
+.END_ELECTRICAL

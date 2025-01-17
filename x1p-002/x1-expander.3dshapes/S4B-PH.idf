@@ -1,0 +1,14 @@
+# rectangular outline
+# file: "S4B-PH.idf"
+# width: 9.750 mm
+# length: 7.600 mm
+# height: 4.900 mm
+# chamfer: 0.000 mm
+.ELECTRICAL
+"RECTMM" "W9.750_L7.600_H4.900_C0.000" MM 4.900
+0 4.875 3.800 0
+0 -4.875 3.800 0
+0 -4.875 -3.800 0
+0 4.875 -3.800 0
+0 4.875 3.800 0
+.END_ELECTRICAL

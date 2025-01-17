@@ -1,0 +1,14 @@
+# rectangular outline
+# file: "USB-226-BRW.idf"
+# width: 5.800 mm
+# length: 19.500 mm
+# height: 13.500 mm
+# chamfer: 0.000 mm
+.ELECTRICAL
+"RECTMM" "W5.800_L19.500_H13.500_C0.000" MM 13.500
+0 2.900 9.750 0
+0 -2.900 9.750 0
+0 -2.900 -9.750 0
+0 2.900 -9.750 0
+0 2.900 9.750 0
+.END_ELECTRICAL

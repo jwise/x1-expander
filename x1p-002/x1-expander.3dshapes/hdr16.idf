@@ -1,0 +1,14 @@
+# rectangular outline
+# file: "hdr16.idf"
+# width: 28.000 mm
+# length: 14.000 mm
+# height: 9.000 mm
+# chamfer: 0.000 mm
+.ELECTRICAL
+"RECTMM" "W28.000_L14.000_H9.000_C0.000" MM 9.000
+0 14.000 7.000 0
+0 -14.000 7.000 0
+0 -14.000 -7.000 0
+0 14.000 -7.000 0
+0 14.000 7.000 0
+.END_ELECTRICAL

@@ -5714,6 +5714,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/hdr16.idf"
+			(offset
+				(xyz 0 -5.1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "x1-expander:HDR-TH_16P-P2.54-H-F-R2-C8-W9.0"
 		(layer "F.Cu")
@@ -6553,6 +6564,17 @@
 		(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
 			(offset
 				(xyz 0 -7 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/hdr16.idf"
+			(offset
+				(xyz 0 -5.1 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -8411,7 +8433,7 @@
 		(uuid "366d964a-94af-474e-bea0-42bcd2ea834e")
 		(at 82.2625 125.625 -90)
 		(property "Reference" "USB2"
-			(at 4.042 7.2055 180)
+			(at 4.042 7.2055 360)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "92c08acc-84e5-4913-a223-64dd9413c097")
@@ -8780,6 +8802,17 @@
 		(model "${KIPRJMOD}/x1-expander.3dshapes/USB-A-TH_USB-226-BRW.wrl"
 			(offset
 				(xyz -0 -5.51 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/USB-226-BRW.idf"
+			(offset
+				(xyz 0 -5.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -14025,6 +14058,17 @@
 		(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_4P-P2.54-M-WI-1X4P.step"
 			(offset
 				(xyz 0 3 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/hdr4.idf"
+			(offset
+				(xyz 0 5.3 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -21237,6 +21281,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/S4B-PH.idf"
+			(offset
+				(xyz 0 -2.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Inductor_SMD:L_0603_1608Metric"
 		(layer "F.Cu")
@@ -23637,6 +23692,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/hdr16.idf"
+			(offset
+				(xyz 0 -5.1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -25194,7 +25260,7 @@
 		(uuid "c83fe080-51b6-403a-b8bb-6c82ce552d61")
 		(at 82.2625 116.5 -90)
 		(property "Reference" "USB1"
-			(at -3.978 6.9515 180)
+			(at -3.978 6.9515 360)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "01757a0d-e48e-4832-b202-3be5b1e020a5")
@@ -25563,6 +25629,17 @@
 		(model "${KIPRJMOD}/x1-expander.3dshapes/USB-A-TH_USB-226-BRW.wrl"
 			(offset
 				(xyz -0 -5.51 6.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/USB-226-BRW.idf"
+			(offset
+				(xyz 0 -5.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -27352,6 +27429,17 @@
 		(model "${KIPRJMOD}/x1-expander.3dshapes/HDR-TH_16P-P2.54-H-F-R2-C8-W9.0.step"
 			(offset
 				(xyz 0 -7 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/hdr16.idf"
+			(offset
+				(xyz 0 -5.1 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -33134,6 +33222,17 @@
 			)
 			(rotate
 				(xyz 0 0 180)
+			)
+		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/HC913550A.idf"
+			(offset
+				(xyz 0 -2.1 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -42415,6 +42514,17 @@
 		(model "${KIPRJMOD}/x1-expander.3dshapes/CONN-SMD_12P-P1.25_HCTL_HC-1.25-12PWT.wrl"
 			(offset
 				(xyz 0 1 1.8)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/x1-expander.3dshapes/HC-1.25-12-PWT.idf"
+			(offset
+				(xyz 0 -1.5 0)
 			)
 			(scale
 				(xyz 1 1 1)

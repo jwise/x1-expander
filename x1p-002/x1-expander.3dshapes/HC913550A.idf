@@ -1,0 +1,14 @@
+# rectangular outline
+# file: "HC913550A.idf"
+# width: 15.900 mm
+# length: 21.000 mm
+# height: 13.700 mm
+# chamfer: 0.000 mm
+.ELECTRICAL
+"RECTMM" "W15.900_L21.000_H13.700_C0.000" MM 13.700
+0 7.950 10.500 0
+0 -7.950 10.500 0
+0 -7.950 -10.500 0
+0 7.950 -10.500 0
+0 7.950 10.500 0
+.END_ELECTRICAL
