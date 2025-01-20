@@ -231,7 +231,7 @@
         {
             "file": "../x1p-006/x1p-006.kicad_pcb",
             "x": 112000000.0,
-            "y": 48266685.0,
+            "y": 48000000.0,
             "rotate": 90,
             "disable_auto_tab": false,
             "tabs": [

@@ -2318,6 +2318,32 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-072K2L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5413f21e-4120-4e18-b3f3-13ea6c64f67e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "397ec571-73a3-474e-ac2a-4782d6d3aded")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/77ba11ff-2c41-442e-97e7-9d05f193befa")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
@@ -3425,6 +3451,32 @@
 				)
 			)
 		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96e6ca76-2b17-4115-879e-da5d14c984e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ef8503a-2530-4359-ae37-6e9b7b4282c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9b20b82c-8c3e-4953-abad-76fb08aadd75")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
@@ -3646,6 +3698,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "efe6845a-ff57-4875-aff3-9b5c19a2cca4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KB54PNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66107458-b70b-4d8d-b841-07f00d1e600e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e504b49e-369e-46a1-9ad6-77930ccab4af")
 			(effects
 				(font
 					(size 1 1)
@@ -4208,6 +4286,32 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-07100KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a5137d6-2d66-4a6e-ba6a-9d4ff3b67975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3a2c124-68ae-41e5-a04f-d2f52e5c4061")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/043fc344-9a38-4107-a978-fcc496fb2276")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
@@ -4654,6 +4758,32 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-072K2L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cc32ad9-38cc-48fc-894b-1cd33ca4b60c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dee56156-8278-483c-a9eb-3fe7846be730")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9eb0c158-67f4-4212-866e-bdbcb831a327")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
@@ -4875,6 +5005,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d3b1568f-88eb-4c7f-af0f-b47dfeb59f2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CL10A105KB8NNNC"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2f5b2a9-9cbc-4630-add9-e1537aadcfb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43691904-c3d9-4e73-806b-e29a1e68a6c0")
 			(effects
 				(font
 					(size 1 1)
@@ -5450,6 +5606,32 @@
 				)
 			)
 		)
+		(property "MPN" "RC0402FR-072K2L"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61090dff-bad7-4a07-ab1e-4b6980de3c7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fa16967-6aae-40ad-b951-0a12fa4cd5f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/c2a11ceb-3425-46b9-ae36-8b27c337b6b1")
 		(sheetname "Root")
 		(sheetfile "x1p-004.kicad_sch")
@@ -5671,6 +5853,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "47004c2d-461e-46e6-ab64-0fbd9a5f5043")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "RC0402FR-0768KL"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0659c195-45c4-4a32-bac6-114e6ec4aef7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4e59fa5-6a85-45cb-9d31-52e1545bda73")
 			(effects
 				(font
 					(size 1 1)
