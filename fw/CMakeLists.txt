@@ -9,14 +9,27 @@ project(x1p_002_c_fw)
 # initialize the Raspberry Pi Pico SDK
 pico_sdk_init()
 
-add_executable(x1p_002_c_fw main.c usb_descriptors.c bb_i2c.c)
+add_executable(x1p_002_c_fw
+	main.c
+	reset_ep.c
+	usb_descriptors.c
+	bb_i2c.c
+)
 
 pico_generate_pio_header(x1p_002_c_fw ${CMAKE_CURRENT_LIST_DIR}/ws2812.pio OUTPUT_DIR ${CMAKE_CURRENT_LIST_DIR}/generated)
 
 # tusb_config.h
 target_include_directories(x1p_002_c_fw PUBLIC ${CMAKE_CURRENT_LIST_DIR})
 
-target_link_libraries(x1p_002_c_fw pico_stdlib pico_unique_id tinyusb_device tinyusb_board pico_usb_reset_interface_headers hardware_pio)
+target_link_libraries(x1p_002_c_fw
+	pico_stdlib
+	pico_unique_id
+	tinyusb_device
+	tinyusb_board
+	pico_usb_reset_interface_headers
+	hardware_pio
+	hardware_watchdog
+)
 
 pico_enable_stdio_uart(x1p_002_c_fw 1)
 add_definitions(-DPICO_DEFAULT_UART=1 -DPICO_DEFAULT_UART_TX_PIN=24 -DPICO_DEFAULT_UART_RX_PIN=25)

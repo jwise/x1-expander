@@ -485,7 +485,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "jlcpcb/",
+      "plot": ".",
       "pos_files": "jlcpcb/",
       "specctra_dsn": "",
       "step": "x1p-004.step",
