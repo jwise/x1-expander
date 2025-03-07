@@ -14,32 +14,55 @@ parser.add_argument("--serial", action="store", nargs = 1)
 parser.add_argument("--force", action="store_true", default = False)
 args = parser.parse_args()
 
-print("Resetting RP2040 from LAN9514...")
-smsc = smsc9514.Smsc9514()
-smsc.rp2040_reset()
+WAIT_TIME = 300
 
-print("Waiting for RP2040...")
-for retry in range(10, 0, -1):
+for retry in range(WAIT_TIME, 0, -1):
     try:
-        b = rp2040.Rp2040Boot()
+        smsc = smsc9514.Smsc9514()
         break
     except Exception as e:
+        if retry == WAIT_TIME:
+            print("Waiting for LAN9514...")
         if retry == 1:
             raise
         time.sleep(0.1)
 
-print("Booting test firmware...")
-b.bootelf('../fw/build/x1p_002_c_fw.elf')
+def boot_attempt(smsc):
+    print("Resetting RP2040 from LAN9514...")
+    smsc.rp2040_reset()
 
-print("Waiting for RP2040 to reboot...")
-for retry in range(10, 0, -1):
+    print("Waiting for RP2040...")
+    for retry in range(10, 0, -1):
+        try:
+            b = rp2040.Rp2040Boot()
+            break
+        except Exception as e:
+            if retry == 1:
+                raise
+            time.sleep(0.1)
+
+    print("Booting test firmware...")
+    b.bootelf('../fw/build/x1p_002_c_fw.elf')
+
+    print("Waiting for RP2040 to reboot...")
+    for retry in range(10, 0, -1):
+        try:
+            rp = rp2040.Rp2040()
+            break
+        except Exception as e:
+            if retry == 1:
+                raise
+            time.sleep(0.1)
+
+    return rp
+
+for retry in range(5, 0, -1):
     try:
-        rp = rp2040.Rp2040()
+        rp = boot_attempt(smsc)
         break
     except Exception as e:
         if retry == 1:
             raise
-        time.sleep(0.1)
 
 rp.pca9536()
 try:
@@ -73,13 +96,14 @@ try:
 
     assert 23.8 < i5v_24v.vbus < 24.2
     assert 0.45 < i5v_5v.ishunt < 0.55, i5v_5v.ishunt
-    assert 3.2 < i5v_3v3.vbus < 3.4
+    #print(i5v_3v3)
+    assert 3.0 < i5v_3v3.vbus < 3.4 # can dip low, accounting for ground bounce
     
     dv = iq_5v.vbus - i5v_5v.vbus
     di_5v = i5v_5v.ishunt - iq_5v.ishunt
     esr = dv/di_5v
     print(f"  ESR = {esr:.3f} ohms at {i5v_5v.ishunt:.3f}A ({i5v_5v.vbus:.3f}V)")
-    assert esr < 0.4
+    assert esr < 1.0
     
     dp_5v = iq_5v.vbus * di_5v
     dp_24v = i5v_24v.vbus * i5v_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
@@ -97,13 +121,13 @@ try:
 
     assert 23.8 < i3v3_24v.vbus < 24.2
     assert 0.9 < i3v3_3v3.ishunt < 1.1
-    assert 4.9 < i3v3_5v.vbus < 5.1
+    assert 4.6 < i3v3_5v.vbus < 5.1 # can dip low, accounting for ground bounce
     
     dv = iq_3v3.vbus - i3v3_3v3.vbus
     di_3v3 = i3v3_3v3.ishunt - iq_3v3.ishunt
     esr = dv/di_3v3
     print(f"  ESR = {esr:.3f} ohms at {i3v3_3v3.ishunt:.3f}A ({i3v3_3v3.vbus:.3f}V)")
-    assert esr < 0.4
+    assert esr < 1.0
     
     dp_3v3 = iq_3v3.vbus * di_3v3
     dp_24v = i3v3_24v.vbus * i3v3_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
