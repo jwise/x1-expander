@@ -60,8 +60,22 @@ parser.add_argument('--port', action="store", nargs = 1, default=["D"])
 
 subparsers = parser.add_subparsers(title = 'commands', required = True)
 
-def mkcmd(func):
-    subparsers.add_parser(func.__name__).set_defaults(func=func)
+def mkcmd(*argses):
+    def wrap(func):
+        p = subparsers.add_parser(func.__name__)
+        p.set_defaults(func=func)
+        for args in argses:
+            name = args['name']
+            del args['name']
+            p.add_argument(name, **args)
+        return func
+    
+    if len(argses) == 1 and type(argses[0]).__name__ == 'function':
+        func = argses[0]
+        argses = []
+        return wrap(func)
+    else:
+        return wrap
 
 @mkcmd
 def beep(args):
@@ -144,7 +158,54 @@ def i2c_eeprom(args):
     while len(buf) < 0x81:
         buf += ep_in.read(0x100)
     print(f"eeprom buf {buf} {len(buf)}")
+
+    ep_out.write(struct.pack('<BBB', 4, port[7], port[6]))
+    ep_out.write(struct.pack('<BBB', 1, 0x50, 0x80))
+    ep_out.write(struct.pack('<B', 0))
+    buf = b""
+    while len(buf) < 0x81:
+        buf += ep_in.read(0x100)
+    print(f"eeprom buf {buf} {len(buf)}")
+
+@mkcmd({'name': '--file', 'action': 'store', 'nargs': 1})
+def i2c_eeprom_write(args):
+    gpio(port[5], False)
+    ep_out.write(struct.pack('<BBB', 4, port[7], port[6]))
+    for addr in range(0x80):
+        ep_out.write(struct.pack('<BBB', 1, addr, 0))
+    ep_out.write(struct.pack('<B', 0))
     
+    buf = b""
+    while len(buf) < 0x80:
+        buf += ep_in.read(0x80)
+    for addr in range(0x80):
+        if buf[addr] == 0:
+            print(f"I2C device at {addr:02x}")
+
+    # eeprom is slow, do this in many transactions
+    if args.file:
+        with open(args.file[0], 'rb') as f:
+            buf = f.read()
+    else:
+        buf = bytes([a for a in range(256)])
+    
+    pos = 0
+    while len(buf) > 0:
+        n = min(0x10, len(buf))
+        thisbuf = buf[:n]
+        buf = buf[n:]
+        
+        ep_out.write(struct.pack('<BBB', 4, port[7], port[6]))
+        ep_out.write(struct.pack('<BBBB', 2, 0x50, n + 1, pos))
+        ep_out.write(thisbuf)
+        ep_out.write(struct.pack('<B', 0))
+        rbuf = b""
+        while len(rbuf) < 1:
+            rbuf += ep_in.read(0x100)
+        print(f"write eeprom pos 0x{pos:02x} -> {rbuf}")
+        
+        pos += n
+
 @mkcmd
 def i2c_stemma(args):
     ep_out.write(struct.pack('<BBB', 4, PORTS['D'][0], PORTS['D'][1]))
