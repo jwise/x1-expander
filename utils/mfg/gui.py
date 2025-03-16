@@ -5,7 +5,7 @@ import logging
 import time
 import json
 
-from . import boards
+from . import boards, mfgdb
 
 from nicegui import app, run, ui
 
@@ -221,7 +221,7 @@ if __name__ in {"__main__", "__mp_main__"}:
     ch.setFormatter(logging.Formatter("[%(asctime)s] %(name)s: %(levelname)s: %(message)s"))
     logging.getLogger().addHandler(ch)
 
-    testui = TestUi(fixture = boards.dummy(), db = _DummyDb())
+    testui = TestUi(fixture = boards.dummy(), db = mfgdb.DummyDb())
     testui.render()
     ui.run()
 

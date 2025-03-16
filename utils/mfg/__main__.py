@@ -2,7 +2,7 @@ import argparse
 import asyncio
 import logging
 
-from . import cli, boards
+from . import cli, boards, mfgdb
 
 logging.getLogger().setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
@@ -12,6 +12,7 @@ logging.getLogger().addHandler(ch)
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--cli", action="store_true", default = False)
+parser.add_argument("--db-path", action="store", nargs = 1, default = ["db"])
 
 cligroup = parser.add_argument_group("CLI-specific options")
 cligroup.add_argument("--serial", action="store", nargs = 1)
@@ -34,6 +35,6 @@ else:
     from . import gui
     from nicegui import ui
 
-    testui = gui.TestUi(fixture = fixture, db = gui._DummyDb())
+    testui = gui.TestUi(fixture = fixture, db = mfgdb.FlatFileDb(args.db_path[0]))
     testui.render()
     ui.run(reload = False)
