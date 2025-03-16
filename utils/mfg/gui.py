@@ -5,7 +5,7 @@ import logging
 import time
 import json
 
-from boardtest_dummy import test_x1p_002
+from . import boards
 
 from nicegui import app, run, ui
 
@@ -17,7 +17,7 @@ ch.setLevel(logging.DEBUG)
 ch.setFormatter(logging.Formatter("[%(asctime)s] %(name)s: %(levelname)s: %(message)s"))
 logging.getLogger().addHandler(ch)
 
-class _BoardLogHandler(logging.Handler):
+class _NiceGuiRunnerHandler(logging.Handler):
     def __init__(self, boardlog):
         self.boardlog = boardlog
         logging.Handler.__init__(self)
@@ -27,11 +27,11 @@ class _BoardLogHandler(logging.Handler):
     def emit(self, record):
         self.boardlog.log(self.format(record))
 
-class BoardLog:
-    def __init__(self, testfunc, serial):
+class NiceGuiRunner:
+    def __init__(self, fixture, serial):
         self.logger = logging.getLogger(testfunc.__module__).getChild(testfunc.__name__)
         self.serial = serial
-        self.testfunc = testfunc
+        self.fixture = fixture
         self.events = []
     
     def _event(self, ty, payload = None):
@@ -62,14 +62,14 @@ class BoardLog:
     async def run(self, **kwargs):
         ui_current_serial.text = self.serial
 
-        blh = _BoardLogHandler(self)
+        blh = _NiceGuiRunnerHandler(self)
         blh.addFilter(lambda record: record.name != self.logger.name)
         
         logging.getLogger().addHandler(blh)
         try:
             ui_set_indicator('waiting')
             self._event("start", { "serial": self.serial })
-            await self.testfunc(runner = self, serial = self.serial, **kwargs)
+            await self.fixture.run(runner = self, serial = self.serial, **kwargs)
         except Exception as e:
             self._event("fail", str(e))
             ui_test_status.text = str(e)
@@ -85,7 +85,7 @@ class BoardLog:
         ui_set_indicator('pass')
 
 
-class _UiLogHandler(logging.Handler):
+class _NiceGuiLogHandler(logging.Handler):
     def __init__(self):
         logging.Handler.__init__(self)
         self.setLevel(logging.DEBUG)
@@ -97,21 +97,26 @@ class _UiLogHandler(logging.Handler):
         except:
             self.handleError(record)
 
-logging.getLogger().addHandler(_UiLogHandler())
+logging.getLogger().addHandler(_NiceGuiLogHandler())
 
 async def run_test(self):
     ui_test_button.enabled = False
     ui_force.enabled = False
     force = ui_force.value
-    await BoardLog(testfunc = test_x1p_002, serial = ui_nextsn.value).run(force = force)
+    await NiceGuiRunner(testfunc = boards.dummy().test, serial = ui_nextsn.value).run(force = force)
     ui_force.value = False
     ui_test_button.enabled = True
     ui_force.enabled = True
-    ui_nextsn.value = "X1P-002-C03-0002"
+    ui_nextsn.value = "0002"
 
 def check_serial(sn_proposed):
-    if not sn_proposed.startswith("X1P-002-C03-"):
-        return "Invalid prefix"
+    if len(sn_proposed) != 4:
+        return "Invalid format"
+    try:
+        int(sn_proposed)
+    except:
+        return "Invalid format"
+    sn_proposed = "X1P-002-C03-" + sn_proposed
     
     if sn_proposed == "X1P-002-C03-0002":
         return "Already serialized"
@@ -147,9 +152,9 @@ with ui.row(align_items = "center").classes('w-full'):
     ui.space()
     ui_test_button = ui.button("Run test", on_click = run_test, color="positive")
     ui.separator().props("vertical")
-    ui_force = ui.checkbox("Force reprogram board")
+    ui_force = ui.checkbox("Force reprogram board").props("color=negative")
     ui.separator().props("vertical")
-    ui_nextsn = ui.input(label = "Next serial number", validation = check_serial)
+    ui_nextsn = ui.input(label = "Next serial number", validation = check_serial).props("mask=\"####\" prefix=\"X1P-002-C03-\" fill-mask=\"_\"").classes("w-48")
     ui.button("Previous", on_click = previous_sn, color="negative")
     ui.space()
 
@@ -167,7 +172,7 @@ with ui.row(align_items = "center").classes('w-full'):
 
 ui.separator()
 
-ui_nextsn.value = "X1P-002-C03-0001"
+ui_nextsn.value = "0001"
 
 log_element = ui.log().classes('w-full')
 
@@ -178,7 +183,5 @@ def ui_set_indicator(indicator):
     indicators[indicator].visible = True
 
 ui_set_indicator('waiting')
-
-#app.on_startup(test_main)
 
 ui.run()
