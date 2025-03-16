@@ -7,8 +7,12 @@ class Fixture:
     NAME = "X1Plus dummy fixture"
     BOARD_ID = "X1P-DMY-A00"
     
-    def __init__(self):
-        pass
+    @classmethod
+    def add_args(cls, parser):
+        parser.add_argument("--eeprom-empty", action="store_true", default = False)
+    
+    def __init__(self, args):
+        self.args = args
 
     async def test(self, runner, serial = None, force = False):
         runner.status("Waiting for LAN9514...")
@@ -34,7 +38,7 @@ class Fixture:
         runner.status("Reading EEPROM")
         await asyncio.sleep(0.5)
         if serial:
-            if not force:
+            if not force and not self.args.eeprom_empty:
                 assert False, "Board EEPROM is not empty"
             runner.status("Writing EEPROM")
             await asyncio.sleep(0.5)

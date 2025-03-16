@@ -31,32 +31,10 @@ class ConsoleRunner:
         assert range[0] < value < range[1]
     
     async def run(self, test, *args, **kwargs):
-        ch = logging.StreamHandler()
-        ch.setLevel(logging.DEBUG)
-        ch.setFormatter(logging.Formatter("TEST CONSOLE: [%(asctime)s] %(name)s: %(levelname)s: %(message)s"))
-        logging.getLogger().addHandler(ch)
-        
         try:
             await test(runner = self, *args, **kwargs)
         except Exception as e:
             self.logger.error(f"TEST FAILED: {e}")
             return False
-        finally:
-            logging.getLogger().removeHandler(ch)
         
         return True
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--serial", action="store", nargs = 1)
-    parser.add_argument("--force", action="store_true", default = False)
-    args = parser.parse_args()
-
-    root = logging.getLogger()
-    root.setLevel(logging.DEBUG)
-    
-    serial = None
-    if args.serial:
-        serial = args.serial[0]
-    
-    asyncio.run(ConsoleRunner().run(dummy.Fixture().test, serial = args.serial, force = args.force))

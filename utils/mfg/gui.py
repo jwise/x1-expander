@@ -11,11 +11,6 @@ from nicegui import app, run, ui
 
 logger = logging.getLogger(__name__)
 
-logging.getLogger().setLevel(logging.DEBUG)
-ch = logging.StreamHandler()
-ch.setLevel(logging.DEBUG)
-ch.setFormatter(logging.Formatter("[%(asctime)s] %(name)s: %(levelname)s: %(message)s"))
-logging.getLogger().addHandler(ch)
 
 class _NiceGuiRunnerHandler(logging.Handler):
     def __init__(self, boardlog):
@@ -34,10 +29,9 @@ class NiceGuiRunner:
         self.serial = serial
         self.fixture = fixture
         self.db = db
-        self.events = []
     
     def _event(self, ty, payload = None):
-        self.events.append({ "type": ty, "payload": payload, "ts": time.time() })
+        self.db.event(self.serial, { "type": ty, "payload": payload, "ts": time.time() })
     
     def running(self):
         self._event("running")
@@ -77,12 +71,11 @@ class NiceGuiRunner:
             self.ui.test_status.text = str(e)
             self.logger.error(f"TEST FAILED: {str(e)}")
             self.ui.set_indicator('fail')
-            print(self.events)
             return
         finally:
             logging.getLogger().removeHandler(blh)
         
-        print(self.events)
+        self._event("pass")
         self.logger.info("TEST PASSED")
         self.ui.set_indicator('pass')
 
@@ -127,14 +120,13 @@ class TestUi():
         except:
             return "Invalid format"
         
-        if not self.db:
-            if self.longsn(sn_proposed) == "X1P-DMY-A00-0002":
-                return "Already serialized"
-
-            if self.longsn(sn_proposed) > "X1P-DMY-A00-0010":
-                return "Label not yet printed"
-    
-            return None
+        sn = self.longsn(sn_proposed)
+        
+        if self.db.has_event(sn, "pass"):
+            return "Already serialized"
+        
+        if not self.db.has_event(sn, "print_label"):
+            return "Label not yet printed"
         
         return None
 
@@ -153,7 +145,7 @@ class TestUi():
         if self.prevsn is not None:
             self.nextsn.value = self.prevsn
 
-    def run(self):
+    def render(self):
         ui.page_title(f"{self.fixture.BOARD_ID} board test")
         ui.dark_mode().enable() # duh
 
@@ -183,10 +175,9 @@ class TestUi():
         ui.separator()
 
         with ui.row(align_items = "center").classes('w-full'):
-            # XXX
             ui.space()
             ui.label("First unprinted label:").classes("text-bold")
-            self.next_label = ui.label("X1P-002-C03-0020")
+            self.next_label = ui.label(self.db.first_without_event(self.fixture.BOARD_ID, "print_label"))
             ui.separator().props("vertical")
             self.label_count = ui.number(label = "Labels to print", value = 20, min = 1)
             ui.separator().props("vertical")
@@ -195,14 +186,42 @@ class TestUi():
 
         ui.separator()
 
-        self.nextsn.value = "0001"
+        self.nextsn.value = self.db.first_without_event(self.fixture.BOARD_ID, "pass").split("-")[3]
 
         self.log_element = ui.log().classes('w-full')
         logging.getLogger().addHandler(_NiceGuiLogHandler(self.log_element))
 
         self.set_indicator('waiting')
 
-        ui.run()
+class _DummyDb():
+    def __init__(self):
+        pass
+    
+    def event(self, sn, bundle):
+        print(f"DB WRITE: {sn}: {json.dumps(bundle)}")
+    
+    def has_event(self, sn, event_type):
+        if event_type == "pass":
+            return sn == "X1P-DMY-A00-0002"
+        if event_type == "print_label":
+            return sn < "X1P-DMY-A00-0020"
+        return False
+    
+    def first_without_event(self, board_type, event_type):
+        if event_type == "pass":
+            return f"{board_type}-0003"
+        if event_type == "print_label":
+            return f"{board_type}-0020"
+        return "{board_type}-0001"
 
 if __name__ in {"__main__", "__mp_main__"}:
-    TestUi(fixture = boards.dummy(), db = None).run()
+    logging.getLogger().setLevel(logging.DEBUG)
+    ch = logging.StreamHandler()
+    ch.setLevel(logging.DEBUG)
+    ch.setFormatter(logging.Formatter("[%(asctime)s] %(name)s: %(levelname)s: %(message)s"))
+    logging.getLogger().addHandler(ch)
+
+    testui = TestUi(fixture = boards.dummy(), db = _DummyDb())
+    testui.render()
+    ui.run()
+
