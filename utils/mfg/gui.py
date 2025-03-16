@@ -5,7 +5,7 @@ import logging
 import time
 import json
 
-from . import boards, mfgdb
+from . import boards, mfgdb, zprint
 
 from nicegui import app, run, ui
 
@@ -144,6 +144,20 @@ class TestUi():
     def previous_sn(self):
         if self.prevsn is not None:
             self.nextsn.value = self.prevsn
+    
+    def print_labels(self):
+        start_sn = int(self.next_label.text.rsplit("-",1)[1])
+        
+        labels = [ f"{self.fixture.BOARD_ID}-{start_sn + i:04d}" for i in range(int(self.label_count.value))]
+        
+        zprint.print_serial_labels(labels)
+        
+        for sn in labels:
+            self.db.event(sn, { "type": "print_label" })
+        
+        self.nextsn.value = "%04d" % (start_sn, )
+        self.next_label.text = self.db.first_without_event(self.fixture.BOARD_ID, "print_label")
+        self.nextsn.validate()
 
     def render(self):
         ui.page_title(f"{self.fixture.BOARD_ID} board test")
@@ -181,38 +195,17 @@ class TestUi():
             ui.separator().props("vertical")
             self.label_count = ui.number(label = "Labels to print", value = 20, min = 1)
             ui.separator().props("vertical")
-            self.print_button = ui.button("Print labels")
+            self.print_button = ui.button("Print labels", on_click = self.print_labels)
             ui.space()
 
         ui.separator()
 
         self.nextsn.value = self.db.first_without_event(self.fixture.BOARD_ID, "pass").split("-")[3]
 
-        self.log_element = ui.log().classes('w-full')
+        self.log_element = ui.log(max_lines = 20).classes('w-full')
         logging.getLogger().addHandler(_NiceGuiLogHandler(self.log_element))
 
         self.set_indicator('waiting')
-
-class _DummyDb():
-    def __init__(self):
-        pass
-    
-    def event(self, sn, bundle):
-        print(f"DB WRITE: {sn}: {json.dumps(bundle)}")
-    
-    def has_event(self, sn, event_type):
-        if event_type == "pass":
-            return sn == "X1P-DMY-A00-0002"
-        if event_type == "print_label":
-            return sn < "X1P-DMY-A00-0020"
-        return False
-    
-    def first_without_event(self, board_type, event_type):
-        if event_type == "pass":
-            return f"{board_type}-0003"
-        if event_type == "print_label":
-            return f"{board_type}-0020"
-        return "{board_type}-0001"
 
 if __name__ in {"__main__", "__mp_main__"}:
     logging.getLogger().setLevel(logging.DEBUG)
@@ -221,7 +214,10 @@ if __name__ in {"__main__", "__mp_main__"}:
     ch.setFormatter(logging.Formatter("[%(asctime)s] %(name)s: %(levelname)s: %(message)s"))
     logging.getLogger().addHandler(ch)
 
-    testui = TestUi(fixture = boards.dummy(), db = mfgdb.DummyDb())
+    class Args():
+        eeprom_empty = False
+            
+    testui = TestUi(fixture = boards.dummy(Args), db = mfgdb.DummyDb())
     testui.render()
     ui.run()
 

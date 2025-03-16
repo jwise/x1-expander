@@ -39,10 +39,10 @@ class FlatFileDb():
     def _boarddir(self, board_type):
         p = self.path / board_type
         if not p.exists():
-            logger.info("creating {p}")
+            logger.info(f"creating {p}")
             p.mkdir(0o755)
         if not p.is_dir():
-            logger.error("{p} exists but is not a directory, giving up")
+            logger.error(f"{p} exists but is not a directory, giving up")
             raise FileExistsError(p)
         return p
     

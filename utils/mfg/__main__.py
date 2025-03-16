@@ -2,7 +2,7 @@ import argparse
 import asyncio
 import logging
 
-from . import cli, boards, mfgdb
+from . import cli, boards, mfgdb, zprint
 
 logging.getLogger().setLevel(logging.DEBUG)
 ch = logging.StreamHandler()
@@ -13,6 +13,11 @@ logging.getLogger().addHandler(ch)
 parser = argparse.ArgumentParser()
 parser.add_argument("--cli", action="store_true", default = False)
 parser.add_argument("--db-path", action="store", nargs = 1, default = ["db"])
+
+guigroup = parser.add_argument_group("GUI-specific options")
+guigroup.add_argument("--public", help = "use NiceGUI's on-air mode to make the interface publicly accessible.  CAREFUL!", action="store_true", default = False)
+guigroup.add_argument("--zebra-ip", action="store", nargs = 1, default = ["10.1.10.5"])
+guigroup.add_argument("--no-zebra", action="store_const", const = [None], dest = "zebra_ip")
 
 cligroup = parser.add_argument_group("CLI-specific options")
 cligroup.add_argument("--serial", action="store", nargs = 1)
@@ -27,6 +32,7 @@ for fixture in boards.fixtures:
 
 args = parser.parse_args()
 
+zprint.ZEBRA_IP = args.zebra_ip[0]
 fixture = args.fixture(args)
 
 if args.cli:
@@ -37,4 +43,4 @@ else:
 
     testui = gui.TestUi(fixture = fixture, db = mfgdb.FlatFileDb(args.db_path[0]))
     testui.render()
-    ui.run(reload = False)
+    ui.run(reload = False, on_air = args.public)
