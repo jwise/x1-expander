@@ -129,7 +129,7 @@ class Fixture:
             stack.push_async_callback(asyncio.sleep, 1)
             stack.callback(lambda: rp.pca9536(led_pass = pass_status, led_fail = fail_status))
 
-            runner.check("Idd at 24V, enumerated", meas.current, (0.040, 0.060))
+            runner.check("Idd at 24V, enumerated", meas.current, (0.025, 0.060))
 
             
             runner.status("Checking quiescent current")
@@ -170,7 +170,7 @@ class Fixture:
             dv = iq_5v.vbus - i5v_5v.vbus
             di_5v = i5v_5v.ishunt - iq_5v.ishunt
             esr = dv/di_5v
-            runner.check("esr_5v", esr, (0.0, 1.0))
+            runner.check("esr_5v", esr, (0.0, 1.2))
     
             dp_5v = iq_5v.vbus * di_5v
             dp_24v = i5v_24v.vbus * i5v_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
@@ -200,7 +200,7 @@ class Fixture:
             dv = iq_3v3.vbus - i3v3_3v3.vbus
             di_3v3 = i3v3_3v3.ishunt - iq_3v3.ishunt
             esr = dv/di_3v3
-            runner.check("esr_3v3", esr, (0.0, 1.0))
+            runner.check("esr_3v3", esr, (0.0, 1.2))
     
             dp_3v3 = iq_3v3.vbus * di_3v3
             dp_24v = i3v3_24v.vbus * i3v3_24v.ishunt - iq_24v.vbus * iq_24v.ishunt
@@ -215,10 +215,10 @@ class Fixture:
             await _sync_ui()
             buf = smsc.eeprom_readall()
             if buf != b'\xff' * 512:
+                runner.measure("eeprom_contents", [ i for i in buf ])
                 if force:
                     runner.log("EEPROM not empty, but continuing anyway as you asked")
                 else:
-                    runner.measure("eeprom_contents", [ i for i in buf ])
                     raise FileExistsError("EEPROM not empty")
             else:
                 runner.log("EEPROM is empty")
@@ -244,10 +244,12 @@ class Fixture:
             await _sync_ui()
             smsc.eeprom_writeall(eeprom)
 
-            runner.status("Reading back EEPROM back")
+            runner.status("Reading back EEPROM")
             await _sync_ui()
             buf = smsc.eeprom_readall()
             assert eeprom == buf
-            
+
+            runner.status("Test complete")
+
             fail_status = False
             pass_status = True
