@@ -1,5 +1,6 @@
 from jinja2 import Environment, PackageLoader
 import sys
+import asyncio
 import socket
 import logging
 
@@ -7,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 ZEBRA_IP = None
 
-def print_serial_labels(serials):
+async def print_serial_labels(serials):
     env = Environment(loader=PackageLoader("mfg", ".."))
     zpl = env.get_template(f"serial.zpl_tpl").render(serials = serials)
     
@@ -17,8 +18,9 @@ def print_serial_labels(serials):
         logger.warning("no printer connected -- doing nothing")
     else:
         logger.info(f"printing to Zebra at {ZEBRA_IP}")
-        skt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        skt.connect((ZEBRA_IP, 9100))
-        skt.send(zpl.encode("UTF-8"))
-        skt.close()
+        reader, writer = await asyncio.wait_for(asyncio.open_connection(ZEBRA_IP, 9100), timeout = 5)
+        writer.write(zpl.encode("UTF-8"))
+        await writer.drain()
+        writer.close()
+        await writer.wait_closed()
         logger.info("done printing")

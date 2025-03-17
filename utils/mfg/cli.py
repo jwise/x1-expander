@@ -34,7 +34,7 @@ class ConsoleRunner:
         try:
             await test(runner = self, *args, **kwargs)
         except Exception as e:
-            self.logger.error(f"TEST FAILED: {e}")
+            self.logger.error(f"TEST FAILED: {e.__class__.__name__}: {e}")
             return False
         
         return True

@@ -76,6 +76,7 @@ class NiceGuiRunner:
             logging.getLogger().removeHandler(blh)
         
         self._event("pass")
+        self.ui.test_status.text = "Test passed"
         self.logger.info("TEST PASSED")
         self.ui.set_indicator('pass')
 
@@ -145,12 +146,12 @@ class TestUi():
         if self.prevsn is not None:
             self.nextsn.value = self.prevsn
     
-    def print_labels(self):
+    async def print_labels(self):
         start_sn = int(self.next_label.text.rsplit("-",1)[1])
         
         labels = [ f"{self.fixture.BOARD_ID}-{start_sn + i:04d}" for i in range(int(self.label_count.value))]
         
-        zprint.print_serial_labels(labels)
+        await zprint.print_serial_labels(labels)
         
         for sn in labels:
             self.db.event(sn, { "type": "print_label" })

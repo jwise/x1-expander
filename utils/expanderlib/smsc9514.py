@@ -80,8 +80,8 @@ class Smsc9514:
     
     def rp2040_reset(self):
         self.reg_wr(GPIO_CFG, (self.reg_rd(GPIO_CFG) & ~((1 << 28))) | (1 << 20) | (1 << 12) | (1 << 4))
-        time.sleep(0.1)
+        time.sleep(0.01)
         self.reg_wr(GPIO_CFG, (self.reg_rd(GPIO_CFG) & ~((1 << 28) | (1 << 4))) | (1 << 20) | (1 << 12))
-        time.sleep(0.1)
+        time.sleep(0.01)
         self.reg_wr(GPIO_CFG, (self.reg_rd(GPIO_CFG) & ~((1 << 28))) | (1 << 20) | (1 << 12) | (1 << 4))
-        time.sleep(0.1)
+        time.sleep(0.01)
