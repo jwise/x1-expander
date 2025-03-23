@@ -109,7 +109,7 @@ alldone:
 
 int main(void)
 {
-	watchdog_enable(500, 0); /* reboot after 500 ms of being disconnected from USB, or not being in a state where we could process a command */
+	watchdog_enable(1000, 0); /* reboot after 1s of being disconnected from USB, or not being in a state where we could process a command */
 
 	board_init();
 	tud_init(BOARD_TUD_RHPORT);
