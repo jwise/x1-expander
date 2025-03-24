@@ -197,6 +197,14 @@ int main(void)
 				do_i2c();
 				break;
 			}
+			case 0x05: { /* read all GPIOs */
+				uint32_t data[2];
+				data[0] = sio_hw->gpio_in;
+				data[1] = sio_hw->gpio_hi_in;
+				tud_vendor_write(data, 8);
+				tud_vendor_write_flush();
+				break;
+			}
 			default:
 				printf("vendor: unknown command %02x\n", cmd);
 			}
