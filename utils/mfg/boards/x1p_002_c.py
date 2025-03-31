@@ -14,8 +14,8 @@ from mfg.hw import sign_eeprom
 logger = logging.getLogger(__name__)
 
 async def _sync_ui():
-    # synchronous tasks on this thread could prevent the UI from updating, so give the UI 50ms to update
-    await asyncio.sleep(0.05)
+    # synchronous tasks on this thread could prevent the UI from updating, so give the UI a chance
+    await asyncio.sleep(0)
 
 class Fixture:
     NAME = "X1Plus mainboard"

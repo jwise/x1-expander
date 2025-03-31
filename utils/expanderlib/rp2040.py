@@ -168,15 +168,15 @@ class Rp2040:
         buf = self.stemma_read(addr, 2)
         cfg, = struct.unpack(">H", buf)
         assert cfg == 0x319F
-        time.sleep(0.15)
+        time.sleep(0.025)
         
         self.stemma_write(addr, bytes([0x01]))
-        buf = self.stemma_read(addr, 2)
-        vshunt, = struct.unpack(">h", buf)
+        buf = self.stemma_read(addr, 4)
+        vshunt, vbus = struct.unpack(">hH", buf)
         
-        self.stemma_write(addr, bytes([0x02]))
-        buf = self.stemma_read(addr, 2)
-        vbus, = struct.unpack(">H", buf)
+        #self.stemma_write(addr, bytes([0x02]))
+        #buf = self.stemma_read(addr, 2)
+        #vbus, = struct.unpack(">H", buf)
         
         vbus_f = float(vbus >> 3) * 0.004
         vshunt_f = float(vshunt) * 1e-5
