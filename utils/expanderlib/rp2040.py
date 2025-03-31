@@ -52,6 +52,10 @@ class Rp2040Boot:
         args = struct.pack("<LL", addr, len(data))
         self.send_cmd(0x05, args, data)
     
+    def reboot(self, pc, sp, delay):
+        args = struct.pack("<LLL", pc, sp, delay)
+        self.send_cmd(0x02, args, shouldreturn = False)
+    
     def exec(self, addr):
         args = struct.pack("<L", addr)
         self.send_cmd(0x08, args, shouldreturn = False)
@@ -74,7 +78,7 @@ class Rp2040Boot:
                     print(f"writing {sz} zeroes to {ofs:x}")
                     self.write(ofs, b"\x00" * sz)
         print(f"booting from {elf.header['e_entry']:x}")
-        self.exec(elf.header['e_entry'])
+        self.reboot(elf.header['e_entry'], 0x20040000, 10)
     
 
 PORTS = {
