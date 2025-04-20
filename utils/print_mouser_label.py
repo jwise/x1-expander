@@ -91,7 +91,7 @@ def mk_product_label(zdoc, xoff = 10, yoff = 10, flip = False, mpn = "X1P-800", 
         origin(550, 32 * 6)
     else:
         origin(550, 0)
-    zdoc.add_barcode(DataMatrix_Barcode(bcode_data, orientation, 6, 200, 32, 32))
+    zdoc.add_barcode(DataMatrix_Barcode(bcode_data, 'N', 6, 200, 32, 32))
 
     put_text(115, 285, '0', 37, 'https://accelerated.tech/expander/')
 
