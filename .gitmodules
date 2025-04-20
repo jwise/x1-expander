@@ -1,3 +1,6 @@
 [submodule "fw/picosdk"]
 	path = fw/pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk
+[submodule "utils/simple_zpl2"]
+	path = utils/esden__simple_zpl2
+	url = https://github.com/esden/simple_zpl2
