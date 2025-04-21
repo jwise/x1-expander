@@ -105,7 +105,31 @@ PRODUCTS = {
         'rev': 'A02',
         'coo': 'CN',
         'desc': 'Mounting Bracket & Enclo',
-    })
+    }),
+    'X1P-004': Product(fliptop = True, params = {
+        'mpn': 'X1P-004',
+        'rev': 'B01',
+        'coo': 'CN',
+        'desc': 'Addressable-LED Level',
+    }),
+    'X1P-005': Product(fliptop = True, params = {
+        'mpn': 'X1P-005',
+        'rev': 'B02',
+        'coo': 'CN',
+        'desc': 'Andon Module',
+    }),
+    'X1P-006': Product(fliptop = True, params = {
+        'mpn': 'X1P-006',
+        'rev': 'B02',
+        'coo': 'CN',
+        'desc': 'Shutter Release Module',
+    }),
+    'X1P-100': Product(fliptop = False, params = {
+        'mpn': 'X1P-100',
+        'rev': 'A01',
+        'coo': 'CN',
+        'desc': 'X1Plus Expander',
+    }),
 }
 
 def zdoc_for_product(product):
