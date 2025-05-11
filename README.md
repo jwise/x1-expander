@@ -1,10 +1,13 @@
-# X1Plus Expansion Board
+# X1Plus Expander
 
-This repository contains hardware development files for the X1Plus Expansion
-Board, [available-ish for purchase at Crowd
-Supply](https://www.crowdsupply.com/accelerated-tech/x1plus-expansion-board). 
-Printer-side software to interface with these boards lives in the
-[X1Plus repository](https://github.com/x1plus/x1plus).
+This repository contains hardware development files for the X1Plus Expander,
+[available-ish for purchase at Crowd
+Supply](https://www.crowdsupply.com/accelerated-tech/x1plus-expander). 
+Printer-side software to interface with these boards lives in the [X1Plus
+repository](https://github.com/x1plus/x1plus).
+
+If you have just purchased an Expander, you probably want to [read the
+getting started guide](doc/getting-started.md)!
 
 Each part has its own directory in this repository.  Part numbers always
 begin with "X1P", are followed by three digits to identify the part, and
@@ -19,12 +22,12 @@ This repository contains the following parts.  (Descriptions below may not
 be representative of marketing names.)
 
  * [X1P-001](x1p-001/): wiring harness to connect X1P-002 to the printer
- * [X1P-002](x1p-002/): X1Plus Expansion Board mainboard
+ * [X1P-002](x1p-002/): X1Plus Expander mainboard
  * [X1P-003](x1p-003/): manufacturing test harness for X1P-002
  * [X1P-004](x1p-004/): LED strip 3.3V->5V level shifter plugin
  * [X1P-005](x1p-005/): Andon board plugin
  * [X1P-006](x1p-006/): 2.5mm camera shutter release plugin
- * X1P-200 is a part number reserved for a bundle assembly of X1P-001,
+ * X1P-100 is a part number reserved for a bundle assembly of X1P-001,
    X1P-002, and X1P-800.
  * [X1P-800](x1p-800/): plastics for X1P-002
 
@@ -36,3 +39,4 @@ Also in this repository:
  * [utils/](utils/): software useful in manufacturing or bringup of X1P-*
    hardware
  * [doc/](doc/): documentation associated with X1P-* hardware
+ * [fw/](fw/): firmware for the RP2040 on X1P-002-C series boards
