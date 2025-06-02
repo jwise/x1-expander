@@ -103,7 +103,7 @@ PRODUCTS = {
     'X1P-800': Product(fliptop = True, params = {
         'mpn': 'X1P-800',
         'rev': 'A02',
-        'coo': 'CN',
+        'coo': 'HU',
         'desc': 'Mounting Bracket & Enclo',
     }),
     'X1P-004': Product(fliptop = True, params = {
@@ -129,6 +129,12 @@ PRODUCTS = {
         'rev': 'A01',
         'coo': 'CN',
         'desc': 'X1Plus Expander',
+    }),
+    'X1P-MEOW': Product(fliptop = False, params = {
+        'mpn': 'X1P-MEOW',
+        'rev': 'A01',
+        'coo': 'US',
+        'desc': 'Ping Pong Ball',
     }),
 }
 
