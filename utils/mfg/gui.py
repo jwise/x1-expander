@@ -131,6 +131,21 @@ class TestUi():
         
         return None
 
+    def check_nextprint(self, sn_proposed):
+        if len(sn_proposed) != 4:
+            return "Invalid format"
+        try:
+            int(sn_proposed)
+        except:
+            return "Invalid format"
+        
+        sn = self.longsn(sn_proposed)
+        
+        if self.db.has_event(sn, "print_label"):
+            return "Label already printed"
+        
+        return None
+
     async def run_test(self):
         self.test_button.enabled = False
         self.force.enabled = False
@@ -147,7 +162,7 @@ class TestUi():
             self.nextsn.value = self.prevsn
     
     async def print_labels(self):
-        start_sn = int(self.next_label.text.rsplit("-",1)[1])
+        start_sn = int(self.nextprint.value)
         
         labels = [ f"{self.fixture.BOARD_ID}-{start_sn + i:04d}" for i in range(int(self.label_count.value))]
         
@@ -157,7 +172,8 @@ class TestUi():
             self.db.event(sn, { "type": "print_label" })
         
         self.nextsn.value = "%04d" % (start_sn, )
-        self.next_label.text = self.db.first_without_event(self.fixture.BOARD_ID, "print_label")
+        self.first_label.text = self.db.first_without_event(self.fixture.BOARD_ID, "print_label")
+        self.nextprint.value = self.db.first_without_event(self.fixture.BOARD_ID, "print_label").split("-")[3]
         self.nextsn.validate()
 
     def render(self):
@@ -192,7 +208,9 @@ class TestUi():
         with ui.row(align_items = "center").classes('w-full'):
             ui.space()
             ui.label("First unprinted label:").classes("text-bold")
-            self.next_label = ui.label(self.db.first_without_event(self.fixture.BOARD_ID, "print_label"))
+            self.first_label = ui.label(self.db.first_without_event(self.fixture.BOARD_ID, "print_label"))
+            ui.separator().props("vertical")
+            self.nextprint = ui.input(label = "Next label to print", validation = self.check_nextprint).props(f"mask=\"####\" prefix=\"{self.fixture.BOARD_ID}-\" fill-mask=\"_\"").classes("w-48")
             ui.separator().props("vertical")
             self.label_count = ui.number(label = "Labels to print", value = 20, min = 1)
             ui.separator().props("vertical")
@@ -202,6 +220,7 @@ class TestUi():
         ui.separator()
 
         self.nextsn.value = self.db.first_without_event(self.fixture.BOARD_ID, "pass").split("-")[3]
+        self.nextprint.value = self.db.first_without_event(self.fixture.BOARD_ID, "print_label").split("-")[3]
 
         self.log_element = ui.log(max_lines = 20).classes('w-full')
         logging.getLogger().addHandler(_NiceGuiLogHandler(self.log_element))
