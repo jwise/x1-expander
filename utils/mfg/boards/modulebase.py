@@ -133,7 +133,7 @@ class ModuleFixture:
             await _sync_ui()
             self.reset_gpios()
             buf = self.read_eeprom()
-            if buf != b'\xff' * 512:
+            if buf != b'\xff' * 256:
                 runner.measure("eeprom_contents", [ i for i in buf ])
                 if force:
                     runner.log("EEPROM not empty, but continuing anyway as you asked")
