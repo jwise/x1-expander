@@ -5,13 +5,14 @@ This assumes that you have already [assembled the hardware](assembly.md).
 ## Installing a firmware
 
 You will need to install an X1Plus firmware build that supports X1Plus
-Expander.  Until a release happens that supports X1Plus Expander, this means
-that you will need to install a prerelease build.
+Expander.  Version 3.0 Release Candidate 1 is available for testing, but
+until a full release happens that supports X1Plus Expander, this means that
+you will need to manually upgrade, rather than using the on-board
+over-the-air upgrade subsystem.
 
-The currently recommended build is
-[9e4a232](https://nightly.link/X1Plus/X1Plus/actions/runs/11763650540/x1p.zip). 
-Download this and unzip the `x1p.zip`; it will contain a file named
-similarly to `2.0-24+g9e4a232.x1p`.  Put this in the root of your SD card,
+The currently recommended build is [3.0
+rc1](https://github.com/X1Plus/X1Plus/releases/tag/x1plus%2F3.0_rc1). 
+Download the `3.0_rc1.x1p`, put this in the root of your SD card,
 and then restart your printer; on reboot, select "startup options", and then
 "start X1Plus installer", and select it from the dropdown menu.
 
