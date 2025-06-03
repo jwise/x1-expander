@@ -24,6 +24,7 @@ class Fixture:
     SMSC9514_BOOT_TIMEOUT = 5
     RP2040_ENUMERATION_TIMEOUT = 2
     RP2040_BOOT_ATTEMPTS = 5
+    EEPROM_PROGRAM_ATTEMPTS = 5
     
     @classmethod
     def add_args(cls, parser):
@@ -98,14 +99,14 @@ class Fixture:
             self.gpp_ch.enable()
             runner.status("Waiting for LAN9514")
             await _sync_ui()
-            for retry in range(self.SMSC9514_BOOT_TIMEOUT * 5, 0, -1):
+            for retry in range(self.SMSC9514_BOOT_TIMEOUT * 10, 0, -1):
                 try:
                     smsc = smsc9514.Smsc9514()
                     break
                 except:
                     if retry == 1:
                         raise
-                    await asyncio.sleep(0.2)
+                    await asyncio.sleep(0.1)
             
             runner.status("Booting RP2040")
             await _sync_ui()
@@ -126,7 +127,6 @@ class Fixture:
             fail_status = True
             pass_status = False
             
-            stack.push_async_callback(asyncio.sleep, 1)
             stack.callback(lambda: rp.pca9536(led_pass = pass_status, led_fail = fail_status))
 
             runner.check("Idd at 24V, enumerated", meas.current, (0.025, 0.060))
@@ -242,7 +242,14 @@ class Fixture:
         
             runner.status("Writing EEPROM")
             await _sync_ui()
-            smsc.eeprom_writeall(eeprom)
+            for retry in range(self.EEPROM_PROGRAM_ATTEMPTS, 0, -1):
+                try:
+                    smsc.eeprom_writeall(eeprom)
+                    break
+                except:
+                    if retry == 1:
+                        raise
+                    runner.log("EEPROM write failure, trying again")
 
             runner.status("Reading back EEPROM")
             await _sync_ui()

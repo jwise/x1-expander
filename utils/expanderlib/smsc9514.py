@@ -51,6 +51,8 @@ class Smsc9514:
         for i in range(1000):
             rv = self.reg_rd(E2P_CMD)
             if (rv & E2P_CMD_TIMEOUT) and not allow_timeout:
+                # clear the timeout!
+                self.reg_wr(E2P_CMD, 0)
                 raise TimeoutError("EEPROM timeout detected by LAN9514")
             if (rv & E2P_CMD_BUSY) == 0:
                 return
