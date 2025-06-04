@@ -1,9 +1,24 @@
 # Getting started with X1Plus Expander
 
-Hi!  Thank you for buying X1Plus Expander!  It has been quite a fun project
-to make this for you, and I'm glad that it's in your hands.  This document
-will describe how to install Expander into your printer, and will provide
-you with information on how to operate it.
+Hi!  Thank you for buying [X1Plus
+Expander](https://www.crowdsupply.com/accelerated-tech/x1plus-expander)!  It
+has been quite a fun project to make this for you, and I'm glad that it's in
+your hands.  This document will describe how to install Expander into your
+printer, and will provide you with information on how to operate it.
+
+![Peanut looks at an early Expander prototype.](img/x1plus-expander-fatp-specialist.jpg)
+
+## Getting Expander
+
+X1Plus Expander is the hardware companion to the X1Plus open-source custom
+firmware distribution for Bambu Lab’s X1 3D printers.  It extends your
+printer’s functionality with an Ethernet port, two USB ports, a
+STEMMA-compatible I²C connector, and four interchangeable GPIO headers for
+expansion modules.
+
+If you've come to this page and you *don't* own an X1Plus Expander, then you
+should [buy one from Crowd
+Supply](https://www.crowdsupply.com/accelerated-tech/x1plus-expander)! 
 
 ## Unpacking Expander
 
@@ -21,7 +36,7 @@ Make sure that you have everything, and take a moment to read the
 Instructions for Safe Use, and ensure that you understand them.  (You can
 also read them [right here](instructions-for-safe-use.md), if you prefer.)
 
-If you purchased other accessories, they will be labeled separately.
+If you purchased other accessories, they will be packaged and labeled separately.
 
 ## Getting help with Expander
 
