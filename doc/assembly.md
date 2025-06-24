@@ -40,6 +40,14 @@ Once printed, you will want to pre-assemble the case before attaching it to your
 
   * Let the cyanoacrylate cure overnight to avoid frosting your board and/or printer.  If you prefer, instead of cyanoacrylate, you can use some heat to melt the plastic to bond the parts together -- the adhesive is only there to keep parts together during assembly.
 
+See the exploded views before for more detail.
+
+![A full assembly explosion of X1P-800.](img/x1p-800-exploded-view-1.png)
+
+![Detail of clip installation direction.](img/x1p-800-exploded-view-2.png)
+
+![Detail of standoffs.](img/x1p-800-exploded-view-3.png)
+
 ## Installing Expander into your printer
 
 For those of you that bought an Expander case, the plastics that you
