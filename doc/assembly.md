@@ -1,8 +1,14 @@
 # Assembly instructions for X1Plus Expander
 
-**Wow, you're here early!  Thanks for being one of the first backers!  At some
-point, I'll update this with images of how to assemble Expander and its
-case, or maybe even a video.  But for now, here is some text.**
+Below is a textual description of how to install Expander into your printer. 
+You should read it in its entirety before you install Expander.  But, since
+I know that none of you are going to, I also recorded a video, and here it
+is:
+
+[![X1Plus Expander Installation Guide](https://img.youtube.com/vi/XNPRE-L4nhQ/0.jpg)](https://www.youtube.com/watch?v=XNPRE-L4nhQ)
+
+But **you should really read the words too before you try installing
+Expander**!
 
 ## Assembling Expander with a SLS case
 
@@ -75,5 +81,7 @@ Once you have an Expander case ready to go, you're ready to install Expander int
   * Line up the X1P-002 mainboard, the lower shell, and the upper shell.  Use the included M3 screws to attach it.  Tighten them incrementally in a circle.  Be gentle with the screws -- you are screwing a relatively small thread into plastic self-tapping holes, and it is easy to strip the plastic if you "go bananas" with the screw torque!
 
   * Attach the LCD cable to the display.  Attach the display to the front of the upper shell; it should make a satisfying "Snap!" when it locks into place.
+
+  * Now is a good time to plug in any modules that you may have bought.  **Do not install or remove plug-in modules while the printer is powered on!*
 
   * Power up your printer.  (Glowing red LEDs on the mainboard are expected, and indicate correct power supply operation.)  Ensure that the printer's built in camera still works, then proceed to installing software!
