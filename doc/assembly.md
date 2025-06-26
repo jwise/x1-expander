@@ -7,6 +7,8 @@ is:
 
 [![X1Plus Expander Installation Guide](https://img.youtube.com/vi/XNPRE-L4nhQ/0.jpg)](https://www.youtube.com/watch?v=XNPRE-L4nhQ)
 
+([https://www.youtube.com/watch?v=XNPRE-L4nhQ](https://www.youtube.com/watch?v=XNPRE-L4nhQ))
+
 But **you should really read the words too before you try installing
 Expander**!
 
