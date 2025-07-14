@@ -17,6 +17,7 @@
 
 extern int bb_i2c_read(int scl, int sda, uint8_t addr, uint8_t *buf, size_t len);
 extern int bb_i2c_write(int scl, int sda, uint8_t addr, uint8_t *buf, size_t len);
+extern int bb_i2c_write_read(int scl, int sda, uint8_t addr, uint8_t *buf, size_t wrlen, size_t rdlen);
 
 void put_ws2812(int pin, uint8_t *buf, int pixels) {
 	PIO pio = pio0;
@@ -101,6 +102,26 @@ void do_i2c() {
 			tud_vendor_write(&result, 1);
 			break;
 		}
+		case 0x03: /* write, then read */ {
+			uint8_t addr;
+			uint8_t wrbytes;
+			uint8_t rdbytes;
+			
+			do_read(&addr, 1);
+			do_read(&wrbytes, 1);
+			do_read(&rdbytes, 1);
+			do_read(xbuf, wrbytes);
+			
+			printf("write/read %d/%d bytes to adr %02x\n", wrbytes, rdbytes, addr);
+			
+			int result = bb_i2c_write_read(scl, sda, addr, xbuf, wrbytes, rdbytes);
+			printf("  -> %d\n", result);
+			tud_vendor_write(&result, 1);
+			if (rdbytes)
+				tud_vendor_write(xbuf, rdbytes);
+			break;
+		}
+
 		}
 	}
 alldone:

@@ -31,6 +31,17 @@ static void start(int scl, int sda) {
 	wait();
 }
 
+static void restart(int scl, int sda) {
+	ONE(sda);
+	wait();
+	ONE(scl);
+	wait();
+	ZERO(sda);
+	wait();
+	ZERO(scl);
+	wait();
+}
+
 static void stop(int scl, int sda) {
 	ZERO(sda);
 	wait();
@@ -86,6 +97,7 @@ static uint8_t rd(int scl, int sda, int ack) {
 	ONE(scl);
 	wait();
 	ZERO(scl);
+	wait();
 	ONE(sda);
 	
 	return d;
@@ -133,3 +145,35 @@ fail:
 	stop(scl, sda);
 	return ack ? 0 : -1;
 }
+
+int bb_i2c_write_read(int scl, int sda, uint8_t addr, uint8_t *buf, size_t wrlen, size_t rdlen) {
+	setup_pin(scl);
+	setup_pin(sda);
+	
+	int ack = 0;
+	
+	start(scl, sda);
+	ack = wr(scl, sda, addr << 1);
+	if (!ack)
+		goto fail;
+	
+	uint8_t *wrbuf = buf;
+	while (wrlen--) {
+		ack = wr(scl, sda, *(wrbuf++));
+		if (!ack)
+			goto fail;
+	}
+	
+	restart(scl, sda);
+	ack = wr(scl, sda, (addr << 1) | 1);
+	if (!ack)
+		goto fail;
+	while (rdlen--) {
+		*(buf++) = rd(scl, sda, rdlen != 0);
+	}
+
+fail:
+	stop(scl, sda);
+	return ack ? 0 : -1;
+}
+
