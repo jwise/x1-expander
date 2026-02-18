@@ -159,6 +159,78 @@ can configure a shutter release module as follows:
 
 TODO: document `i2c` driver
 
+#### Reading i2c Sensor Data
+
+In X1Plus 3.0, i2C sensor data is made available via MQTT but is not yet available in the UI.  Depending on your requirements, this may require the installation of an MQTT client such as `mqtt-explorer` or `mosquitto`.  Mosquitto is well-known as the most commonly-installed MQTT Home Assistant integration.
+
+This approach can also be useful when integrating X1Plus sensor details into a script or custom API.
+
+The following assumptions apply to these examples.
+
+- Mosquitto has been installed and the `mosquitto_sub` command is available
+- The `openssl` command is available
+- You know your printer's LAN access code
+
+  ![Obtain X1C LAN access code.](img/access_code.png)
+
+- You have an Adafruit SHT41 connected to the i2C port
+  - Note: The i2C port is shared with expansion port D
+
+  ![X1C i2c port configuration.](img/i2c_portd.png)
+- Expansion port D has been configured as i2C
+- The `sht41` driver has been enabled
+  - From an SSH session, the `sht41` driver can be verified with:
+
+    ```
+    x1plus settings get expansion.port_d
+    ```
+
+    Sample output:
+
+    ```
+    [root@BL-P001-sdcard:~]# x1plus settings get expansion.port_d
+    {"i2c": {"0x44": {"sht41": {}}}, "meta": {"module_config": "generic_i2c"}}
+    [root@BL-P001-sdcard:~]#
+    ```
+
+##### Read SHT41 Sensor Info over MQTT
+
+1. The Bambu Lab X1C uses a self-signed TLS v1.2 certificate that must be available on the client. This applies when using the command-line tool `mosquitto_sub` but is optional when using GUI tools such as "MQTT Explorer".  The printer's SSL certificate chain can be downloaded as follows.
+
+   ```
+   echo -n | openssl s_client -showcerts -connect <printer_ip_address>:8883 | sed -ne '/-BEGIN CERTIFICATE-/,/-END CERTIFICATE-/p' > x1c.pem
+   ```
+2. Connect to the X1C using `mosquitto_sub` and read the sensor details. This example exits after reading a single MQTT message. To "watch" the MQTT message, omit the `-C 1` parameter.
+
+   Note: The X1C MQTT default username is `bblp`.
+
+   - Option 1: Using `-h` to specify host and all other options.
+
+     ```
+     mosquitto_sub -h <printer_ip_address> -p 8883 -u bblp -P <lan_access_code> -t device/<printer_serial_number>/request --insecure -d --cafile ./x1c.pem -C 1
+     ```
+
+     Show only the x1plus sensor info:
+
+     ```
+     mosquitto_sub -h <printer_ip_address> -p 8883 -u bblp -P <lan_access_code> -t device/<printer_serial_number>/request --insecure -d --cafile ./x1c.pem -C 1 | awk '/rh/ { print $0 }'
+     ```
+
+   - Option 2: Using `-L` to specify all info using the URL parameter.
+
+     ```
+     mosquitto_sub -L mqtt://bblp:<lan_access_code>@<printer_ip_address>:8883/device/<printer_serial_number>/request --insecure -d --cafile ./x1c.pem -C 1 | awk '/rh/ { print $0 }'
+     ```
+
+4. If everything worked, you will see output similar to the sample shown below.
+
+   ```
+   {"x1plus": {"synthesize_report": {"x1plus": {"sensor": {"port_d/i2c/0x44/sht41/<sensor_serial_number>": {"type": "sht41", "serial": "<sensor_serial_number>", "t_c": 22.922484168764782, "rh_pct": 45.76623178454261, "timestamp": 1752748880.3138313}}}}}}
+   ```
+
+   *t_c*: Temperature in C
+   *rh_pct*: Relative humidity in percent
+
 ## Using X1Plus Actions
 
 X1Plus Actions is a new mechanism to trigger behavior from inside X1Plus. 
